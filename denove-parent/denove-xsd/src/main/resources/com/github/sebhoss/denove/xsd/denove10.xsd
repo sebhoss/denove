@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  This program is free software. It comes without any warranty, to the extent permitted by applicable law. You can
+  redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2,
+  as published by Sam Hocevar. See http://sam.zoy.org/wtfpl/COPYING for more details.
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<xs:schema xmlns:xs             =   "http://www.w3.org/2001/XMLSchema" 
+           targetNamespace      =   "http://sebhoss.github.com/denove/schema/1.0/" 
+           xmlns:dve            =   "http://sebhoss.github.com/denove/schema/1.0/" 
+           elementFormDefault   =   "qualified"
+           attributeFormDefault =   "qualified"
+           version              =   "1.0">
+
+
+  <!-- ================================================================================================================
+        GENERAL INFORMATION
+  ================================================================================================================= -->
+  <xs:annotation>
+    <xs:documentation xml:lang="en">
+      This is the Denove XML Schema 1.0.
+    </xs:documentation>
+  </xs:annotation>
+
+
+  <!-- ================================================================================================================
+        TYPE DEFINITIONS
+
+    Below is a list of all available types in the Denove XML 1.0 file format specification.
+  ================================================================================================================= -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Lesson
+
+    A lesson consists of as many words as one may want. In addition to that a lesson may be in only one group at a time.
+    A lesson also has a name.
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:complexType name="lesson" mixed="false">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        A lesson consists of as many words as one may want. In addition to that a lesson may be in only one group at a
+        time. A lesson also has a name.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="information"     type="dve:information"      maxOccurs="1" />
+      <xs:element name="configuration"   type="dve:configuration"    maxOccurs="1" />
+      <xs:element name="word"            type="dve:word"             maxOccurs="unbounded" />
+    </xs:sequence>
+
+    <xs:attribute name="name"     type="xs:string"    use="required" />
+  </xs:complexType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Information
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:complexType name="information" mixed="false">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Informations about a lesson.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:all>
+      <xs:element name="author"       type="xs:string"    minOccurs="0" />
+      <xs:element name="title"        type="xs:string"    minOccurs="0" />
+      <xs:element name="created"      type="xs:long"      minOccurs="0" />
+      <xs:element name="generator"    type="xs:string"    minOccurs="0" />
+      <xs:element name="description"  type="xs:string"    minOccurs="0" />
+      <xs:element name="license"      type="xs:string"    minOccurs="0" />
+      <xs:element name="group"        type="dve:group"    minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Group
+
+    A group is a hierarchical ordered structure for any lesson to use. Its purpose is to group one or more lessons
+    together. 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:complexType name="group">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        A group is a hierarchical ordered structure for any lesson to use. Its purpose is to group one or more lessons
+        together.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="group" type="dve:group" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Configuration
+
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:complexType name="configuration" mixed="false">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Configuration for a lesson. 
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:all>
+      <xs:element name="maximumScore"     type="xs:double"    minOccurs="0" />
+      <xs:element name="poller"           type="xs:string"    minOccurs="0" />
+      <xs:element name="filter"           type="xs:string"    minOccurs="0" />
+      <xs:element name="pollerArgument"   type="xs:integer"   minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Word
+
+    A word holds as many translations as one may  want as well as some attributes which are explained as follows:
+        * grammarType    : The grammar type of this word.
+        * created        : The date this word was created.
+        * lastQuestioned : The date this word was the last time questioned.
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:complexType name="word" mixed="false">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        A word holds as many translations as one may want. For a word to exist there must be at least one translation.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="translation"  type="dve:translation" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+
+    <xs:attribute name="grammarType"    type="dve:grammarType" />
+  </xs:complexType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Translation
+
+    A translation consists of a text and an example sentence for itself. It features additional attributes which are
+    explained below:
+        * language  : The language of this translation.
+        * score     : The score of this translation.
+        * tryCount  : How often has the user tried to answer this translation.
+        * missCount : How often did the user miss while trying to answer a translation.
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:complexType name="translation" mixed="false">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        A translation consists of a text and an example sentence for itself.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="text"           type="xs:string" />
+      <xs:element name="pronunciation"  type="xs:string" />
+      <xs:element name="example"        type="dve:example" />
+    </xs:sequence>
+
+    <xs:attribute name="language"         type="xs:string" use="required" />
+    <xs:attribute name="score"            type="dve:score" />
+    <xs:attribute name="tryCount"         type="xs:nonNegativeInteger" />
+    <xs:attribute name="missCount"        type="xs:nonNegativeInteger" />
+    <xs:attribute name="created"          type="xs:long" />
+    <xs:attribute name="lastQuestioned"   type="xs:long" />
+  </xs:complexType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Example
+
+    An example is used inside the translation element and only useful there. It has 2 sub-elements itself. One for the
+    actual sentence and the other for the correct grammatical form of the translation. 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:complexType name="example" mixed="false">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        An example is used inside the translation element and only useful there. It has 2 sub-elements itself. One for
+        the actual sentence and the other for the correct grammatical form of the translation.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="sentence"       type="xs:string" />
+      <xs:element name="grammarForm"    type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > GrammarType
+
+    All available grammar types. Currently there are 5 supported types:
+        * Adjective
+        * Noun
+        * Verb
+        * Adverb
+        * Interjection
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:simpleType name="grammarType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ADJECTIVE" />
+      <xs:enumeration value="NOUN" />
+      <xs:enumeration value="VERB" />
+      <xs:enumeration value="ADVERB" />
+      <xs:enumeration value="INTERJECTION" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TYPE DEFINITIONS > Score
+
+    A score is just a double with a minimal value of 0 (zero).
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <xs:simpleType name="score">
+    <xs:restriction base="xs:double">
+      <xs:minInclusive value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <!-- ================================================================================================================
+    ELEMENT DEFINITIONS
+
+    Below is a list of all available elements in the Denove XML 1.0 file format specification.
+  ================================================================================================================= -->
+  <xs:element name="lesson" type="dve:lesson" />
+
+</xs:schema>
