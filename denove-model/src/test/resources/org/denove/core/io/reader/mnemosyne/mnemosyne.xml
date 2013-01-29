@@ -1,0 +1,5566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mnemosyne core_version="1" >
+<category active="1">
+ <name>2500EnglishCroatian</name>
+</category>
+<item id="_0">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   0 0     2500 English-Croatian flash cards&lt;BR&gt;Version 0.92 - June 26, 2009&lt;BR&gt;Numbers are card number and rank - see http://us.metamath.org/hr.html</Q>
+ <A>(Click 5 in Mnemosyne to dispatch this message.)</A>
+</item>
+<item id="_1">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   1 1     you (singular) [pn]</Q>
+ <A>ti</A>
+</item>
+<item id="_2">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   2 1     you (plural, singular polite) [pn]</Q>
+ <A>vi</A>
+</item>
+<item id="_3">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   3 1     you (singular) (objective case) [pn]</Q>
+ <A>te</A>
+</item>
+<item id="_4">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   4 1     you (plural, singular polite) (objective case) [pn]</Q>
+ <A>vas</A>
+</item>
+<item id="_5">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   5 2     I [pn]</Q>
+ <A>ja</A>
+</item>
+<item id="_6">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   6 3     to (see also "towards") [prep] 2s</Q>
+ <A>u, do</A>
+</item>
+<item id="_7">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   7 6     and (plus/also) [cj]</Q>
+ <A>i / a</A>
+</item>
+<item id="_8">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   8 7     that (demonstrative) (m/f/n) [pn]</Q>
+ <A>taj / ta / to</A>
+</item>
+<item id="_9">
+ <cat>2500EnglishCroatian</cat>
+ <Q>   9 7     that (e.g. "I know that you are right") [cj]</Q>
+ <A>da</A>
+</item>
+<item id="_10">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  10 7     that (one) (m/f/n) [aj]</Q>
+ <A>onaj / ona / ono</A>
+</item>
+<item id="_11">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  11 8     it [pn] 2s</Q>
+ <A>to, ono</A>
+</item>
+<item id="_12">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  12 9     of (containing the measured quantity: "two liters of water") [prep]</Q>
+ <A>(use the genitive case of noun)</A>
+</item>
+<item id="_13">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  13 10     me [pn] 2s</Q>
+ <A>mene, me</A>
+</item>
+<item id="_14">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  14 11     what? [pn] 2s</Q>
+ <A>što,? šta?</A>
+</item>
+<item id="_15">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  15 12     is [v] 2s</Q>
+ <A>jest, je</A>
+</item>
+<item id="_16">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  16 13     in (located inside of) [prep]</Q>
+ <A>u</A>
+</item>
+<item id="_17">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  17 14     this (demonstrative) (m/f/n) [aj,pn]</Q>
+ <A>ovaj / ova / ovo</A>
+</item>
+<item id="_18">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  18 15     know [v]</Q>
+ <A>znati</A>
+</item>
+<item id="_19">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  19 17     for the purpose of [prep] 2s</Q>
+ <A>u svrhu, kako bi se</A>
+</item>
+<item id="_20">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  20 17     for (in exchange for) [prep]</Q>
+ <A>za</A>
+</item>
+<item id="_21">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  21 18     no [av]</Q>
+ <A>nijedan</A>
+</item>
+<item id="_22">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  22 19     have (possess, be furnished with) [v]</Q>
+ <A>imati</A>
+</item>
+<item id="_23">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  23 19     have to (see also "must") [aux-v-inf]</Q>
+ <A>morati</A>
+</item>
+<item id="_24">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  24 20     my (m/f/n) [pn]</Q>
+ <A>moj / moja / moje</A>
+</item>
+<item id="_25">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  25 23     not [av]</Q>
+ <A>ne</A>
+</item>
+<item id="_26">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  26 24     do, perform, engage in (specified activity) [v] 3s</Q>
+ <A>činiti, raditi, baviti se</A>
+</item>
+<item id="_27">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  27 24     Do you...? []</Q>
+ <A>Da li...?</A>
+</item>
+<item id="_28">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  28 25     be (intransitive predicative copula) [v]</Q>
+ <A>biti</A>
+</item>
+<item id="_29">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  29 26     on (resting on; touching the top or other surface of) [prep]</Q>
+ <A>na</A>
+</item>
+<item id="_30">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  30 27     your (pl., sing. pol.) (m/f/n/m pl/f pl/n pl) [pn]</Q>
+ <A>vaš / vaša / vaše / vaši / vaše / vaša</A>
+</item>
+<item id="_31">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  31 27     your (sing.) (m/f/n/m pl) [pn]</Q>
+ <A>tvoj / tvoja / tvoje / tvoji</A>
+</item>
+<item id="_32">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  32 29     we [pn]</Q>
+ <A>mi</A>
+</item>
+<item id="_33">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  33 31     with (accompanied by) [prep] 2s</Q>
+ <A>s, sa</A>
+</item>
+<item id="_34">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  34 32     so that []</Q>
+ <A>tako da</A>
+</item>
+<item id="_35">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  35 32     so [av]</Q>
+ <A>tako</A>
+</item>
+<item id="_36">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  36 33     but, however, although [cj] 4s</Q>
+ <A>ali, međutim, iako, premda</A>
+</item>
+<item id="_37">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  37 34     all (the whole number or entire sum of) (m/f/n) [aj]</Q>
+ <A>sav / sva / sve</A>
+</item>
+<item id="_38">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  38 35     well (water hole) [n] 2s</Q>
+ <A>izvor, vrelo</A>
+</item>
+<item id="_39">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  39 35     well [av]</Q>
+ <A>dobro</A>
+</item>
+<item id="_40">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  40 36     are (you/we/you pl.+pol./they) [v] 2s</Q>
+ <A>jesi, si / jesmo, smo / jeste, ste / jesu, su</A>
+</item>
+<item id="_41">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  41 37     he [pn]</Q>
+ <A>on</A>
+</item>
+<item id="_42">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  42 39     about (approximate, nearby) [av] 2s</Q>
+ <A>okolo, oko</A>
+</item>
+<item id="_43">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  43 39     about (pertaining to; on the topic of) [prep]</Q>
+ <A>o</A>
+</item>
+<item id="_44">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  44 40     right(-hand) [aj]</Q>
+ <A>desni</A>
+</item>
+<item id="_45">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  45 40     right (a right to do or be ...) [n]</Q>
+ <A>pravo</A>
+</item>
+<item id="_46">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  46 40     right, correct [aj] 2s</Q>
+ <A>točan, ispravan</A>
+</item>
+<item id="_47">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  47 42     get, acquire, gain, obtain [vt] 3s</Q>
+ <A>nabaviti, dobiti, steći</A>
+</item>
+<item id="_48">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  48 43     here (in or to this place) [av] 2s</Q>
+ <A>ovdje, tu</A>
+</item>
+<item id="_49">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  49 44     out [av] 4s</Q>
+ <A>van, vani, vanka, napolje</A>
+</item>
+<item id="_50">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  50 46     like, enjoy (derive pleasure from) [v] 2s</Q>
+ <A>dopasti se, svidjeti se</A>
+</item>
+<item id="_51">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  51 46     like, similar to [prep] 2s</Q>
+ <A>poput, kao</A>
+</item>
+<item id="_52">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  52 48     if (on condition that...; supposing that...) [cj]</Q>
+ <A>ako</A>
+</item>
+<item id="_53">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  53 49     her (objective case) [pn] 2s</Q>
+ <A>njezin, njen</A>
+</item>
+<item id="_54">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  54 49     her (possessive) (m/f/n/m pl) [pn] 2s</Q>
+ <A>njezin, njen / njezina, njena / njezino, njeno / njezini, njeni</A>
+</item>
+<item id="_55">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  55 50     she [pn]</Q>
+ <A>ona</A>
+</item>
+<item id="_56">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  56 51     can, may (to be able to) [aux-v-inf]</Q>
+ <A>moći</A>
+</item>
+<item id="_57">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  57 51     can, may (I/you sg./he,she,it/we/you pl.+pol./they) [aux-v-pres]</Q>
+ <A>mogu / možeš / može / možemo / možete / mogu</A>
+</item>
+<item id="_58">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  58 51     can (presealed metal container) {British: tin} [n]</Q>
+ <A>limenka</A>
+</item>
+<item id="_59">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  59 52     up [av]</Q>
+ <A>gore</A>
+</item>
+<item id="_60">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  60 53     want, wish, desire [v] 2s</Q>
+ <A>htjeti, željeti</A>
+</item>
+<item id="_61">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  61 54     think [v]</Q>
+ <A>misliti</A>
+</item>
+<item id="_62">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  62 56     now (at this time) [av] 2s</Q>
+ <A>sad, sada</A>
+</item>
+<item id="_63">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  63 57     go (move from starting point to elsewhere) [v]</Q>
+ <A>ići</A>
+</item>
+<item id="_64">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  64 58     him [pn]</Q>
+ <A>njega</A>
+</item>
+<item id="_65">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  65 59     at least, not less than (&gt;=) [av] 2s</Q>
+ <A>barem, najmanje</A>
+</item>
+<item id="_66">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  66 59     at most, only, just, merely, not more than (&lt;=) [av]</Q>
+ <A>najviše</A>
+</item>
+<item id="_67">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  67 59     at (in the same location as) [prep] 3s</Q>
+ <A>u, pri, kod</A>
+</item>
+<item id="_68">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  68 60     how? (in what manner?) [av]</Q>
+ <A>kako?</A>
+</item>
+<item id="_69">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  69 62     there (at or to that place) [av]</Q>
+ <A>tamo</A>
+</item>
+<item id="_70">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  70 63     one (m/f/n) [num]</Q>
+ <A>jedan / jedna / jedno</A>
+</item>
+<item id="_71">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  71 65     why? (for what reason?) [av]</Q>
+ <A>zašto?</A>
+</item>
+<item id="_72">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  72 66     see (pf/impf) [v] 2s</Q>
+ <A>vidjeti, videti / viđati</A>
+</item>
+<item id="_73">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  73 67     come, arrive (at indicated place) [v] 2s</Q>
+ <A>doći, stići</A>
+</item>
+<item id="_74">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  74 68     good [aj]</Q>
+ <A>dobar</A>
+</item>
+<item id="_75">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  75 69     they (m/f/n) [pn]</Q>
+ <A>oni / one / ona</A>
+</item>
+<item id="_76">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  76 71     as [av]</Q>
+ <A>kao</A>
+</item>
+<item id="_77">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  77 71     as....as ("as big as a house") []</Q>
+ <A>kao što je...</A>
+</item>
+<item id="_78">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  78 72     would / Would you like...? []</Q>
+ <A>biste / Da li biste željeli...?</A>
+</item>
+<item id="_79">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  79 73     look [v]</Q>
+ <A>gledati</A>
+</item>
+<item id="_80">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  80 74     when? (at what time?) [av]</Q>
+ <A>kad?</A>
+</item>
+<item id="_81">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  81 75     time (e.g. "do it 3 times"), occasion, instance, iteration [n]</Q>
+ <A>put ("učiniti to 3 puta")</A>
+</item>
+<item id="_82">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  82 75     time (the dimension or continuum of past-present-future) [n] 2s</Q>
+ <A>vrijeme, vreme</A>
+</item>
+<item id="_83">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  83 76     will (I/you sg./he,she,it/we/you pl.+pol./they) [aux-v]</Q>
+ <A>ću / ćeš / će / ćemo / ćete / će</A>
+</item>
+<item id="_84">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  84 76     will [n]</Q>
+ <A>volja</A>
+</item>
+<item id="_85">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  85 78     back (dorsal area) [n]</Q>
+ <A>leđa</A>
+</item>
+<item id="_86">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  86 78     back (position) [av]</Q>
+ <A>natrag</A>
+</item>
+<item id="_87">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  87 80     mean [aj]</Q>
+ <A>zao</A>
+</item>
+<item id="_88">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  88 83     from, out of, away from [prep]</Q>
+ <A>iz</A>
+</item>
+<item id="_89">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  89 89     yes [av]</Q>
+ <A>da</A>
+</item>
+<item id="_90">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  90 90     his (m/f/n/m pl) [pn]</Q>
+ <A>njegov / njegova / njegovo / njegovi</A>
+</item>
+<item id="_91">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  91 92     or [cj]</Q>
+ <A>ili</A>
+</item>
+<item id="_92">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  92 93     something [pn]</Q>
+ <A>nešto</A>
+</item>
+<item id="_93">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  93 94     who [pn] 2s</Q>
+ <A>tko, ko</A>
+</item>
+<item id="_94">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  94 95     because of, due to, then [prep] 2s</Q>
+ <A>zbog, zato što</A>
+</item>
+<item id="_95">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  95 96     some, several [aj]</Q>
+ <A>nekoliko</A>
+</item>
+<item id="_96">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  96 98     then (at that time) [aj] 2s</Q>
+ <A>tad, tada</A>
+</item>
+<item id="_97">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  97 99     say, tell, express in words [v] 2s</Q>
+ <A>reći, kazati</A>
+</item>
+<item id="_98">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  98 101     take (in the sense of E-o "preni", G "nehmen", Sp "tomar") [v]</Q>
+ <A>uzeti</A>
+</item>
+<item id="_99">
+ <cat>2500EnglishCroatian</cat>
+ <Q>  99 103     way (manner) [n]</Q>
+ <A>način</A>
+</item>
+<item id="_100">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 100 104     us [pn]</Q>
+ <A>nas</A>
+</item>
+<item id="_101">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 101 105     little (a small quantity of) [aj]</Q>
+ <A>mal</A>
+</item>
+<item id="_102">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 102 105     little (to a small degree; with almost no intensity) [av]</Q>
+ <A>malo</A>
+</item>
+<item id="_103">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 103 106     make (fabricate) [v]</Q>
+ <A>napraviti</A>
+</item>
+<item id="_104">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 104 106     make, render (impart quality X to Y; e.g. "I make you happy") [v]</Q>
+ <A>činiti</A>
+</item>
+<item id="_105">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 105 107     need, require [v]</Q>
+ <A>trebati</A>
+</item>
+<item id="_106">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 106 109     never [av] 2s</Q>
+ <A>nikad, nikada</A>
+</item>
+<item id="_107">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 107 111     too little, insufficiently [av] 2s</Q>
+ <A>premalo, nedovoljno</A>
+</item>
+<item id="_108">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 108 111     too much, excessively [av] 2s</Q>
+ <A>previše, prekomjerno</A>
+</item>
+<item id="_109">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 109 111     too (also) [av]</Q>
+ <A>također</A>
+</item>
+<item id="_110">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 110 111     too (degree - expensive, etc.) [av] 2s</Q>
+ <A>suviše, pre-</A>
+</item>
+<item id="_111">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 111 112     love [v]</Q>
+ <A>voljeti</A>
+</item>
+<item id="_112">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 112 116     them [pn]</Q>
+ <A>njih</A>
+</item>
+<item id="_113">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 113 117     more (a larger quantity of) [aj]</Q>
+ <A>više</A>
+</item>
+<item id="_114">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 114 117     more (to a larger degree) [av]</Q>
+ <A>više</A>
+</item>
+<item id="_115">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 115 119     our (m/f/n/m pl) [pn]</Q>
+ <A>naš / naša / naše / naši</A>
+</item>
+<item id="_116">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 116 120     Sorry (I am sorry) []</Q>
+ <A>Žao mi je</A>
+</item>
+<item id="_117">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 117 121     where? (at or to what place?) [av]</Q>
+ <A>gdje? / gde?</A>
+</item>
+<item id="_118">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 118 123     let [v]</Q>
+ <A>dopustiti</A>
+</item>
+<item id="_119">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 119 124     thing [n]</Q>
+ <A>stvar</A>
+</item>
+<item id="_120">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 120 125     am [v]</Q>
+ <A>sam</A>
+</item>
+<item id="_121">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 121 126     maybe, perhaps, possibly [av]</Q>
+ <A>možda</A>
+</item>
+<item id="_122">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 122 127     down [av]</Q>
+ <A>dolje</A>
+</item>
+<item id="_123">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 123 128     man (adult male) [n]</Q>
+ <A>muškarac</A>
+</item>
+<item id="_124">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 124 128     man (human being) [n]</Q>
+ <A>čovjek</A>
+</item>
+<item id="_125">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 125 131     very, much (with great intensity; to a large degree) [av]</Q>
+ <A>vrlo</A>
+</item>
+<item id="_126">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 126 132     by means of, via, per, with (using; through instrumentality of) [prep]</Q>
+ <A>pomoću (or just use instrumental case)</A>
+</item>
+<item id="_127">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 127 132     by, next to, beside [prep] 3s</Q>
+ <A>pored, pokraj, uz</A>
+</item>
+<item id="_128">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 128 134     should, ought to (is or are expected or advised to ...) [aux-v-pres]</Q>
+ <A>trebati</A>
+</item>
+<item id="_129">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 129 138     any (no particular one of) [aj]</Q>
+ <A>bilo koji</A>
+</item>
+<item id="_130">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 130 139     life [n]</Q>
+ <A>život</A>
+</item>
+<item id="_131">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 131 140     even [av]</Q>
+ <A>čak</A>
+</item>
+<item id="_132">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 132 141     off [prep] 2s</Q>
+ <A>s, sa</A>
+</item>
+<item id="_133">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 133 142     Please. [ij]</Q>
+ <A>Molim.</A>
+</item>
+<item id="_134">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 134 144     Thank you. [ij]</Q>
+ <A>Hvala.</A>
+</item>
+<item id="_135">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 135 144     thank (express gratitude toward) [v]</Q>
+ <A>zahvaliti</A>
+</item>
+<item id="_136">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 136 145     give [v]</Q>
+ <A>dati</A>
+</item>
+<item id="_137">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 137 146     only, solely, exclusively [av]</Q>
+ <A>samo</A>
+</item>
+<item id="_138">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 138 147     thought [n]</Q>
+ <A>misao</A>
+</item>
+<item id="_139">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 139 148     Help! [ij]</Q>
+ <A>Upomoć!</A>
+</item>
+<item id="_140">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 140 148     help, assist, aid (pf/impf) [v]</Q>
+ <A>pomooći / pomagati</A>
+</item>
+<item id="_141">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 141 149     two (m/f/n) [num]</Q>
+ <A>dva / dvije / dvoje</A>
+</item>
+<item id="_142">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 142 150     talk, speak [v]</Q>
+ <A>govoriti</A>
+</item>
+<item id="_143">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 143 151     people (a people), folk, the members of an ethnic group or nation [n]</Q>
+ <A>narod</A>
+</item>
+<item id="_144">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 144 152     god, diety [n] 2s</Q>
+ <A>bog, božanstvo</A>
+</item>
+<item id="_145">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 145 153     still (at rest) [aj]</Q>
+ <A>miran</A>
+</item>
+<item id="_146">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 146 153     still, yet (even until the time mentioned) [av]</Q>
+ <A>još</A>
+</item>
+<item id="_147">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 147 154     wait (for), await [v]</Q>
+ <A>čekati</A>
+</item>
+<item id="_148">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 148 154     wait [n] 2s</Q>
+ <A>kašnjenje (=delay), čekanje</A>
+</item>
+<item id="_149">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 149 155     into [prep]</Q>
+ <A>u</A>
+</item>
+<item id="_150">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 150 156     find (discover the location of) (pf/impf) [v]</Q>
+ <A>naći / nalaziti</A>
+</item>
+<item id="_151">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 151 157     nothing [n]</Q>
+ <A>ništa</A>
+</item>
+<item id="_152">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 152 158     again, once more, re- [av] 2s</Q>
+ <A>opet, ponovno</A>
+</item>
+<item id="_153">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 153 162     call, summon (pf/impf) [v] 3s</Q>
+ <A>nazvati, pozvati, prizvati / zvati, pozivati, prizivati</A>
+</item>
+<item id="_154">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 154 164     great (fantastic) [aj] 2s</Q>
+ <A>odličan, izvrstan</A>
+</item>
+<item id="_155">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 155 165     before, in front of, ahead of (spatially) [prep]</Q>
+ <A>ispred</A>
+</item>
+<item id="_156">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 156 165     before, prior to, earlier than, ago [prep]</Q>
+ <A>prije</A>
+</item>
+<item id="_157">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 157 166     better [av]</Q>
+ <A>bolje</A>
+</item>
+<item id="_158">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 158 167     ever (at any time) [av] 2s</Q>
+ <A>ikad, ikada</A>
+</item>
+<item id="_159">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 159 168     night [n]</Q>
+ <A>noć</A>
+</item>
+<item id="_160">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 160 169     than, compared to [pr,cj] 3s</Q>
+ <A>nego (što), u usporedbi s, od</A>
+</item>
+<item id="_161">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 161 170     away (from this or that place) [av]</Q>
+ <A>dalje</A>
+</item>
+<item id="_162">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 162 171     first [num]</Q>
+ <A>prvi</A>
+</item>
+<item id="_163">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 163 172     believe (accept as true) [v]</Q>
+ <A>vjerovati</A>
+</item>
+<item id="_164">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 164 173     other, another [aj,pn] 2s</Q>
+ <A>drugi, ostali</A>
+</item>
+<item id="_165">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 165 174     feel (experience an emotion or sentiment) (pf/impf) [v]</Q>
+ <A>osjetiti / osjećati</A>
+</item>
+<item id="_166">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 166 174     feel (perceive with the tactile sense) [v]</Q>
+ <A>osjetiti / osjećati</A>
+</item>
+<item id="_167">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 167 176     work [v]</Q>
+ <A>raditi</A>
+</item>
+<item id="_168">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 168 176     work, effort, labor, toil [n]</Q>
+ <A>rad</A>
+</item>
+<item id="_169">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 169 179     home [n]</Q>
+ <A>dom</A>
+</item>
+<item id="_170">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 170 180     after (later than; in the future of) [prep] 3s</Q>
+ <A>nakon, poslije, posle</A>
+</item>
+<item id="_171">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 171 181     last, final (after all others) [aj] 3s</Q>
+ <A>posljednji, poslednji, konačan</A>
+</item>
+<item id="_172">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 172 182     these (m/f/n) [pn]</Q>
+ <A>ovi / ove / ova</A>
+</item>
+<item id="_173">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 173 183     day (24-hour period) [n]</Q>
+ <A>dan</A>
+</item>
+<item id="_174">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 174 183     day (daytime -- as opposed to night), diurnal period [n]</Q>
+ <A>dan</A>
+</item>
+<item id="_175">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 175 184     keep, retain, go on having (e.g. "you should keep this book") (pf/impf) [v]</Q>
+ <A>zadržati / zadržavati</A>
+</item>
+<item id="_176">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 176 186     put, place, translocate (pf/impf) [v]</Q>
+ <A>staviti /stavljati</A>
+</item>
+<item id="_177">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 177 187     around, encircling, surrounding [prep]</Q>
+ <A>okolo</A>
+</item>
+<item id="_178">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 178 188     stop (pf/impf) [v]</Q>
+ <A>zaustaviti / zaustaviljati</A>
+</item>
+<item id="_179">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 179 192     long ago (in the far past) [av] 2s</Q>
+ <A>davno, odavno</A>
+</item>
+<item id="_180">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 180 192     long (of much duration) [aj]</Q>
+ <A>dug</A>
+</item>
+<item id="_181">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 181 192     long (of much length) [aj]</Q>
+ <A>dug</A>
+</item>
+<item id="_182">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 182 194     always (at all times) [av] 2s</Q>
+ <A>uvijek, uvek</A>
+</item>
+<item id="_183">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 183 195     listen [v]</Q>
+ <A>slušati</A>
+</item>
+<item id="_184">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 184 200     those (m/f/n) [pn]</Q>
+ <A>oni / one / ona</A>
+</item>
+<item id="_185">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 185 201     big, large (of much size), major [aj] 2s</Q>
+ <A>velik, ogroman</A>
+</item>
+<item id="_186">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 186 207     kind (nice) [aj] 2s</Q>
+ <A>ljubazan, srdačan</A>
+</item>
+<item id="_187">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 187 207     kind, sort, type, variety (of...) [n]</Q>
+ <A>vrsta</A>
+</item>
+<item id="_188">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 188 208     wrong, incorrect [aj] 3s</Q>
+ <A>pogrešan, kriv, neispravan</A>
+</item>
+<item id="_189">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 189 209     through [prep]</Q>
+ <A>kroz</A>
+</item>
+<item id="_190">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 190 212     new, novel, recent (having been known for a brief time) [aj]</Q>
+ <A>nov</A>
+</item>
+<item id="_191">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 191 214     guess [n]</Q>
+ <A>pogodak</A>
+</item>
+<item id="_192">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 192 214     guess, conjecture (pf/impf) [v]</Q>
+ <A>pogoditi / pogadati</A>
+</item>
+<item id="_193">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 193 216     care, concern (about someone or something) [n] 2s</Q>
+ <A>skrb, briga</A>
+</item>
+<item id="_194">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 194 217     bad [aj] 2s</Q>
+ <A>zao, loš</A>
+</item>
+<item id="_195">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 195 219     remember (pf/impf) [v]</Q>
+ <A>pamtiti / zapamtiti</A>
+</item>
+<item id="_196">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 196 222     together [av]</Q>
+ <A>zajedno</A>
+</item>
+<item id="_197">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 197 224     leave, depart, go away from (pf/impf) [v] 2s</Q>
+ <A>napustiti, otići / odlaziti</A>
+</item>
+<item id="_198">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 198 225     mother [n] 2s</Q>
+ <A>majka, mati</A>
+</item>
+<item id="_199">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 199 226     place, location [n] 3s</Q>
+ <A>mjesto, mesto, lokacija</A>
+</item>
+<item id="_200">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 200 227     understand, comprehend (pf/impf) [v] 2s</Q>
+ <A>razumjeti, shvatiti / razumjeti, shvaćati</A>
+</item>
+<item id="_201">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 201 230     hear [v]</Q>
+ <A>čuti</A>
+</item>
+<item id="_202">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 202 231     baby, infant [n] 3s</Q>
+ <A>beba, dijete, dete</A>
+</item>
+<item id="_203">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 203 232     nice, kind, affable [aj]</Q>
+ <A>ljubazan</A>
+</item>
+<item id="_204">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 204 233     father [n]</Q>
+ <A>otac</A>
+</item>
+<item id="_205">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 205 238     their (m/f/n/m pl) [pn]</Q>
+ <A>njihov / njihova / njihovo / njihovi</A>
+</item>
+<item id="_206">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 206 241     mind [n]</Q>
+ <A>um</A>
+</item>
+<item id="_207">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 207 242     every, each [aj]</Q>
+ <A>svaki</A>
+</item>
+<item id="_208">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 208 243     enough, sufficiently [av] 2s</Q>
+ <A>dosta, dovoljno</A>
+</item>
+<item id="_209">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 209 244     try, attempt, endeavor [v]</Q>
+ <A>probati</A>
+</item>
+<item id="_210">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 210 245     hell, Hades [n] 2s</Q>
+ <A>dovraga, pakao</A>
+</item>
+<item id="_211">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 211 249     own (possess according to law or custom) [v]</Q>
+ <A>posjedovati</A>
+</item>
+<item id="_212">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 212 250     family [n]</Q>
+ <A>obitelj</A>
+</item>
+<item id="_213">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 213 251     whole, entire, complete [aj] 2s</Q>
+ <A>cjelini, cijeli</A>
+</item>
+<item id="_214">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 214 253     house (a free-standing man-made dwelling-building) [n]</Q>
+ <A>kuća</A>
+</item>
+<item id="_215">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 215 256     idea, concept (thought-bundle) [n] 2s</Q>
+ <A>ideje, koncepta</A>
+</item>
+<item id="_216">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 216 257     ask, inquire [v]</Q>
+ <A>pitati</A>
+</item>
+<item id="_217">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 217 258     best [aj]</Q>
+ <A>najbolje</A>
+</item>
+<item id="_218">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 218 259     must (see also "have to") (I/you sg./he,she,it/we/you pl.+pol./they) [aux-v-pres]</Q>
+ <A>moram / moraš / mora / moramo / morate / moraju</A>
+</item>
+<item id="_219">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 219 261     old (of long standing; having been known for a long time) [aj]</Q>
+ <A>star</A>
+</item>
+<item id="_220">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 220 261     old (of much age; having existed or lived for a long time) [aj]</Q>
+ <A>star</A>
+</item>
+<item id="_221">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 221 263     woman (adult female person) [n]</Q>
+ <A>žena</A>
+</item>
+<item id="_222">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 222 264     Hello. [ij]</Q>
+ <A>Zdravo.</A>
+</item>
+<item id="_223">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 223 265     which [aj]</Q>
+ <A>koji</A>
+</item>
+<item id="_224">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 224 267     room, chamber [n] 2s</Q>
+ <A>soba, komorni</A>
+</item>
+<item id="_225">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 225 268     money [n]</Q>
+ <A>novac</A>
+</item>
+<item id="_226">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 226 269     left(-hand) [aj]</Q>
+ <A>lijevi</A>
+</item>
+<item id="_227">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 227 269     left (behind) []</Q>
+ <A>odložena</A>
+</item>
+<item id="_228">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 228 271     tonight [av]</Q>
+ <A>večeras</A>
+</item>
+<item id="_229">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 229 272     real, actual [aj]</Q>
+ <A>stvarne</A>
+</item>
+<item id="_230">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 230 273     son [n]</Q>
+ <A>sin</A>
+</item>
+<item id="_231">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 231 274     hope [v]</Q>
+ <A>nadi</A>
+</item>
+<item id="_232">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 232 275     name [n]</Q>
+ <A>ime</A>
+</item>
+<item id="_233">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 233 276     same, identical [aj] 3s</Q>
+ <A>isti, isto, identičan</A>
+</item>
+<item id="_234">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 234 280     happy [aj]</Q>
+ <A>sretan</A>
+</item>
+<item id="_235">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 235 282     saw (tool) [n]</Q>
+ <A>vidio</A>
+</item>
+<item id="_236">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 236 283     girl [n]</Q>
+ <A>djevojka</A>
+</item>
+<item id="_237">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 237 285     show, exhibit, display [v]</Q>
+ <A>pokazati</A>
+</item>
+<item id="_238">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 238 286     friend [n]</Q>
+ <A>prijatelj</A>
+</item>
+<item id="_239">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 239 287     already (prior to the time mentioned) [av]</Q>
+ <A>već</A>
+</item>
+<item id="_240">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 240 289     May [cal]</Q>
+ <A>svibanj</A>
+</item>
+<item id="_241">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 241 290     next (coming immediately after; "tomorrow" = the next day) [aj]</Q>
+ <A>slijedeći</A>
+</item>
+<item id="_242">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 242 291     three [num]</Q>
+ <A>tri</A>
+</item>
+<item id="_243">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 243 292     job, employment [n]</Q>
+ <A>posao</A>
+</item>
+<item id="_244">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 244 293     problem [n]</Q>
+ <A>problem</A>
+</item>
+<item id="_245">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 245 294     minute (60 seconds) [n]</Q>
+ <A>minuti</A>
+</item>
+<item id="_246">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 246 296     world [n]</Q>
+ <A>svijet</A>
+</item>
+<item id="_247">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 247 300     honey [n]</Q>
+ <A>med</A>
+</item>
+<item id="_248">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 248 301     matter, material, substance [n]</Q>
+ <A>materijalne</A>
+</item>
+<item id="_249">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 249 307     probably [av]</Q>
+ <A>vjerojatno</A>
+</item>
+<item id="_250">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 250 308     happen, occur [v]</Q>
+ <A>dogoditi se</A>
+</item>
+<item id="_251">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 251 310     hurt [v]</Q>
+ <A>povrijediti</A>
+</item>
+<item id="_252">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 252 311     boy [n]</Q>
+ <A>dječak</A>
+</item>
+<item id="_253">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 253 312     both [aj]</Q>
+ <A>oba</A>
+</item>
+<item id="_254">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 254 313     while [cj]</Q>
+ <A>dok</A>
+</item>
+<item id="_255">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 255 314     dead [aj]</Q>
+ <A>mrtav</A>
+</item>
+<item id="_256">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 256 314     dead [n]</Q>
+ <A>mrtvi</A>
+</item>
+<item id="_257">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 257 316     alone [aj]</Q>
+ <A>sam</A>
+</item>
+<item id="_258">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 258 317     since (time/because) [cj]</Q>
+ <A>od / otkako</A>
+</item>
+<item id="_259">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 259 318     Excuse me., Forgive me. []</Q>
+ <A>Oprostita.</A>
+</item>
+<item id="_260">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 260 319     start [n]</Q>
+ <A>početak</A>
+</item>
+<item id="_261">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 261 319     start [v]</Q>
+ <A>započeti</A>
+</item>
+<item id="_262">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 262 320     kill [v]</Q>
+ <A>ubiti</A>
+</item>
+<item id="_263">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 263 321     hard (difficult) [aj]</Q>
+ <A>tešk</A>
+</item>
+<item id="_264">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 264 321     hard, firm, resistant to pressure [aj]</Q>
+ <A>tvrd</A>
+</item>
+<item id="_265">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 265 323     today [av]</Q>
+ <A>danas</A>
+</item>
+<item id="_266">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 266 324     car, automobile (wheeled motor vehicle) [n]</Q>
+ <A>automobil</A>
+</item>
+<item id="_267">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 267 325     cow / bull / cattle (bovine animal of either sex) [n]</Q>
+ <A>krava / bik / stoke</A>
+</item>
+<item id="_268">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 268 325     ready, prepared for a task or event [aj]</Q>
+ <A>spreman</A>
+</item>
+<item id="_269">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 269 326     until [cj]</Q>
+ <A>dok</A>
+</item>
+<item id="_270">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 270 327     without, with no ..., lacking [prep]</Q>
+ <A>bez</A>
+</item>
+<item id="_271">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 271 330     hold, grasp [v]</Q>
+ <A>držati</A>
+</item>
+<item id="_272">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 272 334     deal (cards) [v]</Q>
+ <A>dijeliti</A>
+</item>
+<item id="_273">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 273 336     once [aj]</Q>
+ <A>jednom</A>
+</item>
+<item id="_274">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 274 339     morning (dawn to noon) [n]</Q>
+ <A>jutro</A>
+</item>
+<item id="_275">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 275 342     head [n]</Q>
+ <A>glava</A>
+</item>
+<item id="_276">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 276 344     most (the largest quantity of) [aj]</Q>
+ <A>većina</A>
+</item>
+<item id="_277">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 277 344     most (to the largest degree) [av]</Q>
+ <A>većina</A>
+</item>
+<item id="_278">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 278 346     worry [v]</Q>
+ <A>brinuti</A>
+</item>
+<item id="_279">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 279 346     worry, anxiety [n]</Q>
+ <A>tjeskoba</A>
+</item>
+<item id="_280">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 280 347     second (1/60th of a minute) [n]</Q>
+ <A>sekunda</A>
+</item>
+<item id="_281">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 281 347     second [num]</Q>
+ <A>drugi</A>
+</item>
+<item id="_282">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 282 348     part of [n]</Q>
+ <A>dio</A>
+</item>
+<item id="_283">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 283 348     part (piece) [n]</Q>
+ <A>komad</A>
+</item>
+<item id="_284">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 284 349     live (be alive) [v]</Q>
+ <A>živjeti</A>
+</item>
+<item id="_285">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 285 349     live (somewhere) [v]</Q>
+ <A>stanovati</A>
+</item>
+<item id="_286">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 286 350     truth [n]</Q>
+ <A>istina</A>
+</item>
+<item id="_287">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 287 351     school [n]</Q>
+ <A>škola</A>
+</item>
+<item id="_288">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 288 352     face [n]</Q>
+ <A>lice</A>
+</item>
+<item id="_289">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 289 353     forget (contra-remember) [v]</Q>
+ <A>zaboraviti</A>
+</item>
+<item id="_290">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 290 354     true [aj]</Q>
+ <A>istinit</A>
+</item>
+<item id="_291">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 291 355     business, commerce [n]</Q>
+ <A>biznis</A>
+</item>
+<item id="_292">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 292 357     cause (induce something to be or happen) [v]</Q>
+ <A>izazvati</A>
+</item>
+<item id="_293">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 293 357     cause [n]</Q>
+ <A>uzrok</A>
+</item>
+<item id="_294">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 294 358     soon (in the near future) [av]</Q>
+ <A>uskoro</A>
+</item>
+<item id="_295">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 295 360     few (a small number of) [aj]</Q>
+ <A>malo</A>
+</item>
+<item id="_296">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 296 362     wife [n] 2s</Q>
+ <A>žena, supruga</A>
+</item>
+<item id="_297">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 297 364     use, utilize [v]</Q>
+ <A>koristiti</A>
+</item>
+<item id="_298">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 298 365     chance, randomicity, luck [n]</Q>
+ <A>priliku</A>
+</item>
+<item id="_299">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 299 366     run [v]</Q>
+ <A>trčati</A>
+</item>
+<item id="_300">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 300 367     move (engage in motion, cause to engage in motion) [v]</Q>
+ <A>pomeriti</A>
+</item>
+<item id="_301">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 301 369     person, human being [n] 2s</Q>
+ <A>osoba, ljudsko biće</A>
+</item>
+<item id="_302">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 302 374     heart (coronary muscle) [n]</Q>
+ <A>srce</A>
+</item>
+<item id="_303">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 303 375     such [aj]</Q>
+ <A>takav</A>
+</item>
+<item id="_304">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 304 376     Miss [n]</Q>
+ <A>Gospođica</A>
+</item>
+<item id="_305">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 305 376     miss, fail to hit, reach, see etc. [v]</Q>
+ <A>propustiti</A>
+</item>
+<item id="_306">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 306 377     married (man/woman) [aj]</Q>
+ <A>vjenčan / vjenčana</A>
+</item>
+<item id="_307">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 307 378     point (dot) [n]</Q>
+ <A>točka</A>
+</item>
+<item id="_308">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 308 378     point (logic) [n]</Q>
+ <A>svrha</A>
+</item>
+<item id="_309">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 309 378     point [v]</Q>
+ <A>pokazati</A>
+</item>
+<item id="_310">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 310 381     meet, encounter, come across [v]</Q>
+ <A>sresti</A>
+</item>
+<item id="_311">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 311 383     many (a large number of) [aj]</Q>
+ <A>mnogo</A>
+</item>
+<item id="_312">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 312 385     reason, explanation, justification, rationale [n]</Q>
+ <A>razlog</A>
+</item>
+<item id="_313">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 313 389     bring (cause something to come along with one toward a place) [v]</Q>
+ <A>donijeti</A>
+</item>
+<item id="_314">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 314 391     turn, divert (send in a different direction) [vt]</Q>
+ <A>odvratiti</A>
+</item>
+<item id="_315">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 315 391     turn, rotate, revolve [vi] 3s</Q>
+ <A>skrenuti, okrenuti, zakrenuti</A>
+</item>
+<item id="_316">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 316 392     wish [v]</Q>
+ <A>željeti</A>
+</item>
+<item id="_317">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 317 393     tomorrow [av]</Q>
+ <A>sutra</A>
+</item>
+<item id="_318">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 318 395     trust [v]</Q>
+ <A>vjerovati</A>
+</item>
+<item id="_319">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 319 396     check (written order directing a bank to pay from an account) [n]</Q>
+ <A>ček</A>
+</item>
+<item id="_320">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 320 397     change (become or make different), vary [v]</Q>
+ <A>mijenjati</A>
+</item>
+<item id="_321">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 321 397     change [n]</Q>
+ <A>promjena</A>
+</item>
+<item id="_322">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 322 398     end [n]</Q>
+ <A>kraj</A>
+</item>
+<item id="_323">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 323 398     end, conclude, finish [v]</Q>
+ <A>svršiti</A>
+</item>
+<item id="_324">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 324 399     late, tardy [aj,av]</Q>
+ <A>kasan</A>
+</item>
+<item id="_325">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 325 401     five [num]</Q>
+ <A>pet</A>
+</item>
+<item id="_326">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 326 402     least (the smallest quantity of) [aj]</Q>
+ <A>najmanju ruku</A>
+</item>
+<item id="_327">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 327 402     least (to the smallest degree) [av]</Q>
+ <A>najmanje</A>
+</item>
+<item id="_328">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 328 403     town [n]</Q>
+ <A>grad</A>
+</item>
+<item id="_329">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 329 407     year [n]</Q>
+ <A>godina</A>
+</item>
+<item id="_330">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 330 411     brother [n]</Q>
+ <A>brat</A>
+</item>
+<item id="_331">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 331 412     play (performed by actors on stage), drama [n]</Q>
+ <A>kazališni komad</A>
+</item>
+<item id="_332">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 332 412     play, recreate, frolic [v]</Q>
+ <A>igrati</A>
+</item>
+<item id="_333">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 333 413     hate [v]</Q>
+ <A>mrziti</A>
+</item>
+<item id="_334">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 334 416     beautiful [aj]</Q>
+ <A>lijep</A>
+</item>
+<item id="_335">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 335 418     fact (undisputed datum) [n]</Q>
+ <A>činjenica</A>
+</item>
+<item id="_336">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 336 420     party (night out) [n]</Q>
+ <A>provod</A>
+</item>
+<item id="_337">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 337 420     party (political), sect (religious) [n]</Q>
+ <A>stranka</A>
+</item>
+<item id="_338">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 338 421     sit (be in a sitting position) [v]</Q>
+ <A>sjesti</A>
+</item>
+<item id="_339">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 339 422     open (not shut) [aj]</Q>
+ <A>otvoren</A>
+</item>
+<item id="_340">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 340 424     between, among, amidst, inter- [prep]</Q>
+ <A>između</A>
+</item>
+<item id="_341">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 341 425     important [aj]</Q>
+ <A>važan</A>
+</item>
+<item id="_342">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 342 426     rest (of ...), remainder, leftovers, remnant [n]</Q>
+ <A>ostalo</A>
+</item>
+<item id="_343">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 343 426     rest [v]</Q>
+ <A>odmoriti</A>
+</item>
+<item id="_344">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 344 427     fun [n]</Q>
+ <A>razonoda</A>
+</item>
+<item id="_345">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 345 429     word [n]</Q>
+ <A>riječ</A>
+</item>
+<item id="_346">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 346 430     watch (timepiece) [n]</Q>
+ <A>sat</A>
+</item>
+<item id="_347">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 347 430     watch [v]</Q>
+ <A>gledati</A>
+</item>
+<item id="_348">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 348 434     sister [n]</Q>
+ <A>sestra</A>
+</item>
+<item id="_349">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 349 437     bit (small amount, particle) [n]</Q>
+ <A>djelić</A>
+</item>
+<item id="_350">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 350 440     either...or [cj]</Q>
+ <A>ili ... ili</A>
+</item>
+<item id="_351">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 351 441     Mrs. [n]</Q>
+ <A>Gospođa</A>
+</item>
+<item id="_352">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 352 442     feeling [n]</Q>
+ <A>osjećaj</A>
+</item>
+<item id="_353">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 353 443     daughter [n]</Q>
+ <A>kći</A>
+</item>
+<item id="_354">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 354 447     under, below, beneath [prep] 2s</Q>
+ <A>pod, ispod</A>
+</item>
+<item id="_355">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 355 448     break (into pieces) [v]</Q>
+ <A>razbiti</A>
+</item>
+<item id="_356">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 356 449     promise (a claim about one's future actions), pledge [n]</Q>
+ <A>obećanje</A>
+</item>
+<item id="_357">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 357 450     door [n]</Q>
+ <A>vrata</A>
+</item>
+<item id="_358">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 358 451     set (complete group of similar items) [n]</Q>
+ <A>niz</A>
+</item>
+<item id="_359">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 359 453     hand [n] 2s</Q>
+ <A>ruka, šaka</A>
+</item>
+<item id="_360">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 360 454     easy [aj]</Q>
+ <A>lako</A>
+</item>
+<item id="_361">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 361 455     question, query [n]</Q>
+ <A>pitanje</A>
+</item>
+<item id="_362">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 362 456     doctor [n] 2s</Q>
+ <A>doktor, liječnik</A>
+</item>
+<item id="_363">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 363 458     far (at or to a great distance) [aj,av]</Q>
+ <A>dalek</A>
+</item>
+<item id="_364">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 364 459     walk [n]</Q>
+ <A>šetnja</A>
+</item>
+<item id="_365">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 365 459     walk [v]</Q>
+ <A>hodati</A>
+</item>
+<item id="_366">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 366 461     trouble, difficulty [n] 2s</Q>
+ <A>neprilike, težine</A>
+</item>
+<item id="_367">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 367 463     though [av]</Q>
+ <A>iako</A>
+</item>
+<item id="_368">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 368 465     different [aj]</Q>
+ <A>različite</A>
+</item>
+<item id="_369">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 369 467     hospital [n]</Q>
+ <A>bolnice</A>
+</item>
+<item id="_370">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 370 471     wedding [n]</Q>
+ <A>vjenčanje</A>
+</item>
+<item id="_371">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 371 472     shut [n]</Q>
+ <A>zatvoren</A>
+</item>
+<item id="_372">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 372 473     able [aj]</Q>
+ <A>sposoban</A>
+</item>
+<item id="_373">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 373 474     die [v]</Q>
+ <A>umrijeti</A>
+</item>
+<item id="_374">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 374 475     perfect [aj]</Q>
+ <A>savršen</A>
+</item>
+<item id="_375">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 375 476     police (organization to enforce laws) [n]</Q>
+ <A>policija</A>
+</item>
+<item id="_376">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 376 477     stand [v]</Q>
+ <A>stati</A>
+</item>
+<item id="_377">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 377 479     hit, strike [v]</Q>
+ <A>udariti</A>
+</item>
+<item id="_378">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 378 480     story, report [n] 2s</Q>
+ <A>priča, izvještaj</A>
+</item>
+<item id="_379">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 379 483     waiting (as in waiting period) [aj]</Q>
+ <A>čekanje</A>
+</item>
+<item id="_380">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 380 484     dinner [n]</Q>
+ <A>večera</A>
+</item>
+<item id="_381">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 381 485     against [prep]</Q>
+ <A>protiv</A>
+</item>
+<item id="_382">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 382 486     funny, comical [aj] 2s</Q>
+ <A>smiješno, smiješan</A>
+</item>
+<item id="_383">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 383 487     husband [n] 2s</Q>
+ <A>muž, suprug</A>
+</item>
+<item id="_384">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 384 488     almost, nearly [av]</Q>
+ <A>skoro</A>
+</item>
+<item id="_385">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 385 489     stupid [aj]</Q>
+ <A>glup</A>
+</item>
+<item id="_386">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 386 490     pay [v]</Q>
+ <A>platiti</A>
+</item>
+<item id="_387">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 387 491     answer, reply to a question or argument [n]</Q>
+ <A>odgovor</A>
+</item>
+<item id="_388">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 388 492     four [num]</Q>
+ <A>četiri</A>
+</item>
+<item id="_389">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 389 493     office [n]</Q>
+ <A>ured</A>
+</item>
+<item id="_390">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 390 494     cool [aj]</Q>
+ <A>hladnokrvan</A>
+</item>
+<item id="_391">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 391 496     news, tidings [n]</Q>
+ <A>vijesti</A>
+</item>
+<item id="_392">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 392 497     child [n]</Q>
+ <A>dijete</A>
+</item>
+<item id="_393">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 393 499     half (1/2) [num] 2s</Q>
+ <A>polovina, pola</A>
+</item>
+<item id="_394">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 394 500     side, flank, lateral area [n]</Q>
+ <A>strana</A>
+</item>
+<item id="_395">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 395 502     moment, an instant [n]</Q>
+ <A>trenutno</A>
+</item>
+<item id="_396">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 396 503     sleep [n]</Q>
+ <A>spavanje</A>
+</item>
+<item id="_397">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 397 503     sleep [v]</Q>
+ <A>spavati</A>
+</item>
+<item id="_398">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 398 504     read [v]</Q>
+ <A>ćitati</A>
+</item>
+<item id="_399">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 399 507     young (of little age; having existed or lived for a brief time) [aj]</Q>
+ <A>mlad</A>
+</item>
+<item id="_400">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 400 515     bed [n]</Q>
+ <A>krevet</A>
+</item>
+<item id="_401">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 401 516     also, additionally, too [av] 2s</Q>
+ <A>također, dodatno</A>
+</item>
+<item id="_402">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 402 517     date (coordinates of a day given in some timekeeping system) [n]</Q>
+ <A>datum</A>
+</item>
+<item id="_403">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 403 517     date (tree or fruit of sp. Phoenix dactylifera) [n]</Q>
+ <A>datulja</A>
+</item>
+<item id="_404">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 404 518     line (series of contiguous points) [n]</Q>
+ <A>redak</A>
+</item>
+<item id="_405">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 405 519     plan [v]</Q>
+ <A>planirati</A>
+</item>
+<item id="_406">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 406 519     plan, design [n] 2s</Q>
+ <A>plan, dizajn</A>
+</item>
+<item id="_407">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 407 521     lose (cease having; contra-acquire) [vt]</Q>
+ <A>izgubiti</A>
+</item>
+<item id="_408">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 408 522     fire [n] 3s</Q>
+ <A>vatra, oganj, požar</A>
+</item>
+<item id="_409">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 409 523     free (at liberty) [aj]</Q>
+ <A>slobodan</A>
+</item>
+<item id="_410">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 410 523     free (gratis) [aj]</Q>
+ <A>besplatan</A>
+</item>
+<item id="_411">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 411 525     serious, earnest, grave [aj]</Q>
+ <A>ozbiljan</A>
+</item>
+<item id="_412">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 412 528     behind, in back of, to the rear of [prep]</Q>
+ <A>iza</A>
+</item>
+<item id="_413">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 413 530     high, tall (of much height) [aj] 2s</Q>
+ <A>visok, stasit</A>
+</item>
+<item id="_414">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 414 531     ahead [av]</Q>
+ <A>ispred</A>
+</item>
+<item id="_415">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 415 532     week [n]</Q>
+ <A>tjedan</A>
+</item>
+<item id="_416">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 416 533     wonderful [aj]</Q>
+ <A>divan</A>
+</item>
+<item id="_417">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 417 535     fight, combat [v] 2s</Q>
+ <A>boriti, bojovati</A>
+</item>
+<item id="_418">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 418 536     past (the p~), earlier time [n]</Q>
+ <A>prošlost</A>
+</item>
+<item id="_419">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 419 537     cut [n]</Q>
+ <A>porezotinu</A>
+</item>
+<item id="_420">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 420 537     cut [v] 2s</Q>
+ <A>rezati, sjeći</A>
+</item>
+<item id="_421">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 421 538     quite [av]</Q>
+ <A>posve</A>
+</item>
+<item id="_422">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 422 539     number, numeral (a word or symbol indicating quantity) [n]</Q>
+ <A>broj</A>
+</item>
+<item id="_423">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 423 541     sick [aj]</Q>
+ <A>bolestan</A>
+</item>
+<item id="_424">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 424 544     game (a rule-governed system of competitive amusement) [n]</Q>
+ <A>igra</A>
+</item>
+<item id="_425">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 425 544     game, match (one particular encounter between competitors) [n]</Q>
+ <A>utakmica</A>
+</item>
+<item id="_426">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 426 545     eat [v]</Q>
+ <A>jesti</A>
+</item>
+<item id="_427">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 427 548     death [n]</Q>
+ <A>smrt</A>
+</item>
+<item id="_428">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 428 550     save, rescue [v]</Q>
+ <A>spasiti</A>
+</item>
+<item id="_429">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 429 560     book [n]</Q>
+ <A>knjiga</A>
+</item>
+<item id="_430">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 430 562     seem, appear to be, give the impression of [v] 3s</Q>
+ <A>da, čini se, čini se da</A>
+</item>
+<item id="_431">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 431 563     sort [v]</Q>
+ <A>poredati se</A>
+</item>
+<item id="_432">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 432 564     safe [aj]</Q>
+ <A>siguran</A>
+</item>
+<item id="_433">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 433 565     living [aj]</Q>
+ <A>dnevni</A>
+</item>
+<item id="_434">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 434 569     front [n]</Q>
+ <A>prednje</A>
+</item>
+<item id="_435">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 435 574     clear [v]</Q>
+ <A>razvedriti</A>
+</item>
+<item id="_436">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 436 574     clear, plain (easy to see or understand) [aj]</Q>
+ <A>jasni</A>
+</item>
+<item id="_437">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 437 575     figure [n]</Q>
+ <A>lik</A>
+</item>
+<item id="_438">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 438 576     hot [aj]</Q>
+ <A>vruć</A>
+</item>
+<item id="_439">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 439 578     six [num]</Q>
+ <A>šest</A>
+</item>
+<item id="_440">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 440 580     drink [v]</Q>
+ <A>piti</A>
+</item>
+<item id="_441">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 441 584     sweet [aj]</Q>
+ <A>sladak</A>
+</item>
+<item id="_442">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 442 585     alive [aj]</Q>
+ <A>živo</A>
+</item>
+<item id="_443">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 443 587     sense (ability to perceive a given kind of stimuli) [n]</Q>
+ <A>smislu</A>
+</item>
+<item id="_444">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 444 591     special [aj]</Q>
+ <A>poseban</A>
+</item>
+<item id="_445">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 445 592     bet [n]</Q>
+ <A>oklada</A>
+</item>
+<item id="_446">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 446 592     bet [v]</Q>
+ <A>kladiti se</A>
+</item>
+<item id="_447">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 447 593     blood [n]</Q>
+ <A>krv</A>
+</item>
+<item id="_448">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 448 596     lie (recline horizontally) [v]</Q>
+ <A>ležati</A>
+</item>
+<item id="_449">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 449 596     lie (utter a known falsehood) [v]</Q>
+ <A>lagati</A>
+</item>
+<item id="_450">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 450 596     lie [n]</Q>
+ <A>netočnim</A>
+</item>
+<item id="_451">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 451 597     full, filled [aj]</Q>
+ <A>pun</A>
+</item>
+<item id="_452">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 452 598     meeting [n]</Q>
+ <A>sastanak</A>
+</item>
+<item id="_453">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 453 599     dear, precious, cherished [aj] 2s</Q>
+ <A>draga, drago</A>
+</item>
+<item id="_454">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 454 600     coffee (plant or seeds of sp. Coffea arabica) [n]</Q>
+ <A>kava</A>
+</item>
+<item id="_455">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 455 602     sound (audible waves in the air) [n]</Q>
+ <A>zvuk</A>
+</item>
+<item id="_456">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 456 604     water [n]</Q>
+ <A>voda</A>
+</item>
+<item id="_457">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 457 605     f--k (obscenity) [v]</Q>
+ <A>j----i</A>
+</item>
+<item id="_458">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 458 606     ten [num]</Q>
+ <A>deset</A>
+</item>
+<item id="_459">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 459 610     buy, purchase [v]</Q>
+ <A>kupiti</A>
+</item>
+<item id="_460">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 460 612     hour (60 minutes) [n]</Q>
+ <A>sat</A>
+</item>
+<item id="_461">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 461 618     body [n]</Q>
+ <A>tijelo</A>
+</item>
+<item id="_462">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 462 619     order (request) [v]</Q>
+ <A>naručiti</A>
+</item>
+<item id="_463">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 463 620     outside of, exterior to [prep]</Q>
+ <A>vani</A>
+</item>
+<item id="_464">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 464 621     hang, suspend, dangle [v] 2s</Q>
+ <A>objesiti, obustaviti</A>
+</item>
+<item id="_465">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 465 622     possible (able to happen or be done) [aj]</Q>
+ <A>moguć</A>
+</item>
+<item id="_466">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 466 623     worse [aj]</Q>
+ <A>gori</A>
+</item>
+<item id="_467">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 467 624     company (a business organization), firm [n]</Q>
+ <A>tvrtka</A>
+</item>
+<item id="_468">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 468 624     company, presence of others [n]</Q>
+ <A>društvo</A>
+</item>
+<item id="_469">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 469 625     mistake [n]</Q>
+ <A>pogreška</A>
+</item>
+<item id="_470">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 470 627     handle (part of tool by which it is held) [n]</Q>
+ <A>ručka</A>
+</item>
+<item id="_471">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 471 632     control [v]</Q>
+ <A>kontrolirati</A>
+</item>
+<item id="_472">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 472 634     marriage (spousal relationship) [n]</Q>
+ <A>braku</A>
+</item>
+<item id="_473">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 473 637     power [n]</Q>
+ <A>moć</A>
+</item>
+<item id="_474">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 474 638     president [n]</Q>
+ <A>predsjednik</A>
+</item>
+<item id="_475">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 475 640     copulate, have sex (with) [v]</Q>
+ <A>spariti da imaju</A>
+</item>
+<item id="_476">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 476 640     sex, gender [n] 2s</Q>
+ <A>seks, spolnu</A>
+</item>
+<item id="_477">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 477 642     send, dispatch, transmit [v]</Q>
+ <A>poslati</A>
+</item>
+<item id="_478">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 478 648     picture, image [n]</Q>
+ <A>slike</A>
+</item>
+<item id="_479">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 479 652     ass (donkey) [n]</Q>
+ <A>magarac</A>
+</item>
+<item id="_480">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 480 653     hundred [num]</Q>
+ <A>sto</A>
+</item>
+<item id="_481">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 481 656     explain [v]</Q>
+ <A>objasniti</A>
+</item>
+<item id="_482">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 482 659     sign (board with public notice written on it) [n]</Q>
+ <A>znak</A>
+</item>
+<item id="_483">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 483 661     relationship (family) [n]</Q>
+ <A>srodstvo</A>
+</item>
+<item id="_484">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 484 661     relationship, association [n]</Q>
+ <A>odnos</A>
+</item>
+<item id="_485">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 485 665     hair (a strand of fibrous material growing from the body) [n]</Q>
+ <A>kosa</A>
+</item>
+<item id="_486">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 486 665     hair (the hairs atop one's head thought of as a collective entity) [n] 2s</Q>
+ <A>kosa, vlasi</A>
+</item>
+<item id="_487">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 487 669     secret [aj]</Q>
+ <A>tajnu</A>
+</item>
+<item id="_488">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 488 670     future (the f~) [n]</Q>
+ <A>budućnost</A>
+</item>
+<item id="_489">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 489 678     touch [v] 2s</Q>
+ <A>dirnuti, dirati</A>
+</item>
+<item id="_490">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 490 679     kiss [v]</Q>
+ <A>ljubiti</A>
+</item>
+<item id="_491">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 491 683     wonder [n]</Q>
+ <A>čudo</A>
+</item>
+<item id="_492">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 492 684     pain [n]</Q>
+ <A>bol</A>
+</item>
+<item id="_493">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 493 687     throw, toss [v]</Q>
+ <A>bacati</A>
+</item>
+<item id="_494">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 494 688     straight (not bent) [aj] 2s</Q>
+ <A>prav, ravan</A>
+</item>
+<item id="_495">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 495 690     cold, chilly, frigid [aj] 3s</Q>
+ <A>zima, studen, hladnoća</A>
+</item>
+<item id="_496">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 496 691     white [aj]</Q>
+ <A>bijel</A>
+</item>
+<item id="_497">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 497 692     fast [aj]</Q>
+ <A>brz</A>
+</item>
+<item id="_498">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 498 696     food [n]</Q>
+ <A>hrana</A>
+</item>
+<item id="_499">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 499 698     drive, impel, propel [v]</Q>
+ <A>voziti</A>
+</item>
+<item id="_500">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 500 702     marry [v]</Q>
+ <A>udati se</A>
+</item>
+<item id="_501">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 501 703     light (of little weight) [aj]</Q>
+ <A>lagan</A>
+</item>
+<item id="_502">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 502 703     light (visible electro-magnetic radiation) [n]</Q>
+ <A>svjetlost</A>
+</item>
+<item id="_503">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 503 704     test, check [v]</Q>
+ <A>testirati</A>
+</item>
+<item id="_504">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 504 705     drop (of liquid) [n]</Q>
+ <A>kap</A>
+</item>
+<item id="_505">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 505 709     city [n]</Q>
+ <A>grad</A>
+</item>
+<item id="_506">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 506 710     dream [n] 2s</Q>
+ <A>san, snu</A>
+</item>
+<item id="_507">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 507 710     dream [v]</Q>
+ <A>sanjati</A>
+</item>
+<item id="_508">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 508 711     protect, defend [v] 2s</Q>
+ <A>zaštititi, obraniti</A>
+</item>
+<item id="_509">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 509 712     twenty [num]</Q>
+ <A>dvadeset</A>
+</item>
+<item id="_510">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 510 715     surprise, startle [v]</Q>
+ <A>uzdrhtati</A>
+</item>
+<item id="_511">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 511 719     poor, impoverished [aj]</Q>
+ <A>siromašan</A>
+</item>
+<item id="_512">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 512 722     except for, besides, apart from, other than, excluding [prep]</Q>
+ <A>osim</A>
+</item>
+<item id="_513">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 513 723     gun (ballistic weapon) [n] 2s</Q>
+ <A>top, pu#353;ka</A>
+</item>
+<item id="_514">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 514 725     dance [v]</Q>
+ <A>plesati</A>
+</item>
+<item id="_515">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 515 732     pull (draw something toward oneself) [v]</Q>
+ <A>vući</A>
+</item>
+<item id="_516">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 516 735     act, deed [n] 3s</Q>
+ <A>čin, djelo,</A>
+</item>
+<item id="_517">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 517 739     top, peak, summit [n]</Q>
+ <A>vrh</A>
+</item>
+<item id="_518">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 518 741     expect, anticipate (believe that X will come or happen) [v] 2s</Q>
+ <A>očekivati, opomenuti</A>
+</item>
+<item id="_519">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 519 747     piece (a part broken or cut or separated from something larger) [n]</Q>
+ <A>komad</A>
+</item>
+<item id="_520">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 520 748     busy [aj]</Q>
+ <A>zauzet</A>
+</item>
+<item id="_521">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 521 749     law (a rule enforced by a government) [n]</Q>
+ <A>zakon</A>
+</item>
+<item id="_522">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 522 751     black [aj]</Q>
+ <A>crn</A>
+</item>
+<item id="_523">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 523 754     movie, motion picture, cinema [n] 2s</Q>
+ <A>kino, film</A>
+</item>
+<item id="_524">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 524 756     catch (stop the motion of and seize in the hands) [v]</Q>
+ <A>uhvatiti</A>
+</item>
+<item id="_525">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 525 758     country [n]</Q>
+ <A>okrug</A>
+</item>
+<item id="_526">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 526 759     less (a smaller quantity of) [aj]</Q>
+ <A>manje</A>
+</item>
+<item id="_527">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 527 759     less (to a smaller degree) [av]</Q>
+ <A>manje</A>
+</item>
+<item id="_528">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 528 761     step [n]</Q>
+ <A>korak</A>
+</item>
+<item id="_529">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 529 762     fall [v]</Q>
+ <A>pasti</A>
+</item>
+<item id="_530">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 530 766     dog (Canis familiaris) [n]</Q>
+ <A>pas</A>
+</item>
+<item id="_531">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 531 767     Ms. [n]</Q>
+ <A>G'đa</A>
+</item>
+<item id="_532">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 532 768     win [v]</Q>
+ <A>pobijediti</A>
+</item>
+<item id="_533">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 533 769     air [n]</Q>
+ <A>zrak</A>
+</item>
+<item id="_534">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 534 773     till [v]</Q>
+ <A>obrađivati</A>
+</item>
+<item id="_535">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 535 774     admit, confess [v]</Q>
+ <A>priznati</A>
+</item>
+<item id="_536">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 536 777     strong [aj]</Q>
+ <A>jak</A>
+</item>
+<item id="_537">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 537 779     evil [aj]</Q>
+ <A>zla</A>
+</item>
+<item id="_538">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 538 782     information [n]</Q>
+ <A>informacije</A>
+</item>
+<item id="_539">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 539 784     eye [n]</Q>
+ <A>oko</A>
+</item>
+<item id="_540">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 540 789     tired, weary [aj]</Q>
+ <A>umoran</A>
+</item>
+<item id="_541">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 541 792     evening (dusk to midnight) [n]</Q>
+ <A>navečer</A>
+</item>
+<item id="_542">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 542 796     red [aj]</Q>
+ <A>crven</A>
+</item>
+<item id="_543">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 543 798     trip (journey) [n]</Q>
+ <A>izlet</A>
+</item>
+<item id="_544">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 544 801     club, cudgel [n] 2s</Q>
+ <A>kluba, toljaga</A>
+</item>
+<item id="_545">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 545 801     club, society (voluntary association re: a common interest) [n] 2s</Q>
+ <A>kluba, društva</A>
+</item>
+<item id="_546">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 546 803     suppose, presume [v]</Q>
+ <A>pretpostaviti</A>
+</item>
+<item id="_547">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 547 805     imagine [v]</Q>
+ <A>zamisliti</A>
+</item>
+<item id="_548">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 548 807     just, fair, equitable [aj]</Q>
+ <A>pravedan</A>
+</item>
+<item id="_549">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 549 810     blame [n]</Q>
+ <A>krivnja</A>
+</item>
+<item id="_550">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 550 810     blame [v]</Q>
+ <A>okrivljavati</A>
+</item>
+<item id="_551">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 551 811     street [n]</Q>
+ <A>ulica</A>
+</item>
+<item id="_552">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 552 813     favor, prefer [v]</Q>
+ <A>više volati</A>
+</item>
+<item id="_553">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 553 813     in favor of []</Q>
+ <A>korist</A>
+</item>
+<item id="_554">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 554 814     apartment [n]</Q>
+ <A>stan</A>
+</item>
+<item id="_555">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 555 815     court (of law) [n]</Q>
+ <A>sud</A>
+</item>
+<item id="_556">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 556 817     clean [aj]</Q>
+ <A>čist</A>
+</item>
+<item id="_557">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 557 819     learn [v]</Q>
+ <A>učiti</A>
+</item>
+<item id="_558">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 558 823     rose (plant or flower of genus Rosa) [n]</Q>
+ <A>potajno</A>
+</item>
+<item id="_559">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 559 825     relax [v]</Q>
+ <A>opustiti</A>
+</item>
+<item id="_560">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 560 827     million [num]</Q>
+ <A>milijun</A>
+</item>
+<item id="_561">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 561 829     accident (unintentional and unexpected event) [n]</Q>
+ <A>nezgoda</A>
+</item>
+<item id="_562">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 562 834     message (batch of transmitted information) [n]</Q>
+ <A>poruka</A>
+</item>
+<item id="_563">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 563 837     small (of little size) [aj]</Q>
+ <A>mali</A>
+</item>
+<item id="_564">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 564 839     table (piece of furniture with flat top) [n]</Q>
+ <A>stol</A>
+</item>
+<item id="_565">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 565 841     become (begin to be; acquire the quality...) [v]</Q>
+ <A>postati</A>
+</item>
+<item id="_566">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 566 843     mouth [n]</Q>
+ <A>usta</A>
+</item>
+<item id="_567">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 567 845     middle, center [n] 2s</Q>
+ <A>sredini, centar</A>
+</item>
+<item id="_568">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 568 847     ring (for finger) [n]</Q>
+ <A>prsten</A>
+</item>
+<item id="_569">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 569 847     ring (torus) [n]</Q>
+ <A>plodište</A>
+</item>
+<item id="_570">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 570 851     team, crew, squad [n]</Q>
+ <A>momčad</A>
+</item>
+<item id="_571">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 571 852     ride (sit or perch in or on a vehicle, horse, etc. and travel) [v]</Q>
+ <A>jahati</A>
+</item>
+<item id="_572">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 572 854     wear (clothes) [v]</Q>
+ <A>nositi</A>
+</item>
+<item id="_573">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 573 855     shoot (cause to rapidly go forth) [v]</Q>
+ <A>pucati</A>
+</item>
+<item id="_574">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 574 856     stick [n] 2s</Q>
+ <A>prut, palica</A>
+</item>
+<item id="_575">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 575 857     ray [n]</Q>
+ <A>zraka</A>
+</item>
+<item id="_576">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 576 858     follow [v]</Q>
+ <A>pratiti</A>
+</item>
+<item id="_577">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 577 860     angry [aj]</Q>
+ <A>ljuta</A>
+</item>
+<item id="_578">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 578 861     instead of, rather than [prep] 2s</Q>
+ <A>umjesto da se, radije nego</A>
+</item>
+<item id="_579">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 579 863     write [v]</Q>
+ <A>pisati</A>
+</item>
+<item id="_580">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 580 865     early, premature [aj,av]</Q>
+ <A>rano</A>
+</item>
+<item id="_581">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 581 866     angel, fairy (supernatural flying humanoid) [n] 2s</Q>
+ <A>anđeo, vila</A>
+</item>
+<item id="_582">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 582 869     war [n]</Q>
+ <A>rat</A>
+</item>
+<item id="_583">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 583 871     forgive, pardon [v]</Q>
+ <A>oprostiti</A>
+</item>
+<item id="_584">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 584 872     jail [n]</Q>
+ <A>zatvor</A>
+</item>
+<item id="_585">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 585 879     eight [num]</Q>
+ <A>osam</A>
+</item>
+<item id="_586">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 586 884     thousand [num]</Q>
+ <A>tisuća</A>
+</item>
+<item id="_587">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 587 886     music [n]</Q>
+ <A>glazba</A>
+</item>
+<item id="_588">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 588 888     paper [n]</Q>
+ <A>papir</A>
+</item>
+<item id="_589">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 589 892     state [n]</Q>
+ <A>položaj</A>
+</item>
+<item id="_590">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 590 893     count, enumerate [v]</Q>
+ <A>brojati</A>
+</item>
+<item id="_591">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 591 894     college [n]</Q>
+ <A>koledž</A>
+</item>
+<item id="_592">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 592 897     agree [v] 2s</Q>
+ <A>složiti se, slugati se</A>
+</item>
+<item id="_593">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 593 899     bill (of bird) [n]</Q>
+ <A>kljun</A>
+</item>
+<item id="_594">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 594 899     bill, invoice (statement of money owed) [n]</Q>
+ <A>račun</A>
+</item>
+<item id="_595">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 595 900     seven [num]</Q>
+ <A>sedam</A>
+</item>
+<item id="_596">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 596 903     history (organized account of past events), chronicle [n]</Q>
+ <A>povijest</A>
+</item>
+<item id="_597">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 597 904     share [v]</Q>
+ <A>dijeliti</A>
+</item>
+<item id="_598">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 598 905     offer (present for acceptance or rejection) [v]</Q>
+ <A>ponuditi</A>
+</item>
+<item id="_599">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 599 906     hurry [n]</Q>
+ <A>žurba</A>
+</item>
+<item id="_600">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 600 910     simple [aj]</Q>
+ <A>jednostavan</A>
+</item>
+<item id="_601">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 601 911     decision [n]</Q>
+ <A>odluku</A>
+</item>
+<item id="_602">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 602 912     building, edifice (structure with walls and roof) [n]</Q>
+ <A>zgrada</A>
+</item>
+<item id="_603">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 603 914     finish [v]</Q>
+ <A>završiti</A>
+</item>
+<item id="_604">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 604 915     voice [n]</Q>
+ <A>glas</A>
+</item>
+<item id="_605">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 605 919     list [n]</Q>
+ <A>popisa</A>
+</item>
+<item id="_606">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 606 922     deserve, merit, be worthy of [v]</Q>
+ <A>zaslužiti</A>
+</item>
+<item id="_607">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 607 926     dress [n]</Q>
+ <A>haljina</A>
+</item>
+<item id="_608">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 608 931     hotel, inn [n] 2s</Q>
+ <A>hotel, gostionica</A>
+</item>
+<item id="_609">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 609 935     quiet, soft, faint (of little sonic intensity) [aj]</Q>
+ <A>tih</A>
+</item>
+<item id="_610">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 610 937     road [n] 2s</Q>
+ <A>put, cesta</A>
+</item>
+<item id="_611">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 611 940     short (of little length) [aj]</Q>
+ <A>nizak</A>
+</item>
+<item id="_612">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 612 940     short, brief (of little duration) [aj]</Q>
+ <A>kratak</A>
+</item>
+<item id="_613">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 613 942     beat (repeatedly hit), batter [v]</Q>
+ <A>pobijediti</A>
+</item>
+<item id="_614">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 614 948     neither...nor []</Q>
+ <A>ni ... ni</A>
+</item>
+<item id="_615">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 615 952     respect [n]</Q>
+ <A>poštovanje</A>
+</item>
+<item id="_616">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 616 952     respect, venerate, esteem [v]</Q>
+ <A>poštivati</A>
+</item>
+<item id="_617">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 617 954     prison, jail [n]</Q>
+ <A>zatvor</A>
+</item>
+<item id="_618">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 618 955     attention (active perception) [n]</Q>
+ <A>pozornost</A>
+</item>
+<item id="_619">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 619 958     near (at or to a little distance) [aj,av]</Q>
+ <A>blizu</A>
+</item>
+<item id="_620">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 620 958     near, close to [prep]</Q>
+ <A>blizak</A>
+</item>
+<item id="_621">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 621 960     bar, rod [n]</Q>
+ <A>prečka</A>
+</item>
+<item id="_622">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 622 964     gift [n]</Q>
+ <A>dar</A>
+</item>
+<item id="_623">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 623 967     dark, dim (with little light present) [aj] 2s</Q>
+ <A>tamno, taman</A>
+</item>
+<item id="_624">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 624 968     self [pn]</Q>
+ <A>sam</A>
+</item>
+<item id="_625">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 625 972     ice [n]</Q>
+ <A>led</A>
+</item>
+<item id="_626">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 626 975     normal, ordinary, usual [aj] 2s</Q>
+ <A>normalna, obična</A>
+</item>
+<item id="_627">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 627 976     aunt [n]</Q>
+ <A>tetka</A>
+</item>
+<item id="_628">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 628 978     apart, separately [av] 2s</Q>
+ <A>posebno, odvojeno</A>
+</item>
+<item id="_629">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 629 979     certain, sure [aj] 2s</Q>
+ <A>određena, svakako</A>
+</item>
+<item id="_630">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 630 982     girlfriend [n]</Q>
+ <A>cura</A>
+</item>
+<item id="_631">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 631 983     floor (bottom of room) [n]</Q>
+ <A>pod</A>
+</item>
+<item id="_632">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 632 983     floor (story) [n]</Q>
+ <A>kat</A>
+</item>
+<item id="_633">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 633 984     whether [cj]</Q>
+ <A>bilo da</A>
+</item>
+<item id="_634">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 634 986     present (existing in the indicated place; contra-absent) [aj]</Q>
+ <A>prisutan</A>
+</item>
+<item id="_635">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 635 986     present (the present time; the now) [n]</Q>
+ <A>sadašnjost</A>
+</item>
+<item id="_636">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 636 987     earth (terra firma contrasted with sea and heaven) [n]</Q>
+ <A>zemlja</A>
+</item>
+<item id="_637">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 637 988     private (contra-public) [aj]</Q>
+ <A>privatan</A>
+</item>
+<item id="_638">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 638 990     box (rigid rectangular receptacle) [n]</Q>
+ <A>kutija</A>
+</item>
+<item id="_639">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 639 992     cover (thing put onto or extended over something else) [n]</Q>
+ <A>poklopac</A>
+</item>
+<item id="_640">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 640 992     cover [v]</Q>
+ <A>pokriti</A>
+</item>
+<item id="_641">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 641 993     judge (compare something to criteria), form an opinion about [v]</Q>
+ <A>suditi</A>
+</item>
+<item id="_642">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 642 993     judge [n]</Q>
+ <A>sudac</A>
+</item>
+<item id="_643">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 643 1000     worst [aj]</Q>
+ <A>najgori</A>
+</item>
+<item id="_644">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 644 1001     station [n]</Q>
+ <A>postaja</A>
+</item>
+<item id="_645">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 645 1003     accept (willingly receive) [v]</Q>
+ <A>prihvatiti</A>
+</item>
+<item id="_646">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 646 1004     blow (move or cause to move as a current of gas) [v] 2s</Q>
+ <A>puhati, duhati</A>
+</item>
+<item id="_647">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 647 1005     strange, weird, unusual, peculiar [aj]</Q>
+ <A>neobičan</A>
+</item>
+<item id="_648">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 648 1009     plane (flat surface) [n]</Q>
+ <A>avionu</A>
+</item>
+<item id="_649">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 649 1011     yesterday [av]</Q>
+ <A>jučer</A>
+</item>
+<item id="_650">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 650 1013     quick [aj]</Q>
+ <A>brz</A>
+</item>
+<item id="_651">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 651 1017     security [n]</Q>
+ <A>sigurnost</A>
+</item>
+<item id="_652">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 652 1020     difference [n]</Q>
+ <A>razlika</A>
+</item>
+<item id="_653">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 653 1024     store, cache, reserve, reservoir [n]</Q>
+ <A>trgovine</A>
+</item>
+<item id="_654">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 654 1024     store, shop, boutique [n] 2s</Q>
+ <A>trgovini, trgovina</A>
+</item>
+<item id="_655">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 655 1026     bag [n]</Q>
+ <A>torba</A>
+</item>
+<item id="_656">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 656 1029     ball (spheroidal plaything) [n]</Q>
+ <A>lopta</A>
+</item>
+<item id="_657">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 657 1032     doubt [n]</Q>
+ <A>sumnje</A>
+</item>
+<item id="_658">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 658 1032     doubt [v]</Q>
+ <A>sumnjati</A>
+</item>
+<item id="_659">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 659 1037     blue [aj]</Q>
+ <A>plav</A>
+</item>
+<item id="_660">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 660 1038     deep, profound (of much depth) [aj]</Q>
+ <A>dubok</A>
+</item>
+<item id="_661">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 661 1041     park (public outdoor area) [n]</Q>
+ <A>park</A>
+</item>
+<item id="_662">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 662 1046     record (a cache of information) [n]</Q>
+ <A>rekord</A>
+</item>
+<item id="_663">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 663 1046     record (music etc.) [v]</Q>
+ <A>snimiti</A>
+</item>
+<item id="_664">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 664 1050     join [v]</Q>
+ <A>pridružiti se</A>
+</item>
+<item id="_665">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 665 1051     key (metal device for operating lock) [n]</Q>
+ <A>ključ</A>
+</item>
+<item id="_666">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 666 1053     card (stiff rectangle of material) [n]</Q>
+ <A>kartice</A>
+</item>
+<item id="_667">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 667 1054     crime [n]</Q>
+ <A>zločin</A>
+</item>
+<item id="_668">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 668 1056     willing [aj]</Q>
+ <A>voljan</A>
+</item>
+<item id="_669">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 669 1057     window [n]</Q>
+ <A>prozor</A>
+</item>
+<item id="_670">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 670 1058     return (go or send back to previous place or condition) [v]</Q>
+ <A>vratiti</A>
+</item>
+<item id="_671">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 671 1060     guilty, blame-worthy [aj]</Q>
+ <A>kriv</A>
+</item>
+<item id="_672">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 672 1064     difficult, hard [aj]</Q>
+ <A>tešak</A>
+</item>
+<item id="_673">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 673 1065     soul, spirit (believed to outlive the body) [n] 2s</Q>
+ <A>duše, duha</A>
+</item>
+<item id="_674">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 674 1066     joke [n]</Q>
+ <A>šala</A>
+</item>
+<item id="_675">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 675 1067     service [n]</Q>
+ <A>usluga</A>
+</item>
+<item id="_676">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 676 1068     magic, sorcery [n] 2s</Q>
+ <A>magija, vračanje</A>
+</item>
+<item id="_677">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 677 1072     public (available to most or all persons) [aj]</Q>
+ <A>javnosti</A>
+</item>
+<item id="_678">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 678 1072     public, populace, the people (as in People's Republic) [n] 2s</Q>
+ <A>javnosti, svjetina</A>
+</item>
+<item id="_679">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 679 1074     island [n]</Q>
+ <A>otok</A>
+</item>
+<item id="_680">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 680 1078     lead (the metal) [n]</Q>
+ <A>olovo</A>
+</item>
+<item id="_681">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 681 1078     lead [v]</Q>
+ <A>voditi</A>
+</item>
+<item id="_682">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 682 1080     broken [aj]</Q>
+ <A>razbijen</A>
+</item>
+<item id="_683">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 683 1081     advice [n]</Q>
+ <A>savjet</A>
+</item>
+<item id="_684">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 684 1086     push (press on something in order to move it) [v]</Q>
+ <A>gurati</A>
+</item>
+<item id="_685">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 685 1095     innocent, contra-guilty [aj]</Q>
+ <A>nevin</A>
+</item>
+<item id="_686">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 686 1100     summer [n]</Q>
+ <A>ljeto</A>
+</item>
+<item id="_687">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 687 1109     officer [n]</Q>
+ <A>časnik</A>
+</item>
+<item id="_688">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 688 1111     support [v]</Q>
+ <A>podržati</A>
+</item>
+<item id="_689">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 689 1112     afternoon (noon to dusk) [n]</Q>
+ <A>poslijepodne</A>
+</item>
+<item id="_690">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 690 1117     seat [n]</Q>
+ <A>sjedište</A>
+</item>
+<item id="_691">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 691 1119     across (at or to the other side of) [prep]</Q>
+ <A>kroz</A>
+</item>
+<item id="_692">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 692 1120     song [n]</Q>
+ <A>pjesma</A>
+</item>
+<item id="_693">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 693 1122     charge (money) [n]</Q>
+ <A>cijena</A>
+</item>
+<item id="_694">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 694 1123     patient [n]</Q>
+ <A>pacijent</A>
+</item>
+<item id="_695">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 695 1125     boat [n]</Q>
+ <A>brod</A>
+</item>
+<item id="_696">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 696 1127     brain [n]</Q>
+ <A>mozak</A>
+</item>
+<item id="_697">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 697 1128     hide, conceal [v] 2s</Q>
+ <A>sakriti, sakrivati</A>
+</item>
+<item id="_698">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 698 1132     general [aj]</Q>
+ <A>opći</A>
+</item>
+<item id="_699">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 699 1135     nine [num]</Q>
+ <A>devet</A>
+</item>
+<item id="_700">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 700 1136     huge, enormous, gigantic [aj]</Q>
+ <A>ogroman</A>
+</item>
+<item id="_701">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 701 1139     age (degree of oldness or youngness) [n] 2s</Q>
+ <A>uzrast, dob</A>
+</item>
+<item id="_702">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 702 1141     pleasure [n]</Q>
+ <A>zadovoljstvo</A>
+</item>
+<item id="_703">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 703 1142     driving [n]</Q>
+ <A>vozačka</A>
+</item>
+<item id="_704">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 704 1143     hanging [aj]</Q>
+ <A>vješanje</A>
+</item>
+<item id="_705">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 705 1145     system [n]</Q>
+ <A>sustav</A>
+</item>
+<item id="_706">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 706 1146     sell [v]</Q>
+ <A>prodavati</A>
+</item>
+<item id="_707">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 707 1147     quit [v] 2s</Q>
+ <A>ostaviti, ostavljati</A>
+</item>
+<item id="_708">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 708 1150     notice, observe [v] 2s</Q>
+ <A>primijetiti, promatrati</A>
+</item>
+<item id="_709">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 709 1153     chief [n]</Q>
+ <A>poglavar</A>
+</item>
+<item id="_710">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 710 1153     chief, leader [n] 2s</Q>
+ <A>glavarima, lider</A>
+</item>
+<item id="_711">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 711 1153     chief, main, primary, principal [aj] 2s</Q>
+ <A>glavari, glavni</A>
+</item>
+<item id="_712">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 712 1159     month [n]</Q>
+ <A>mjesec</A>
+</item>
+<item id="_713">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 713 1160     visit [v]</Q>
+ <A>posjetiti</A>
+</item>
+<item id="_714">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 714 1167     letter (a message written and mailed) [n]</Q>
+ <A>pismo</A>
+</item>
+<item id="_715">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 715 1167     letter (printed character) [n]</Q>
+ <A>slovo</A>
+</item>
+<item id="_716">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 716 1168     decide [v]</Q>
+ <A>odlučiti</A>
+</item>
+<item id="_717">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 717 1172     sad, unhappy, melancholy [aj] 2s</Q>
+ <A>tužan, nesretan</A>
+</item>
+<item id="_718">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 718 1173     press (do pressure to; push upon with weight or force) [v]</Q>
+ <A>pritisnuti</A>
+</item>
+<item id="_719">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 719 1174     forward [av]</Q>
+ <A>naprijed</A>
+</item>
+<item id="_720">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 720 1177     smell [v]</Q>
+ <A>mirisati</A>
+</item>
+<item id="_721">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 721 1177     smell, odor, aroma [n]</Q>
+ <A>miris</A>
+</item>
+<item id="_722">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 722 1182     memory [n]</Q>
+ <A>memorija</A>
+</item>
+<item id="_723">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 723 1183     mark (visible traces left behind) [n]</Q>
+ <A>marku</A>
+</item>
+<item id="_724">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 724 1187     slow [aj]</Q>
+ <A>spor</A>
+</item>
+<item id="_725">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 725 1192     board [n]</Q>
+ <A>odbora</A>
+</item>
+<item id="_726">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 726 1193     position (location relative to others) [n]</Q>
+ <A>položaj</A>
+</item>
+<item id="_727">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 727 1194     hearing [n]</Q>
+ <A>sluh</A>
+</item>
+<item id="_728">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 728 1195     often, frequently [av]</Q>
+ <A>često</A>
+</item>
+<item id="_729">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 729 1199     force [n]</Q>
+ <A>snagu</A>
+</item>
+<item id="_730">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 730 1199     force [v]</Q>
+ <A>prisiliti</A>
+</item>
+<item id="_731">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 731 1200     fly (move through the air) [v]</Q>
+ <A>letjeti</A>
+</item>
+<item id="_732">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 732 1200     fly (small winged insect) [n]</Q>
+ <A>letu</A>
+</item>
+<item id="_733">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 733 1201     during [prep]</Q>
+ <A>tijekom</A>
+</item>
+<item id="_734">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 734 1202     space, room, void [n] 2s</Q>
+ <A>prostor, soba</A>
+</item>
+<item id="_735">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 735 1205     experience (consciously live through an event) [v]</Q>
+ <A>iskusiti</A>
+</item>
+<item id="_736">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 736 1205     experience [n]</Q>
+ <A>iskustvo</A>
+</item>
+<item id="_737">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 737 1206     kick [v] 2s</Q>
+ <A>šutnuti, šutariti</A>
+</item>
+<item id="_738">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 738 1212     discuss, talk about [v] 2s</Q>
+ <A>diskutirati, pričati o</A>
+</item>
+<item id="_739">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 739 1213     third [num]</Q>
+ <A>treći</A>
+</item>
+<item id="_740">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 740 1214     cat (Felis catus) [n]</Q>
+ <A>mačka</A>
+</item>
+<item id="_741">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 741 1216     responsible [aj]</Q>
+ <A>odgovoran</A>
+</item>
+<item id="_742">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 742 1220     fat (oily or greasy material from animal adipose tissue or plant seeds) [n] 2s</Q>
+ <A>salo, loj</A>
+</item>
+<item id="_743">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 743 1220     fat, obese, plump [aj] 2s</Q>
+ <A>debeo, gojazan</A>
+</item>
+<item id="_744">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 744 1222     idiot [n]</Q>
+ <A>budala</A>
+</item>
+<item id="_745">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 745 1224     rock, stone [n] 2s</Q>
+ <A>stijenu, kamen</A>
+</item>
+<item id="_746">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 746 1225     rich, wealthy [aj]</Q>
+ <A>bogat</A>
+</item>
+<item id="_747">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 747 1229     destroy (contra-create; cause to cease existing) [v]</Q>
+ <A>uništiti</A>
+</item>
+<item id="_748">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 748 1231     track [n] 3s</Q>
+ <A>trag, put, staza</A>
+</item>
+<item id="_749">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 749 1234     peace (freedom from fighting or turmoil) [n]</Q>
+ <A>mir</A>
+</item>
+<item id="_750">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 750 1240     low [aj]</Q>
+ <A>nisak</A>
+</item>
+<item id="_751">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 751 1244     medical [aj]</Q>
+ <A>medicinske</A>
+</item>
+<item id="_752">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 752 1248     drunk [aj]</Q>
+ <A>pijan</A>
+</item>
+<item id="_753">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 753 1260     nose [n]</Q>
+ <A>nos</A>
+</item>
+<item id="_754">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 754 1264     beer [n]</Q>
+ <A>pivo</A>
+</item>
+<item id="_755">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 755 1265     jealous [aj]</Q>
+ <A>ljubomoran</A>
+</item>
+<item id="_756">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 756 1266     drug [n]</Q>
+ <A>droga</A>
+</item>
+<item id="_757">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 757 1272     tea (plant or leaves of sp. Camellia sinensis) [n]</Q>
+ <A>čaj</A>
+</item>
+<item id="_758">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 758 1274     attack [v]</Q>
+ <A>napasti</A>
+</item>
+<item id="_759">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 759 1275     ground [n]</Q>
+ <A>zemlja</A>
+</item>
+<item id="_760">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 760 1283     type [m]</Q>
+ <A>vrsta</A>
+</item>
+<item id="_761">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 761 1287     opportunity [n]</Q>
+ <A>prilika</A>
+</item>
+<item id="_762">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 762 1288     king [n]</Q>
+ <A>kralj</A>
+</item>
+<item id="_763">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 763 1291     machine (device with moving parts) [n]</Q>
+ <A>stroj</A>
+</item>
+<item id="_764">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 764 1292     waste [n]</Q>
+ <A>otpada</A>
+</item>
+<item id="_765">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 765 1292     waste, misuse [v]</Q>
+ <A>rasipati</A>
+</item>
+<item id="_766">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 766 1294     pretend, act, feign [v] 2s</Q>
+ <A>pretvarati se, djeluju</A>
+</item>
+<item id="_767">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 767 1296     danger (situation in which harm is probable) [n]</Q>
+ <A>opasnost</A>
+</item>
+<item id="_768">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 768 1297     wall [n]</Q>
+ <A>zid</A>
+</item>
+<item id="_769">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 769 1301     jump, leap [v]</Q>
+ <A>skočiti</A>
+</item>
+<item id="_770">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 770 1303     proof, evidence [n]</Q>
+ <A>dokaz</A>
+</item>
+<item id="_771">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 771 1304     complete [aj]</Q>
+ <A>potpuna</A>
+</item>
+<item id="_772">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 772 1308     star [n]</Q>
+ <A>zvijezda</A>
+</item>
+<item id="_773">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 773 1311     breathe [v]</Q>
+ <A>disati</A>
+</item>
+<item id="_774">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 774 1313     warm [aj]</Q>
+ <A>topao</A>
+</item>
+<item id="_775">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 775 1322     romantic [aj]</Q>
+ <A>romatičan</A>
+</item>
+<item id="_776">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 776 1324     comfortable [aj]</Q>
+ <A>ugodan</A>
+</item>
+<item id="_777">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 777 1329     fit [v]</Q>
+ <A>odgovarati</A>
+</item>
+<item id="_778">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 778 1331     begin, commence, start [v]</Q>
+ <A>početi</A>
+</item>
+<item id="_779">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 779 1336     smile [v]</Q>
+ <A>smiješiti se</A>
+</item>
+<item id="_780">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 780 1337     laugh(ter) [n]</Q>
+ <A>smijati se</A>
+</item>
+<item id="_781">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 781 1337     laugh [v]</Q>
+ <A>smijati</A>
+</item>
+<item id="_782">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 782 1338     fish [n]</Q>
+ <A>riba</A>
+</item>
+<item id="_783">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 783 1342     fear (be afraid of) [v] 2s</Q>
+ <A>bojati, strahovati</A>
+</item>
+<item id="_784">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 784 1342     fear [n]</Q>
+ <A>strah</A>
+</item>
+<item id="_785">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 785 1350     mail [n]</Q>
+ <A>pošta</A>
+</item>
+<item id="_786">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 786 1353     green [aj]</Q>
+ <A>zelen</A>
+</item>
+<item id="_787">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 787 1366     bottom [n]</Q>
+ <A>dno</A>
+</item>
+<item id="_788">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 788 1367     note, annotation [n] 2s</Q>
+ <A>bilješku, zapažanje</A>
+</item>
+<item id="_789">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 789 1368     sudden, abrupt [aj] 2s</Q>
+ <A>nagle, vrletan</A>
+</item>
+<item id="_790">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 790 1369     church (building or institution of public worship) [n]</Q>
+ <A>crkva</A>
+</item>
+<item id="_791">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 791 1371     flight [n]</Q>
+ <A>let</A>
+</item>
+<item id="_792">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 792 1375     sing [v]</Q>
+ <A>pjevati</A>
+</item>
+<item id="_793">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 793 1377     foot (on which something stands) [n] 2s</Q>
+ <A>stopa, stopalo</A>
+</item>
+<item id="_794">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 794 1379     glass (receptacle) [n]</Q>
+ <A>čaša</A>
+</item>
+<item id="_795">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 795 1379     glass (substance) [n]</Q>
+ <A>staklo</A>
+</item>
+<item id="_796">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 796 1379     glass [aj]</Q>
+ <A>stakla</A>
+</item>
+<item id="_797">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 797 1382     remind [v]</Q>
+ <A>podsjetiti</A>
+</item>
+<item id="_798">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 798 1383     bank (monetary institution) [n]</Q>
+ <A>banka</A>
+</item>
+<item id="_799">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 799 1383     bank (of river) [n]</Q>
+ <A>obala</A>
+</item>
+<item id="_800">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 800 1386     witness [n]</Q>
+ <A>svjedok</A>
+</item>
+<item id="_801">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 801 1389     tree [n] 2s</Q>
+ <A>drvo, stablo</A>
+</item>
+<item id="_802">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 802 1390     dare [v]</Q>
+ <A>izazivati</A>
+</item>
+<item id="_803">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 803 1394     interest (desire to pay attention to something), fascination [n]</Q>
+ <A>interes</A>
+</item>
+<item id="_804">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 804 1395     steal (take in a criminal way) [v]</Q>
+ <A>krasti</A>
+</item>
+<item id="_805">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 805 1399     teach [v]</Q>
+ <A>poučavati</A>
+</item>
+<item id="_806">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 806 1400     shop [n]</Q>
+ <A>prodavaonica</A>
+</item>
+<item id="_807">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 807 1400     shop [v]</Q>
+ <A>kupovati</A>
+</item>
+<item id="_808">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 808 1403     fresh [aj]</Q>
+ <A>svježe</A>
+</item>
+<item id="_809">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 809 1404     trial (in court) [n]</Q>
+ <A>suđenje</A>
+</item>
+<item id="_810">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 810 1406     roll (move like a ball or cylinder by turning over and over) [v]</Q>
+ <A>valjati</A>
+</item>
+<item id="_811">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 811 1407     radio apparatus, wireless set [n]</Q>
+ <A>radio</A>
+</item>
+<item id="_812">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 812 1408     art (creative craft; productive use of talent) [n]</Q>
+ <A>umijetnost</A>
+</item>
+<item id="_813">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 813 1409     reach, extend as far as [v] 2s</Q>
+ <A>do, proširiti koliko</A>
+</item>
+<item id="_814">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 814 1411     dirty, contra-clean [aj]</Q>
+ <A>prljav</A>
+</item>
+<item id="_815">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 815 1412     choose, pick (out), select one of many possibilities [v] 2s</Q>
+ <A>izbrati, izabirati</A>
+</item>
+<item id="_816">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 816 1413     emergency [n]</Q>
+ <A>hitan slučaj</A>
+</item>
+<item id="_817">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 817 1416     credit (permission to borrow money) [n]</Q>
+ <A>kreditnih</A>
+</item>
+<item id="_818">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 818 1418     cry out, shout, yell [v]</Q>
+ <A>vikati</A>
+</item>
+<item id="_819">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 819 1418     cry, weep [v]</Q>
+ <A>plakati</A>
+</item>
+<item id="_820">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 820 1422     positive [aj]</Q>
+ <A>pozitivan</A>
+</item>
+<item id="_821">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 821 1426     price, cost [n] 2s</Q>
+ <A>cijena, troškovi</A>
+</item>
+<item id="_822">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 822 1427     Goodbye. [] 2s</Q>
+ <A>Doviđenja., Zbogom.</A>
+</item>
+<item id="_823">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 823 1428     condition, state, status [n]</Q>
+ <A>stanje</A>
+</item>
+<item id="_824">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 824 1429     guard, monitor, watch over [v] 2s</Q>
+ <A>čuvati, nadzirati</A>
+</item>
+<item id="_825">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 825 1431     grow [v]</Q>
+ <A>rasti</A>
+</item>
+<item id="_826">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 826 1432     cake [n]</Q>
+ <A>torta</A>
+</item>
+<item id="_827">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 827 1436     total, sum, aggregate [n] 2s</Q>
+ <A>ukupno, zbroj</A>
+</item>
+<item id="_828">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 828 1443     partner [n]</Q>
+ <A>partner</A>
+</item>
+<item id="_829">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 829 1444     trick, chicanery [n] 2s</Q>
+ <A>izigrati, prigovaranje</A>
+</item>
+<item id="_830">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 830 1445     pressure [n]</Q>
+ <A>pritisak</A>
+</item>
+<item id="_831">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 831 1447     arm (shoulder to hand) [n] 2s</Q>
+ <A>ruka, mišicu</A>
+</item>
+<item id="_832">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 832 1449     cup (small bowl with handle) [n]</Q>
+ <A>šalica</A>
+</item>
+<item id="_833">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 833 1451     bus [n]</Q>
+ <A>autobus</A>
+</item>
+<item id="_834">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 834 1452     taste (perceive the flavor of) [v]</Q>
+ <A>kušati</A>
+</item>
+<item id="_835">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 835 1452     taste [n]</Q>
+ <A>okus</A>
+</item>
+<item id="_836">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 836 1453     neck [n]</Q>
+ <A>vrat</A>
+</item>
+<item id="_837">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 837 1454     south [n]</Q>
+ <A>jug</A>
+</item>
+<item id="_838">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 838 1456     nurse [n]</Q>
+ <A>medicinska sestra</A>
+</item>
+<item id="_839">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 839 1458     land [n]</Q>
+ <A>zemlja</A>
+</item>
+<item id="_840">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 840 1459     cross (perpendicular intersection of linear items) [n]</Q>
+ <A>križ</A>
+</item>
+<item id="_841">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 841 1461     Mister, Mr. [n]</Q>
+ <A>Gospodin</A>
+</item>
+<item id="_842">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 842 1462     carry (move while supporting) [v]</Q>
+ <A>nositi</A>
+</item>
+<item id="_843">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 843 1463     group [n]</Q>
+ <A>grupa</A>
+</item>
+<item id="_844">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 844 1469     file (dossier; loose bundle of data) [n]</Q>
+ <A>fascikl</A>
+</item>
+<item id="_845">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 845 1469     file (tool for abrading) [n]</Q>
+ <A>turpila</A>
+</item>
+<item id="_846">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 846 1470     lock (device for securing doors) [n]</Q>
+ <A>zaključavanja</A>
+</item>
+<item id="_847">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 847 1471     computer (electronic instruction-obeying information-handler) [n]</Q>
+ <A>računala</A>
+</item>
+<item id="_848">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 848 1474     wine [n]</Q>
+ <A>vino</A>
+</item>
+<item id="_849">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 849 1475     closed, shut [aj]</Q>
+ <A>zatvoren</A>
+</item>
+<item id="_850">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 850 1476     writing [n]</Q>
+ <A>pisanje</A>
+</item>
+<item id="_851">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 851 1479     study [v]</Q>
+ <A>studirati</A>
+</item>
+<item id="_852">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 852 1484     legal [aj]</Q>
+ <A>zaconit</A>
+</item>
+<item id="_853">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 853 1485     justice [n]</Q>
+ <A>pravosuđe</A>
+</item>
+<item id="_854">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 854 1489     shower (bathroom) [n]</Q>
+ <A>tuš</A>
+</item>
+<item id="_855">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 855 1489     shower, sprinkle [n]</Q>
+ <A>posuti</A>
+</item>
+<item id="_856">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 856 1491     camera [n]</Q>
+ <A>kamera</A>
+</item>
+<item id="_857">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 857 1492     fill [v]</Q>
+ <A>puniti</A>
+</item>
+<item id="_858">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 858 1499     breath [n]</Q>
+ <A>dah</A>
+</item>
+<item id="_859">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 859 1501     pants, trousers [n]</Q>
+ <A>hlače</A>
+</item>
+<item id="_860">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 860 1503     level, even (on the same level) [aj] 2s</Q>
+ <A>razini, čak i</A>
+</item>
+<item id="_861">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 861 1514     continue, keep on doing or being [v]</Q>
+ <A>dnastaviti</A>
+</item>
+<item id="_862">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 862 1516     wild, feral, untamed [aj]</Q>
+ <A>divlji</A>
+</item>
+<item id="_863">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 863 1520     convince [v]</Q>
+ <A>uvjeriti</A>
+</item>
+<item id="_864">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 864 1524     band (group) [n]</Q>
+ <A>banda</A>
+</item>
+<item id="_865">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 865 1524     band, tape, flat strip [n] 2s</Q>
+ <A>benda, trake</A>
+</item>
+<item id="_866">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 866 1529     field (playing field) [n]</Q>
+ <A>igralište</A>
+</item>
+<item id="_867">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 867 1529     field (unbroken expanse of land) [n]</Q>
+ <A>polje</A>
+</item>
+<item id="_868">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 868 1533     shirt [n]</Q>
+ <A>košulja</A>
+</item>
+<item id="_869">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 869 1534     chair (furniture for one person to sit on) [n]</Q>
+ <A>stolica</A>
+</item>
+<item id="_870">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 870 1537     rough, coarse, contra-smooth [aj]</Q>
+ <A>grubo</A>
+</item>
+<item id="_871">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 871 1540     government [n]</Q>
+ <A>vlada</A>
+</item>
+<item id="_872">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 872 1543     empty [aj]</Q>
+ <A>prazan</A>
+</item>
+<item id="_873">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 873 1544     round [aj]</Q>
+ <A>okrugao</A>
+</item>
+<item id="_874">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 874 1546     insane, crazy, mad [aj]</Q>
+ <A>lud</A>
+</item>
+<item id="_875">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 875 1548     hat, cap [n]</Q>
+ <A>šešir</A>
+</item>
+<item id="_876">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 876 1550     wind [n]</Q>
+ <A>vjetar</A>
+</item>
+<item id="_877">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 877 1550     wind [v]</Q>
+ <A>namotati</A>
+</item>
+<item id="_878">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 878 1552     aware [aj]</Q>
+ <A>svjestan</A>
+</item>
+<item id="_879">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 879 1555     meaning (semantic content of a word) [n]</Q>
+ <A>značenje</A>
+</item>
+<item id="_880">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 880 1557     tight [aj]</Q>
+ <A>zategnuto</A>
+</item>
+<item id="_881">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 881 1559     ship [n]</Q>
+ <A>brod</A>
+</item>
+<item id="_882">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 882 1560     subject, topic of discussion [n] 2s</Q>
+ <A>predmet, temu rasprave</A>
+</item>
+<item id="_883">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 883 1563     chicken [n]</Q>
+ <A>piletina</A>
+</item>
+<item id="_884">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 884 1565     match (a thing suitably associated with another) [n]</Q>
+ <A>utakmicu</A>
+</item>
+<item id="_885">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 885 1565     match (little fire-stick) [n]</Q>
+ <A>šibica</A>
+</item>
+<item id="_886">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 886 1568     sun [n]</Q>
+ <A>sunce</A>
+</item>
+<item id="_887">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 887 1576     unfortunately [av]</Q>
+ <A>nažalost</A>
+</item>
+<item id="_888">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 888 1580     bottle [n]</Q>
+ <A>boci</A>
+</item>
+<item id="_889">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 889 1581     beyond, farther than, exceeding [prep] 2s</Q>
+ <A>drugdje, dalje od</A>
+</item>
+<item id="_890">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 890 1583     pool, billiards [n]</Q>
+ <A>biljar</A>
+</item>
+<item id="_891">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 891 1584     opinion [n]</Q>
+ <A>mišljenje</A>
+</item>
+<item id="_892">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 892 1585     naked, nude, exposed (without the usual cover) [aj]</Q>
+ <A>gol</A>
+</item>
+<item id="_893">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 893 1587     common, general (shared by all members of a group) [aj] 2s</Q>
+ <A>česte, općenito</A>
+</item>
+<item id="_894">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 894 1589     jerk [n]</Q>
+ <A>trzaj</A>
+</item>
+<item id="_895">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 895 1593     necessary, needed, required [aj]</Q>
+ <A>potreban</A>
+</item>
+<item id="_896">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 896 1596     health [n]</Q>
+ <A>zdravlje</A>
+</item>
+<item id="_897">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 897 1598     copy (a duplicate) [n]</Q>
+ <A>kopija</A>
+</item>
+<item id="_898">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 898 1598     copy [v]</Q>
+ <A>kopirati</A>
+</item>
+<item id="_899">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 899 1604     dry [aj]</Q>
+ <A>suh</A>
+</item>
+<item id="_900">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 900 1606     twelve [num]</Q>
+ <A>dvanaest</A>
+</item>
+<item id="_901">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 901 1610     skin [n]</Q>
+ <A>koža</A>
+</item>
+<item id="_902">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 902 1613     fifteen [num]</Q>
+ <A>petnaest</A>
+</item>
+<item id="_903">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 903 1617     issue, edition (of periodical etc.) [n]</Q>
+ <A>izdanje</A>
+</item>
+<item id="_904">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 904 1620     final [aj]</Q>
+ <A>konačni</A>
+</item>
+<item id="_905">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 905 1625     code (cryptographic system) [n]</Q>
+ <A>kod</A>
+</item>
+<item id="_906">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 906 1634     escape [n]</Q>
+ <A>bijeg</A>
+</item>
+<item id="_907">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 907 1634     escape, flee from [v] 2s</Q>
+ <A>pobjeći, pobjeći od</A>
+</item>
+<item id="_908">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 908 1636     restaurant [n]</Q>
+ <A>restoran</A>
+</item>
+<item id="_909">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 909 1637     page (one side of a sheet of paper in a book) [n]</Q>
+ <A>stranica</A>
+</item>
+<item id="_910">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 910 1638     grateful, thankful [aj]</Q>
+ <A>zahvalan</A>
+</item>
+<item id="_911">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 911 1639     usual [aj]</Q>
+ <A>običan</A>
+</item>
+<item id="_912">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 912 1640     burn [n]</Q>
+ <A>opeklina</A>
+</item>
+<item id="_913">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 913 1640     burn [v]</Q>
+ <A>gorjeti</A>
+</item>
+<item id="_914">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 914 1643     address (postal co-ordinates) [n]</Q>
+ <A>adresa</A>
+</item>
+<item id="_915">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 915 1646     screw (threaded fastener) [n]</Q>
+ <A>vijak</A>
+</item>
+<item id="_916">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 916 1648     train (of railroad) [n]</Q>
+ <A>vlak</A>
+</item>
+<item id="_917">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 917 1649     film (very thin layer) [n]</Q>
+ <A>film</A>
+</item>
+<item id="_918">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 918 1650     regret [n]</Q>
+ <A>žaljenje</A>
+</item>
+<item id="_919">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 919 1650     regret, deplore [v]</Q>
+ <A>žaliti</A>
+</item>
+<item id="_920">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 920 1653     heaven, celestial realm, Valhala etc. [n] 2s</Q>
+ <A>nebu, nebeskih carstvo</A>
+</item>
+<item id="_921">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 921 1655     responsibility, liability, accountability [n]</Q>
+ <A>odgovornost</A>
+</item>
+<item id="_922">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 922 1657     corner [n]</Q>
+ <A>kutak</A>
+</item>
+<item id="_923">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 923 1665     gas (for cooking) [n]</Q>
+ <A>plin</A>
+</item>
+<item id="_924">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 924 1667     hole [n]</Q>
+ <A>otvor</A>
+</item>
+<item id="_925">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 925 1671     truck {British: lorry} (motor vehicle for cargo-carrying) [n]</Q>
+ <A>kamion</A>
+</item>
+<item id="_926">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 926 1679     split [v]</Q>
+ <A>razdijeliti</A>
+</item>
+<item id="_927">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 927 1681     bear (animal of Ursidae family) [n]</Q>
+ <A>medvjed</A>
+</item>
+<item id="_928">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 928 1683     bite (dog), bite (insect) [n] 2s</Q>
+ <A>ugriz, ubod</A>
+</item>
+<item id="_929">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 929 1683     bite [v]</Q>
+ <A>gristi</A>
+</item>
+<item id="_930">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 930 1684     smoke [n]</Q>
+ <A>dim</A>
+</item>
+<item id="_931">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 931 1688     horse (Equus caballus) [n]</Q>
+ <A>konj</A>
+</item>
+<item id="_932">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 932 1692     project, undertaking, venture [n] 2s</Q>
+ <A>projekta, poduzetnik</A>
+</item>
+<item id="_933">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 933 1696     search [n]</Q>
+ <A>pretraživanje</A>
+</item>
+<item id="_934">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 934 1698     damage [n]</Q>
+ <A>šteta</A>
+</item>
+<item id="_935">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 935 1700     quickly, rapidly, swiftly (with much speed) [av] 2s</Q>
+ <A>brzo, hitro</A>
+</item>
+<item id="_936">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 936 1704     beach, shore [n] 2s</Q>
+ <A>plaže, obale</A>
+</item>
+<item id="_937">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 937 1706     brown [aj]</Q>
+ <A>smeđ</A>
+</item>
+<item id="_938">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 938 1708     vote [v]</Q>
+ <A>glasovati</A>
+</item>
+<item id="_939">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 939 1710     gold (the precious metal) [n]</Q>
+ <A>zlato</A>
+</item>
+<item id="_940">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 940 1718     rule, regulation [n] 2s</Q>
+ <A>pravilo, propis</A>
+</item>
+<item id="_941">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 941 1719     Friday [cal]</Q>
+ <A>petak</A>
+</item>
+<item id="_942">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 942 1721     tie, bind [v]</Q>
+ <A>vezati</A>
+</item>
+<item id="_943">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 943 1724     rush, hurry, hasten [v]</Q>
+ <A>navaliti</A>
+</item>
+<item id="_944">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 944 1729     natural [aj]</Q>
+ <A>prirodni</A>
+</item>
+<item id="_945">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 945 1733     connection, joint, junction [n] 2s</Q>
+ <A>veza, spoj</A>
+</item>
+<item id="_946">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 946 1736     finger [n]</Q>
+ <A>prst</A>
+</item>
+<item id="_947">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 947 1738     form [v]</Q>
+ <A>formirati</A>
+</item>
+<item id="_948">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 948 1738     form, shape [n] 2s</Q>
+ <A>obrazac, oblik</A>
+</item>
+<item id="_949">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 949 1744     suggest, propose (offer an idea) [v] 2s</Q>
+ <A>predložiti, predlagati</A>
+</item>
+<item id="_950">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 950 1746     build (join materials to create), construct [v]</Q>
+ <A>izgraditi</A>
+</item>
+<item id="_951">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 951 1747     leg [n]</Q>
+ <A>noga</A>
+</item>
+<item id="_952">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 952 1751     ticket, coupon [n] 2s</Q>
+ <A>karta, bona</A>
+</item>
+<item id="_953">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 953 1754     loose (contra-snug), baggy [aj]</Q>
+ <A>labav</A>
+</item>
+<item id="_954">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 954 1755     holy, sacred [aj]</Q>
+ <A>svet</A>
+</item>
+<item id="_955">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 955 1757     sea, ocean [n]</Q>
+ <A>more</A>
+</item>
+<item id="_956">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 956 1759     planet [n]</Q>
+ <A>planeta</A>
+</item>
+<item id="_957">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 957 1760     duty [n]</Q>
+ <A>dužnost</A>
+</item>
+<item id="_958">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 958 1769     loud (of much sonic intensity) [aj]</Q>
+ <A>glasan</A>
+</item>
+<item id="_959">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 959 1773     Saturday [cal]</Q>
+ <A>subota</A>
+</item>
+<item id="_960">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 960 1775     bright (with much light present) [aj]</Q>
+ <A>svijetle</A>
+</item>
+<item id="_961">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 961 1780     army [n]</Q>
+ <A>vojska</A>
+</item>
+<item id="_962">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 962 1783     miracle [n]</Q>
+ <A>čudo</A>
+</item>
+<item id="_963">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 963 1787     blind [aj]</Q>
+ <A>slijep</A>
+</item>
+<item id="_964">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 964 1788     queen [n]</Q>
+ <A>kraljica</A>
+</item>
+<item id="_965">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 965 1789     ugly [aj]</Q>
+ <A>ružno</A>
+</item>
+<item id="_966">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 966 1799     coat (heavy outer garment with sleeves) [n]</Q>
+ <A>kaput</A>
+</item>
+<item id="_967">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 967 1800     account (record of money received or paid or owed) [n]</Q>
+ <A>račun</A>
+</item>
+<item id="_968">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 968 1803     celebrate, rejoice [v]</Q>
+ <A>slaviti</A>
+</item>
+<item id="_969">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 969 1808     add, append, join so as to cause an increase [v]</Q>
+ <A>dodati</A>
+</item>
+<item id="_970">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 970 1809     moon (natural satellite of a planet) [n]</Q>
+ <A>mjesec</A>
+</item>
+<item id="_971">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 971 1811     lips [n]</Q>
+ <A>usne</A>
+</item>
+<item id="_972">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 972 1813     center [n]</Q>
+ <A>centar</A>
+</item>
+<item id="_973">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 973 1816     size (degree of largeness or smallness) [n]</Q>
+ <A>veličina</A>
+</item>
+<item id="_974">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 974 1820     student [n]</Q>
+ <A>student</A>
+</item>
+<item id="_975">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 975 1825     reality [n]</Q>
+ <A>stvarnost</A>
+</item>
+<item id="_976">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 976 1827     birth [n]</Q>
+ <A>rođenja</A>
+</item>
+<item id="_977">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 977 1831     grandfather [n]</Q>
+ <A>djed</A>
+</item>
+<item id="_978">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 978 1844     cheese [n]</Q>
+ <A>sir</A>
+</item>
+<item id="_979">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 979 1845     roof [n]</Q>
+ <A>krov</A>
+</item>
+<item id="_980">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 980 1848     pizza [n]</Q>
+ <A>pizzu</A>
+</item>
+<item id="_981">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 981 1852     bird (egg-laying feathered animal with wings) [n]</Q>
+ <A>ptica</A>
+</item>
+<item id="_982">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 982 1855     powerful [aj]</Q>
+ <A>moćan</A>
+</item>
+<item id="_983">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 983 1857     grandmother [n]</Q>
+ <A>baka</A>
+</item>
+<item id="_984">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 984 1859     opening, orifice [n] 2s</Q>
+ <A>otvora, otvor</A>
+</item>
+<item id="_985">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 985 1863     eventually (in the far future) [av]</Q>
+ <A>konačno</A>
+</item>
+<item id="_986">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 986 1870     familiar [aj]</Q>
+ <A>upoznat</A>
+</item>
+<item id="_987">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 987 1871     bomb [n]</Q>
+ <A>bomba</A>
+</item>
+<item id="_988">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 988 1873     television set [n]</Q>
+ <A>televizor</A>
+</item>
+<item id="_989">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 989 1874     harmony (pleasing combination of stimuli) [n]</Q>
+ <A>sklad</A>
+</item>
+<item id="_990">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 990 1875     color [n]</Q>
+ <A>boja</A>
+</item>
+<item id="_991">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 991 1876     heavy (of much weight) [aj]</Q>
+ <A>težak</A>
+</item>
+<item id="_992">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 992 1882     master, lord [n]</Q>
+ <A>gospodar</A>
+</item>
+<item id="_993">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 993 1887     correct [aj] 2s</Q>
+ <A>točan, ispravan</A>
+</item>
+<item id="_994">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 994 1892     social [aj]</Q>
+ <A>socijalna</A>
+</item>
+<item id="_995">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 995 1893     nature (that which occurs spontaneously; the non-artificial world) [n]</Q>
+ <A>priroda</A>
+</item>
+<item id="_996">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 996 1896     west [n]</Q>
+ <A>zapad</A>
+</item>
+<item id="_997">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 997 1902     lonely (feeling undesirable solitude) [aj]</Q>
+ <A>usamljeni</A>
+</item>
+<item id="_998">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 998 1905     shame [n]</Q>
+ <A>sramote</A>
+</item>
+<item id="_999">
+ <cat>2500EnglishCroatian</cat>
+ <Q> 999 1908     jacket (a short and/or lightweight coat) [n]</Q>
+ <A>jakna</A>
+</item>
+<item id="_1000">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1000 1909     hook [n]</Q>
+ <A>kukom</A>
+</item>
+<item id="_1001">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1001 1914     above, over [prep] 2s</Q>
+ <A>iznad, nad</A>
+</item>
+<item id="_1002">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1002 1916     invite [v]</Q>
+ <A>pozvati</A>
+</item>
+<item id="_1003">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1003 1919     port [n]</Q>
+ <A>luke</A>
+</item>
+<item id="_1004">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1004 1921     lesson [n]</Q>
+ <A>sat</A>
+</item>
+<item id="_1005">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1005 1926     victim [n]</Q>
+ <A>žrtva</A>
+</item>
+<item id="_1006">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1006 1934     couch [n]</Q>
+ <A>kauč</A>
+</item>
+<item id="_1007">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1007 1935     strength (ability to exert physical power) [n]</Q>
+ <A>snagu</A>
+</item>
+<item id="_1008">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1008 1937     loss [n]</Q>
+ <A>gubitak</A>
+</item>
+<item id="_1009">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1009 1938     view [n]</Q>
+ <A>prizor</A>
+</item>
+<item id="_1010">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1010 1940     beauty [n]</Q>
+ <A>ljepota</A>
+</item>
+<item id="_1011">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1011 1948     shock [n]</Q>
+ <A>šok</A>
+</item>
+<item id="_1012">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1012 1950     heat, warmth [n]</Q>
+ <A>vrućina</A>
+</item>
+<item id="_1013">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1013 1951     chocolate [n]</Q>
+ <A>čokolada</A>
+</item>
+<item id="_1014">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1014 1957     energy [n]</Q>
+ <A>energija</A>
+</item>
+<item id="_1015">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1015 1962     famous [aj]</Q>
+ <A>slavan</A>
+</item>
+<item id="_1016">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1016 1963     enemy [n]</Q>
+ <A>neprijatelj</A>
+</item>
+<item id="_1017">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1017 1967     recognize [v]</Q>
+ <A>prepoznati</A>
+</item>
+<item id="_1018">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1018 1968     healthy [aj]</Q>
+ <A>zdrava</A>
+</item>
+<item id="_1019">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1019 1969     boring, tedious [aj] 2s</Q>
+ <A>dosadno, zamorno</A>
+</item>
+<item id="_1020">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1020 1978     purpose [n]</Q>
+ <A>svrha</A>
+</item>
+<item id="_1021">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1021 1979     north [n]</Q>
+ <A>sjever</A>
+</item>
+<item id="_1022">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1022 1980     knife [n]</Q>
+ <A>nož</A>
+</item>
+<item id="_1023">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1023 1984     fan (device to create air current) [n]</Q>
+ <A>ventilator</A>
+</item>
+<item id="_1024">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1024 1986     speed, velocity (degree of fastness or slowness) [n]</Q>
+ <A>brzina</A>
+</item>
+<item id="_1025">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1025 1988     hire [v]</Q>
+ <A>ižnajmiti</A>
+</item>
+<item id="_1026">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1026 1990     paint [n]</Q>
+ <A>bojite</A>
+</item>
+<item id="_1027">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1027 1991     pardon [n]</Q>
+ <A>pomilovanje</A>
+</item>
+<item id="_1028">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1028 1994     behavior, conduct [n]</Q>
+ <A>ponašanje</A>
+</item>
+<item id="_1029">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1029 1998     warn [v]</Q>
+ <A>upozoriti</A>
+</item>
+<item id="_1030">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1030 2000     post (vertical pole anchored in ground) [n]</Q>
+ <A>stup</A>
+</item>
+<item id="_1031">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1031 2001     milk [n]</Q>
+ <A>mlijeko</A>
+</item>
+<item id="_1032">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1032 2006     operation [n]</Q>
+ <A>operatcija</A>
+</item>
+<item id="_1033">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1033 2007     suck [v]</Q>
+ <A>sisati</A>
+</item>
+<item id="_1034">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1034 2016     trade [n]</Q>
+ <A>trgovina</A>
+</item>
+<item id="_1035">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1035 2018     rain [n] 2s</Q>
+ <A>kiša, dažd</A>
+</item>
+<item id="_1036">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1036 2019     revenge, vengeance, retribution, getting even [n]</Q>
+ <A>osveta</A>
+</item>
+<item id="_1037">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1037 2020     physical [aj]</Q>
+ <A>fizička</A>
+</item>
+<item id="_1038">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1038 2022     program [n]</Q>
+ <A>program</A>
+</item>
+<item id="_1039">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1039 2023     prefer [v]</Q>
+ <A>pretpostaviti</A>
+</item>
+<item id="_1040">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1040 2026     pray (communicate with god(s)) [v]</Q>
+ <A>moliti</A>
+</item>
+<item id="_1041">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1041 2029     statement [n]</Q>
+ <A>iskaz</A>
+</item>
+<item id="_1042">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1042 2031     animal (non-vegetable creature) [n]</Q>
+ <A>životinja</A>
+</item>
+<item id="_1043">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1043 2032     sugar [n]</Q>
+ <A>šećer</A>
+</item>
+<item id="_1044">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1044 2034     meat, flesh [n]</Q>
+ <A>meso</A>
+</item>
+<item id="_1045">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1045 2039     tip (gratuity) [n]</Q>
+ <A>bakšiš</A>
+</item>
+<item id="_1046">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1046 2041     market (place where goods are bought or sold or traded) [n]</Q>
+ <A>tržnica</A>
+</item>
+<item id="_1047">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1047 2047     cook (prepare by applying heat) [v]</Q>
+ <A>kuhati</A>
+</item>
+<item id="_1048">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1048 2052     jury [n]</Q>
+ <A>žiriju</A>
+</item>
+<item id="_1049">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1049 2056     storm [n]</Q>
+ <A>oluju</A>
+</item>
+<item id="_1050">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1050 2063     football (American or tackle f~) [n]</Q>
+ <A>Amerikanac nogomet</A>
+</item>
+<item id="_1051">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1051 2063     football (association f~), soccer [n]</Q>
+ <A>nogomet</A>
+</item>
+<item id="_1052">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1052 2071     process, procedure [n]</Q>
+ <A>postupak</A>
+</item>
+<item id="_1053">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1053 2075     stone [n]</Q>
+ <A>kamen</A>
+</item>
+<item id="_1054">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1054 2080     block (solid flat-surfaced mass of material) [n]</Q>
+ <A>blok</A>
+</item>
+<item id="_1055">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1055 2080     block [v]</Q>
+ <A>blokirati</A>
+</item>
+<item id="_1056">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1056 2090     shake [v]</Q>
+ <A>tresti</A>
+</item>
+<item id="_1057">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1057 2095     serve (provide service to) [v]</Q>
+ <A>služiti</A>
+</item>
+<item id="_1058">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1058 2098     medicine (substance that makes one healthy) [n]</Q>
+ <A>lijekovi</A>
+</item>
+<item id="_1059">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1059 2104     stage [n]</Q>
+ <A>pozornica</A>
+</item>
+<item id="_1060">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1060 2107     weak [aj]</Q>
+ <A>slab</A>
+</item>
+<item id="_1061">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1061 2111     community (individuals sharing space or culture) [n]</Q>
+ <A>zajednica</A>
+</item>
+<item id="_1062">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1062 2116     slip [v]</Q>
+ <A>skliznuti</A>
+</item>
+<item id="_1063">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1063 2120     awake [aj]</Q>
+ <A>budan</A>
+</item>
+<item id="_1064">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1064 2122     stomach [n]</Q>
+ <A>želuca</A>
+</item>
+<item id="_1065">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1065 2123     weapon [n]</Q>
+ <A>oružje</A>
+</item>
+<item id="_1066">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1066 2126     mystery [n]</Q>
+ <A>otajstvo</A>
+</item>
+<item id="_1067">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1067 2128     official (issued with authority) [aj]</Q>
+ <A>službeni</A>
+</item>
+<item id="_1068">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1068 2131     regular, periodic (at uniform intervals) [aj] 2s</Q>
+ <A>redovite, povremeni</A>
+</item>
+<item id="_1069">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1069 2133     river [n]</Q>
+ <A>rijeka</A>
+</item>
+<item id="_1070">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1070 2136     valley [n]</Q>
+ <A>dolina</A>
+</item>
+<item id="_1071">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1071 2138     contract (agreement-document) [n]</Q>
+ <A>ugovor</A>
+</item>
+<item id="_1072">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1072 2139     bud (of flower or leaf) [n]</Q>
+ <A>korijenu</A>
+</item>
+<item id="_1073">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1073 2141     race (group of people with similar characteristics) [n]</Q>
+ <A>rasa</A>
+</item>
+<item id="_1074">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1074 2141     race (sport) [n]</Q>
+ <A>utrka</A>
+</item>
+<item id="_1075">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1075 2144     lake [n]</Q>
+ <A>jezero</A>
+</item>
+<item id="_1076">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1076 2147     cheap, inexpensive [aj] 2s</Q>
+ <A>jeftino, jeftin</A>
+</item>
+<item id="_1077">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1077 2149     deny (say that X is not true) [v]</Q>
+ <A>onemogućiti</A>
+</item>
+<item id="_1078">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1078 2150     painting (an artwork) [n]</Q>
+ <A>slika</A>
+</item>
+<item id="_1079">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1079 2151     ear [n]</Q>
+ <A>uho</A>
+</item>
+<item id="_1080">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1080 2152     clock [n]</Q>
+ <A>sat</A>
+</item>
+<item id="_1081">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1081 2154     weight (degree of heaviness or lightness) [n]</Q>
+ <A>težina</A>
+</item>
+<item id="_1082">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1082 2155     garbage, trash, rubbish [n] 2s</Q>
+ <A>smeće, otpad</A>
+</item>
+<item id="_1083">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1083 2157     tear, rip [v]</Q>
+ <A>razderati</A>
+</item>
+<item id="_1084">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1084 2159     dig [v]</Q>
+ <A>kopati</A>
+</item>
+<item id="_1085">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1085 2160     bullet [n]</Q>
+ <A>metak</A>
+</item>
+<item id="_1086">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1086 2167     tiny, minuscule [aj] 2s</Q>
+ <A>sićušan, minuskula</A>
+</item>
+<item id="_1087">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1087 2173     spring (metal helix) [n]</Q>
+ <A>opruga</A>
+</item>
+<item id="_1088">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1088 2173     spring (the season) [n]</Q>
+ <A>proljeće</A>
+</item>
+<item id="_1089">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1089 2175     avoid, evade, keep away from [v] 2s</Q>
+ <A>kako bi se izbjeglo, izvrdavati</A>
+</item>
+<item id="_1090">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1090 2180     score (the tally of points in a competition) [n]</Q>
+ <A>rezultat</A>
+</item>
+<item id="_1091">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1091 2184     exact, precise [aj] 2s</Q>
+ <A>točna, precizna</A>
+</item>
+<item id="_1092">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1092 2188     recently (in the near past) [av]</Q>
+ <A>nedavno</A>
+</item>
+<item id="_1093">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1093 2190     snow [n]</Q>
+ <A>snijeg</A>
+</item>
+<item id="_1094">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1094 2190     snow [v]</Q>
+ <A>sniježiti</A>
+</item>
+<item id="_1095">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1095 2192     strike (work stoppage as protest) [n]</Q>
+ <A>štrajk</A>
+</item>
+<item id="_1096">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1096 2197     monkey, small primate [n]</Q>
+ <A>majmun</A>
+</item>
+<item id="_1097">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1097 2198     insurance (protective contractual arrangement) [n]</Q>
+ <A>osiguranja</A>
+</item>
+<item id="_1098">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1098 2205     shape [n]</Q>
+ <A>oblik</A>
+</item>
+<item id="_1099">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1099 2209     base, node, station (point from which things go or are done) [n]</Q>
+ <A>baza</A>
+</item>
+<item id="_1100">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1100 2211     lift [v]</Q>
+ <A>uzdići</A>
+</item>
+<item id="_1101">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1101 2215     fashion [n]</Q>
+ <A>moda</A>
+</item>
+<item id="_1102">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1102 2216     freedom [n]</Q>
+ <A>sloboda</A>
+</item>
+<item id="_1103">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1103 2220     chest (upper front of torso) [n]</Q>
+ <A>prsnog koša</A>
+</item>
+<item id="_1104">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1104 2220     chest, box [n] 2s</Q>
+ <A>kovčeg, kutija</A>
+</item>
+<item id="_1105">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1105 2221     bridge [n]</Q>
+ <A>most</A>
+</item>
+<item id="_1106">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1106 2224     source, origin [n] 2s</Q>
+ <A>izvor, podrijetlo</A>
+</item>
+<item id="_1107">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1107 2226     theory [n]</Q>
+ <A>teorije</A>
+</item>
+<item id="_1108">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1108 2228     camp, bivouac, temporary shelter [n] 2s</Q>
+ <A>logoru, bivak</A>
+</item>
+<item id="_1109">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1109 2229     original, non-imitative [aj]</Q>
+ <A>originalan</A>
+</item>
+<item id="_1110">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1110 2230     juice (fluid extracted from something) [n]</Q>
+ <A>sok</A>
+</item>
+<item id="_1111">
+ <cat>2500EnglishCroatian</cat>
+ <Q>1111 2235     selfish [aj]</Q>
+ <A>sebičan</A>
+</item>
+</mnemosyne>

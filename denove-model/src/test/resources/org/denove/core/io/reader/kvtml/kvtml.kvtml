@@ -1,0 +1,2278 @@
+<?xml version="1.0"?>
+<!DOCTYPE kvtml SYSTEM "kvoctrain.dtd">
+<!--
+This is a machine generated file.
+Be careful when editing here.
+
+Short definition:
+
+lesson       lesson group
+ desc        name
+   %no       its index
+   %query    is in query selection
+   %current  is current lesson
+type         type group
+ desc        name
+   %no       its index
+e            entry of dictionary
+  %s         is selected
+  %m         lesson member
+  %t         common expression type
+ o           original
+   %q        in query ("o" is given, "t" is wanted)
+   %l        language code
+   %r        remark
+   %p        pronunciation
+   %width    column width
+   %t        expression type (see QueryManager.h)
+   %tf       false friend from
+   %ff       false friend to
+   %a        antonym
+   %y        synonym
+   %x        example
+   %u        usage label
+   %h        paraphrase
+ t           translation ..
+   %q        in query ("t" is given, "o" is wanted)
+   %l        language code
+   %r        remark
+   %p        pronunciation
+   %width    column width
+   %t        expression type
+   %tf       false friend from
+   %ff       false friend to
+   %a        antonym
+   %y        synonym
+   %x        example
+   %u        usage label
+   %h        paraphrase
+
+   %d        last query date (from;to)
+   %w        dito, compressed and deprecated
+   %g        grade (from;to)
+   %c        count (from;to)
+   %b        bad count (from;to)
+
+
+Valid xml means:
+ - Close all tags
+ - Keep proper hierarchy
+ - All attributes are quoted
+-->
+
+ <kvtml
+  encoding="UTF-8"
+  generator="kvoctrain v0.8.3"
+  cols="2"
+  lines="1332"
+  title="basic vocabulary German-English"
+  author="Markus Büchele, Norbert Behrendt"
+  license="GPL">
+
+ <lesson width="128">
+  <desc no="1">time and space</desc>
+  <desc no="2">survival training</desc>
+  <desc no="3">numbers and colours</desc>
+  <desc no="4">conjunctions</desc>
+  <desc no="5">prepositions</desc>
+  <desc no="6">phrasal verbs</desc>
+  <desc no="7">basic - 01</desc>
+  <desc no="8">basic - 02</desc>
+  <desc no="9">basic - 03</desc>
+  <desc no="10">basic - 04</desc>
+  <desc no="11">basic - 05</desc>
+  <desc no="12">basic - 06</desc>
+  <desc no="13">basic - 07</desc>
+  <desc no="14">basic - 08</desc>
+  <desc no="15">basic - 09</desc>
+  <desc no="16">basic - 10</desc>
+  <desc no="17">basic - 11</desc>
+  <desc no="18">basic - 12</desc>
+  <desc no="19">basic - 13</desc>
+  <desc no="20">basic - 14</desc>
+  <desc no="21">basic - 15</desc>
+  <desc no="22">basic - 16</desc>
+  <desc no="23">basic - 17</desc>
+  <desc no="24">basic - 18</desc>
+  <desc no="25">basic - 19</desc>
+  <desc no="26">basic - 20</desc>
+  <desc no="27">basic - 21</desc>
+  <desc no="28">basic - 22</desc>
+  <desc no="29">basic - 23</desc>
+  <desc no="30">intermediate - 01</desc>
+  <desc no="31">intermediate - 02</desc>
+  <desc no="32">intermediate - 03</desc>
+  <desc no="33">intermediate - 04</desc>
+  <desc no="34">intermediate - 05</desc>
+  <desc no="35">intermediate - 06</desc>
+  <desc no="36">intermediate - 07</desc>
+  <desc no="37">intermediate - 08</desc>
+  <desc no="38">intermediate - 09</desc>
+  <desc no="39">intermediate - 10</desc>
+  <desc no="40">intermediate - 11</desc>
+  <desc no="41">intermediate - 12</desc>
+  <desc no="42">intermediate - 13</desc>
+  <desc no="43">advanced - 01</desc>
+  <desc no="44">advanced - 02</desc>
+  <desc no="45">advanced - 03</desc>
+  <desc no="46">advanced - 04</desc>
+  <desc no="47">advanced - 05</desc>
+ </lesson>
+
+ <article>
+  <e l="en">
+  </e>
+  <e l="de">
+  </e>
+ </article>
+
+ <conjugation>
+  <e l="en">
+  </e>
+  <e l="de">
+  </e>
+ </conjugation>
+
+ <options>
+  <sort on="1"/>
+ </options>
+
+ <tense>
+  <desc no="1">Plusquamperfekt</desc>
+  <desc no="2">will future</desc>
+  <desc no="3">going to future</desc>
+ </tense>
+
+ <e m="43"><o width="256" l="en" q="t">access</o><t width="260" l="de" q="o">der Zugang</t></e>
+ <e m="43"><o>appointment</o><t>der Termin</t></e>
+ <e m="43"><o>beyond</o><t>jenseits, über ... hinaus</t></e>
+ <e m="43"><o>chart</o><t>die Tabelle, das Diagramm</t></e>
+ <e m="43"><o>competition</o><t>der Wettbewerb, die Konkurrenz</t></e>
+ <e m="43"><o>contract</o><t>der Vertrag</t></e>
+ <e m="43"><o>crop</o><t>die Ernte</t></e>
+ <e m="43" t="aj"><o>
+  <comparison>
+   <l1>economic</l1><l2>more economic</l2><l3>the most economic</l3>
+  </comparison>
+  economic</o><t>wirtschaftlich</t></e>
+ <e m="43"><o>environment</o><t>die Umwelt</t></e>
+ <e m="43"><o>housewife</o><t>die Hausfrau</t></e>
+ <e m="43"><o>knowledge</o><t>das Wissen</t></e>
+ <e m="43"><o>loss</o><t>der Verlust</t></e>
+ <e m="43"><o>mug</o><t>der Becher</t></e>
+ <e m="43"><o>obvious</o><t>offenbar, offensichtlich</t></e>
+ <e m="43" t="av"><o>particularly</o><t>besonders</t></e>
+ <e m="43"><o>pregnant</o><t>schwanger</t></e>
+ <e m="43"><o>property</o><t>das Eigentum</t></e>
+ <e m="43"><o>purpose</o><t>der Zweck</t></e>
+ <e m="43"><o>shape</o><t>die Form</t></e>
+ <e m="43" t="aj"><o>
+  <comparison>
+   <l1>similar</l1><l2>more similar</l2><l3>the most similar</l3>
+  </comparison>
+  similar</o><t>ähnlich</t></e>
+ <e m="43"><o>soil</o><t>der Boden, die Erde</t></e>
+ <e m="43"><o>stranger</o><t>der Fremde</t></e>
+ <e m="43"><o>to attempt</o><t>versuchen</t></e>
+ <e m="43"><o>to disappear</o><t>verschwinden</t></e>
+ <e m="43"><o>to gather</o><t>sammeln, versammeln</t></e>
+ <e m="43"><o>to indicate</o><t>anzeigen, andeuten</t></e>
+ <e m="43"><o>to remain</o><t>übrig bleiben</t></e>
+ <e m="43"><o>to support</o><t>stützen, unterstützen</t></e>
+ <e m="43"><o>to vary</o><t>verändern, sich ändern</t></e>
+ <e m="43" t="aj"><o>
+  <comparison>
+   <l1>tough</l1><l2>tougher</l2><l3>the toughest</l3>
+  </comparison>
+  tough</o><t>zäh</t></e>
+ <e m="44"><o>attitude</o><t>die Einstellung</t></e>
+ <e m="44" t="aj"><o>
+  <comparison>
+   <l1>brave</l1><l2>braver</l2><l3>the bravest</l3>
+  </comparison>
+  brave</o><t>tapfer</t></e>
+ <e m="44"><o>circumstances</o><t>die Umstände, die Verhältnisse</t></e>
+ <e m="44"><o>controls</o><t>die Steuerung</t></e>
+ <e m="44"><o>defence</o><t>die Verteidigung</t></e>
+ <e m="44" t="aj"><o>
+  <comparison>
+   <l1>distant</l1><l2>more distant</l2><l3>the most distant</l3>
+  </comparison>
+  distant</o><t>entfernt, fern</t></e>
+ <e m="44"><o>economy</o><t>die Wirtschaft</t></e>
+ <e m="44" t="aj"><o>
+  <comparison>
+   <l1>gentle</l1><l2>gentler</l2><l3>the gentlest</l3>
+  </comparison>
+  gentle</o><t>sanft, zart</t></e>
+ <e m="44" t="aj"><o>
+  <comparison>
+   <l1>huge</l1><l2>huger</l2><l3>the hugest</l3>
+  </comparison>
+  huge</o><t>groß, riesig</t></e>
+ <e m="44"><o>labour</o><t>die Arbeit</t></e>
+ <e m="44"><o>nationality</o><t>die Staatsangehörigkeit</t></e>
+ <e m="44"><o>path</o><t>der Pfad, der Weg</t></e>
+ <e m="44"><o>proposal</o><t>der Vorschlag</t></e>
+ <e m="44"><o>rate</o><t>die Rate, der Tarif</t></e>
+ <e m="44"><o>site</o><t>der Platz</t></e>
+ <e m="44"><o>structure</o><t>die Struktur, der Aufbau</t></e>
+ <e m="44"><o>to admit</o><t>einlassen, gestehen, anerkennen</t></e>
+ <e m="44"><o>to approach</o><t>sich nähern</t></e>
+ <e m="44"><o>to concern</o><t>angehen, betreffen</t></e>
+ <e m="44"><o>to establish</o><t>gründen</t></e>
+ <e m="44"><o>to intend</o><t>beabsichtigen</t></e>
+ <e m="44"><o>to maintain</o><t>in Stand halten, behaupten</t></e>
+ <e m="44"><o>to offer</o><t>anbieten</t></e>
+ <e m="44"><o>to prevent</o><t>verhindern</t></e>
+ <e m="44"><o>to require</o><t>brauchen, erfordern</t></e>
+ <e m="44"><o>to share</o><t>teilen</t></e>
+ <e m="44"><o>to solve</o><t>lösen</t></e>
+ <e m="44"><o>to suppose</o><t>annehmen, vermuten</t></e>
+ <e m="44"><o>to treat</o><t>behandeln</t></e>
+ <e m="44"><o>wing</o><t>der Flügel</t></e>
+ <e m="45"><o>appropriate</o><t>angemessen, angebracht</t></e>
+ <e m="45"><o>authority</o><t>die Autorität</t></e>
+ <e m="45"><o>cause</o><t>die Ursache</t></e>
+ <e m="45"><o>cotton</o><t>die Baumwolle</t></e>
+ <e m="45"><o>degree</o><t>der Grad</t></e>
+ <e m="45"><o>effort</o><t>die Anstrengung</t></e>
+ <e m="45"><o>growth</o><t>das Wachstum</t></e>
+ <e m="45"><o>investment</o><t>die Investition, die Anlage</t></e>
+ <e m="45"><o>legal</o><t>gesetzlich, legal</t></e>
+ <e m="45"><o>neighbourhood</o><t>die Nachbarschaft</t></e>
+ <e m="45"><o>opportunity</o><t>die Gelegenheit</t></e>
+ <e m="45"><o>pattern</o><t>das Muster</t></e>
+ <e m="45"><o>previous</o><t>früher, vorherig</t></e>
+ <e m="45"><o>research</o><t>die Forschung</t></e>
+ <e m="45"><o>shell</o><t>die Muschel, die Schale</t></e>
+ <e m="45"><o>skill</o><t>die Fertigkeit, die Geschicklichkeit</t></e>
+ <e m="45"><o>spot</o><t>die Stelle, der Fleck</t></e>
+ <e m="45" t="av"><o>sudden</o><t>plötzlich, unerwartet</t></e>
+ <e m="45"><o>surface</o><t>die Oberfläche</t></e>
+ <e m="45"><o>to alter</o><t>ändern</t></e>
+ <e m="45"><o>to claim</o><t>beanspruchen</t></e>
+ <e m="45"><o>to consider</o><t>überlegen, in Betracht ziehen, halten für</t></e>
+ <e m="45"><o>to divide</o><t>teilen, sich teilen</t></e>
+ <e m="45"><o>to experience</o><t>erfahren</t></e>
+ <e m="45"><o>to hunt</o><t>jagen</t></e>
+ <e m="45"><o>to make sure</o><t>sicher stellen</t></e>
+ <e m="45"><o>to prove</o><t>beweisen</t></e>
+ <e m="45"><o>to recover</o><t>sich erholen</t></e>
+ <e m="45" t="av"><o>unfortunately</o><t>leider</t></e>
+ <e m="45"><o>wire</o><t>der Draht</t></e>
+ <e m="46" t="aj"><o>
+  <comparison>
+   <l1>amazing</l1><l2>more amazing</l2><l3>the most amazing</l3>
+  </comparison>
+  amazing</o><t>erstaunlich</t></e>
+ <e m="46"><o>association</o><t>der Verband, der Verein</t></e>
+ <e m="46"><o>available</o><t>erhältlich, verfügbar</t></e>
+ <e m="46"><o>cell</o><t>die Zelle</t></e>
+ <e m="46"><o>column</o><t>die Säule, die Spalte</t></e>
+ <e m="46"><o>court</o><t>das Gericht</t></e>
+ <e m="46" t="aj"><o>
+  <comparison>
+   <l1>flexible</l1><l2>more flexible</l2><l3>the most flexible</l3>
+  </comparison>
+  flexible</o><t>flexibel</t></e>
+ <e m="46"><o>habit</o><t>die Gewohnheit</t></e>
+ <e m="46"><o>likely</o><t>wahrscheinlich</t></e>
+ <e m="46"><o>oxygen</o><t>der Sauerstoff</t></e>
+ <e m="46"><o>performance</o><t>die Durchführung, die Aufführung</t></e>
+ <e m="46"><o>process</o><t>der Prozess, das Verfahren</t></e>
+ <e m="46" t="aj"><o>
+  <comparison>
+   <l1>significant</l1><l2>more significant</l2><l3>the most significant</l3>
+  </comparison>
+  significant</o><t>bedeutend</t></e>
+ <e m="46"><o>to contain</o><t>enthalten</t></e>
+ <e m="46"><o>to demand</o><t>verlangen</t></e>
+ <e m="46"><o>to drop</o><t>fallen lassen, senken</t></e>
+ <e m="46"><o>to encourage</o><t>ermutigen, ermuntern</t></e>
+ <e m="46"><o>to hurt</o><t>wehtun, verletzen</t></e>
+ <e m="46"><o>to involve</o><t>verwickeln, mit sich bringen</t></e>
+ <e m="46"><o>to manage</o><t>zurechtkommen, führen, leiten</t></e>
+ <e m="46"><o>to observe</o><t>bemerken, beobachten, einhalten</t></e>
+ <e m="46"><o>to provide</o><t>versorgen mit</t></e>
+ <e m="46"><o>to recycle</o><t>wieder verwerten</t></e>
+ <e m="46"><o>to reveal</o><t>enthüllen</t></e>
+ <e m="46"><o>to slip</o><t>ausrutschen</t></e>
+ <e m="46"><o>to spread</o><t>ausbreiten, sich ausbreiten</t></e>
+ <e m="46"><o>to suffer</o><t>leiden, erleiden</t></e>
+ <e m="46"><o>to worry</o><t>sich Sorgen machen</t></e>
+ <e m="46" t="aj"><o>
+  <comparison>
+   <l1>useful</l1><l2>more useful</l2><l3>the most useful</l3>
+  </comparison>
+  useful</o><t>nützlich</t></e>
+ <e m="47"><o>analysis</o><t>die Analyse</t></e>
+ <e m="47"><o>award</o><t>der Preis</t></e>
+ <e m="47" t="aj"><o>
+  <comparison>
+   <l1>common</l1><l2>more common</l2><l3>the most common</l3>
+  </comparison>
+  common</o><t>gemeinsam, gewöhnlich</t></e>
+ <e m="47"><o>content</o><t>der Inhalt</t></e>
+ <e m="47"><o>duty</o><t>die Pflicht, der Zoll</t></e>
+ <e m="47"><o>engine</o><t>der Motor, die Lokomotive</t></e>
+ <e m="47"><o>former</o><t>ehemalig, früher</t></e>
+ <e m="47" t="aj"><o>
+  <comparison>
+   <l1>honest</l1><l2>more honest</l2><l3>the most honest</l3>
+  </comparison>
+  honest</o><t>ehrlich</t></e>
+ <e m="47"><o>income</o><t>das Einkommen</t></e>
+ <e m="47"><o>issue</o><t>die Angelegenheit</t></e>
+ <e m="47" t="aj"><o>
+  <comparison>
+   <l1>lonely</l1><l2>lonelier</l2><l3>the loneliest</l3>
+  </comparison>
+  lonely</o><t>einsam</t></e>
+ <e m="47"><o>particular</o><t>bestimmt</t></e>
+ <e m="47"><o>poem</o><t>das Gedicht</t></e>
+ <e m="47"><o>profit</o><t>der Gewinn</t></e>
+ <e m="47" t="aj"><o>
+  <comparison>
+   <l1>silent</l1><l2>more silent</l2><l3>the most silent</l3>
+  </comparison>
+  silent</o><t>still, schweigsam</t></e>
+ <e m="47"><o>society</o><t>die Gesellschaft</t></e>
+ <e m="47"><o>steam</o><t>der Dampf</t></e>
+ <e m="47" t="aj"><o>
+  <comparison>
+   <l1>suitable</l1><l2>more suitable</l2><l3>the most suitable</l3>
+  </comparison>
+  suitable</o><t>geeignet, passend</t></e>
+ <e m="47"><o>throughout</o><t>überall, die ganze Zeit</t></e>
+ <e m="47"><o>to assume</o><t>annehmen</t></e>
+ <e m="47"><o>to charge</o><t>laden, anklagen</t></e>
+ <e m="47"><o>to create</o><t>erschaffen</t></e>
+ <e m="47"><o>to determine</o><t>bestimmen</t></e>
+ <e m="47"><o>to mind</o><t>etwas dagegen haben</t></e>
+ <e m="47"><o>to obtain</o><t>erhalten, bekommen</t></e>
+ <e m="47"><o>to publish</o><t>veröffentlichen, bekannt geben</t></e>
+ <e m="47"><o>to refuse</o><t>sich weigern</t></e>
+ <e m="47"><o>to rush</o><t>eilen</t></e>
+ <e m="47"><o>value</o><t>der Wert</t></e>
+ <e m="7"><o>a bit of</o><t>ein bisschen von, etwas von</t></e>
+ <e m="7"><o>away</o><t>weg, entfernt</t></e>
+ <e m="7"><o>bike</o><t>das Fahrrad</t></e>
+ <e m="7"><o>camera</o><t>die Kamera</t></e>
+ <e m="7"><o>city</o><t>die Stadt, die Großstadt</t></e>
+ <e m="7"><o>country</o><t>das Land</t></e>
+ <e m="7"><o>dinner</o><t>das Abendessen</t></e>
+ <e m="7" t="aj"><o>
+  <comparison>
+   <l1>fast</l1><l2>faster</l2><l3>the fastest</l3>
+  </comparison>
+  fast</o><t>schnell</t></e>
+ <e m="7"><o>energy</o><t>die Energie</t></e>
+ <e m="7"><o>front</o><t>die Vorderseite</t></e>
+ <e m="7"><o>gun</o><t>das Gewehr</t></e>
+ <e m="7" t="aj"><o>
+  <comparison>
+   <l1>hungry</l1><l2>hungrier</l2><l3>the hungriest</l3>
+  </comparison>
+  hungry</o><t>hungrig</t></e>
+ <e m="7"><o>male</o><t>männlich</t></e>
+ <e m="7"><o>model</o><t>das Modell</t></e>
+ <e m="7"><o>nobody</o><t>niemand</t></e>
+ <e m="7"><o>plural</o><t>die Mehrzahl</t></e>
+ <e m="7" t="aj"><o>
+  <comparison>
+   <l1>responsible</l1><l2>more responsible</l2><l3>the most responsible</l3>
+  </comparison>
+  responsible</o><t>verantwortlich</t></e>
+ <e m="7" t="aj"><o>
+  <comparison>
+   <l1>rich</l1><l2>richer</l2><l3>the richest</l3>
+  </comparison>
+  rich</o><t>reich</t></e>
+ <e m="7"><o>shall</o><t>sollen, werden</t></e>
+ <e m="7"><o y="-">singular</o><t>Die Einzahl</t></e>
+ <e m="7"><o>something</o><t>etwas</t></e>
+ <e m="7"><o>suitcase</o><t>der Koffer</t></e>
+ <e m="7" t="v:re"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I allow</s1><s2>you allow</s2><s3f>she allows</s3f><s3m>he allows</s3m><s3n>it allows</s3n><p1>we allow</p1><p2>you allow</p2><p3f common="1">they allow</p3f></t>
+   <t n="PrPr"><s1>I am allowing</s1><s2>you are allowing</s2><s3f>she is allowing</s3f><s3m>he is allowing</s3m><s3n>it is allowing</s3n><p1>we are allowing</p1><p2>you are allowing</p2><p3f common="1">they are allowing</p3f></t>
+  </conjugation>
+  to allow</o><t>erlauben, gestatten</t></e>
+ <e m="7" t="v:ir"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I choose</s1><s2>you choose</s2><s3f>she chooses</s3f><s3m>he chooses</s3m><s3n>it chooses</s3n><p1>we choose</p1><p2>you choose</p2><p3f common="1">they choose</p3f></t>
+   <t n="PrPr"><s1>I am choosing</s1><s2>you are choosing</s2><s3f>she is choosing</s3f><s3m>he is choosing</s3m><s3n>it is choosing</s3n><p1>we are choosing</p1><p2>you are choosing</p2><p3f common="1">they are choosing</p3f></t>
+  </conjugation>
+  to choose</o><t>wählen, auswählen, aussuchen</t></e>
+ <e m="7" t="v:ir"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I feel</s1><s2>you feel</s2><s3f>she feels</s3f><s3m>he feels</s3m><s3n>it feels</s3n><p1>we feel</p1><p2>you feel</p2><p3f common="1">they feel</p3f></t>
+   <t n="PrPr"><s1>I am feeling</s1><s2>you are feeling</s2><s3f>she is feeling</s3f><s3m>he is feeling</s3m><s3n>it is feeling</s3n><p1>we are feeling</p1><p2>you are feeling</p2><p3f common="1">they are feeling</p3f></t>
+  </conjugation>
+  to feel</o><t>fühlen, sich fühlen</t></e>
+ <e m="7" t="v:ir"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I know</s1><s2>you know</s2><s3f>she knows</s3f><s3m>he knows</s3m><s3n>it knows</s3n><p1>we know</p1><p2>you know</p2><p3f common="1">they know</p3f></t>
+  </conjugation>
+  to know</o><t>wissen, kennen</t></e>
+ <e m="7" t="v:re"><o y="-">
+  <conjugation>
+   <t n="PrSi"><s1>I save</s1><s2>you save</s2><s3f>she saves</s3f><s3m>he saves</s3m><s3n>it saves</s3n><p1>we save</p1><p2>you save</p2><p3f common="1">they save</p3f></t>
+   <t n="PrPr"><s1>I am saving</s1><s2>you are saving</s2><s3f>she is saving</s3f><s3m>he is saving</s3m><s3n>it is saving</s3n><p1>we are saving</p1><p2>you are saving</p2><p3f common="1">they are saving</p3f></t>
+  </conjugation>
+  to save</o><t>retten, sparen, speichern</t></e>
+ <e m="7" t="v:ir"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I teach</s1><s2>you teach</s2><s3f>she teaches</s3f><s3m>he teaches</s3m><s3n>it teaches</s3n><p1>we teach</p1><p2>you teach</p2><p3f common="1">they teach</p3f></t>
+   <t n="PrPr"><s1>I am teaching</s1><s2>you are teaching</s2><s3f>she is teaching</s3f><s3m>he is teaching</s3m><s3n>it is teaching</s3n><p1>we are teaching</p1><p2>you are teaching</p2><p3f common="1">they are teaching</p3f></t>
+  </conjugation>
+  to teach</o><t>lehren, unterrichten</t></e>
+ <e m="7"><o>trade</o><t>der Handel</t></e>
+ <e m="7" t="aj"><o>
+  <comparison>
+   <l1>wealthy</l1><l2>wealthier</l2><l3>wealthiest</l3>
+  </comparison>
+  wealthy</o><t>reich, wohlhabend</t></e>
+ <e m="8"><o>a couple of</o><t>ein paar</t></e>
+ <e m="8"><o>always</o><t>immer</t></e>
+ <e m="8" t="aj"><o>
+  <comparison>
+   <l1>awful</l1><l2>more awful</l2><l3>the most awful</l3>
+  </comparison>
+  awful</o><t>furchtbar</t></e>
+ <e m="8"><o>bill</o><t>die Rechnung</t></e>
+ <e m="8"><o>can</o><t>können, dürfen</t></e>
+ <e m="8"><o>class</o><t>die Klasse</t></e>
+ <e m="8"><o>course</o><t>der Kurs</t></e>
+ <e m="8"><o>direction</o><t>die Richtung</t></e>
+ <e m="8"><o>enough</o><t>genug</t></e>
+ <e m="8" t="aj"><o>
+  <comparison>
+   <l1>fat</l1><l2>fatter</l2><l3>the fattest</l3>
+  </comparison>
+  fat</o><t>fett</t></e>
+ <e m="8"><o>fruit</o><t>die Frucht, das Obst</t></e>
+ <e m="8"><o>hair</o><t>das Haar</t></e>
+ <e m="8"><o>husband</o><t>der Ehemann</t></e>
+ <e m="8"><o>land</o><t>das Land</t></e>
+ <e m="8"><o>language</o><t>die Sprache</t></e>
+ <e m="8"><o>man</o><t>der Mann</t></e>
+ <e m="8" t="aj"><o>
+  <comparison>
+   <l1>modern</l1><l2>more modern</l2><l3>the most modern</l3>
+  </comparison>
+  modern</o><t>modern</t></e>
+ <e m="8"><o>noon</o><t>der Mittag</t></e>
+ <e m="8"><o>police</o><t>die Polizei</t></e>
+ <e m="8" t="aj"><o>
+  <comparison>
+   <l1>sharp</l1><l2>sharper</l2><l3>the sharpest</l3>
+  </comparison>
+  sharp</o><t>scharf</t></e>
+ <e m="8"><o>sometimes</o><t>manchmal</t></e>
+ <e m="8"><o>sure</o><t>sicher</t></e>
+ <e m="8" t="v:re"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I do not answer</s1><s2>you do not answer</s2><s3f>she does not answer</s3f><s3m>he does not answer</s3m><s3n>it does not answer</s3n><p1>we do not answer</p1><p2>you do not answer</p2><p3f common="1">they do not answer</p3f></t>
+   <t n="PrPr"><s1>I am not answering</s1><s2>you are not answering</s2><s3f>she is not answering</s3f><s3m>he's is not answering</s3m><s3n>it's is not answering</s3n><p1>we are not answering</p1><p2>you are not answering</p2><p3f common="1">they are not answering</p3f></t>
+  </conjugation>
+  to answer</o><t>antworten, beantworten</t></e>
+ <e m="8" t="v:re"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I do not clean</s1><s2>you do not clean</s2><s3f>she does not clean</s3f><s3m>he does not clean</s3m><s3n>it does not clean</s3n><p1>we do not clean</p1><p2>you do not clean</p2><p3f common="1">they do not clean</p3f></t>
+   <t n="PrPr"><s1>I am not cleaning</s1><s2>you are not cleaning</s2><s3f>she is not cleaning</s3f><s3m>he is not cleaning</s3m><s3n>it is not cleaning</s3n><p1>we are not cleaning</p1><p2>you are not cleaning</p2><p3f common="1">they are not cleaning</p3f></t>
+  </conjugation>
+  to clean</o><t>reinigen</t></e>
+ <e m="8" t="v:ir"><o y="-">
+  <conjugation>
+   <t n="PrSi"><s1>I do not fight</s1><s2>you do not fight</s2><s3f>she does not fight</s3f><s3m>he does not fight</s3m><s3n>it does not fight</s3n><p1>we do not fight</p1><p2>you do not fight</p2><p3f common="1">they do not fight</p3f></t>
+   <t n="PrPr"><s1>I am not fighting</s1><s2>you are not fighting</s2><s3f>she is not fighting</s3f><s3m>he is not fighting</s3m><s3n>it is not fighting</s3n><p1>we are not fighting</p1><p2>you are not fighting</p2><p3f common="1">they are not fighting</p3f></t>
+  </conjugation>
+  to fight</o><t>kämpfen</t></e>
+ <e m="8" t="v:re"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I do not land</s1><s2>you do not land</s2><s3f>she does not land</s3f><s3m>he does not land</s3m><s3n>it does not land</s3n><p1>we do not land</p1><p2>you do not land</p2><p3f common="1">they do not land</p3f></t>
+   <t n="PrPr"><s1>I am not landing</s1><s2>you are not landing</s2><s3f>she is not landing</s3f><s3m>he is not landing</s3m><s3n>it is not landing</s3n><p1>we are not landing</p1><p2>you are not landing</p2><p3f common="1">they are not landing</p3f></t>
+  </conjugation>
+  to land</o><t>landen</t></e>
+ <e m="8" t="v:ir"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I do not see</s1><s2>you do not see</s2><s3f>she does not see</s3f><s3m>he does not see</s3m><s3n>it does not see</s3n><p1>we do not see</p1><p2>you do not see</p2><p3f common="1">they do not see</p3f></t>
+   <t n="PrPr"><s1>I am not seeing</s1><s2>you are not seeing</s2><s3f>she is not seeing</s3f><s3m>he is not seeing</s3m><s3n>it is not seeing</s3n><p1>we are not seeing</p1><p2>you are not seeing</p2><p3f common="1">they are not seeing</p3f></t>
+  </conjugation>
+  to see</o><t>sehen</t></e>
+ <e m="8" t="v:ir"><o>
+  <conjugation>
+   <t n="PrSi"><s1>I do not tell</s1><s2>you do not tell</s2><s3f>she does not tell</s3f><s3m>he does not tell</s3m><s3n>it does not tell</s3n><p1>we do not tell</p1><p2>you do not tell</p2><p3f common="1">they do not tell</p3f></t>
+   <t n="PrPr"><s1>I am not telling</s1><s2>you are not telling</s2><s3f>she is not telling</s3f><s3m>he is not telling</s3m><s3n>it is not telling</s3n><p1>we are not telling</p1><p2>you are not telling</p2><p3f common="1">they are not telling</p3f></t>
+  </conjugation>
+  to tell</o><t>erzählen</t></e>
+ <e m="8"><o>traffic</o><t>der Verkehr</t></e>
+ <e m="8"><o>weather</o><t>das Wetter</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>a lot of</l1><l2>more</l2><l3>the most</l3>
+  </comparison>
+  a lot of</o><t>viel, viele</t></e>
+ <e m="9"><o>back</o><t>zurück, der Rücken</t></e>
+ <e m="9"><o>bird</o><t>der Vogel</t></e>
+ <e m="9"><o>captain</o><t>der Kapitän, der Hauptmann</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>clean</l1><l2>cleaner</l2><l3>the cleanest</l3>
+  </comparison>
+  clean</o><t>sauber</t></e>
+ <e m="9"><o>cow</o><t>die Kuh</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>dirty</l1><l2>dirtier</l2><l3>the dirtiest</l3>
+  </comparison>
+  dirty</o><t>schmutzig</t></e>
+ <e m="9"><o>evening</o><t>der Abend</t></e>
+ <e m="9"><o>father</o><t>der Vater</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>full</l1><l2>fuller</l2><l3>the fullest</l3>
+  </comparison>
+  full</o><t>voll</t></e>
+ <e m="9"><o>half</o><t>halb, die Hälfte</t></e>
+ <e m="9"><o>ice</o><t>das Eis</t></e>
+ <e m="9"><o>last</o><t>letzter</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>many</l1><l2>more</l2><l3>the most</l3>
+  </comparison>
+  many</o><t>viele</t></e>
+ <e m="9"><o>moment</o><t>der Moment</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>much</l1><l2>more</l2><l3>the most</l3>
+  </comparison>
+  much</o><t>viel</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>normal</l1><l2>more normal</l2><l3>the most normal</l3>
+  </comparison>
+  normal</o><t>normal, gewöhnlich, üblich</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>poor</l1><l2>poorer</l2><l3>the poorest</l3>
+  </comparison>
+  poor</o><t>arm, schlecht</t></e>
+ <e m="9"><o>rock</o><t>der Fels</t></e>
+ <e m="9"><o>sheet</o><t>das Blatt, das Bettuch</t></e>
+ <e m="9"><o>son</o><t>der Sohn</t></e>
+ <e m="9" t="aj"><o>
+  <comparison>
+   <l1>sweet</l1><l2>sweeter</l2><l3>the sweetest</l3>
+  </comparison>
+  sweet</o><t>süß, das Bonbon</t></e>
+ <e m="9"><o>to arrive</o><t>ankommen</t></e>
+ <e m="9"><o>to climb</o><t>besteigen, klettern</t></e>
+ <e m="9"><o>to fill</o><t>füllen</t></e>
+ <e m="9"><o>to laugh</o><t>lachen</t></e>
+ <e m="9"><o>to seem</o><t>scheinen</t></e>
+ <e m="9"><o>to think</o><t>denken</t></e>
+ <e m="9"><o>traffic lights</o><t>die Ampel</t></e>
+ <e m="9" t="av"><o>well</o><t>gut</t></e>
+ <e m="10"><o>a little</o><t>ein wenig, ein bisschen</t></e>
+ <e m="10" t="aj"><o>
+  <comparison>
+   <l1>angry</l1><l2>angrier</l2><l3>the angriest</l3>
+  </comparison>
+  angry</o><t>böse, zornig, ärgerlich</t></e>
+ <e m="10" t="aj"><o>
+  <comparison>
+   <l1>bad</l1><l2>worse</l2><l3>the worst</l3>
+  </comparison>
+  bad</o><t>schlecht</t></e>
+ <e m="10"><o>blood</o><t>das Blut</t></e>
+ <e m="10"><o>car</o><t>das Auto</t></e>
+ <e m="10" t="aj"><o>
+  <comparison>
+   <l1>clear</l1><l2>clearer</l2><l3>the clearest</l3>
+  </comparison>
+  clear</o><t>klar, deutlich</t></e>
+ <e m="10" t="aj"><o>
+  <comparison>
+   <l1>crazy</l1><l2>crazier</l2><l3>the craziest</l3>
+  </comparison>
+  crazy</o><t>verrückt</t></e>
+ <e m="10"><o>disease</o><t>die Krankheit</t></e>
+ <e m="10"><o>every</o><t>jeder</t></e>
+ <e m="10"><o>favourite</o><t>Lieblings-</t></e>
+ <e m="10"><o>fun</o><t>der Spaß</t></e>
+ <e m="10"><o>hand</o><t>die Hand</t></e>
+ <e m="10"><o>idea</o><t>die Idee</t></e>
+ <e m="10" t="aj"><o>
+  <comparison>
+   <l1>late</l1><l2>later</l2><l3>the latest</l3>
+  </comparison>
+  late</o><t>spät</t></e>
+ <e m="10"><o>map</o><t>die Landkarte, der Stadtplan</t></e>
+ <e m="10"><o>money</o><t>das Geld</t></e>
+ <e m="10"><o>nose</o><t>die Nase</t></e>
+ <e m="10"><o>population</o><t>die Bevölkerung</t></e>
+ <e m="10"><o>roof</o><t>das Dach</t></e>
+ <e m="10"><o>shoe</o><t>der Schuh</t></e>
+ <e m="10"><o>soon</o><t>bald</t></e>
+ <e m="10"><o>tall</o><t>groß, hoch</t></e>
+ <e m="10"><o>to ask</o><t>fragen, bitten</t></e>
+ <e m="10"><o>to close</o><t>schließen</t></e>
+ <e m="10"><o>to find</o><t>finden</t></e>
+ <e m="10"><o>to learn</o><t>lernen</t></e>
+ <e m="10"><o>to sell</o><t>verkaufen</t></e>
+ <e m="10"><o>to throw</o><t>werfen</t></e>
+ <e m="10"><o>train</o><t>der Zug</t></e>
+ <e m="10"><o>well-known</o><t>bekannt</t></e>
+ <e m="11" t="aj"><o>
+  <comparison>
+   <l1>able</l1><l2>more able</l2><l3>the most able</l3>
+  </comparison>
+  able</o><t>fähig, in der Lage</t></e>
+ <e m="11"><o>animal</o><t>das Tier</t></e>
+ <e m="11"><o>bag</o><t>die Tasche, die Tüte, der Beutel</t></e>
+ <e m="11"><o>boat</o><t>das Boot, das Schiff</t></e>
+ <e m="11"><o>card</o><t>die Karte</t></e>
+ <e m="11"><o>clock</o><t>die Uhr</t></e>
+ <e m="11"><o>cross</o><t>das Kreuz</t></e>
+ <e m="11"><o>doctor</o><t>der Doktor, der Arzt</t></e>
+ <e m="11"><o>everybody</o><t>jeder, alle</t></e>
+ <e m="11"><o>feeling</o><t>das Gefühl</t></e>
+ <e m="11" t="aj"><o>
+  <comparison>
+   <l1>funny</l1><l2>funnier</l2><l3>the funniest</l3>
+  </comparison>
+  funny</o><t>komisch, spaßig</t></e>
+ <e m="11" t="aj"><o>
+  <comparison>
+   <l1>happy</l1><l2>happier</l2><l3>the happiest</l3>
+  </comparison>
+  happy</o><t>glücklich</t></e>
+ <e m="11"><o>ill</o><t>krank</t></e>
+ <e m="11"><o>later</o><t>später</t></e>
+ <e m="11"><o>grade</o><t>die Note</t></e>
+ <e m="11"><o>moon</o><t>der Mond</t></e>
+ <e m="11"><o>nothing</o><t>nichts</t></e>
+ <e m="11"><o>possible</o><t>möglich</t></e>
+ <e m="11"><o>root</o><t>die Wurzel</t></e>
+ <e m="11"><o>shop</o><t>der Laden, das Geschäft</t></e>
+ <e m="11"><o>spare time</o><t>die Freizeit</t></e>
+ <e m="11"><o>tax</o><t>die Steuer</t></e>
+ <e m="11" t="v:ir"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I was able to</s1><s2>you were able to</s2><s3f>she was able to</s3f><s3m>he was able to</s3m><s3n>it was able to</s3n><p1>we were able to</p1><p2>you were able to</p2><p3f common="1">they were able to</p3f></t>
+  </conjugation>
+  to be able to</o><t>können</t></e>
+ <e m="11" t="v:ir"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I came</s1><s2>you came</s2><s3f>she came</s3f><s3m>he came</s3m><s3n>it came</s3n><p1>we came</p1><p2>you came</p2><p3f common="1">they came</p3f></t>
+   <t n="PaPr"><s1>I was coming</s1><s2>you were coming</s2><s3f>she was coming</s3f><s3m>he was coming</s3m><s3n>it was coming</s3n><p1>we were coming</p1><p2>you were coming</p2><p3f common="1">they were coming</p3f></t>
+  </conjugation>
+  to come</o><t>kommen</t></e>
+ <e m="11" t="v:re"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I finished</s1><s2>you finished</s2><s3f>she finished</s3f><s3m>he finished</s3m><s3n>it finished</s3n><p1>we finished</p1><p2>you finished</p2><p3f common="1">they finished</p3f></t>
+   <t n="PaPr"><s1>I was finishing</s1><s2>you were finishing</s2><s3f>she was finishing</s3f><s3m>he was finishing</s3m><s3n>it was finishing</s3n><p1>we were finishing</p1><p2>you were finishing</p2><p3f common="1">they were finishing</p3f></t>
+  </conjugation>
+  to finish</o><t>beenden, aufhören</t></e>
+ <e m="11" t="v:ir"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I left</s1><s2>you left</s2><s3f>she left</s3f><s3m>he left</s3m><s3n>it left</s3n><p1>we left</p1><p2>you left</p2><p3f common="1">they left</p3f></t>
+   <t n="PaPr"><s1>I was leaving</s1><s2>you were leaving</s2><s3f>she was leaving</s3f><s3m>he was leaving</s3m><s3n>it was leaving</s3n><p1>we were leaving</p1><p2>you were leaving</p2><p3f common="1">they were leaving</p3f></t>
+  </conjugation>
+  to leave</o><t>verlassen, lassen</t></e>
+ <e m="11" t="v:ir"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I sent</s1><s2>you sent</s2><s3f>she sent</s3f><s3m>he sent</s3m><s3n>it sent</s3n><p1>we sent</p1><p2>you sent</p2><p3f common="1">they sent</p3f></t>
+   <t n="PaPr"><s1>I was sending</s1><s2>you were sending</s2><s3f>she was sending</s3f><s3m>he was sending</s3m><s3n>it was sending</s3n><p1>we were sending</p1><p2>you were sending</p2><p3f common="1">they were sending</p3f></t>
+  </conjugation>
+  to send</o><t>schicken, absenden</t></e>
+ <e m="11" t="v:re"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I touched</s1><s2>you touched</s2><s3f>she touched</s3f><s3m>he touched</s3m><s3n>it touched</s3n><p1>we touched</p1><p2>you touched</p2><p3f common="1">they touched</p3f></t>
+   <t n="PaPr"><s1>I was touching</s1><s2>you were touching</s2><s3f>she was touching</s3f><s3m>he was touching</s3m><s3n>it was touching</s3n><p1>we were touching</p1><p2>you were touching</p2><p3f common="1">they were touching</p3f></t>
+  </conjugation>
+  to touch</o><t>berühren</t></e>
+ <e m="11" t="v:re"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I translated</s1><s2>you translated</s2><s3f>she translated</s3f><s3m>he translated</s3m><s3n>it translated</s3n><p1>we translated</p1><p2>you translated</p2><p3f common="1">they translated</p3f></t>
+  </conjugation>
+  to translate</o><t>übersetzen</t></e>
+ <e m="11"><o>what</o><t>was</t></e>
+ <e m="12"><o>abroad</o><t>im, ins Ausland</t></e>
+ <e m="12"><o>another</o><t>noch einer, ein anderer</t></e>
+ <e m="12"><o>ball</o><t>der Ball</t></e>
+ <e m="12"><o>body</o><t>der Körper</t></e>
+ <e m="12"><o>cash</o><t>das Bargeld</t></e>
+ <e m="12"><o>clothes</o><t>die Kleider, die Kleidung</t></e>
+ <e m="12"><o>cry</o><t>der Schrei</t></e>
+ <e m="12"><o>dog</o><t>der Hund</t></e>
+ <e m="12"><o>everyone</o><t>jeder, alle</t></e>
+ <e m="12"><o>female</o><t>weiblich</t></e>
+ <e m="12"><o>future</o><t>die Zukunft</t></e>
+ <e m="12" t="aj"><o>
+  <comparison>
+   <l1>hard</l1><l2>harder</l2><l3>the hardest</l3>
+  </comparison>
+  hard</o><t>hart, schwer</t></e>
+ <e m="12" t="aj"><o>
+  <comparison>
+   <l1>important</l1><l2>more important </l2><l3>the most important</l3>
+  </comparison>
+  important</o><t>wichtig</t></e>
+ <e m="12" t="aj"><o>
+  <comparison>
+   <l1>lazy</l1><l2>lazier</l2><l3>the laziest</l3>
+  </comparison>
+  lazy</o><t>faul</t></e>
+ <e m="12"><o>market</o><t>der Markt</t></e>
+ <e m="12"><o>more</o><t>mehr</t></e>
+ <e m="12"><o>object</o><t>der Gegenstand, das Objekt</t></e>
+ <e m="12"><o>potato</o><t>die Kartoffel</t></e>
+ <e m="12"><o>rope</o><t>das Seil</t></e>
+ <e m="12" t="aj"><o>
+  <comparison>
+   <l1>short</l1><l2>shorter</l2><l3>the shortest</l3>
+  </comparison>
+  short</o><t>kurz</t></e>
+ <e m="12"><o>speech</o><t>die Rede</t></e>
+ <e m="12"><o>team</o><t>das Team, die Mannschaft</t></e>
+ <e m="12" t="v:ir"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I was not born</s1><s2>you were not born</s2><s3f>she was not born</s3f><s3m>he was not born</s3m><s3n>it was not born</s3n><p1>we were not born</p1><p2>you were not born</p2><p3f common="1">they were not born</p3f></t>
+  </conjugation>
+  to be born</o><t>geboren werden</t></e>
+ <e m="12" t="v:re"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I did not continue</s1><s2>you did not continue</s2><s3f>she did not continue</s3f><s3m>he did not continue</s3m><s3n>it did not continue</s3n><p1>we did not continue</p1><p2>you did not continue</p2><p3f common="1">they did not continue</p3f></t>
+   <t n="PaPr"><s1>I was not continuing</s1><s2>you were not continuing</s2><s3f>she was not continuing</s3f><s3m>he was not continuing</s3m><s3n>it was not continuing</s3n><p1>we were not continuing</p1><p2>you were not continuing</p2><p3f common="1">they were not continuing</p3f></t>
+  </conjugation>
+  to continue</o><t>fortsetzen, weitergehen</t></e>
+ <e m="12" t="v:re"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I did not fish</s1><s2>you did not fish</s2><s3f>she did not fish</s3f><s3m>he did not fish</s3m><s3n>it did not fish</s3n><p1>we did not fish</p1><p2>you did not fish</p2><p3f common="1">they did not fish</p3f></t>
+   <t n="PaPr"><s1>I was not fishing</s1><s2>you were not fishing</s2><s3f>she was not fishing</s3f><s3m>he was not fishing</s3m><s3n>it was not fishing</s3n><p1>we were not fishing</p1><p2>you were not fishing</p2><p3f common="1">they were not fishing</p3f></t>
+  </conjugation>
+  to fish</o><t>fischen, angeln</t></e>
+ <e m="12" t="v:re"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I did not like</s1><s2>you did not like</s2><s3f>she did not like</s3f><s3m>he did not like</s3m><s3n>it did not like</s3n><p1>we did not like</p1><p2>you did not like</p2><p3f common="1">they did not like</p3f></t>
+   <t n="PaPr"><s1>I was not liking</s1><s2>you were not liking</s2><s3f>she was not liking</s3f><s3m>he was not liking</s3m><s3n>it was not liking</s3n><p1>we were not liking</p1><p2>you were not liking</p2><p3f common="1">they were not liking</p3f></t>
+  </conjugation>
+  to like</o><t>mögen, gern haben</t></e>
+ <e m="12" t="v:ir"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I did not shoot</s1><s2>you did not shoot</s2><s3f>she did not shoot</s3f><s3m>he did not shoot</s3m><s3n>it did not shoot</s3n><p1>we did not shoot</p1><p2>you did not shoot</p2><p3f common="1">they did not shoot</p3f></t>
+   <t n="PaPr"><s1>I was not shooting</s1><s2>you were not shooting</s2><s3f>she was not shooting</s3f><s3m>he was not shooting</s3m><s3n>it was not shooting</s3n><p1>we were not shooting</p1><p2>you were not shooting</p2><p3f common="1">they were not shooting</p3f></t>
+  </conjugation>
+  to shoot</o><t>schießen, erschießen</t></e>
+ <e m="12" t="v:re"><o>
+  <conjugation>
+   <t n="PaSi"><s1>I did not train</s1><s2>you did not train</s2><s3f>she did not train</s3f><s3m>he did not train</s3m><s3n>it did not train</s3n><p1>we did not train</p1><p2>you did not train</p2><p3f common="1">they did not train</p3f></t>
+   <t n="PaPr"><s1>I was not training</s1><s2>you were not training</s2><s3f>she was not training</s3f><s3m>he was not training</s3m><s3n>it was not training</s3n><p1>we were not training</p1><p2>you were not training</p2><p3f common="1">they were not training</p3f></t>
+  </conjugation>
+  to train</o><t>trainieren, ausbilden</t></e>
+ <e m="12"><o>tree</o><t>der Baum</t></e>
+ <e m="12"><o>wheel</o><t>das Rad</t></e>
+ <e m="13"><o>accident</o><t>der Zufall, der Unfall</t></e>
+ <e m="13"><o>answer</o><t>die Antwort, die Lösung</t></e>
+ <e m="13"><o>band</o><t>die Band, die Gruppe</t></e>
+ <e m="13"><o>book</o><t>das Buch</t></e>
+ <e m="13"><o>cassette</o><t>die Kassette</t></e>
+ <e m="13"><o>club</o><t>der Klub, der Knüppel</t></e>
+ <e m="13"><o>culture</o><t>die Kultur</t></e>
+ <e m="13"><o>door</o><t>die Tür</t></e>
+ <e m="13"><o>everything</o><t>alles</t></e>
+ <e m="13"><o>field</o><t>das Feld, das Gebiet</t></e>
+ <e m="13"><o>game</o><t>das Spiel</t></e>
+ <e m="13"><o>head</o><t>der Kopf</t></e>
+ <e m="13" t="aj"><o>
+  <comparison>
+   <l1>impossible</l1><l2>more impossible</l2><l3>the most impossible</l3>
+  </comparison>
+  impossible</o><t>unmöglich</t></e>
+ <e m="13"><o>leg</o><t>das Bein</t></e>
+ <e m="13"><o>married</o><t>verheiratet</t></e>
+ <e m="13"><o>morning</o><t>der Morgen</t></e>
+ <e m="13"><o>ocean</o><t>der Ozean</t></e>
+ <e m="13"><o>pound</o><t>das Pfund</t></e>
+ <e m="13"><o>rose</o><t>die Rose</t></e>
+ <e m="13"><o>should</o><t>sollte</t></e>
+ <e m="13"><o>speed</o><t>die Geschwindigkeit</t></e>
+ <e m="13"><o>technique</o><t>die Technik</t></e>
+ <e m="13"><o>to be right</o><t>Recht haben</t></e>
+ <e m="13"><o>to control</o><t>kontrollieren</t></e>
+ <e m="13"><o>to fly</o><t>fliegen</t></e>
+ <e m="13"><o>to live</o><t>leben, wohnen</t></e>
+ <e m="13"><o>to shout</o><t>rufen, schreien</t></e>
+ <e m="13"><o>to travel</o><t>reisen</t></e>
+ <e m="13"><o>trouble</o><t>die Schwierigkeiten, der Ärger</t></e>
+ <e m="13"><o>where</o><t>wo</t></e>
+ <e m="14"><o>action</o><t>die Tat, die Handlung</t></e>
+ <e m="14"><o>any</o><t>etwas, irgendein</t></e>
+ <e m="14"><o>bank</o><t>die Bank</t></e>
+ <e m="14"><o>boot</o><t>der Stiefel, der Kofferraum</t></e>
+ <e m="14"><o>catalogue</o><t>der Katalog</t></e>
+ <e m="14"><o>coat</o><t>der Mantel</t></e>
+ <e m="14"><o>cup</o><t>die Tasse, der Pokal</t></e>
+ <e m="14"><o>double</o><t>doppelt</t></e>
+ <e m="14"><o>everywhere</o><t>überall</t></e>
+ <e m="14"><o>film</o><t>der Film</t></e>
+ <e m="14"><o>garden</o><t>der Garten</t></e>
+ <e m="14"><o>heart</o><t>das Herz</t></e>
+ <e m="14"><o>information</o><t>die Information, die Auskunft</t></e>
+ <e m="14"><o>length</o><t>die Länge</t></e>
+ <e m="14"><o>material</o><t>das Material</t></e>
+ <e m="14"><o>most</o><t>die meisten, am meisten</t></e>
+ <e m="14"><o>of course</o><t>natürlich</t></e>
+ <e m="14"><o>president</o><t>der Präsident</t></e>
+ <e m="14"><o>round</o><t>rund</t></e>
+ <e m="14"><o>shoulder</o><t>die Schulter</t></e>
+ <e m="14"><o>stairs</o><t>die Treppe</t></e>
+ <e m="14" t="aj"><o>
+  <comparison>
+   <l1>terrible</l1><l2>more terrible</l2><l3>the most terrible</l3>
+  </comparison>
+  terrible</o><t>schrecklich</t></e>
+ <e m="14"><o>to beat</o><t>schlagen</t></e>
+ <e m="14"><o>to cook</o><t>kochen</t></e>
+ <e m="14"><o>to follow</o><t>folgen</t></e>
+ <e m="14"><o>to look</o><t>schauen, aussehen</t></e>
+ <e m="14"><o>to show</o><t>zeigen</t></e>
+ <e m="14"><o>to try</o><t>versuchen</t></e>
+ <e m="14"><o>true</o><t>wahr, richtig</t></e>
+ <e m="14"><o>who</o><t>wer</t></e>
+ <e m="15"><o>actually</o><t>tatsächlich</t></e>
+ <e m="15"><o>anybody</o><t>jeder, jemand, irgendjemand</t></e>
+ <e m="15"><o>bar</o><t>die Stange, die Bar</t></e>
+ <e m="15" t="aj"><o>
+  <comparison>
+   <l1>boring</l1><l2>more boring</l2><l3>the most boring</l3>
+  </comparison>
+  boring</o><t>langweilig</t></e>
+ <e m="15" t="aj"><o>
+  <comparison>
+   <l1>central</l1><l2>more central</l2><l3>the most central</l3>
+  </comparison>
+  central</o><t>zentral</t></e>
+ <e m="15"><o>coffee</o><t>das Kaffee</t></e>
+ <e m="15"><o>cupboard</o><t>der Schrank</t></e>
+ <e m="15"><o>down</o><t>unten, herunter, hinunter</t></e>
+ <e m="15"><o>example</o><t>das Beispiel</t></e>
+ <e m="15"><o>fine</o><t>fein, gut, die Geldstrafe</t></e>
+ <e m="15"><o>gas</o><t>das Gas</t></e>
+ <e m="15"><o>heavy</o><t>schwer</t></e>
+ <e m="15"><o>inside</o><t>innen, nach innen, innerhalb</t></e>
+ <e m="15"><o>less</o><t>weniger</t></e>
+ <e m="15"><o>may</o><t>können, dürfen</t></e>
+ <e m="15"><o>mother</o><t>die Mutter</t></e>
+ <e m="15"><o>off</o><t>aus</t></e>
+ <e m="15"><o>pressure</o><t>der Druck</t></e>
+ <e m="15"><o>royal</o><t>königlich</t></e>
+ <e m="15" t="aj"><o>
+  <comparison>
+   <l1>sick</l1><l2>sicker</l2><l3>the sickest</l3>
+  </comparison>
+  sick</o><t>krank, übel (Magen)</t></e>
+ <e m="15"><o>standard</o><t>der Standard</t></e>
+ <e m="15"><o>test</o><t>die Probe, der Test</t></e>
+ <e m="15" t="v:ir"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have become</s1><s2>you have become</s2><s3f>she has become</s3f><s3m>he has become</s3m><s3n>it has become</s3n><p1>we have become</p1><p2>you have become</p2><p3f common="1">they have become</p3f></t>
+   <t n="#1"><s1>I had become</s1><s2>you had become</s2><s3f>she had become</s3f><s3m>he had become</s3m><s3n>it had become</s3n><p1>we had become</p1><p2>you had become</p2><p3f common="1">they had become</p3f></t>
+  </conjugation>
+  to become</o><t>werden</t></e>
+ <e m="15" t="v:re"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have copied</s1><s2>you have copied</s2><s3f>she has copied</s3f><s3m>he has copied</s3m><s3n>it has copied</s3n><p1>we have copied</p1><p2>you have copied</p2><p3f common="1">they have copied</p3f></t>
+   <t n="#1"><s1>I had copied</s1><s2>you had copied</s2><s3f>she had copied</s3f><s3m>he had copied</s3m><s3n>it had copied</s3n><p1>we had copied</p1><p2>you had copied</p2><p3f common="1">they had copied</p3f></t>
+  </conjugation>
+  to copy</o><t>kopieren</t></e>
+ <e m="15" t="v:ir"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have forbidden</s1><s2>you have forbidden</s2><s3f>she has forbidden</s3f><s3m>he has forbidden</s3m><s3n>it has forbidden</s3n><p1>we have forbidden</p1><p2>you have forbidden</p2><p3f common="1">they have forbidden</p3f></t>
+   <t n="#1"><s1>I had forbidden</s1><s2>you had forbidden</s2><s3f>she had forbidden</s3f><s3m>he had forbidden</s3m><s3n>it had forbidden</s3n><p1>we had forbidden</p1><p2>you had forbidden</p2><p3f common="1">they had forbidden</p3f></t>
+  </conjugation>
+  to forbid</o><t>verbieten</t></e>
+ <e m="15" t="v:re"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have loved</s1><s2>you have loved</s2><s3f>she has loved</s3f><s3m>he has loved</s3m><s3n>it has loved</s3n><p1>we have loved</p1><p2>you have loved</p2><p3f common="1">they have loved</p3f></t>
+   <t n="#1"><s1>I had loved</s1><s2>you had loved</s2><s3f>she had loved</s3f><s3m>he had loved</s3m><s3n>it had loved</s3n><p1>we had loved</p1><p2>you had loved</p2><p3f common="1">they had loved</p3f></t>
+  </conjugation>
+  to love</o><t>lieben, gerne mögen</t></e>
+ <e m="15" t="v:ir"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have sung</s1><s2>you have sung</s2><s3f>she has sung</s3f><s3m>he has sung</s3m><s3n>it has sung</s3n><p1>we have sung</p1><p2>you have sung</p2><p3f common="1">they have sung</p3f></t>
+   <t n="#1"><s1>I had sung</s1><s2>you had sung</s2><s3f>she had sung</s3f><s3m>he had sung</s3m><s3n>it had sung</s3n><p1>we had sung</p1><p2>you had sung</p2><p3f common="1">they had sung</p3f></t>
+  </conjugation>
+  to sing</o><t>singen</t></e>
+ <e m="15" t="v:re"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have turned</s1><s2>you have turned</s2><s3f>she has turned</s3f><s3m>he has turned</s3m><s3n>it has turned</s3n><p1>we have turned</p1><p2>you have turned</p2><p3f common="1">they have turned</p3f></t>
+   <t n="#1"><s1>I had turned</s1><s2>you had turned</s2><s3f>she had turned</s3f><s3m>he had turned</s3m><s3n>it had turned</s3n><p1>we had turned</p1><p2>you had turned</p2><p3f common="1">they had turned</p3f></t>
+  </conjugation>
+  to turn</o><t>drehen</t></e>
+ <e m="15" t="aj"><o>
+  <comparison>
+   <l1>unhappy</l1><l2>more unhappy</l2><l3>the most unhappy</l3>
+  </comparison>
+  unhappy</o><t>unglücklich</t></e>
+ <e m="15"><o>whole</o><t>ganz</t></e>
+ <e m="16"><o>address</o><t>die Adresse</t></e>
+ <e m="16"><o>anything</o><t>irgendetwas</t></e>
+ <e m="16"><o>bath</o><t>das Bad, die Badewanne</t></e>
+ <e m="16"><o>boss</o><t>der Chef</t></e>
+ <e m="16"><o>centre</o><t>das Zentrum, der Mittelpunkt</t></e>
+ <e m="16"><o>cold</o><t>kalt, die Erkältung</t></e>
+ <e m="16"><o>daily</o><t>täglich</t></e>
+ <e m="16"><o>dream</o><t>der Traum</t></e>
+ <e m="16"><o>excellent</o><t>ausgezeichnet</t></e>
+ <e m="16"><o>finger</o><t>der Finger</t></e>
+ <e m="16"><o>girl</o><t>das Mädchen</t></e>
+ <e m="16" t="aj"><o>
+  <comparison>
+   <l1>helpful</l1><l2>more helpful</l2><l3>the most helpful</l3>
+  </comparison>
+  helpful</o><t>hilfreich, nützlich</t></e>
+ <e m="16"><o>instrument</o><t>das Instrument</t></e>
+ <e m="16"><o>letter</o><t>der Buchstabe, der Brief</t></e>
+ <e m="16"><o>maybe</o><t>vielleicht</t></e>
+ <e m="16"><o>motorbike</o><t>das Motorrad</t></e>
+ <e m="16"><o>office</o><t>das Büro</t></e>
+ <e m="16" t="aj"><o>
+  <comparison>
+   <l1>pretty</l1><l2>prettier</l2><l3>the prettiest</l3>
+  </comparison>
+  pretty</o><t>hübsch</t></e>
+ <e m="16"><o>rubbish</o><t>der Abfall</t></e>
+ <e m="16" t="aj"><o>
+  <comparison>
+   <l1>silly</l1><l2>sillier</l2><l3>the silliest</l3>
+  </comparison>
+  silly</o><t>dumm, albern</t></e>
+ <e m="16"><o>star</o><t>der Stern, der Star</t></e>
+ <e m="16"><o>that</o><t>dass, jener</t></e>
+ <e m="16" t="v:ir"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have not begun</s1><s2>you have begun</s2><s3f>she has not begun</s3f><s3m>he has not begun</s3m><s3n>it has not begun</s3n><p1>we have not begun</p1><p2>you have not begun</p2><p3f common="1">they have not begun</p3f></t>
+   <t n="#1"><s1>I had not begun</s1><s2>you had not begun</s2><s3f>she had not begun</s3f><s3m>he had not begun</s3m><s3n>it had not begun</s3n><p1>we had not begun</p1><p2>you had not begun</p2><p3f common="1">they had not begun</p3f></t>
+  </conjugation>
+  to begin</o><t>anfangen, beginnen</t></e>
+ <e m="16" t="v:re"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have not corrected</s1><s2>you have not corrected</s2><s3f>she has not corrected</s3f><s3m>he has not corrected</s3m><s3n>it has not corrected</s3n><p1>we have not corrected</p1><p2>you have not corrected</p2><p3f common="1">they have not corrected</p3f></t>
+   <t n="#1"><s1>I had not corrected</s1><s2>you had not corrected</s2><s3f>she had not corrected</s3f><s3m>he had not corrected</s3m><s3n>it had not corrected</s3n><p1>we had not corrected</p1><p2>you had not corrected</p2><p3f common="1">they had not corrected</p3f></t>
+  </conjugation>
+  to correct</o><t>berichtigen</t></e>
+ <e m="16" t="v:ir"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have not forgotten</s1><s2>you have not forgotten</s2><s3f>she has not forgotten</s3f><s3m>he has not forgotten</s3m><s3n>it has not forgotten</s3n><p1>we have not forgotten</p1><p2>you have not forgotten</p2><p3f common="1">they have not forgotten</p3f></t>
+   <t n="#1"><s1>I had not forgotten</s1><s2>you had not forgotten</s2><s3f>she had not forgotten</s3f><s3m>he had not forgotten</s3m><s3n>it had not forgotten</s3n><p1>we had not forgotten</p1><p2>you had not forgotten</p2><p3f common="1">they had not forgotten</p3f></t>
+  </conjugation>
+  to forget</o><t>vergessen</t></e>
+ <e m="16" t="v:ir"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have not made</s1><s2>you have not made</s2><s3f>she has not made</s3f><s3m>he has not made</s3m><s3n>it has not made</s3n><p1>we have not made</p1><p2>you have not made</p2><p3f common="1">they have not made</p3f></t>
+   <t n="#1"><s1>I had not made</s1><s2>you had not made</s2><s3f>she had not made</s3f><s3m>he had not made</s3m><s3n>it had not made</s3n><p1>we had not made</p1><p2>you had not made</p2><p3f common="1">they had not made</p3f></t>
+  </conjugation>
+  to make</o><t>machen</t></e>
+ <e m="16" t="v:re"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have not smoked</s1><s2>you have not smoked</s2><s3f>she has not smoked</s3f><s3m>he has not smoked</s3m><s3n>it has not smoked</s3n><p1>we have not smoked</p1><p2>you have not smoked</p2><p3f common="1">they have not smoked</p3f></t>
+   <t n="#1"><s1>I had not smoked</s1><s2>you had not smoked</s2><s3f>she had not smoked</s3f><s3m>he had not smoked</s3m><s3n>it had not smoked</s3n><p1>we had not smoked</p1><p2>you had not smoked</p2><p3f common="1">they had not smoked</p3f></t>
+  </conjugation>
+  to smoke</o><t>rauchen</t></e>
+ <e m="16" t="v:ir"><o>
+  <conjugation>
+   <t n="PrPe"><s1>I have not understood</s1><s2>you have not understood</s2><s3f>she has not understood</s3f><s3m>he has not understood</s3m><s3n>it has not understood</s3n><p1>we have not understood</p1><p2>you have not understood</p2><p3f common="1">they have not understood</p3f></t>
+   <t n="#1"><s1>I had not understood</s1><s2>you had not understood</s2><s3f>she had not understood</s3f><s3m>he had not understood</s3m><s3n>it had not understood</s3n><p1>we had not understood</p1><p2>you had not understood</p2><p3f common="1">they had not understood</p3f></t>
+  </conjugation>
+  to understand</o><t>verstehen</t></e>
+ <e m="16"><o>unit</o><t>die Einheit</t></e>
+ <e m="16" t="aj"><o>
+  <comparison>
+   <l1>wild</l1><l2>wilder</l2><l3>the wildest</l3>
+  </comparison>
+  wild</o><t>wild</t></e>
+ <e m="17"><o>adult</o><t>der Erwachsene</t></e>
+ <e m="17"><o>anyway</o><t>jedenfalls</t></e>
+ <e m="17"><o>battery</o><t>die Batterie</t></e>
+ <e m="17"><o>both</o><t>beide</t></e>
+ <e m="17"><o>chair</o><t>der Stuhl</t></e>
+ <e m="17"><o>colour</o><t>die Farbe</t></e>
+ <e m="17"><o>danger</o><t>die Gefahr</t></e>
+ <e m="17"><o>dress</o><t>das Kleid</t></e>
+ <e m="17"><o>excuse</o><t>die Entschuldigung</t></e>
+ <e m="17"><o>fire</o><t>das Feuer</t></e>
+ <e m="17"><o>girlfriend</o><t>die Freundin</t></e>
+ <e m="17"><o>here</o><t>hier</t></e>
+ <e m="17"><o>interest</o><t>das Interesse</t></e>
+ <e m="17"><o>life</o><t>das Leben</t></e>
+ <e m="17"><o>meal</o><t>die Mahlzeit</t></e>
+ <e m="17"><o>mountain</o><t>der Berg</t></e>
+ <e m="17"><o>once</o><t>einmal</t></e>
+ <e m="17"><o>public</o><t>die Öffentlichkeit, öffentlich</t></e>
+ <e m="17"><o>rule</o><t>die Regel, die Vorschrift</t></e>
+ <e m="17"><o>silver</o><t>das Silber</t></e>
+ <e m="17"><o>station</o><t>der Bahnhof</t></e>
+ <e m="17"><o>the best</o><t>der beste</t></e>
+ <e m="17"><o>to blow</o><t>blasen</t></e>
+ <e m="17"><o>to cost</o><t>kosten</t></e>
+ <e m="17"><o>to get</o><t>holen, bekommen</t></e>
+ <e m="17"><o>to mean</o><t>bedeuten</t></e>
+ <e m="17"><o>to smile</o><t>lächeln</t></e>
+ <e m="17"><o>to use</o><t>gebrauchen, benutzen</t></e>
+ <e m="17"><o>use</o><t>der Gebrauch</t></e>
+ <e m="17"><o>wind</o><t>der Wind</t></e>
+ <e m="18"><o>advantage</o><t>der Vorteil</t></e>
+ <e m="18"><o>anger</o><t>der Ärger</t></e>
+ <e m="18"><o>apple</o><t>der Apfel</t></e>
+ <e m="18"><o>beach</o><t>der Strand</t></e>
+ <e m="18"><o>bottle</o><t>die Flasche</t></e>
+ <e m="18"><o>chapter</o><t>das Kapitel</t></e>
+ <e m="18"><o>complete</o><t>vollständig</t></e>
+ <e m="18" t="aj"><o>
+  <comparison>
+   <l1>dangerous</l1><l2>more dangerous</l2><l3>the most dangerous</l3>
+  </comparison>
+  dangerous</o><t>gefährlich</t></e>
+ <e m="18"><o>drink</o><t>das Getränk</t></e>
+ <e m="18"><o>exercise</o><t>die Übung</t></e>
+ <e m="18"><o>first</o><t>erster, zuerst</t></e>
+ <e m="18"><o>glass</o><t>das Glas</t></e>
+ <e m="18" t="aj"><o>
+  <comparison>
+   <l1>high</l1><l2>higher</l2><l3>the highest</l3>
+  </comparison>
+  high</o><t>hoch</t></e>
+ <e m="18" t="aj"><o>
+  <comparison>
+   <l1>interesting</l1><l2>more interesting</l2><l3>the most interesting</l3>
+  </comparison>
+  interesting</o><t>interessant</t></e>
+ <e m="18"><o>light</o><t>das Licht, hell, leicht</t></e>
+ <e m="18"><o>meaning</o><t>die Bedeutung, der Sinn</t></e>
+ <e m="18"><o>operation</o><t>die Operation</t></e>
+ <e m="18"><o>public transport</o><t>die öffentlichen Verkehrsmittel</t></e>
+ <e m="18" t="aj"><o>
+  <comparison>
+   <l1>sad</l1><l2>sadder</l2><l3>the saddest</l3>
+  </comparison>
+  sad</o><t>traurig</t></e>
+ <e m="18"><o>simple</o><t>einfach</t></e>
+ <e m="18"><o>still</o><t>immer noch</t></e>
+ <e m="18"><o>the same</o><t>der selbe</t></e>
+ <e m="18"><o>to book</o><t>buchen, vorbestellen</t></e>
+ <e m="18"><o>to cross</o><t>überqueren, kreuzen</t></e>
+ <e m="18"><o>to give</o><t>geben</t></e>
+ <e m="18"><o>to meet</o><t>treffen</t></e>
+ <e m="18"><o>to smell</o><t>riechen</t></e>
+ <e m="18"><o>to view</o><t>betrachten</t></e>
+ <e m="18"><o>user</o><t>der Benutzer</t></e>
+ <e m="18"><o>window</o><t>das Fenster</t></e>
+ <e m="19"><o>afternoon</o><t>der Nachmittag</t></e>
+ <e m="19"><o>area</o><t>die Fläche, das Gebiet</t></e>
+ <e m="19"><o>box</o><t>die Schachtel, der Kasten</t></e>
+ <e m="19"><o>character</o><t>der Charakter, das Wesen</t></e>
+ <e m="19"><o>computer</o><t>der Computer</t></e>
+ <e m="19" t="aj"><o>
+  <comparison>
+   <l1>dark</l1><l2>darker</l2><l3>the darkest</l3>
+  </comparison>
+  dark</o><t>dunkel</t></e>
+ <e m="19"><o>driver</o><t>der Fahrer</t></e>
+ <e m="19" t="aj"><o>
+  <comparison>
+   <l1>expensive</l1><l2>more expensive</l2><l3>the most expensive</l3>
+  </comparison>
+  expensive</o><t>teuer</t></e>
+ <e m="19"><o>fish</o><t>der Fisch</t></e>
+ <e m="19"><o>glasses</o><t>die Brille</t></e>
+ <e m="19"><o>hill</o><t>der Hügel</t></e>
+ <e m="19"><o>island</o><t>der Insel</t></e>
+ <e m="19"><o>line</o><t>die Linie, die Zeile</t></e>
+ <e m="19"><o>meat</o><t>das Fleisch</t></e>
+ <e m="19"><o>music</o><t>die Musik</t></e>
+ <e m="19"><o>opposite</o><t>das Gegenteil</t></e>
+ <e m="19"><o>people</o><t>das Volk, die Leute</t></e>
+ <e m="19"><o>pupil</o><t>der Schüler</t></e>
+ <e m="19" t="aj"><o>
+  <comparison>
+   <l1>safe</l1><l2>safer</l2><l3>the safest</l3>
+  </comparison>
+  safe</o><t>sicher</t></e>
+ <e m="19"><o>sister</o><t>die Schwester</t></e>
+ <e m="19"><o>stone</o><t>der Stein</t></e>
+ <e m="19"><o>the worst</o><t>der schlechteste</t></e>
+ <e m="19" t="v:re"><o>
+  <conjugation>
+   <t n="#3"><s1>I am going to borrow</s1><s2>you are going to borrow</s2><s3f>she is going to borrow</s3f><s3m>he is going to borrow</s3m><s3n>it is going to borrow</s3n><p1>we are going to borrow</p1><p2>you are going to borrow</p2><p3f common="1">they are going to borrow</p3f></t>
+   <t n="#2"><s1>I will borrow</s1><s2>you will borrow</s2><s3f>she will borrow</s3f><s3m>he will borrow</s3m><s3n>it will borrow</s3n><p1>we will borrow</p1><p2>you will borrow</p2><p3f common="1">they will borrow</p3f></t>
+  </conjugation>
+  to borrow</o><t>borgen</t></e>
+ <e m="19" t="v:re"><o>
+  <conjugation>
+   <t n="#3"><s1>I am going to cry</s1><s2>you are going to cry</s2><s3f>she is going to cry</s3f><s3m>he is going to cry</s3m><s3n>it is going to cry</s3n><p1>we are going to cry</p1><p2>you are going to cry</p2><p3f common="1">they are going to cry</p3f></t>
+   <t n="#2"><s1>I will cry</s1><s2>you will cry</s2><s3f>she will cry</s3f><s3m>he will cry</s3m><s3n>it will cry</s3n><p1>we will cry</p1><p2>you will cry</p2><p3f common="1">they will cry</p3f></t>
+  </conjugation>
+  to cry</o><t>schreien, weinen</t></e>
+ <e m="19" t="v:ir"><o>
+  <conjugation>
+   <t n="#3"><s1>I am going to go</s1><s2>you are going to go</s2><s3f>she is going to go</s3f><s3m>he is going to go</s3m><s3n>it is going to go</s3n><p1>we are going to go</p1><p2>you are going to go</p2><p3f common="1">they are going to go</p3f></t>
+   <t n="#2"><s1>I will go</s1><s2>you will go</s2><s3f>she will go</s3f><s3m>he will go</s3m><s3n>it will go</s3n><p1>we will go</p1><p2>you will go</p2><p3f common="1">they will go</p3f></t>
+  </conjugation>
+  to go</o><t>gehen, fahren</t></e>
+ <e m="19" t="v:re"><o>
+  <conjugation>
+   <t n="#3"><s1>I am going to mix</s1><s2>you are going to mix</s2><s3f>she is going to mix</s3f><s3m>he is going to mix</s3m><s3n>it is going to mix</s3n><p1>we are going to mix</p1><p2>you are going to mix</p2><p3f common="1">they are going to mix</p3f></t>
+   <t n="#2"><s1>I will mix</s1><s2>you will mix</s2><s3f>she will mix</s3f><s3m>he will mix</s3m><s3n>it will mix</s3n><p1>we will mix</p1><p2>you will mix</p2><p3f common="1">they will mix</p3f></t>
+  </conjugation>
+  to mix</o><t>mischen, vermischen</t></e>
+ <e m="19"><o>to snow</o><t>schneien</t></e>
+ <e m="19" t="v:re"><o>
+  <conjugation>
+   <t n="#3"><s1>I am going to visit</s1><s2>you are going to visit</s2><s3f>she is going to visit</s3f><s3m>he is going to visit</s3m><s3n>it is going to visit</s3n><p1>we are going to visit</p1><p2>you are going to visit</p2><p3f common="1">they are going to vis</p3f></t>
+   <t n="#2"><s1>I will visit</s1><s2>you will visit</s2><s3f>she will visit</s3f><s3m>he will visit</s3m><s3n>it will visit</s3n><p1>we will visit</p1><p2>you will visit</p2><p3f common="1">they will visit</p3f></t>
+  </conjugation>
+  to visit</o><t>besuchen</t></e>
+ <e m="19"><o>valley</o><t>das Tal</t></e>
+ <e m="19"><o>wood</o><t>das Holz</t></e>
+ <e m="20"><o>again</o><t>wieder</t></e>
+ <e m="20"><o>arm</o><t>der Arm</t></e>
+ <e m="20" t="aj"><o>
+  <comparison>
+   <l1>beautiful</l1><l2>more beautiful</l2><l3>the most beautiful</l3>
+  </comparison>
+  beautiful</o><t>schön</t></e>
+ <e m="20"><o>boy</o><t>der Junge</t></e>
+ <e m="20" t="aj"><o>
+  <comparison>
+   <l1>cheap</l1><l2>cheaper</l2><l3>the cheapest</l3>
+  </comparison>
+  cheap</o><t>billig</t></e>
+ <e m="20"><o>conference</o><t>die Konferenz</t></e>
+ <e m="20"><o>date</o><t>das Datum, die Verabredung</t></e>
+ <e m="20"><o>drug</o><t>die Arznei, das Rauschgift</t></e>
+ <e m="20"><o>experiment</o><t>das Experiment, der Versuch</t></e>
+ <e m="20"><o>flower</o><t>die Blume</t></e>
+ <e m="20"><o>God</o><t>der Gott</t></e>
+ <e m="20"><o>holiday</o><t>der Feiertag, die Ferien, der Urlaub</t></e>
+ <e m="20"><o>job</o><t>die Arbeit, die Arbeitsstelle</t></e>
+ <e m="20"><o>litre</o><t>der Liter</t></e>
+ <e m="20"><o>melody</o><t>die Melodie</t></e>
+ <e m="20"><o>must</o><t>müssen</t></e>
+ <e m="20"><o>other</o><t>anderer</t></e>
+ <e m="20"><o>quality</o><t>die Qualität</t></e>
+ <e m="20"><o>sand</o><t>der Sand</t></e>
+ <e m="20"><o>size</o><t>die Größe</t></e>
+ <e m="20"><o>store</o><t>das Kaufhaus, das Warenhaus, das Lager</t></e>
+ <e m="20" t="aj"><o>
+  <comparison>
+   <l1>thick</l1><l2>thicker</l2><l3>the thickest</l3>
+  </comparison>
+  thick</o><t>dick</t></e>
+ <e m="20" t="v:ir"><o>
+  <conjugation>
+   <t n="#3"><s1>I am not going to break</s1><s2>you are not going to break</s2><s3f>she is not going to break</s3f><s3m>he is not going to break</s3m><s3n>it is not going to break</s3n><p1>we are not going to break</p1><p2>you are not going to break</p2><p3f common="1">they are not going to break</p3f></t>
+   <t n="#2"><s1>I will not break</s1><s2>you will not break</s2><s3f>she will not  break</s3f><s3m>he will not break</s3m><s3n>it will not break</s3n><p1>we will not break</p1><p2>you will not break</p2><p3f common="1">they will not break</p3f></t>
+  </conjugation>
+  to break</o><t>brechen, zerbrechen</t></e>
+ <e m="20" t="v:ir"><o>
+  <conjugation>
+   <t n="#3"><s1>I am not going to cut</s1><s2>you are not going to cut</s2><s3f>she is not going to cut</s3f><s3m>he is not going to cut</s3m><s3n>it is not going to cut</s3n><p1>we are not going to cut</p1><p2>you are not going to cut</p2><p3f common="1">they are not going to cut</p3f></t>
+   <t n="#2"><s1>I will not cut</s1><s2>you will not cut</s2><s3f>she will not cut</s3f><s3m>he will not cut</s3m><s3n>it will not cut</s3n><p1>we will not cut</p1><p2>you will not cut</p2><p3f common="1">they will not cut</p3f></t>
+  </conjugation>
+  to cut</o><t>schneiden</t></e>
+ <e m="20"><o>to happen</o><t>passieren, geschehen</t></e>
+ <e m="20" t="v:re"><o>
+  <conjugation>
+   <t n="#3"><s1>I am not going to need</s1><s2>you are not going to need</s2><s3f>she is not going to need</s3f><s3m>he is not going to need</s3m><s3n>it is not going to need</s3n><p1>we are not going to need</p1><p2>you are not going to need</p2><p3f common="1">they are not going to need</p3f></t>
+   <t n="#2"><s1>I will not need</s1><s2>you will not need</s2><s3f>she will not need</s3f><s3m>he will not need</s3m><s3n>it will not need</s3n><p1>we will not need</p1><p2>you will not need</p2><p3f common="1">they will not need</p3f></t>
+  </conjugation>
+  to need</o><t>brauchen</t></e>
+ <e m="20" t="v:re"><o>
+  <conjugation>
+   <t n="#3"><s1>I am not going to sound</s1><s2>you are not going to sound</s2><s3f>she is not going to sound</s3f><s3m>he is not going to sound</s3m><s3n>it is not going to sound</s3n><p1>we are not going to sound</p1><p2>you are not going to sound</p2><p3f common="1">they are not going to sound</p3f></t>
+   <t n="#2"><s1>I will not sound</s1><s2>you will not sound</s2><s3f>she will not sound</s3f><s3m>he will not sound</s3m><s3n>it will not sound</s3n><p1>we will not sound</p1><p2>you will not sound</p2><p3f common="1">they will not sound</p3f></t>
+  </conjugation>
+  to sound</o><t>klingen</t></e>
+ <e m="20" t="v:re"><o>
+  <conjugation>
+   <t n="#3"><s1>I am not going to wait</s1><s2>you are not going to wait</s2><s3f>she is not going to wait</s3f><s3m>he is not going to wait</s3m><s3n>it is not going to wait</s3n><p1>we are not going to wait</p1><p2>you are not going to wait</p2><p3f common="1">they are not going to wait</p3f></t>
+   <t n=""><s1>I will not wait</s1><s2>you will not wait</s2><s3f>she will not wait</s3f><s3m>he will not wait</s3m><s3n>it will not wait</s3n><p1>we will not wait</p1><p2>you will not wait</p2><p3f common="1">they will not wait</p3f></t>
+   <t n="#2"><s1>I will not wait</s1><s2>you will not wait</s2><s3f>she will not wait</s3f><s3m>he will not wait</s3m><s3n>it will not wait</s3n><p1>we will not wait</p1><p2>you will not wait</p2><p3f common="1">they will not wait</p3f></t>
+  </conjugation>
+  to wait</o><t>warten</t></e>
+ <e m="20"><o>vegetable</o><t>das Gemüse</t></e>
+ <e m="20"><o>worse</o><t>schlechter</t></e>
+ <e m="21"><o>age</o><t>das Alter</t></e>
+ <e m="21"><o>army</o><t>die Armee</t></e>
+ <e m="21"><o>bedroom</o><t>das Schlafzimmer</t></e>
+ <e m="21"><o>boyfriend</o><t>der Freund</t></e>
+ <e m="21"><o>cheese</o><t>der Käse</t></e>
+ <e m="21"><o>congratulations</o><t>die Glückwünsche</t></e>
+ <e m="21"><o>daughter</o><t>die Tochter</t></e>
+ <e m="21"><o>dry</o><t>trocken</t></e>
+ <e m="21"><o>eye</o><t>das Auge</t></e>
+ <e m="21"><o>food</o><t>das Essen, das Lebensmittel</t></e>
+ <e m="21" t="aj"><o>
+  <comparison>
+   <l1>good</l1><l2>better</l2><l3>the best</l3>
+  </comparison>
+  good</o><t>gut</t></e>
+ <e m="21"><o>home</o><t>das Zuhause, das Haus</t></e>
+ <e m="21"><o>joke</o><t>der Witz</t></e>
+ <e m="21"><o>little</o><t>klein, wenig</t></e>
+ <e m="21"><o>member</o><t>das Mitglied</t></e>
+ <e m="21"><o>name</o><t>der Name</t></e>
+ <e m="21"><o>out</o><t>heraus, hinaus, draußen</t></e>
+ <e m="21"><o>queen</o><t>die Königin</t></e>
+ <e m="21"><o>scientist</o><t>der Wissenschaftler</t></e>
+ <e m="21"><o>skin</o><t>die Haut</t></e>
+ <e m="21"><o>storm</o><t>der Sturm</t></e>
+ <e m="21" t="aj"><o>
+  <comparison>
+   <l1>thin</l1><l2>thinner</l2><l3>the thinnest</l3>
+  </comparison>
+  thin</o><t>dünn</t></e>
+ <e m="21"><o>to bring</o><t>bringen</t></e>
+ <e m="21"><o>to dance</o><t>tanzen</t></e>
+ <e m="21"><o>to hate</o><t>hassen</t></e>
+ <e m="21"><o>to paint</o><t>anstreichen, malen</t></e>
+ <e m="21"><o>to speak</o><t>sprechen</t></e>
+ <e m="21"><o>to walk</o><t>gehen, wandern</t></e>
+ <e m="21"><o>verb</o><t>das Verb</t></e>
+ <e m="21" t="aj"><o>
+  <comparison>
+   <l1>young</l1><l2>younger</l2><l3>the youngest</l3>
+  </comparison>
+  young</o><t>jung</t></e>
+ <e m="22"><o>air</o><t>die Luft</t></e>
+ <e m="22"><o>around</o><t>um ... herum, ungefähr</t></e>
+ <e m="22"><o>beef</o><t>das Rindfleisch</t></e>
+ <e m="22"><o>breakfast</o><t>das Frühstück</t></e>
+ <e m="22"><o>chicken</o><t>das Huhn, das Hähnchen</t></e>
+ <e m="22"><o>consonant</o><t>der Konsonant</t></e>
+ <e m="22"><o>dead</o><t>tot</t></e>
+ <e m="22"><o>duck</o><t>die Ente</t></e>
+ <e m="22"><o>face</o><t>das Gesicht</t></e>
+ <e m="22"><o>foot</o><t>der Fuß</t></e>
+ <e m="22"><o>good luck</o><t>Viel Glück</t></e>
+ <e m="22"><o>horror</o><t>der Schrecken</t></e>
+ <e m="22"><o>juice</o><t>der Saft</t></e>
+ <e m="22" t="aj"><o>
+  <comparison>
+   <l1>long</l1><l2>longer</l2><l3>the longest</l3>
+  </comparison>
+  long</o><t>lang</t></e>
+ <e m="22"><o>memory</o><t>das Gedächtnis, der Speicher, die Erinnerung</t></e>
+ <e m="22"><o>nation</o><t>die Nation</t></e>
+ <e m="22"><o>outside</o><t>draußen, außerhalb</t></e>
+ <e m="22"><o>question</o><t>die Frage</t></e>
+ <e m="22"><o>score</o><t>die Punktzahl</t></e>
+ <e m="22"><o>sky</o><t>der Himmel</t></e>
+ <e m="22"><o>story</o><t>die Geschichte, die Erzählung</t></e>
+ <e m="22"><o>thing</o><t>das Ding, die Sache</t></e>
+ <e m="22"><o>to build</o><t>bauen</t></e>
+ <e m="22"><o>to die</o><t>sterben</t></e>
+ <e m="22"><o>to hear</o><t>hören</t></e>
+ <e m="22"><o>to practise</o><t>üben, ausüben</t></e>
+ <e m="22"><o>to spell</o><t>buchstabieren</t></e>
+ <e m="22"><o>to wonder</o><t>sich fragen, sich wundern</t></e>
+ <e m="22"><o>version</o><t>die Version</t></e>
+ <e m="23"><o>airport</o><t>der Flughafen</t></e>
+ <e m="23"><o>article</o><t>der Artikel, der Gegenstand</t></e>
+ <e m="23"><o>beer</o><t>das Bier</t></e>
+ <e m="23"><o>bridge</o><t>die Brücke</t></e>
+ <e m="23"><o>child</o><t>das Kind</t></e>
+ <e m="23"><o>continent</o><t>der Kontinent</t></e>
+ <e m="23" t="aj"><o>
+  <comparison>
+   <l1>dear</l1><l2>dearer</l2><l3>the dearest</l3>
+  </comparison>
+  dear</o><t>lieb</t></e>
+ <e m="23"><o>ear</o><t>das Ohr</t></e>
+ <e m="23" t="aj"><o>
+  <comparison>
+   <l1>false</l1><l2>falser</l2><l3>the falsest</l3>
+  </comparison>
+  false</o><t>falsch</t></e>
+ <e m="23"><o>for example</o><t>zum Beispiel</t></e>
+ <e m="23"><o>grandchild</o><t>der Enkel</t></e>
+ <e m="23"><o>horse</o><t>das Pferd</t></e>
+ <e m="23"><o>just</o><t>gerecht, gerade, genau</t></e>
+ <e m="23"><o>lorry</o><t>der Lastwagen</t></e>
+ <e m="23"><o>metal</o><t>das Metall</t></e>
+ <e m="23" t="aj"><o>
+  <comparison>
+   <l1>natural</l1><l2>more natural</l2><l3>the most natural</l3>
+  </comparison>
+  natural</o><t>natürlich</t></e>
+ <e m="23"><o>over</o><t>über, hinüber, vorbei</t></e>
+ <e m="23" t="aj"><o>
+  <comparison>
+   <l1>quick</l1><l2>quicker</l2><l3>the quickest</l3>
+  </comparison>
+  quick</o><t>schnell</t></e>
+ <e m="23"><o>screen</o><t>der Bildschirm</t></e>
+ <e m="23" t="aj"><o>
+  <comparison>
+   <l1>slow</l1><l2>slower</l2><l3>the slowest</l3>
+  </comparison>
+  slow</o><t>langsam</t></e>
+ <e m="23"><o>street</o><t>die Straße</t></e>
+ <e m="23"><o>this</o><t>dieser</t></e>
+ <e m="23"><o>to burn</o><t>brennen, verbrennen</t></e>
+ <e m="23"><o>to do the homework</o><t>die Hausaufgaben machen</t></e>
+ <e m="23"><o>to help</o><t>helfen</t></e>
+ <e m="23"><o>to press</o><t>pressen, drücken</t></e>
+ <e m="23"><o>to spend</o><t>(Geld) ausgeben, (Zeit) verbringen</t></e>
+ <e m="23"><o>today</o><t>heute</t></e>
+ <e m="23"><o>village</o><t>das Dorf</t></e>
+ <e m="24"><o>alive</o><t>lebend, lebendig</t></e>
+ <e m="24"><o>as</o><t>als, wie</t></e>
+ <e m="24"><o>before</o><t>vor, vorher, bevor</t></e>
+ <e m="24" t="aj"><o>
+  <comparison>
+   <l1>broken</l1><l2>more broken</l2><l3>the most broken</l3>
+  </comparison>
+  broken</o><t>kaputt</t></e>
+ <e m="24"><o>chocolate</o><t>die Schokolade</t></e>
+ <e m="24"><o>cook</o><t>der Koch</t></e>
+ <e m="24"><o>death</o><t>der Tod</t></e>
+ <e m="24" t="aj"><o>
+  <comparison>
+   <l1>early</l1><l2>earlier</l2><l3>the earliest</l3>
+  </comparison>
+  early</o><t>früh</t></e>
+ <e m="24"><o>family</o><t>die Familie</t></e>
+ <e m="24"><o>forest</o><t>der Wald</t></e>
+ <e m="24"><o>grandmother</o><t>die Großmutter</t></e>
+ <e m="24"><o>hospital</o><t>das Krankenhaus</t></e>
+ <e m="24"><o>key</o><t>der Schlüssel</t></e>
+ <e m="24" t="aj"><o>
+  <comparison>
+   <l1>loud</l1><l2>louder</l2><l3>the loudest</l3>
+  </comparison>
+  loud</o><t>laut</t></e>
+ <e m="24"><o>method</o><t>die Methode</t></e>
+ <e m="24"><o>nature</o><t>die Natur</t></e>
+ <e m="24"><o>parents</o><t>die Eltern</t></e>
+ <e m="24" t="aj"><o>
+  <comparison>
+   <l1>quiet</l1><l2>more quiet</l2><l3>the most quiet</l3>
+  </comparison>
+  quiet</o><t>ruhig</t></e>
+ <e m="24"><o>sea</o><t>das Meer</t></e>
+ <e m="24" t="aj"><o>
+  <comparison>
+   <l1>small</l1><l2>smaller</l2><l3>the smallest</l3>
+  </comparison>
+  small</o><t>klein</t></e>
+ <e m="24" t="aj"><o>
+  <comparison>
+   <l1>strong</l1><l2>stronger</l2><l3>the strongest</l3>
+  </comparison>
+  strong</o><t>stark</t></e>
+ <e m="24"><o>thought</o><t>der Gedanke</t></e>
+ <e m="24"><o>to buy</o><t>kaufen</t></e>
+ <e m="24"><o>to dream</o><t>träumen</t></e>
+ <e m="24"><o>to hit</o><t>schlagen</t></e>
+ <e m="24"><o>to read</o><t>lesen</t></e>
+ <e m="24"><o>to stay</o><t>bleiben</t></e>
+ <e m="24"><o>together</o><t>zusammen</t></e>
+ <e m="24"><o>visit</o><t>der Besuch</t></e>
+ <e m="25"><o>all</o><t>alles, jeder, ganz</t></e>
+ <e m="25"><o>at first</o><t>zuerst</t></e>
+ <e m="25"><o>bear</o><t>der Bär</t></e>
+ <e m="25"><o>beginning</o><t>der Anfang, der Beginn</t></e>
+ <e m="25"><o>brother</o><t>der Bruder</t></e>
+ <e m="25"><o>Christmas</o><t>Weihnachten</t></e>
+ <e m="25" t="aj"><o>
+  <comparison>
+   <l1>cool</l1><l2>cooler</l2><l3>the coolest</l3>
+  </comparison>
+  cool</o><t>kühl</t></e>
+ <e m="25"><o>desk</o><t>der Schreibtisch</t></e>
+ <e m="25"><o>earth</o><t>die Erde</t></e>
+ <e m="25" t="aj"><o>
+  <comparison>
+   <l1>famous</l1><l2>more famous</l2><l3>the most famous</l3>
+  </comparison>
+  famous</o><t>berühmt</t></e>
+ <e m="25"><o>forever</o><t>für immer</t></e>
+ <e m="25"><o>grandparents</o><t>die Großeltern</t></e>
+ <e m="25" t="aj"><o>
+  <comparison>
+   <l1>hot</l1><l2>hotter</l2><l3>the hottest</l3>
+  </comparison>
+  hot</o><t>heiß</t></e>
+ <e m="25"><o>kind</o><t>die Art, freundlich</t></e>
+ <e m="25" t="aj"><o>
+  <comparison>
+   <l1>low</l1><l2>lower</l2><l3>the lowest</l3>
+  </comparison>
+  low</o><t>niedrig</t></e>
+ <e m="25"><o>middle</o><t>die Mitte</t></e>
+ <e m="25"><o>never</o><t>nie, niemals</t></e>
+ <e m="25"><o>quite</o><t>ziemlich</t></e>
+ <e m="25"><o>seat</o><t>der Sitz, der Platz</t></e>
+ <e m="25"><o>so</o><t>so, also</t></e>
+ <e m="25"><o>student</o><t>der Student, der Schüler</t></e>
+ <e m="25" t="aj"><o>
+  <comparison>
+   <l1>tiny</l1><l2>tinier</l2><l3>the tiniest</l3>
+  </comparison>
+  tiny</o><t>winzig</t></e>
+ <e m="25"><o>to call</o><t>rufen, nennen, anrufen</t></e>
+ <e m="25"><o>to drink</o><t>trinken</t></e>
+ <e m="25"><o>to hold</o><t>halten</t></e>
+ <e m="25"><o>to remember</o><t>sich erinnern an</t></e>
+ <e m="25"><o>to steal</o><t>stehlen</t></e>
+ <e m="25"><o>tomorrow</o><t>morgen</t></e>
+ <e m="25"><o>voice</o><t>die Stimme</t></e>
+ <e m="26"><o>all right</o><t>in Ordnung</t></e>
+ <e m="26"><o>at home</o><t>zu Hause</t></e>
+ <e m="26"><o>behaviour</o><t>das Benehmen</t></e>
+ <e m="26"><o>building</o><t>das Gebäude</t></e>
+ <e m="26"><o>church</o><t>die Kirche</t></e>
+ <e m="26"><o>corner</o><t>die Ecke</t></e>
+ <e m="26"><o>dictionary</o><t>das Wörterbuch</t></e>
+ <e m="26" t="aj"><o>
+  <comparison>
+   <l1>easy</l1><l2>easier</l2><l3>the easiest</l3>
+  </comparison>
+  easy</o><t>einfach, leicht</t></e>
+ <e m="26"><o>fantastic</o><t>fantastisch</t></e>
+ <e m="26"><o>free</o><t>frei, gratis</t></e>
+ <e m="26"><o>grass</o><t>das Gras</t></e>
+ <e m="26"><o>hotel room</o><t>das Hotelzimmer</t></e>
+ <e m="26"><o>king</o><t>der König</t></e>
+ <e m="26"><o>machine</o><t>die Maschine</t></e>
+ <e m="26"><o>military</o><t>militärisch</t></e>
+ <e m="26" t="aj"><o>
+  <comparison>
+   <l1>new</l1><l2>newer</l2><l3>the newest</l3>
+  </comparison>
+  new</o><t>neu</t></e>
+ <e m="26"><o>personal</o><t>persönlich</t></e>
+ <e m="26"><o>radio</o><t>das Radio</t></e>
+ <e m="26"><o>security</o><t>die Sicherheit</t></e>
+ <e m="26" t="aj"><o>
+  <comparison>
+   <l1>soft</l1><l2>softer</l2><l3>the softest</l3>
+  </comparison>
+  soft</o><t>weich, leise</t></e>
+ <e m="26" t="aj"><o>
+  <comparison>
+   <l1>stupid</l1><l2>more stupid</l2><l3>the most stupid</l3>
+  </comparison>
+  stupid</o><t>dumm</t></e>
+ <e m="26" t="aj"><o>
+  <comparison>
+   <l1>tired</l1><l2>more tired</l2><l3>the most tired</l3>
+  </comparison>
+  tired</o><t>müde</t></e>
+ <e m="26"><o>to carry</o><t>tragen</t></e>
+ <e m="26"><o>to drive</o><t>(selbst) fahren</t></e>
+ <e m="26"><o>to hope</o><t>hoffen</t></e>
+ <e m="26"><o>to repeat</o><t>wiederholen</t></e>
+ <e m="26"><o>to stop</o><t>anhalten</t></e>
+ <e m="26"><o>tooth</o><t>der Zahn</t></e>
+ <e m="26"><o>wall</o><t>die Wand, die Mauer</t></e>
+ <e m="27"><o>almost</o><t>fast, beinahe</t></e>
+ <e m="27"><o>at last</o><t>zuletzt, endlich</t></e>
+ <e m="27"><o>bell</o><t>die Glocke, die Klingel</t></e>
+ <e m="27"><o>bus</o><t>der Linienbus</t></e>
+ <e m="27"><o>cigarette</o><t>die Zigarette</t></e>
+ <e m="27" t="aj"><o>
+  <comparison>
+   <l1>correct</l1><l2>more correct</l2><l3>the most correct</l3>
+  </comparison>
+  correct</o><t>richtig</t></e>
+ <e m="27"><o>difference</o><t>der Unterschied</t></e>
+ <e m="27"><o>egg</o><t>das Ei</t></e>
+ <e m="27" t="aj"><o>
+  <comparison>
+   <l1>far</l1><l2>further</l2><l3>the furthest</l3>
+  </comparison>
+  far</o><t>weit</t></e>
+ <e m="27" t="aj"><o>
+  <comparison>
+   <l1>fresh</l1><l2>fresher</l2><l3>the freshest</l3>
+  </comparison>
+  fresh</o><t>frisch</t></e>
+ <e m="27" t="aj"><o>
+  <comparison>
+   <l1>great</l1><l2>greater</l2><l3>the greatest</l3>
+  </comparison>
+  great</o><t>groß, prima</t></e>
+ <e m="27"><o>house</o><t>das Haus</t></e>
+ <e m="27"><o>kitchen</o><t>die Küche</t></e>
+ <e m="27" t="aj"><o>
+  <comparison>
+   <l1>mad</l1><l2>mader</l2><l3>the madest</l3>
+  </comparison>
+  mad</o><t>verrückt</t></e>
+ <e m="27"><o>milk</o><t>die Milch</t></e>
+ <e m="27"><o>next</o><t>der nächste</t></e>
+ <e m="27"><o>phrase</o><t>der Satz</t></e>
+ <e m="27"><o>ready</o><t>fertig</t></e>
+ <e m="27"><o>sentence</o><t>der Satz</t></e>
+ <e m="27"><o>soldier</o><t>der Soldat</t></e>
+ <e m="27"><o>subject</o><t>das Schulfach, das Thema, das Subjekt</t></e>
+ <e m="27"><o>to act</o><t>handeln</t></e>
+ <e m="27"><o>to catch</o><t>fangen</t></e>
+ <e m="27"><o>to eat</o><t>essen</t></e>
+ <e m="27"><o>to hurry</o><t>sich beeilen</t></e>
+ <e m="27"><o>to report</o><t>berichten</t></e>
+ <e m="27"><o>to study</o><t>lernen</t></e>
+ <e m="27"><o>tooth paste</o><t>die Zahnpasta</t></e>
+ <e m="27"><o>war</o><t>der Krieg</t></e>
+ <e m="28"><o>along</o><t>entlang</t></e>
+ <e m="28"><o>at least</o><t>wenigstens, mindestens</t></e>
+ <e m="28"><o>better</o><t>besser</t></e>
+ <e m="28"><o>cable</o><t>das Kabel</t></e>
+ <e m="28"><o>cinema</o><t>das Kino</t></e>
+ <e m="28"><o>cost</o><t>die Kosten</t></e>
+ <e m="28" t="aj"><o>
+  <comparison>
+   <l1>different</l1><l2>more different</l2><l3>the most different</l3>
+  </comparison>
+  different</o><t>verschieden, anders</t></e>
+ <e m="28" t="aj"><o>
+  <comparison>
+   <l1>empty</l1><l2>emptier</l2><l3>the emptiest</l3>
+  </comparison>
+  empty</o><t>leer</t></e>
+ <e m="28"><o>farm</o><t>der Bauernhof</t></e>
+ <e m="28"><o>friend</o><t>der Freund</t></e>
+ <e m="28"><o>group</o><t>die Gruppe</t></e>
+ <e m="28"><o>how</o><t>wie</t></e>
+ <e m="28"><o>knife</o><t>das Messer</t></e>
+ <e m="28"><o>main road</o><t>die Haupstraße</t></e>
+ <e m="28"><o>minister</o><t>der Minister</t></e>
+ <e m="28" t="aj"><o>
+  <comparison>
+   <l1>nice</l1><l2>nicer</l2><l3>the nicest</l3>
+  </comparison>
+  nice</o><t>nett, schön</t></e>
+ <e m="28"><o>planet</o><t>der Planet</t></e>
+ <e m="28"><o>region</o><t>die Region, der Bereich</t></e>
+ <e m="28"><o>service</o><t>der Dienst, der Service</t></e>
+ <e m="28"><o>some</o><t>einige, ein paar</t></e>
+ <e m="28"><o>such</o><t>solche</t></e>
+ <e m="28"><o>to add</o><t>hinzufügen</t></e>
+ <e m="28"><o>to change</o><t>ändern, sich ändern, (Geld) wechseln</t></e>
+ <e m="28"><o>to explain</o><t>erklären</t></e>
+ <e m="28"><o>to jump</o><t>springen</t></e>
+ <e m="28"><o>to return</o><t>zurückkehren, zurückgeben</t></e>
+ <e m="28"><o>to talk</o><t>sprechen, reden</t></e>
+ <e m="28"><o>top</o><t>die Spitze</t></e>
+ <e m="28"><o>way</o><t>der Weg, die Art und Weise</t></e>
+ <e m="29"><o>already</o><t>schon, bereits</t></e>
+ <e m="29"><o>at the moment</o><t>im Augenblick</t></e>
+ <e m="29" t="aj"><o>
+  <comparison>
+   <l1>big</l1><l2>bigger</l2><l3>the biggest</l3>
+  </comparison>
+  big</o><t>groß</t></e>
+ <e m="29"><o>cake</o><t>der Kuchen</t></e>
+ <e m="29"><o>circle</o><t>der Kreis</t></e>
+ <e m="29"><o>could</o><t>konnte, könnte</t></e>
+ <e m="29" t="aj"><o>
+  <comparison>
+   <l1>difficult</l1><l2>more difficult</l2><l3>the most difficult</l3>
+  </comparison>
+  difficult</o><t>schwierig, schwer</t></e>
+ <e m="29"><o>end</o><t>das Ende</t></e>
+ <e m="29"><o>farmer</o><t>der Bauer</t></e>
+ <e m="29"><o>friendly</o><t>freundlich</t></e>
+ <e m="29"><o>guest</o><t>der Gast</t></e>
+ <e m="29"><o>hunger</o><t>der Hunger</t></e>
+ <e m="29"><o>lake</o><t>der See</t></e>
+ <e m="29"><o>majority</o><t>die Mehrheit</t></e>
+ <e m="29"><o>mistake</o><t>der Fehler</t></e>
+ <e m="29"><o>night</o><t>die Nacht</t></e>
+ <e m="29"><o>player</o><t>der Spieler</t></e>
+ <e m="29"><o>respect</o><t>der Respekt</t></e>
+ <e m="29"><o>sex</o><t>das Geschlecht</t></e>
+ <e m="29"><o>somebody</o><t>jemand</t></e>
+ <e m="29"><o>suit</o><t>der Anzug</t></e>
+ <e m="29"><o>to agree</o><t>zustimmen, sich einigen</t></e>
+ <e m="29"><o>to check</o><t>prüfen, überprüfen</t></e>
+ <e m="29"><o>to fall</o><t>fallen</t></e>
+ <e m="29"><o>to kill</o><t>töten</t></e>
+ <e m="29"><o>to sail</o><t>segeln</t></e>
+ <e m="29"><o>to taste</o><t>schmecken</t></e>
+ <e m="29"><o>topic</o><t>das Thema</t></e>
+ <e m="29" t="aj"><o>
+  <comparison>
+   <l1>weak</l1><l2>weaker</l2><l3>the weakest</l3>
+  </comparison>
+  weak</o><t>schwach</t></e>
+ <e m="4"><o>also</o><t>auch, außerdem</t></e>
+ <e m="4"><o>although</o><t>obwohl</t></e>
+ <e m="4"><o>and</o><t>und</t></e>
+ <e m="4"><o>because</o><t>weil</t></e>
+ <e m="4"><o>besides</o><t>außerdem</t></e>
+ <e m="4"><o>but</o><t>aber, sondern</t></e>
+ <e m="4"><o>despite</o><t>trotz</t></e>
+ <e m="4"><o>either ... or</o><t>entweder ... oder</t></e>
+ <e m="4"><o>however</o><t>jedoch, aber</t></e>
+ <e m="4"><o>if</o><t>wenn, ob</t></e>
+ <e m="4"><o>instead of</o><t>anstatt</t></e>
+ <e m="4"><o>like</o><t>wie</t></e>
+ <e m="4"><o>neither ... nor</o><t>weder ... noch</t></e>
+ <e m="4"><o>not yet</o><t>noch nicht</t></e>
+ <e m="4"><o>or</o><t>oder</t></e>
+ <e m="4"><o>such as</o><t>wie zum Beispiel</t></e>
+ <e m="4"><o>than</o><t>als</t></e>
+ <e m="4"><o>therefore</o><t>deshalb, daher</t></e>
+ <e m="4"><o>though</o><t>obwohl, trotzdem</t></e>
+ <e m="4"><o>unless</o><t>wenn nicht, es sei denn</t></e>
+ <e m="4"><o>until</o><t>bis</t></e>
+ <e m="4"><o>when</o><t>wann, als</t></e>
+ <e m="4"><o>whether</o><t>ob</t></e>
+ <e m="30"><o x="I've never been good at Maths. This exercise is beyond my ability.">ability</o><t>die Fähigkeit</t></e>
+ <e m="30"><o x="Before you get a job, you normally need to write an application.">application</o><t>die Anwendung, die Bewerbung</t></e>
+ <e m="30"><o x="A good advertising campaign often helps to sell more products.">campaign</o><t>die Kampagne, der Feldzug</t></e>
+ <e m="30"><o x="I know you do not like this but we must do it nevertheless. There's no other choice.">choice</o><t>die Auswahl, die Wahl</t></e>
+ <e m="30"><o x="Rule no.1: When the teacher is talking, do not start a conversation with your neighbour.">conversation</o><t>die Unterhaltung</t></e>
+ <e m="30"><o x="1.6 km is the same distance as 1 mile.">distance</o><t>die Entfernung</t></e>
+ <e m="30"><o x="In a democracy there is an election to decide who will be president.">election</o><t>die Wahl</t></e>
+ <e m="30" t="aj"><o x="Watching football is a lot more exciting than doing homework.">
+  <comparison>
+   <l1>exciting</l1><l2>more exciting</l2><l3>the most exciting</l3>
+  </comparison>
+  exciting</o><t>aufregend, spannend</t></e>
+ <e m="30"><o x="Many women worry that eating chocolate is bad for their figure.">figure</o><t>die Figur, die Gestalt</t></e>
+ <e m="30"><o x="When people want to sell their cars they often put a sign saying &quot;for sale&quot; into the car.">for sale</o><t>zu verkaufen</t></e>
+ <e m="30"><o x="Old people sometimes complain that there is not enough law and order in our country.">law</o><t>das Gesetz, das Recht</t></e>
+ <e m="30" t="aj"><o x="In order to pass this class it's absolutely necessary to know your basic vocabulary.">
+  <comparison>
+   <l1>necessary</l1><l2>more necessary</l2><l3>the most necessary</l3>
+  </comparison>
+  necessary</o><t>notwendig, nötig</t></e>
+ <e m="30"><o x="OPEC stands for &quot;organisation of petroleum exporting countries&quot;.">organisation</o><t>die Organisation</t></e>
+ <e m="30"><o x="Science fiction films are fantasy, they are not real.">real</o><t>wirklich</t></e>
+ <e m="30"><o x="Selling sand in the desert does not make sense.">sense</o><t>der Sinn, das Gefühl</t></e>
+ <e m="30" t="aj"><o x="Jenny has a top job at a bank. When she goes to work she always wears smart clothes.">
+  <comparison>
+   <l1>smart</l1><l2>smarter</l2><l3>the smartest</l3>
+  </comparison>
+  smart</o><t>elegant, schick, schlau</t></e>
+ <e m="30" t="aj"><o x="Mr. B. does not accept any nonsense in his classroom. He is a very strict teacher.">
+  <comparison>
+   <l1>strict</l1><l2>stricter</l2><l3>the strictest</l3>
+  </comparison>
+  strict</o><t>streng</t></e>
+ <e m="30" t="aj"><o x="When the boss comes back tomorrow, the office must look neat and tidy again.">
+  <comparison>
+   <l1>tidy</l1><l2>tidier</l2><l3>the tidiest</l3>
+  </comparison>
+  tidy</o><t>ordentlich</t></e>
+ <e m="30"><o x="Some religious fundamentalists seem to believe that the world was created in seven days.">to believe</o><t>glauben, meinen, denken</t></e>
+ <e m="30" t="v:re"><o x="Policeman: So you saw the man who robbed that bank. Can you try to describe him?">
+  <conjugation>
+   <t n="PrSi"><s1>I describe</s1><s2>you describe</s2><s3f>she describes</s3f><s3m>he describes</s3m><s3n>it describes</s3n><p1>we describe</p1><p2>you describe</p2><p3f common="1">they describe</p3f></t>
+  </conjugation>
+  to describe</o><t>beschreiben</t></e>
+ <e m="30"><o x="Don't ask a woman her age. You have to guess it.">to guess</o><t>raten, erraten, schätzen</t></e>
+ <e m="30"><o x="The machine is fine. do not worry about the red light.. It's best to ignore it.">to ignore</o><t>ignorieren</t></e>
+ <e m="30"><o x="Good morning, Ms Miller. I'd like to introduce my new assistant to you.">to introduce</o><t>vorstellen, einführen</t></e>
+ <e m="30"><o x="It’s a good idea to lock all outside doors at night.">to lock</o><t>verschließen</t></e>
+ <e m="30"><o x="Do you really think we should tell our boss about this problem? - Yes, we have to mention it.">to mention</o><t>erwähnen</t></e>
+ <e m="30"><o x="Sorry, I must go now. I need to prepare the food for tomorrow's party.">to prepare</o><t>vorbereiten, bereiten</t></e>
+ <e m="30"><o x="Hello, I'd like to reserve a double room for two nights from tomorrow, please.">to reserve</o><t>reservieren</t></e>
+ <e m="30"><o x="Another word for &quot;normally&quot; is &quot;usually&quot;.">usually</o><t>üblicherweise, gewöhnlich</t></e>
+ <e m="31"><o>birth</o><t>die Geburt</t></e>
+ <e m="31"><o x="Paris is the capital of France.">capital</o><t>das Kapital, die Hauptstadt</t></e>
+ <e m="31"><o x="A person who attends the same class is my classmate.">classmate</o><t>der Klassenkamerad</t></e>
+ <e m="31"><o>description</o><t>die Beschreibung</t></e>
+ <e m="31"><o>division</o><t>die Teilung, die Abteilung</t></e>
+ <e m="31"><o x="I believe you know everything. There's nothing else I can tell you.">else</o><t>sonst</t></e>
+ <e m="31"><o x="There's no need to discuss it again. This decision is final.">final</o><t>endgültig</t></e>
+ <e m="31"><o x="Stop thinking about the past. It's over. Look forward.">
+  <multiplechoice>
+   <mc1>St</mc1>
+  </multiplechoice>
+  forward</o><t>vorwärts</t></e>
+ <e m="31"><o>guide</o><t>der Führer</t></e>
+ <e m="31"><o>illness</o><t>die Krankheit</t></e>
+ <e m="31"><o>menu</o><t>die Speisekarte</t></e>
+ <e m="31"><o>neck</o><t>der Hals</t></e>
+ <e m="31"><o>original</o><t>ursprünglich, original</t></e>
+ <e m="31"><o>present</o><t>das Geschenk, gegenwärtig</t></e>
+ <e m="31"><o x="When you write an email to complain about something you expect a quick response.">response</o><t>die Antwort</t></e>
+ <e m="31"><o x="In an English restaurant there is usually just one bill for each table. In a German restaurant you can ask for a separate bill for each guest.">separate</o><t>getrennt, separat</t></e>
+ <e m="31"><o x="There's no point in repairing this old computer. The best solution is to buy a new one.">solution</o><t>die Lösung</t></e>
+ <e m="31"><o>string</o><t>die Schnur</t></e>
+ <e m="31"><o>to accept</o><t>annehmen, akzeptieren</t></e>
+ <e m="31"><o>to argue</o><t>streiten, sich streiten, argumentieren</t></e>
+ <e m="31"><o x="One of the first things little children learn in kindergarten is to count up to 10.">to count</o><t>zählen</t></e>
+ <e m="31"><o>to expect</o><t>erwarten, annehmen</t></e>
+ <e m="31"><o x="If there was no such thing as this vocabulary CD, someone would have to invent it.">to invent</o><t>erfinden</t></e>
+ <e m="31"><o>to lay</o><t>legen</t></e>
+ <e m="31"><o>to lose</o><t>verlieren</t></e>
+ <e m="31"><o>to realize</o><t>begreifen, verwirklichen</t></e>
+ <e m="31"><o x="In the Wild West it was a common practice to tie your enemy to a totem pole.">to tie</o><t>binden</t></e>
+ <e m="31"><o x="The American English word for &quot;holiday&quot; is vacation.">vacation</o><t>die Ferien, der Urlaub</t></e>
+ <e m="32"><o x="It is safer to carry only a little cash on you and keep large sums of money in your bank account.">account</o><t>das Konto</t></e>
+ <e m="32"><o>argument</o><t>der Streit, das Argument</t></e>
+ <e m="32"><o x="Many large companies are controlled by a board of directors.">board</o><t>das Brett, der Aufsichtsrat</t></e>
+ <e m="32"><o>care</o><t>die Sorge, die Pflege</t></e>
+ <e m="32"><o x="A more formal word for &quot;customer&quot; is client.">client</o><t>der Kunde</t></e>
+ <e m="32"><o>couple</o><t>das Paar</t></e>
+ <e m="32"><o>desert</o><t>die Wüste</t></e>
+ <e m="32"><o>document</o><t>das Dokument</t></e>
+ <e m="32"><o>enemy</o><t>der Feind</t></e>
+ <e m="32"><o x="I learned a lot in my old job. It was a good experience for my future career.">experience</o><t>die Erfahrung</t></e>
+ <e m="32"><o>firm</o><t>fest, die Firma</t></e>
+ <e m="32"><o x="&quot;Petrol&quot; is British English, &quot;gas&quot; is American English but both countries also use the word fuel.">fuel</o><t>der Treibstoff, das Benzin</t></e>
+ <e m="32"><o>hall</o><t>die Halle, der Flur</t></e>
+ <e m="32"><o x="Many people have a totally wrong image of what life in prison is like.">image</o><t>das Bild</t></e>
+ <e m="32"><o>loser</o><t>der Verlierer</t></e>
+ <e m="32"><o x="Mobile phones can also be used for sending a text message.">message</o><t>die Mitteilung, die Botschaft</t></e>
+ <e m="32"><o x="The person who lives next door to me is my neighbour.">neighbour</o><t>der Nachbar</t></e>
+ <e m="32"><o>price</o><t>der Preis (Einkauf)</t></e>
+ <e m="32"><o x="The &quot;Oscar&quot; is probably the most famous prize in the movie world.">prize</o><t>der Preis (Gewinn)</t></e>
+ <e m="32"><o>series</o><t>die Serie, die Reihe</t></e>
+ <e m="32"><o>source</o><t>die Quelle</t></e>
+ <e m="32"><o>style</o><t>der Stil</t></e>
+ <e m="32"><o x="In Europe it is a custom to invite friends and family on your birthday.">to invite</o><t>einladen</t></e>
+ <e m="32"><o>to lead</o><t>leiten, führen</t></e>
+ <e m="32"><o>to own</o><t>besitzen</t></e>
+ <e m="32"><o>to rest</o><t>sich ausruhen</t></e>
+ <e m="32"><o>tool</o><t>das Werkzeug</t></e>
+ <e m="32"><o>various</o><t>verschieden</t></e>
+ <e m="33"><o>bone</o><t>der Knochen</t></e>
+ <e m="33"><o x="If you want your floor warm and comfortable, you cover it with a carpet.">carpet</o><t>der Teppich</t></e>
+ <e m="33"><o x="A white fluffy thing in the sky is called a cloud.">cloud</o><t>die Wolke</t></e>
+ <e m="33"><o>cover</o><t>die Decke, der Umschlag</t></e>
+ <e m="33"><o x="A person who knows a lot in his field is called an expert.">expert</o><t>der Fachmann</t></e>
+ <e m="33"><o x="Tables, chairs, cupboards etc. are all part of the furniture in a house.">furniture</o><t>die Möbel</t></e>
+ <e m="33"><o>hat</o><t>der Hut</t></e>
+ <e m="33"><o>iron</o><t>das Eisen</t></e>
+ <e m="33"><o>leaf</o><t>das Blatt</t></e>
+ <e m="33"><o>magazine</o><t>die Zeitschrift</t></e>
+ <e m="33"><o>might</o><t>könnte vielleicht</t></e>
+ <e m="33"><o>news</o><t>die Neuigkeit, die Nachrichten</t></e>
+ <e m="33"><o>paragraph</o><t>der Absatz, der Paragraph</t></e>
+ <e m="33"><o>probably</o><t>wahrscheinlich</t></e>
+ <e m="33"><o>reason</o><t>der Grund</t></e>
+ <e m="33"><o>result</o><t>das Ergebnis</t></e>
+ <e m="33" t="aj"><o x="Alcohol is a serious problem in most European countries.">
+  <comparison>
+   <l1>serious</l1><l2>more serious</l2><l3>the most serious</l3>
+  </comparison>
+  serious</o><t>ernst</t></e>
+ <e m="33"><o x="Nowadays many airlines put so many seats into their planes that there is not enough space for tall people's legs.">space</o><t>der Raum, der Platz, der Weltraum</t></e>
+ <e m="33"><o>success</o><t>der Erfolg</t></e>
+ <e m="33"><o>to achieve</o><t>zu Stande bringen, erreichen</t></e>
+ <e m="33"><o>to arrange</o><t>etwas ausmachen, arrangieren</t></e>
+ <e m="33"><o>to cover</o><t>decken, bedecken</t></e>
+ <e m="33"><o>to doubt</o><t>zweifeln</t></e>
+ <e m="33"><o>to enjoy</o><t>genießen</t></e>
+ <e m="33"><o>to fit</o><t>passen</t></e>
+ <e m="33"><o x="Some people go to night classes to improve their English.">to improve</o><t>verbessern</t></e>
+ <e m="33"><o x="I am sorry but I believe you are on the wrong track.">track</o><t>die Spur</t></e>
+ <e m="33"><o>visitor</o><t>der Besucher</t></e>
+ <e m="34"><o>art</o><t>die Kunst</t></e>
+ <e m="34"><o>bottom</o><t>der Boden</t></e>
+ <e m="34"><o>case</o><t>der Fall, der Kasten</t></e>
+ <e m="34"><o>crime</o><t>das Verbrechen</t></e>
+ <e m="34"><o>detail</o><t>die Einzelheit</t></e>
+ <e m="34"><o x="It's better to check twice if you are in doubt.">doubt</o><t>der Zweifel</t></e>
+ <e m="34" t="aj"><o>
+  <comparison>
+   <l1>fit</l1><l2>fitter</l2><l3>the fittest</l3>
+  </comparison>
+  fit</o><t>gesund, fit</t></e>
+ <e m="34"><o>gardener</o><t>der Gärtner</t></e>
+ <e m="34"><o x="People nowadays live longer than 50 years ago because there is a better health system.">health</o><t>die Gesundheit</t></e>
+ <e m="34"><o x="I am sure I ordered 10 things, not 9. One item is missing in the box.">item</o><t>der Gegenstand</t></e>
+ <e m="34"><o x="Letter box is British English, mail box is American English.">mail</o><t>die Post</t></e>
+ <e m="34"><o>millionaire</o><t>der Millionär</t></e>
+ <e m="34"><o>newspaper</o><t>die Zeitung</t></e>
+ <e m="34"><o x="Daimler Benz took over the production of the Smart car after VW had pulled out.">production</o><t>die Produktion, die Herstellung</t></e>
+ <e m="34"><o x="When you send a letter by snail mail you need a stamp on the top right hand corner of the envelope.">stamp</o><t>die Briefmarke, der Stempel</t></e>
+ <e m="34"><o>suddenly</o><t>plötzlich</t></e>
+ <e m="34"><o x="Most towns have a tourist information centre to advise holiday makers.">to advise</o><t>raten, einen Rat geben</t></e>
+ <e m="34"><o>to collect</o><t>sammeln</t></e>
+ <e m="34"><o>to enter</o><t>hineingehen, betreten</t></e>
+ <e m="34"><o>to express</o><t>ausdrücken</t></e>
+ <e m="34"><o>to include</o><t>einschließen</t></e>
+ <e m="34"><o x="In Britain people often put a sign up on empty houses to show that they are to let.">to let</o><t>lassen, vermieten</t></e>
+ <e m="34"><o>to pass</o><t>vorbeigehen an, bestehen</t></e>
+ <e m="34"><o x="A formal word for &quot;to get&quot; is &quot;to receive&quot;.">to receive</o><t>erhalten, empfangen</t></e>
+ <e m="34"><o x="No government wants unemployment to rise.">to rise</o><t>ansteigen</t></e>
+ <e m="34"><o x="In the past it was a great honour to serve in the army.">to serve</o><t>dienen, bedienen</t></e>
+ <e m="34"><o>treatment</o><t>die Behandlung</t></e>
+ <e m="34"><o>vowel</o><t>der Vokal</t></e>
+ <e m="35"><o x="Yes, I am in love with my secretary but it's a private affair and none of your business.">affair</o><t>die Angelegenheit, die Affäre</t></e>
+ <e m="35"><o>aspect</o><t>der Aspekt</t></e>
+ <e m="35" t="aj"><o>
+  <comparison>
+   <l1>certain</l1><l2>more certain</l2><l3>the most certain</l3>
+  </comparison>
+  certain</o><t>sicher</t></e>
+ <e m="35"><o>college</o><t>die Fachhochschule, die Berufsschule</t></e>
+ <e m="35"><o>crisis</o><t>die Krise</t></e>
+ <e m="35"><o x="This is an exit only. Please use the entrance over there to enter the building.">entrance</o><t>der Eingang</t></e>
+ <e m="35"><o>fact</o><t>die Tatsache</t></e>
+ <e m="35" t="aj"><o>
+  <comparison>
+   <l1>general</l1><l2>more general</l2><l3>the most general</l3>
+  </comparison>
+  general</o><t>allgemein</t></e>
+ <e m="35" t="aj"><o>
+  <comparison>
+   <l1>healthy</l1><l2>healthier</l2><l3>the healthiest</l3>
+  </comparison>
+  healthy</o><t>gesund</t></e>
+ <e m="35" t="aj"><o x="&quot;Wrong&quot; is a very harsh word. It’s more polite to say that something is incorrect.">
+  <comparison>
+   <l1>incorrect</l1><l2>more incorrect</l2><l3>the most incorrect</l3>
+  </comparison>
+  incorrect</o><t>falsch</t></e>
+ <e m="35"><o x="A place where you can borrow books is called a library.">library</o><t>die Bibliothek, die Bücherei</t></e>
+ <e m="35"><o x="The main station is the largest railway station in a town.">main</o><t>Haupt-</t></e>
+ <e m="35"><o>noise</o><t>der Lärm, das Geräusch</t></e>
+ <e m="35"><o>per cent</o><t>das Prozent</t></e>
+ <e m="35" t="av"><o>recently</o><t>kürzlich, neulich</t></e>
+ <e m="35"><o>role</o><t>die Rolle</t></e>
+ <e m="35"><o>several</o><t>mehrere, verschiedene</t></e>
+ <e m="35"><o x="The tyres are worn, the lights do not work and there's rust everywhere. Your car is in a terrible state">state</o><t>der Zustand, der Staat</t></e>
+ <e m="35"><o>to brake</o><t>bremsen</t></e>
+ <e m="35"><o>to develop</o><t>entwickeln</t></e>
+ <e m="35"><o>to draw</o><t>zeichnen</t></e>
+ <e m="35"><o x="Forget about it. It's impossible to fix such a rotten car.">to fix</o><t>befestigen, reparieren</t></e>
+ <e m="35"><o x="You will receive many special offers if you decide to join our club today.">to join</o><t>beitreten, verbinden</t></e>
+ <e m="35"><o x="I love football. I do not want to miss a single game when the world championship is on.">to miss</o><t>vermissen, verpassen, fehlen</t></e>
+ <e m="35"><o>to promise</o><t>versprechen</t></e>
+ <e m="35"><o>to suggest</o><t>vorschlagen</t></e>
+ <e m="35"><o x="Congratulations! You have won a trip to Bad Nauheim for two people!">trip</o><t>der Ausflug</t></e>
+ <e m="35"><o>walk</o><t>der Spaziergang</t></e>
+ <e m="36"><o>assistant</o><t>der Assistent</t></e>
+ <e m="36"><o x="We used to be in computers only but we have now started telecommunication as a new branch of our business.">branch</o><t>der Ast, der Zweig</t></e>
+ <e m="36" t="av"><o>certainly</o><t>sicherlich, bestimmt</t></e>
+ <e m="36"><o>community</o><t>die Gemeinschaft</t></e>
+ <e m="36"><o x="Many people make a crowd.">crowd</o><t>die Menschenmenge</t></e>
+ <e m="36"><o>development</o><t>die Entwicklung</t></e>
+ <e m="36"><o>equal</o><t>gleich</t></e>
+ <e m="36" t="aj"><o x="Americans call it an &quot;apartment&quot; but in British English it is a flat.">
+  <comparison>
+   <l1>flat</l1><l2>flatter</l2><l3>the flattest</l3>
+  </comparison>
+  flat</o><t>die Wohnung, flach</t></e>
+ <e m="36" t="aj"><o>
+  <comparison>
+   <l1>glad</l1><l2>gladder</l2><l3>the gladdest</l3>
+  </comparison>
+  glad</o><t>froh</t></e>
+ <e m="36"><o>heat</o><t>die Hitze, die Wärme</t></e>
+ <e m="36"><o x="Many Germans do not know that &quot;handy&quot; is not the English word for a mobile phone.">mobile phone</o><t>das Handy</t></e>
+ <e m="36"><o>note</o><t>die Notiz</t></e>
+ <e m="36"><o>plain</o><t>die Ebene, klar, einfach</t></e>
+ <e m="36"><o x="I am sorry but there's no record of your order on our computer.">record</o><t>die Aufzeichnung, die Schallplatte, der Rekord</t></e>
+ <e m="36"><o x="The first row in the cinema is definitely not the best.">row</o><t>die Reihe</t></e>
+ <e m="36"><o>statement</o><t>die Aussage</t></e>
+ <e m="36"><o x="The short version of a text is called a summary.">summary</o><t>die Zusammenfassung</t></e>
+ <e m="36"><o>to affect</o><t>wirken, einwirken</t></e>
+ <e m="36"><o>to dress</o><t>anziehen, sich anziehen</t></e>
+ <e m="36"><o x="This is kids' stuff. It will be difficult to fail such an easy test!">to fail</o><t>scheitern, durchfallen</t></e>
+ <e m="36"><o>to increase</o><t>erhöhen, zunehmen</t></e>
+ <e m="36"><o>to joke</o><t>Witze machen</t></e>
+ <e m="36"><o>to lie</o><t>lügen</t></e>
+ <e m="36"><o>to lie (irr.)</o><t>liegen</t></e>
+ <e m="36"><o>to protect</o><t>beschützen</t></e>
+ <e m="36"><o>to shine</o><t>scheinen, glänzen</t></e>
+ <e m="36"><o>to watch</o><t>ansehen, beobachten</t></e>
+ <e m="36"><o>twin</o><t>der Zwilling</t></e>
+ <e m="37"><o x="Through Harry Potter, J. K. Rowling became the richest author in the world.">author</o><t>der Autor</t></e>
+ <e m="37" t="aj"><o>
+  <comparison>
+   <l1>bright</l1><l2>brighter</l2><l3>the brightest</l3>
+  </comparison>
+  bright</o><t>hell</t></e>
+ <e m="37"><o>chance</o><t>die Gelegenheit, die Chance</t></e>
+ <e m="37"><o x="Marks and Spencer is one of the most famous British company names.">company</o><t>die Firma, die Gesellschaft</t></e>
+ <e m="37"><o>customer</o><t>der Kunde</t></e>
+ <e m="37"><o>difficulty</o><t>die Schwierigkeit</t></e>
+ <e m="37"><o x="Is it $10 for all three CDs together? - No, they are $10 each.">each</o><t>jeder</t></e>
+ <e m="37" t="av"><o>especially</o><t>besonders</t></e>
+ <e m="37" t="aj"><o>
+  <comparison>
+   <l1>fair</l1><l2>fairer</l2><l3>the fairest</l3>
+  </comparison>
+  fair</o><t>gerecht, blond</t></e>
+ <e m="37"><o>floor</o><t>der Fußboden, die Etage</t></e>
+ <e m="37"><o x="On a football field there is a goal on each side.">goal</o><t>das Tor, das Ziel</t></e>
+ <e m="37"><o>indeed</o><t>tatsächlich, in der Tat</t></e>
+ <e m="37"><o>joy</o><t>die Freude</t></e>
+ <e m="37"><o x="One problem of our western lifestyle is that we eat too much and do not do enough exercise.">lifestyle</o><t>der Lebensstil</t></e>
+ <e m="37"><o>management</o><t>die Führung, die Leitung, das Management</t></e>
+ <e m="37"><o>mouth</o><t>der Mund</t></e>
+ <e m="37"><o x="Arnold Schwarzenegger started as a body builder, then became a movie star and finally went into politics.">politics</o><t>die Politik</t></e>
+ <e m="37" t="aj"><o x="In many fast food restaurants you can choose between two sizes of drinks: regular and large.">
+  <comparison>
+   <l1>regular</l1><l2>more regular</l2><l3>the most regular</l3>
+  </comparison>
+  regular</o><t>regelmäßig, üblich</t></e>
+ <e m="37"><o>shore</o><t>das Ufer</t></e>
+ <e m="37"><o>step</o><t>der Schritt, die Stufe</t></e>
+ <e m="37"><o x="Some people know what they will get for their birthday but others prefer a surprise.">surprise</o><t>die Überraschung</t></e>
+ <e m="37"><o x="It's impossible to afford a Ferrari on a student's income.">to afford</o><t>sich leisten</t></e>
+ <e m="37"><o>to hide</o><t>verstecken</t></e>
+ <e m="37"><o>to notice</o><t>bemerken</t></e>
+ <e m="37"><o x="Many smokers try to quit but not many manage without difficulty.">to quit</o><t>verlassen, aufhören</t></e>
+ <e m="37"><o>to rule</o><t>herrschen, regieren</t></e>
+ <e m="37"><o>type</o><t>der Typ</t></e>
+ <e m="37"><o>watch</o><t>die Armbanduhr</t></e>
+ <e m="38"><o x="It is difficult to reach an agreement when people have completely different opinions.">agreement</o><t>die Übereinstimmung, die Zustimmung</t></e>
+ <e m="38"><o>automatic</o><t>automatisch</t></e>
+ <e m="38" t="aj"><o>
+  <comparison>
+   <l1>broad</l1><l2>broader</l2><l3>the broadest</l3>
+  </comparison>
+  broad</o><t>breit</t></e>
+ <e m="38"><o>change</o><t>die Änderung, die Veränderung</t></e>
+ <e m="38"><o>data</o><t>die Daten</t></e>
+ <e m="38"><o x="Steven Spielberg is probably the most famous film director in Hollywood.">director</o><t>der Direktor, der Regisseur</t></e>
+ <e m="38"><o>even</o><t>sogar</t></e>
+ <e m="38"><o x="Karl Lagerfeld is Germany' best-known fashion designer.">fashion</o><t>die Mode</t></e>
+ <e m="38"><o>government</o><t>die Regierung</t></e>
+ <e m="38"><o x="The school subject which teaches you about what happened in the past is called history.">history</o><t>die Geschichte</t></e>
+ <e m="38" t="aj"><o>
+  <comparison>
+   <l1>individual</l1><l2>more individual</l2><l3>the most individual</l3>
+  </comparison>
+  individual</o><t>individuell</t></e>
+ <e m="38"><o x="In German a noun is always written with a capital letter at the beginning.">noun</o><t>das Substantiv</t></e>
+ <e m="38" t="aj"><o>
+  <comparison>
+   <l1>popular</l1><l2>more popular</l2><l3>the most popular</l3>
+  </comparison>
+  popular</o><t>beliebt</t></e>
+ <e m="38"><o>race</o><t>das Rennen, die Rasse</t></e>
+ <e m="38"><o x="Work is a lot more enjoyable when you have a good relationship with your boss.">relationship</o><t>das Verhältnis, die Beziehung</t></e>
+ <e m="38"><o>sale</o><t>der Verkauf</t></e>
+ <e m="38"><o x="&quot;Out of sight is out of mind&quot; is an old English saying. It means that you often forget people when you don' see them anymore.">sight</o><t>der Anblick, das Sehvermögen</t></e>
+ <e m="38"><o>stick</o><t>der Stock, der Stecken</t></e>
+ <e m="38"><o>syllable</o><t>die Silbe</t></e>
+ <e m="38"><o>to compare</o><t>vergleichen</t></e>
+ <e m="38"><o x="When I start working I want to earn a lot of money.">to earn</o><t>verdienen</t></e>
+ <e m="38"><o>to flow</o><t>fließen</t></e>
+ <e m="38"><o>to keep</o><t>behalten, halten</t></e>
+ <e m="38"><o>to lift</o><t>heben</t></e>
+ <e m="38"><o>to match</o><t>zusammenpassen</t></e>
+ <e m="38"><o>to move</o><t>bewegen, sich bewegen, umziehen</t></e>
+ <e m="38"><o x="It's almost impossible to drive a car with a flat tyre.">tyre</o><t>der Reifen</t></e>
+ <e m="38"><o x="A tsunami is a massive wave caused by an earthquake under the seabed.">wave</o><t>die Welle</t></e>
+ <e m="39"><o>alone</o><t>allein</t></e>
+ <e m="39"><o>business</o><t>das Geschäft, die Angelegenheit</t></e>
+ <e m="39"><o>dirt</o><t>der Schmutz</t></e>
+ <e m="39"><o x="One of Woody Allen's many films is &quot;Women on the edge of a nervous breakdown&quot;.">edge</o><t>der Rand</t></e>
+ <e m="39"><o>event</o><t>das Ereignis</t></e>
+ <e m="39"><o x="Can you do me a favour? - Of course, what do you want me to do?">favour</o><t>der Gefallen, das Wohlwollen</t></e>
+ <e m="39"><o>force</o><t>die Kraft, der Zwang</t></e>
+ <e m="39"><o>grand</o><t>großartig</t></e>
+ <e m="39"><o x="In Britain cash machines are sometimes called  &quot;the hole in the wall&quot; of a bank.">hole</o><t>das Loch</t></e>
+ <e m="39"><o>industry</o><t>die Industrie</t></e>
+ <e m="39"><o x="Germany is the only country in the world without a speed limit  on motorways.">limit</o><t>die Grenze, die Frist</t></e>
+ <e m="39"><o>matter</o><t>die Materie, die Angelegenheit</t></e>
+ <e m="39"><o>movement</o><t>die Bewegung</t></e>
+ <e m="39"><o>nowhere</o><t>nirgends</t></e>
+ <e m="39"><o x="Muslims normally do not eat pork.">pork</o><t>das Schweinefleisch</t></e>
+ <e m="39"><o x="Americans call it &quot;railroad&quot; but in British English it is railway.">railway</o><t>die Eisenbahn</t></e>
+ <e m="39"><o>science</o><t>die Wissenschaft</t></e>
+ <e m="39"><o x="The statue of liberty is a symbol of the USA.">symbol</o><t>das Symbol</t></e>
+ <e m="39"><o x="It's best to avoid contact with people who sell drugs.">to avoid</o><t>vermeiden, verhüten</t></e>
+ <e m="39"><o>to chat</o><t>plaudern</t></e>
+ <e m="39"><o>to complete</o><t>vervollständigen</t></e>
+ <e m="39"><o>to decide</o><t>entscheiden, sich entscheiden</t></e>
+ <e m="39"><o x="To score a point in football you need to kick the ball into the other team's goal.">to kick</o><t>treten</t></e>
+ <e m="39"><o>to remove</o><t>beseitigen, entfernen</t></e>
+ <e m="39"><o>to sign</o><t>unterschreiben</t></e>
+ <e m="39"><o>to store</o><t>speichern, lagern</t></e>
+ <e m="39"><o>to wear</o><t>tragen (Kleidung)</t></e>
+ <e m="39" t="aj"><o x="Waiting for a bus in the rain without an umbrella is very uncomfortable.">
+  <comparison>
+   <l1>uncomfortable</l1><l2>more uncomfortable</l2><l3>the most uncomfortable</l3>
+  </comparison>
+  uncomfortable</o><t>unbequem</t></e>
+ <e m="40"><o>amount</o><t>die Menge, der Betrag</t></e>
+ <e m="40" t="aj"><o>
+  <comparison>
+   <l1>basic</l1><l2>more basic</l2><l3>the most basic</l3>
+  </comparison>
+  basic</o><t>grundlegend</t></e>
+ <e m="40" t="aj"><o>
+  <comparison>
+   <l1>busy</l1><l2>busier</l2><l3>the busiest</l3>
+  </comparison>
+  busy</o><t>beschäftigt, besetzt (Tel.)</t></e>
+ <e m="40"><o>check</o><t>die Überprüfung</t></e>
+ <e m="40"><o>condition</o><t>die Bedingung</t></e>
+ <e m="40"><o x="Choosing the right job is a difficult decision.">decision</o><t>die Entscheidung</t></e>
+ <e m="40"><o x="A good education normally helps to find a well-paid job.">education</o><t>die Erziehung, die Bildung</t></e>
+ <e m="40"><o x="Be honest, have you ever drunk too much in your life?">ever</o><t>je, jemals</t></e>
+ <e m="40"><o x="Many Germans buy foreign cars because they are cheaper than German cars.">foreign</o><t>ausländisch, fremd</t></e>
+ <e m="40"><o x="I have always lived in Friedberg, so that's my home town.">home town</o><t>der Heimatort</t></e>
+ <e m="40"><o>knee</o><t>das Knie</t></e>
+ <e m="40"><o>liquid</o><t>die Flüssigkeit, flüssig</t></e>
+ <e m="40"><o>officer</o><t>der Offizier, der Beamte</t></e>
+ <e m="40"><o>position</o><t>die Position, die Stellung, die Lage</t></e>
+ <e m="40"><o x="You can cut paper with a pair of scissors.">scissors</o><t>die Schere</t></e>
+ <e m="40"><o x="People who cannot speak communicate by sign language.">sign</o><t>das Zeichen, das Schild</t></e>
+ <e m="40" t="aj"><o>
+  <comparison>
+   <l1>straight</l1><l2>straighter</l2><l3>the straightest</l3>
+  </comparison>
+  straight</o><t>gerade</t></e>
+ <e m="40"><o>tail</o><t>der Schwanz</t></e>
+ <e m="40"><o x="Columbus never planned to discover America, he was looking for a new route to India.">to discover</o><t>entdecken</t></e>
+ <e m="40"><o>to fear</o><t>fürchten</t></e>
+ <e m="40"><o>to greet</o><t>grüßen, begrüßen</t></e>
+ <e m="40"><o>to inform</o><t>informieren</t></e>
+ <e m="40"><o>to measure</o><t>messen</t></e>
+ <e m="40"><o>to name</o><t>nennen, benennen</t></e>
+ <e m="40"><o x="In school students need to raise their hands if they want to answer a question.">to raise</o><t>heben, erhöhen</t></e>
+ <e m="40"><o>to replace</o><t>ersetzen, zurückstellen</t></e>
+ <e m="40" t="aj"><o x="Teachers always tell their students that cheating in a class test is unfair.">
+  <comparison>
+   <l1>unfair</l1><l2>more unfair</l2><l3>the most unfair</l3>
+  </comparison>
+  unfair</o><t>ungerecht</t></e>
+ <e m="40"><o>weight</o><t>das Gewicht</t></e>
+ <e m="41"><o x="The hero of Gotham City is bat man.">bat</o><t>der Schläger, die Fledermaus</t></e>
+ <e m="41"><o>call</o><t>der Anruf</t></e>
+ <e m="41"><o>chemical</o><t>chemisch, die Chemikalie</t></e>
+ <e m="41"><o x="Different opinions and no will to compromise can lead to a serious conflict.">conflict</o><t>der Konflikt</t></e>
+ <e m="41" t="aj"><o>
+  <comparison>
+   <l1>deep</l1><l2>deeper</l2><l3>the deepest</l3>
+  </comparison>
+  deep</o><t>tief</t></e>
+ <e m="41"><o>effect</o><t>die Wirkung</t></e>
+ <e m="41" t="aj"><o>
+  <comparison>
+   <l1>exact</l1><l2>more exact</l2><l3>the most exact</l3>
+  </comparison>
+  exact</o><t>genau</t></e>
+ <e m="41"><o>ground</o><t>der Boden</t></e>
+ <e m="41" t="aj"><o>
+  <comparison>
+   <l1>horrible</l1><l2>more horrible</l2><l3>the most horrible</l3>
+  </comparison>
+  horrible</o><t>schrecklich</t></e>
+ <e m="41"><o>instead</o><t>stattdessen</t></e>
+ <e m="41" t="aj"><o>
+  <comparison>
+   <l1>large</l1><l2>larger</l2><l3>the largest</l3>
+  </comparison>
+  large</o><t>groß</t></e>
+ <e m="41"><o>media</o><t>die Medien</t></e>
+ <e m="41"><o>national</o><t>national, landesweit</t></e>
+ <e m="41"><o x="In our next lesson you will be asked to express your own opinion about this text.">opinion</o><t>die Meinung</t></e>
+ <e m="41"><o x="In the old days kings had absolute power.">power</o><t>die Macht</t></e>
+ <e m="41"><o>rather</o><t>ziemlich</t></e>
+ <e m="41"><o>situation</o><t>die Lage</t></e>
+ <e m="41"><o>strange</o><t>seltsam, fremd</t></e>
+ <e m="41"><o>task</o><t>die Aufgabe</t></e>
+ <e m="41"><o>to announce</o><t>ankündigen</t></e>
+ <e m="41"><o x="A dictator never needs to discuss anything with anybody.">to discuss</o><t>diskutieren, besprechen</t></e>
+ <e m="41"><o x="Most zoos do not allow visitors to feed the animals.">to feed</o><t>füttern</t></e>
+ <e m="41"><o>to form</o><t>bilden, formen</t></e>
+ <e m="41"><o>to list</o><t>auflisten, aufzählen</t></e>
+ <e m="41"><o>to reply</o><t>antworten</t></e>
+ <e m="41"><o>to search</o><t>suchen</t></e>
+ <e m="41"><o>union</o><t>die Union, die Vereinigung</t></e>
+ <e m="41" t="aj"><o x="&quot;www&quot; in an internet address stands for &quot;world wide web&quot;.">
+  <comparison>
+   <l1>wide</l1><l2>wider</l2><l3>the widest</l3>
+  </comparison>
+  wide</o><t>breit, weit</t></e>
+ <e m="42"><o x="The title of a famous musical is &quot;beauty and the beast&quot;">beauty</o><t>die Schönheit</t></e>
+ <e m="42"><o x="American children have three months summer holidays. Many spend some time in a summer camp.">camp</o><t>das Lager</t></e>
+ <e m="42"><o x="The national dish of England and New Zealand is fish and chips.">chips</o><t>die Pommes Frites</t></e>
+ <e m="42"><o>department</o><t>die Abteilung</t></e>
+ <e m="42"><o>disk</o><t>die Diskette</t></e>
+ <e m="42"><o>e. g.</o><t>z. B.</t></e>
+ <e m="42"><o x="There is no better way of learning English than spending a year as an exchange student.">exchange student</o><t>der Austauschschüler</t></e>
+ <e m="42" t="aj"><o>
+  <comparison>
+   <l1>few</l1><l2>fewer</l2><l3>the fewest</l3>
+  </comparison>
+  few</o><t>wenig</t></e>
+ <e m="42"><o x="To become a member of a club you normally need to fill in a form.">form</o><t>die Form, das Formular</t></e>
+ <e m="42" t="aj"><o>
+  <comparison>
+   <l1>human</l1><l2>more human</l2><l3>the most human</l3>
+  </comparison>
+  human</o><t>menschlich</t></e>
+ <e m="42"><o x="Most  electronic devices come with a written instruction but normally people prefer to press a few buttons and see what happens.">instruction</o><t>die Anweisung</t></e>
+ <e m="42"><o>last night</o><t>gestern Abend</t></e>
+ <e m="42"><o>local</o><t>hiesig, ortsansässig</t></e>
+ <e m="42"><o>meeting</o><t>das Treffen, die Sitzung, die Versammlung</t></e>
+ <e m="42" t="av"><o>nearly</o><t>beinahe, fast</t></e>
+ <e m="42"><o>order</o><t>die Reihenfolge, der Befehl, die Bestellung</t></e>
+ <e m="42"><o x="A person who works for his master without getting paid is called a slave.">slave</o><t>der Sklave</t></e>
+ <e m="42"><o x="The opposite of weakness is strength.">strength</o><t>die Stärke, die Kraft</t></e>
+ <e m="42"><o>term</o><t>der Zeitraum, der Ausdruck</t></e>
+ <e m="42"><o>to appear</o><t>erscheinen, scheinen</t></e>
+ <e m="42"><o>to be worth</o><t>Wert sein</t></e>
+ <e m="42"><o x="The internet is an easy way to connect people in different parts of the world.">to connect</o><t>verbinden</t></e>
+ <e m="42"><o x="If you want flowers to grow, you need to water them regularly.">to grow</o><t>wachsen</t></e>
+ <e m="42"><o>to prefer</o><t>vorziehen, lieber mögen</t></e>
+ <e m="42"><o>to reach</o><t>erreichen</t></e>
+ <e m="42"><o>to represent</o><t>darstellen, vertreten, bedeuten</t></e>
+ <e m="42"><o>to select</o><t>auswählen</t></e>
+ <e m="42" t="aj"><o>
+  <comparison>
+   <l1>usual</l1><l2>more usual</l2><l3>the most usual</l3>
+  </comparison>
+  usual</o><t>üblich</t></e>
+ <e m="3" t="aj"><o>
+  <comparison>
+   <l1>black</l1><l2>blacker</l2><l3>the blackest</l3>
+  </comparison>
+  black</o><t>schwarz</t></e>
+ <e m="3" t="aj"><o>
+  <comparison>
+   <l1>blue</l1><l2>bluer</l2><l3>the bluest</l3>
+  </comparison>
+  blue</o><t>blau</t></e>
+ <e m="3" t="aj"><o>
+  <comparison>
+   <l1>brown</l1><l2>browner</l2><l3>the brownest</l3>
+  </comparison>
+  brown</o><t>braun</t></e>
+ <e m="3"><o>eight</o><t>acht</t></e>
+ <e m="3"><o>five</o><t>fünf</t></e>
+ <e m="3"><o>four</o><t>vier</t></e>
+ <e m="3"><o>green</o><t>grün</t></e>
+ <e m="3"><o>grey</o><t>grau</t></e>
+ <e m="3"><o>hundred</o><t>hundert</t></e>
+ <e m="3"><o>million</o><t>die Million</t></e>
+ <e m="3"><o>nine</o><t>neun</t></e>
+ <e m="3"><o>one</o><t>eins</t></e>
+ <e m="3" t="aj"><o>
+  <comparison>
+   <l1>red</l1><l2>redder</l2><l3>the reddest</l3>
+  </comparison>
+  red</o><t>rot</t></e>
+ <e m="3"><o>seven</o><t>sieben</t></e>
+ <e m="3"><o>six</o><t>sechs</t></e>
+ <e m="3"><o>ten</o><t>zehn</t></e>
+ <e m="3"><o>thousand</o><t>tausend</t></e>
+ <e m="3"><o>three</o><t>drei</t></e>
+ <e m="3"><o>two</o><t>zwei</t></e>
+ <e m="3" t="aj"><o>
+  <comparison>
+   <l1>white</l1><l2>whiter</l2><l3>the whitest</l3>
+  </comparison>
+  white</o><t>weiß</t></e>
+ <e m="3" t="aj"><o>
+  <comparison>
+   <l1>yellow</l1><l2>yellower</l2><l3>the yellowest</l3>
+  </comparison>
+  yellow</o><t>gelb</t></e>
+ <e m="6"><o>to apply for</o><t>sich bewerben um</t></e>
+ <e m="6"><o>to be afraid of</o><t>Angst haben vor</t></e>
+ <e m="6"><o>to be aware of</o><t>sich bewusst sein über</t></e>
+ <e m="6"><o>to be concerned about</o><t>sich Sorgen machen um</t></e>
+ <e m="6"><o>to be frightened of</o><t>Angst haben vor</t></e>
+ <e m="6"><o>to belong to</o><t>gehören zu</t></e>
+ <e m="6"><o>to benefit from</o><t>Nutzen ziehen aus</t></e>
+ <e m="6"><o>to care about</o><t>sich kümmern um</t></e>
+ <e m="6"><o>to depend on</o><t>abhängen von</t></e>
+ <e m="6"><o>to find out</o><t>herausfinden</t></e>
+ <e m="6"><o>to get to know</o><t>kennen lernen</t></e>
+ <e m="6"><o>to give up</o><t>aufgeben</t></e>
+ <e m="6"><o>to grow up</o><t>aufwachsen</t></e>
+ <e m="6"><o>to listen to</o><t>zuhören</t></e>
+ <e m="6"><o>to look after</o><t>sorgen für, aufpassen auf</t></e>
+ <e m="6"><o>to look at</o><t>ansehen</t></e>
+ <e m="6"><o>to look for</o><t>suchen nach</t></e>
+ <e m="6"><o>to switch off</o><t>ausschalten</t></e>
+ <e m="6"><o>to take part in</o><t>teilnehmen an</t></e>
+ <e m="6"><o>to take place</o><t>stattfinden</t></e>
+ <e m="6"><o>to turn off</o><t>ausschalten</t></e>
+ <e m="6"><o>to turn on</o><t>einschalten</t></e>
+ <e m="6"><o>to wake up</o><t>aufwachen, aufwecken</t></e>
+ <e m="5"><o>about</o><t>über, etwa</t></e>
+ <e m="5"><o>above</o><t>über, oben</t></e>
+ <e m="5"><o>according to</o><t>laut, nach</t></e>
+ <e m="5"><o>across</o><t>über, hinüber, durch</t></e>
+ <e m="5"><o>after</o><t>nach, nachdem</t></e>
+ <e m="5"><o>against</o><t>gegen</t></e>
+ <e m="5"><o>ago</o><t>vor</t></e>
+ <e m="5"><o>among</o><t>unter</t></e>
+ <e m="5"><o>at</o><t>an, bei</t></e>
+ <e m="5"><o>because of</o><t>wegen</t></e>
+ <e m="5"><o>behind</o><t>hinter, hinten</t></e>
+ <e m="5"><o>between</o><t>zwischen</t></e>
+ <e m="5"><o>by</o><t>bei, von, durch</t></e>
+ <e m="5"><o>close to</o><t>in der Nähe, nahe</t></e>
+ <e m="5"><o>due to</o><t>wegen</t></e>
+ <e m="5"><o>during</o><t>während</t></e>
+ <e m="5"><o>except</o><t>außer</t></e>
+ <e m="5"><o>for</o><t>für, seit</t></e>
+ <e m="5"><o>from</o><t>von</t></e>
+ <e m="5"><o>in</o><t>in</t></e>
+ <e m="5"><o>in front of</o><t>vor</t></e>
+ <e m="5"><o>into</o><t>in ... hinein</t></e>
+ <e m="5"><o>near</o><t>nahe</t></e>
+ <e m="5"><o>next to</o><t>neben</t></e>
+ <e m="5"><o>of</o><t>von</t></e>
+ <e m="5"><o>on</o><t>an, auf</t></e>
+ <e m="5"><o>on top of</o><t>oben auf</t></e>
+ <e m="5"><o>since</o><t>seit</t></e>
+ <e m="5"><o>through</o><t>durch</t></e>
+ <e m="5"><o>to</o><t>zu, nach</t></e>
+ <e m="5"><o>toward</o><t>auf ... zu</t></e>
+ <e m="5"><o>under</o><t>unter</t></e>
+ <e m="5"><o>up</o><t>oben, hinauf</t></e>
+ <e m="5"><o>up to</o><t>bis</t></e>
+ <e m="5"><o>with</o><t>mit</t></e>
+ <e m="5"><o>without</o><t>ohne</t></e>
+ <e m="2"><o>bed</o><t>das Bett</t></e>
+ <e m="2"><o>bread</o><t>das Brot</t></e>
+ <e m="2"><o>no</o><t>nein</t></e>
+ <e m="2"><o>please</o><t>bitte</t></e>
+ <e m="2"><o>sorry</o><t>Entschuldigung</t></e>
+ <e m="2"><o>thank you</o><t>danke</t></e>
+ <e m="2"><o>to be</o><t>sein</t></e>
+ <e m="2"><o>to do</o><t>tun, machen</t></e>
+ <e m="2"><o>to have</o><t>haben</t></e>
+ <e m="2"><o>water</o><t>das Wasser</t></e>
+ <e m="2"><o>yes</o><t>ja</t></e>
+ <e m="1"><o>autumn</o><t>der Herbst</t></e>
+ <e m="1"><o>century</o><t>das Jahrhundert</t></e>
+ <e m="1"><o>day</o><t>der Tag</t></e>
+ <e m="1"><o>east</o><t>der Osten, östlich</t></e>
+ <e m="1"><o>hour</o><t>die Stunde</t></e>
+ <e m="1"><o>inch</o><t>der Zoll (Längenmaß)</t></e>
+ <e m="1"><o>kilometre</o><t>der Kilometer</t></e>
+ <e m="1"><o>left</o><t>links</t></e>
+ <e m="1"><o>metre</o><t>der Meter</t></e>
+ <e m="1"><o>mile</o><t>die Meile</t></e>
+ <e m="1"><o>minute</o><t>die Minute</t></e>
+ <e m="1"><o>month</o><t>der Monat</t></e>
+ <e m="1"><o>north</o><t>der Norden, nördlich</t></e>
+ <e m="1"><o>right</o><t>das Recht, rechts, richtig</t></e>
+ <e m="1"><o>season</o><t>die Jahreszeit, die Saison</t></e>
+ <e m="1"><o>south</o><t>der Süden, südlich</t></e>
+ <e m="1"><o>spring</o><t>der Frühling</t></e>
+ <e m="1"><o>square</o><t>das Quadrat, der Platz</t></e>
+ <e m="1"><o>summer</o><t>der Sommer</t></e>
+ <e m="1"><o>triangle</o><t>das Dreieck</t></e>
+ <e m="1"><o>week</o><t>die Woche</t></e>
+ <e m="1"><o>west</o><t>der Westen, westlich</t></e>
+ <e m="1"><o>winter</o><t>der Winter</t></e>
+ <e m="1"><o>year</o><t>das Jahr</t></e>
+</kvtml>

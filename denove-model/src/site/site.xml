@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Copyright 2009 Sebastian Hoß                                        
+
+     Licensed under the Apache License, Version 2.0 (the "License");     
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License. 
+                                                                         -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<project name="Denove Core">
+
+  <bannerLeft>
+    <name>Denove</name>
+    <src>http://denove.org/graphics/logo.png</src>
+    <href>http://denove.org/</href>
+  </bannerLeft>
+  
+  <version position="left"/>
+  <publishDate position="left"/>
+  
+  <body>
+    <head>
+        <link rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <link rel="shortcut icon" href="/favicon.png" sizes="16x16 32x32 64x64" />
+        <link rel="meta" title="DOAP" href="http://denove.org/core/doap.rdf" type="application/rdf+xml"/>
+    </head>
+    
+    <links>
+      <item name="Community"    href="http://denove.org/community/" />
+      <item name="Downloads"    href="http://denove.org/downloads/" />
+      <item name="Issues"       href="http://denove.org/issues/" />
+      <item name="Wiki"         href="http://denove.org/wiki/" />
+      <item name="Lessons"      href="http://denove.org/lessons/" />
+      <item name="Organisation" href="http://denove.org/organisation/" />
+      <item name="Sitemap"      href="http://denove.org/sitemap/" />
+      <item name="Glossary"     href="http://denove.org/glossary/" />
+      <item name="Graphics"     href="http://denove.org/graphics/" />
+    </links>
+  
+    <menu name="General">
+      <item name="Overview" href="index.html" />
+      <item name="Download" href="http://denove.org/downloads/index.html#core" />
+    </menu>
+    
+    <menu name="Users">
+      <item name="Examples" href="http://denove.org/wiki/display/CORE/Examples" />
+      <item name="FAQ"      href="http://denove.org/wiki/display/CORE/FAQ" />
+    </menu>
+    
+    <menu name="Developers">
+        <item name="How to contribute"          href="contribute.html" />
+        <item name="Coding Standards"           href="http://denove.org/wiki/display/DEV/Coding+Standards" />
+        <item name="Development Environment"    href="http://denove.org/wiki/display/DEV/Development+Environment" />
+    </menu>
+    
+    <menu ref="reports" />
+    
+  </body>
+  
+</project>

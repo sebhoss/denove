@@ -1,0 +1,5363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kvtml PUBLIC "kvtml2.dtd" "http://edu.kde.org/kvtml/kvtml2.dtd">
+<kvtml version="2.0" >
+  <information>
+    <generator>Parley 0.9.2-svn</generator>
+    <title>Greek.kvtml</title>
+    <author>sky croeser</author>
+    <license>creative commons - non-commercial, attribution, mix as you please, share and share alike.</license>
+    <date>2009-01-12</date>
+  </information>
+  <identifiers>
+    <identifier id="0" >
+      <name>Greek</name>
+      <locale>el</locale>
+      <personalpronouns>
+        <singular>
+          <firstperson>εγώ</firstperson>
+          <secondperson>εσύ</secondperson>
+          <thirdpersonmale>αυτός</thirdpersonmale>
+          <thirdpersonfemale>αυτή</thirdpersonfemale>
+          <thirdpersonneutralcommon>αυτό</thirdpersonneutralcommon>
+        </singular>
+        <plural>
+          <firstperson>εμείς</firstperson>
+          <secondperson>εσείς</secondperson>
+          <thirdpersonmale>αυτοί</thirdpersonmale>
+          <thirdpersonfemale>αυτές</thirdpersonfemale>
+          <thirdpersonneutralcommon>αυτά</thirdpersonneutralcommon>
+        </plural>
+      </personalpronouns>
+    </identifier>
+    <identifier id="1" >
+      <name>English</name>
+      <locale>en</locale>
+      <personalpronouns>
+        <malefemaledifferent/>
+      </personalpronouns>
+    </identifier>
+  </identifiers>
+  <entries>
+    <entry id="0" >
+      <translation id="0" >
+        <text>Δουλεύω</text>
+        <conjugation>
+          <tense></tense>
+        </conjugation>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Δουλεύω</text>
+            </firstperson>
+            <secondperson>
+              <text>Δουλεύεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Δουλεύει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Δουλεύουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Δουλεύετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Δουλεύουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <comment>Like μένω.</comment>
+      </translation>
+      <translation id="1" >
+        <text>To work</text>
+      </translation>
+    </entry>
+    <entry id="1" >
+      <translation id="0" >
+        <text>Αρχίζω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα αρχίσω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα αρχίσεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα αρχίσει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα αρχίσουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα αρχίσετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα αρχίσουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Past Progressive</tense>
+          <singular>
+            <firstperson>
+              <text>Αρχίζα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Αρχίζω</text>
+            </firstperson>
+            <secondperson>
+              <text>Αρχίζεις</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Αρχίζει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Αρχίζει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Αρχίζουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Αρχίζετε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Αρχίζουν</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Αρχίζουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To begin</text>
+      </translation>
+    </entry>
+    <entry id="2" >
+      <translation id="0" >
+        <text>Aγαπάω</text>
+        <conjugation/>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Αγαπάω</text>
+            </firstperson>
+            <secondperson>
+              <text>Αγαπάς</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Αγαπάει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Αγαπάμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Αγαπάτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Αγαπάνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To love</text>
+      </translation>
+    </entry>
+    <entry id="3" >
+      <translation id="0" >
+        <text>Φεύγω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα φύγω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έφυγα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Φεύγω</text>
+            </firstperson>
+            <secondperson>
+              <text>Φεύγεις</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Φεύγει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Φεύγει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Φεύγουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Φεύγετε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Φεύγουν</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Φεύγουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To leave</text>
+      </translation>
+    </entry>
+    <entry id="4" >
+      <translation id="0" >
+        <text>Τελειώνω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα τελειώσο</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Τελειώνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Τελειώνεις</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Τελειώνει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Τελειώνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Τελειώνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Τελειώνετε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Τελειώνουν</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Τελειώνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To finish</text>
+      </translation>
+    </entry>
+    <entry id="5" >
+      <translation id="0" >
+        <text>Σπουδάζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To study</text>
+      </translation>
+    </entry>
+    <entry id="6" >
+      <translation id="0" >
+        <text>Χτενίζω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To brush</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="7" >
+      <translation id="0" >
+        <text>Κάνω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έκανα</text>
+            </firstperson>
+            <secondperson>
+              <text>Έκανες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έκανε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Κάναμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Κάνατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έκαναν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Κάνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Κάνεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Κάνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Κάνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Κάνετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Κάνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To do</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα κάνω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="8" >
+      <translation id="0" >
+        <text>Νομίζω</text>
+        <conjugation/>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Νομίζω</text>
+            </firstperson>
+            <secondperson>
+              <text>Νομίζεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Νομίζει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Νομίζουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Νομίζετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Νομίζουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To believe</text>
+      </translation>
+    </entry>
+    <entry id="9" >
+      <translation id="0" >
+        <text>Φοράω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Φοράω</text>
+            </firstperson>
+            <secondperson>
+              <text>Φοράς</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Φοράει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Φοράμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Φοράτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Φοράνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To wear</text>
+      </translation>
+    </entry>
+    <entry id="10" >
+      <translation id="0" >
+        <text>Πηγαίνω</text>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Πήγα</text>
+            </firstperson>
+            <secondperson>
+              <text>Πήγες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πήγε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Πήγαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Πήγατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πήγαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Πηγαίνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Πηγαίνεις</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Πηγαίνει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Πηγαίνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Πηγαίνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Πηγαίνετε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Πηγαίνουν</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Πηγαίνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To go</text>
+      </translation>
+    </entry>
+    <entry id="11" >
+      <translation id="0" >
+        <text>Δίνω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To give</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="12" >
+      <translation id="0" >
+        <text>Προτιμώ</text>
+        <conjugation/>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To prefer</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="13" >
+      <translation id="0" >
+        <text>Είμαι</text>
+        <conjugation/>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Ήμουν</text>
+            </firstperson>
+            <secondperson>
+              <text>Ήσουν</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ήταν</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ήμασταν</text>
+            </firstperson>
+            <secondperson>
+              <text>Ήσασταν</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ήταν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Είμαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Είσαι</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Είναι</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Είμαστε</text>
+            </firstperson>
+            <secondperson>
+              <text>Είστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Είναι</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To be</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα είμαι</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="14" >
+      <translation id="0" >
+        <text>Καταλαβαίνω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To understand</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="15" >
+      <translation id="0" >
+        <text>Υπολογίζω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To calculate</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="16" >
+      <translation id="0" >
+        <text>Επιστρέφω</text>
+        <conjugation/>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To return</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="17" >
+      <translation id="0" >
+        <text>Οδηγώ</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To drive</text>
+      </translation>
+    </entry>
+    <entry id="18" >
+      <translation id="0" >
+        <text>Λέω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Λέω</text>
+            </firstperson>
+            <secondperson>
+              <text>Λες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Λέει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Λέμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Λέτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Λένε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To speak</text>
+      </translation>
+    </entry>
+    <entry id="19" >
+      <translation id="0" >
+        <text>Γυρίζω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα γυρίσω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα γυρίσεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα γυρίσει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα γυρίσουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα γυρίσετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα γυρίσουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Γύρισα</text>
+            </firstperson>
+            <secondperson>
+              <text>Γύρισες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γύρισε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Γύρισαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Γύρισατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γύρισαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Γυρίζω</text>
+            </firstperson>
+            <secondperson>
+              <text>Γυρίζεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γυρίζει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Γυρίζουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Γυρίζετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γυρίζουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To return</text>
+      </translation>
+    </entry>
+    <entry id="20" >
+      <translation id="0" >
+        <text>Μαγειρεύω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα μαγειρέψω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Μαγείρεψα</text>
+            </firstperson>
+            <secondperson>
+              <text>Μαγείρεψες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Μαγείρεψε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Μαγείρεψαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Μαγείρεψατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Μαγείρεψαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To cook</text>
+      </translation>
+    </entry>
+    <entry id="21" >
+      <translation id="0" >
+        <text>Διαλέγω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To choose</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="22" >
+      <translation id="0" >
+        <text>Συνανταώ</text>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Συνάντησα</text>
+            </firstperson>
+            <secondperson>
+              <text>Συνάντησες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Συνάντησε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Συνάντησαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Συνάντησατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Συνάντησαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To meet</text>
+      </translation>
+    </entry>
+    <entry id="23" >
+      <translation id="0" >
+        <text>Πάω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα πάω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation/>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Πάω</text>
+            </firstperson>
+            <secondperson>
+              <text>Πας</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Πάει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Πάει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Πάμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Πάτε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Πάνε</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Πάνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To go</text>
+      </translation>
+    </entry>
+    <entry id="24" >
+      <translation id="0" >
+        <text>Υπάρχω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To exist</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Υπάρχω</text>
+            </firstperson>
+            <secondperson>
+              <text>Υπάρχεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Υπάρχει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Υπάρχουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Υπάρχετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Υπάρχουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="25" >
+      <translation id="0" >
+        <text>Σταματάω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To stop</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="26" >
+      <translation id="0" >
+        <text>Λέγομαι</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Λέγομαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Λέγεσαι</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Λέγεται</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Λεγόμαστε</text>
+            </firstperson>
+            <secondperson>
+              <text>Λέγεστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Λέγονται</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To be called</text>
+      </translation>
+    </entry>
+    <entry id="27" >
+      <translation id="0" >
+        <text>Διδάσκω</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To teach</text>
+      </translation>
+    </entry>
+    <entry id="28" >
+      <translation id="0" >
+        <text>Γίνομαι</text>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Γίνομαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Γίνεσαι</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γίνεται</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Γινόμαστε</text>
+            </firstperson>
+            <secondperson>
+              <text>Γίνεστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γίνονται</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To become/ To take place</text>
+      </translation>
+    </entry>
+    <entry id="29" >
+      <translation id="0" >
+        <text>Θυμάμαι</text>
+        <conjugation/>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To remember</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Θυμάμαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Θυμάστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θυμάται</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θυμόμαστε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θυμάστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θυμούνται</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="30" >
+      <translation id="0" >
+        <text>Κοιμάμαι</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To sleep</text>
+      </translation>
+    </entry>
+    <entry id="31" >
+      <translation id="0" >
+        <text>Ξυπνάω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Ξύπνησα</text>
+            </firstperson>
+            <secondperson>
+              <text>Ξύπνησες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ξύπνησε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ξύπνησαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Ξύπνησατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ξύπνησαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Ξυπνάω</text>
+            </firstperson>
+            <secondperson>
+              <text>Ξυπνάς</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ξυπνάει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ξυπνάμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Ξυπνάτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ξυπνάνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To wake up</text>
+      </translation>
+    </entry>
+    <entry id="32" >
+      <translation id="0" >
+        <text>Κοιτάζω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Κοιτάζω</text>
+            </firstperson>
+            <secondperson>
+              <text>Κοιτάζεις</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Κοιτάζει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Κοιτάζει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Κοιτάζουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Κοιτάζετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Κοιτάζουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To look at</text>
+      </translation>
+    </entry>
+    <entry id="33" >
+      <translation id="0" >
+        <text>Γεννιέμαι</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To be born</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Γεννήθηκα</text>
+            </firstperson>
+            <secondperson>
+              <text>Γεννήθηκες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γεννήθηκε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Γεννηθήκαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Γεννηθήκατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γεννήθηκανε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="34" >
+      <translation id="0" >
+        <text>Έχω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα έχω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Είχα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Έχω</text>
+            </firstperson>
+            <secondperson>
+              <text>Έχεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έχει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Έχουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Έχετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έχουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To have</text>
+      </translation>
+    </entry>
+    <entry id="35" >
+      <translation id="0" >
+        <text>Ψωνίζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To shop</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα ψωνίσω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="36" >
+      <translation id="0" >
+        <text>Χορεύω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To dance</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα χορέψω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα χορέψεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα χορέψει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα χορέψουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα χορέψετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα χορέψουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="37" >
+      <translation id="0" >
+        <text>Παίζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To play</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έπαιξα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="38" >
+      <translation id="0" >
+        <text>Γελάω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To laugh</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Γελάω</text>
+            </firstperson>
+            <secondperson>
+              <text>Γελάς</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γελάει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Γελάμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Γελάτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Γελάνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="39" >
+      <translation id="0" >
+        <text>Ανοίγω</text>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Ανοίγω</text>
+            </firstperson>
+            <secondperson>
+              <text>Ανοίγεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ανοίγει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ανοίγουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Ανοίγετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ανοίγουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To open</text>
+      </translation>
+    </entry>
+    <entry id="40" >
+      <translation id="0" >
+        <text>Πλένω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To wash</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα πλύνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα πλύνεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα πλύνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα πλύνουεμ</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα πλύνετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα πλύνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Πλένω</text>
+            </firstperson>
+            <secondperson>
+              <text>Πλένεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πλένει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Πλένουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Πλένετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πλένουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="41" >
+      <translation id="0" >
+        <text>Φωνάζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To cry</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα φωνάσω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="42" >
+      <translation id="0" >
+        <text>Σκέφτομαι</text>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Σκέφτομαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Σκέφτεσαι</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Σκέφτεται</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Σκέφτόμαστε</text>
+            </firstperson>
+            <secondperson>
+              <text>Σκέφτεστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Σκέφτονται</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To think</text>
+      </translation>
+    </entry>
+    <entry id="43" >
+      <translation id="0" >
+        <text>Ρωτώ</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To ask</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="44" >
+      <translation id="0" >
+        <text>Βγαίνω</text>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Βγήκα</text>
+            </firstperson>
+            <secondperson>
+              <text>Βγήκες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Βγήκε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Βγήκαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Βγήκατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Βγήκαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To go out</text>
+      </translation>
+    </entry>
+    <entry id="45" >
+      <translation id="0" >
+        <text>Γκρινιάζω</text>
+      </translation>
+      <translation id="1" >
+        <text>To complain</text>
+      </translation>
+    </entry>
+    <entry id="46" >
+      <translation id="0" >
+        <text>Τρωώ</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα φαω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα φας</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα φαει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα φαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα φατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα φανε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έφαγα</text>
+            </firstperson>
+            <secondperson>
+              <text>Έφαγες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έφαγε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Φάγαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Φάγατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έφαγαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Τρωώ</text>
+            </firstperson>
+            <secondperson>
+              <text>Τρως</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Τρώει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Τρώει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Τρώμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Τρώτε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Τρώνε</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Τρώνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To eat</text>
+      </translation>
+    </entry>
+    <entry id="47" >
+      <translation id="0" >
+        <text>Μένω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα μείνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα μείνεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα μείνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα μείνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα μείνετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα μείνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έμεινα</text>
+            </firstperson>
+            <secondperson>
+              <text>Έμεινες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έμεινε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Μέιναμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Μέινατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έμειναν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Μένω</text>
+            </firstperson>
+            <secondperson>
+              <text>Μένεις</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Μένει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Μένει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Μένουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Μένετε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Μένουν</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Μένουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To live</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="48" >
+      <translation id="0" >
+        <text>Αφήνω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To leave</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="49" >
+      <translation id="0" >
+        <text>Κάθομαι</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To sit</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Κάθομαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Κάθεσαι</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Κάθεται</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Καθόμαστε</text>
+            </firstperson>
+            <secondperson>
+              <text>Κάθεστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Κάθονται</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="50" >
+      <translation id="0" >
+        <text>Κλείνω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα κλείσω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Κλείνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Κλείνεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Κλείνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Κλείνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Κλείνετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Κλείνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To shut</text>
+      </translation>
+    </entry>
+    <entry id="51" >
+      <translation id="0" >
+        <text>Φυτεύω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To plant</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα φυτέψω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="52" >
+      <translation id="0" >
+        <text>Ποτίζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To water</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="53" >
+      <translation id="0" >
+        <text>Ακούω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Ακούσα</text>
+            </firstperson>
+            <secondperson>
+              <text>Ακούσες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ακούσε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ακούσαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Ακούσατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ακούσαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Ακούω</text>
+            </firstperson>
+            <secondperson>
+              <text>Ακούς</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ακούει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ακούμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Ακούτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ακούνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To listen</text>
+      </translation>
+    </entry>
+    <entry id="54" >
+      <translation id="0" >
+        <text>Γράφω</text>
+      </translation>
+      <translation id="1" >
+        <text>To write</text>
+      </translation>
+    </entry>
+    <entry id="55" >
+      <translation id="0" >
+        <text>Πίνω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα πιω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα πεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα πει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα πιουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα πιειτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα πιουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Ήπια</text>
+            </firstperson>
+            <secondperson>
+              <text>Ήπιες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ήπιε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Πίαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Πίατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ήπιαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Πίνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Πίνεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πίνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Πίνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Πίνετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πίνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To drink</text>
+      </translation>
+    </entry>
+    <entry id="56" >
+      <translation id="0" >
+        <text>Φτιάχνω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To make</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="57" >
+      <translation id="0" >
+        <text>Πληρώνω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα πληρώσω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Πλήρωσα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Πληρώνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Πληρώνεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πληρώνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Πληρώνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Πληρώνετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Πληρώνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To pay</text>
+      </translation>
+    </entry>
+    <entry id="58" >
+      <translation id="0" >
+        <text>Καπνίζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To smoke</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα καπνίσω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="59" >
+      <translation id="0" >
+        <text>Περιμένω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα περιμένω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Περιμενά</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To wait</text>
+      </translation>
+    </entry>
+    <entry id="60" >
+      <translation id="0" >
+        <text>Υπογράφω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To sign</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα υπογράφω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="61" >
+      <translation id="0" >
+        <text>Ξαπλώνω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Ξάπλωσα</text>
+            </firstperson>
+            <secondperson>
+              <text>Ξάπλωσες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ξάπλωσε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ξάπλωσαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Ξάπλωσατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Ξάπλωσαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To lie down</text>
+      </translation>
+    </entry>
+    <entry id="62" >
+      <translation id="0" >
+        <text>Τελεφωνώ</text>
+      </translation>
+      <translation id="1" >
+        <text>To telephone</text>
+      </translation>
+    </entry>
+    <entry id="63" >
+      <translation id="0" >
+        <text>Καθαρίζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To clean</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="64" >
+      <translation id="0" >
+        <text>Μιλάω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Μιλάω</text>
+            </firstperson>
+            <secondperson>
+              <text>Μιλάς</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Μιλάει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Μιλάμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Μιλάτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Μιλάνε</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To speak</text>
+      </translation>
+    </entry>
+    <entry id="65" >
+      <translation id="0" >
+        <text>Παίρνω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα πάρω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα πάρεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα πάρει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα πάρουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα πάρετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα πάρουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Πήρα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To take</text>
+      </translation>
+    </entry>
+    <entry id="66" >
+      <translation id="0" >
+        <text>Πειναώ</text>
+      </translation>
+      <translation id="1" >
+        <text>To be hungry</text>
+      </translation>
+    </entry>
+    <entry id="67" >
+      <translation id="0" >
+        <text>Διψάω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To be thirsty</text>
+      </translation>
+    </entry>
+    <entry id="68" >
+      <translation id="0" >
+        <text>Φτάνω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έφτασα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Φτάνω</text>
+            </firstperson>
+            <secondperson>
+              <text>Φτάνεις</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Φτάνει</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Φτάνει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Φτάνουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Φτάνετε</text>
+            </secondperson>
+            <thirdpersonmale>
+              <text>Φτάνουν</text>
+            </thirdpersonmale>
+            <thirdpersonneutralcommon>
+              <text>Φτάνουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To arrive</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="69" >
+      <translation id="0" >
+        <text>Αργώ</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To be late</text>
+      </translation>
+    </entry>
+    <entry id="70" >
+      <translation id="0" >
+        <text>Χρειάζομαι</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To need</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Χρειάζομαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Χρειάζεσαι</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Χρειάζεται</text>
+            </thirdpersonneutralcommon>
+          </singular>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="71" >
+      <translation id="0" >
+        <text>Προσέχω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To be careful</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα προσέξω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα προσέξεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα προσέξει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα προσέξουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα προσέξετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα προσέξουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+    </entry>
+    <entry id="72" >
+      <translation id="0" >
+        <text>Έρχομαι</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έρθω</text>
+            </firstperson>
+            <secondperson>
+              <text>Έρθεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έρθει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Έρχομαι</text>
+            </firstperson>
+            <secondperson>
+              <text>Έρχεσαι</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έρχεται</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Ερχόμαστε</text>
+            </firstperson>
+            <secondperson>
+              <text>Έρχεστε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έρχονται</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To come</text>
+      </translation>
+    </entry>
+    <entry id="73" >
+      <translation id="0" >
+        <text>Ζω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To live</text>
+      </translation>
+    </entry>
+    <entry id="74" >
+      <translation id="0" >
+        <text>Διαβάζω</text>
+        <conjugation/>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Διάβασα</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Θα διαβάσω</text>
+            </firstperson>
+          </singular>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To read</text>
+      </translation>
+    </entry>
+    <entry id="75" >
+      <translation id="0" >
+        <text>Βλέπω</text>
+        <conjugation>
+          <tense>Future</tense>
+          <singular>
+            <firstperson>
+              <text>Θα δω</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα δεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα δει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Θα δουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Θα δείτε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Θα δουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Past</tense>
+          <singular>
+            <firstperson>
+              <text>Έιδα</text>
+            </firstperson>
+            <secondperson>
+              <text>Έιδες</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έιδε</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Έιδαμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Έιδατε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Έιδαν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+        <conjugation>
+          <tense>Simple Present</tense>
+          <singular>
+            <firstperson>
+              <text>Βλέπω</text>
+            </firstperson>
+            <secondperson>
+              <text>Βλέπεις</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Βλέπει</text>
+            </thirdpersonneutralcommon>
+          </singular>
+          <plural>
+            <firstperson>
+              <text>Βλέπουμε</text>
+            </firstperson>
+            <secondperson>
+              <text>Βλέπετε</text>
+            </secondperson>
+            <thirdpersonneutralcommon>
+              <text>Βλέπουν</text>
+            </thirdpersonneutralcommon>
+          </plural>
+        </conjugation>
+      </translation>
+      <translation id="1" >
+        <text>To see</text>
+      </translation>
+    </entry>
+    <entry id="76" >
+      <translation id="0" >
+        <text>Βρωμάω</text>
+        <conjugation/>
+      </translation>
+      <translation id="1" >
+        <text>To stink</text>
+        <conjugation/>
+      </translation>
+    </entry>
+    <entry id="77" >
+      <translation id="0" >
+        <text>διαμέρισμα</text>
+      </translation>
+      <translation id="1" >
+        <text>apartment</text>
+      </translation>
+    </entry>
+    <entry id="78" >
+      <translation id="0" >
+        <text>φούρνος</text>
+      </translation>
+      <translation id="1" >
+        <text>bakery/oven</text>
+      </translation>
+    </entry>
+    <entry id="79" >
+      <translation id="0" >
+        <text>τράπεζα</text>
+      </translation>
+      <translation id="1" >
+        <text>bank</text>
+      </translation>
+    </entry>
+    <entry id="80" >
+      <translation id="0" >
+        <text>καφενείο</text>
+      </translation>
+      <translation id="1" >
+        <text>cafe</text>
+      </translation>
+    </entry>
+    <entry id="81" >
+      <translation id="0" >
+        <text>εκκλησία</text>
+      </translation>
+      <translation id="1" >
+        <text>church</text>
+      </translation>
+    </entry>
+    <entry id="82" >
+      <translation id="0" >
+        <text>σινεμά</text>
+      </translation>
+      <translation id="1" >
+        <text>cinema</text>
+      </translation>
+    </entry>
+    <entry id="83" >
+      <translation id="0" >
+        <text>τάξη</text>
+      </translation>
+      <translation id="1" >
+        <text>classroom</text>
+      </translation>
+    </entry>
+    <entry id="84" >
+      <translation id="0" >
+        <text>δημαρχείο</text>
+      </translation>
+      <translation id="1" >
+        <text>council house</text>
+      </translation>
+    </entry>
+    <entry id="85" >
+      <translation id="0" >
+        <text>παντοπωλείο</text>
+      </translation>
+      <translation id="1" >
+        <text>grocery</text>
+      </translation>
+    </entry>
+    <entry id="86" >
+      <translation id="0" >
+        <text>νοσοκομείο</text>
+      </translation>
+      <translation id="1" >
+        <text>hospital</text>
+      </translation>
+    </entry>
+    <entry id="87" >
+      <translation id="0" >
+        <text>ξενοδοχείο</text>
+      </translation>
+      <translation id="1" >
+        <text>hotel</text>
+      </translation>
+    </entry>
+    <entry id="88" >
+      <translation id="0" >
+        <text>σπίτι</text>
+      </translation>
+      <translation id="1" >
+        <text>house</text>
+      </translation>
+    </entry>
+    <entry id="89" >
+      <translation id="0" >
+        <text>νησί</text>
+      </translation>
+      <translation id="1" >
+        <text>island</text>
+      </translation>
+    </entry>
+    <entry id="90" >
+      <translation id="0" >
+        <text>βιβλιοθήκη</text>
+      </translation>
+      <translation id="1" >
+        <text>library</text>
+      </translation>
+    </entry>
+    <entry id="91" >
+      <translation id="0" >
+        <text>αγορά</text>
+      </translation>
+      <translation id="1" >
+        <text>market</text>
+      </translation>
+    </entry>
+    <entry id="92" >
+      <translation id="0" >
+        <text>κινηματογράφος</text>
+      </translation>
+      <translation id="1" >
+        <text>movie theatre</text>
+      </translation>
+    </entry>
+    <entry id="93" >
+      <translation id="0" >
+        <text>γραφείο</text>
+      </translation>
+      <translation id="1" >
+        <text>office</text>
+      </translation>
+    </entry>
+    <entry id="94" >
+      <translation id="0" >
+        <text>λιμάνι</text>
+      </translation>
+      <translation id="1" >
+        <text>port</text>
+      </translation>
+    </entry>
+    <entry id="95" >
+      <translation id="0" >
+        <text>ταχυδρομείο</text>
+      </translation>
+      <translation id="1" >
+        <text>post office</text>
+      </translation>
+    </entry>
+    <entry id="96" >
+      <translation id="0" >
+        <text>μπυραρία</text>
+      </translation>
+      <translation id="1" >
+        <text>pub</text>
+      </translation>
+    </entry>
+    <entry id="97" >
+      <translation id="0" >
+        <text>εστιατόριο</text>
+      </translation>
+      <translation id="1" >
+        <text>restaurant</text>
+      </translation>
+    </entry>
+    <entry id="98" >
+      <translation id="0" >
+        <text>σχολείο</text>
+      </translation>
+      <translation id="1" >
+        <text>school</text>
+      </translation>
+    </entry>
+    <entry id="99" >
+      <translation id="0" >
+        <text>θάλασσα</text>
+      </translation>
+      <translation id="1" >
+        <text>sea</text>
+      </translation>
+    </entry>
+    <entry id="100" >
+      <translation id="0" >
+        <text>σουπερμάρκετ</text>
+      </translation>
+      <translation id="1" >
+        <text>supermarket</text>
+      </translation>
+    </entry>
+    <entry id="101" >
+      <translation id="0" >
+        <text>πόλη</text>
+      </translation>
+      <translation id="1" >
+        <text>town</text>
+      </translation>
+    </entry>
+    <entry id="102" >
+      <translation id="0" >
+        <text>πανεπιστήμιο</text>
+      </translation>
+      <translation id="1" >
+        <text>university</text>
+      </translation>
+    </entry>
+    <entry id="103" >
+      <translation id="0" >
+        <text>κτίριο</text>
+      </translation>
+      <translation id="1" >
+        <text>building</text>
+      </translation>
+    </entry>
+    <entry id="104" >
+      <translation id="0" >
+        <text>στάση</text>
+      </translation>
+      <translation id="1" >
+        <text>bus stop</text>
+      </translation>
+    </entry>
+    <entry id="105" >
+      <translation id="0" >
+        <text>κλινική</text>
+      </translation>
+      <translation id="1" >
+        <text>clinic</text>
+      </translation>
+    </entry>
+    <entry id="106" >
+      <translation id="0" >
+        <text>κολλέγιο</text>
+      </translation>
+      <translation id="1" >
+        <text>college</text>
+      </translation>
+    </entry>
+    <entry id="107" >
+      <translation id="0" >
+        <text>μανάβης</text>
+      </translation>
+      <translation id="1" >
+        <text>greengrocer</text>
+      </translation>
+    </entry>
+    <entry id="108" >
+      <translation id="0" >
+        <text>λύκειο</text>
+      </translation>
+      <translation id="1" >
+        <text>high school (10 to 12)</text>
+      </translation>
+    </entry>
+    <entry id="109" >
+      <translation id="0" >
+        <text>γυμνάσειο</text>
+      </translation>
+      <translation id="1" >
+        <text>high school (7 to 9)</text>
+      </translation>
+    </entry>
+    <entry id="110" >
+      <translation id="0" >
+        <text>μουσείο</text>
+      </translation>
+      <translation id="1" >
+        <text>museum</text>
+      </translation>
+    </entry>
+    <entry id="111" >
+      <translation id="0" >
+        <text>υπεραγορά</text>
+      </translation>
+      <translation id="1" >
+        <text>supermarket</text>
+      </translation>
+    </entry>
+    <entry id="112" >
+      <translation id="0" >
+        <text>Ανατολή</text>
+      </translation>
+      <translation id="1" >
+        <text>East</text>
+      </translation>
+    </entry>
+    <entry id="113" >
+      <translation id="0" >
+        <text>αριστερός</text>
+      </translation>
+      <translation id="1" >
+        <text>left</text>
+      </translation>
+    </entry>
+    <entry id="114" >
+      <translation id="0" >
+        <text>Βορράς</text>
+      </translation>
+      <translation id="1" >
+        <text>North</text>
+      </translation>
+    </entry>
+    <entry id="115" >
+      <translation id="0" >
+        <text>δεξιός</text>
+      </translation>
+      <translation id="1" >
+        <text>right</text>
+      </translation>
+    </entry>
+    <entry id="116" >
+      <translation id="0" >
+        <text>Νότος</text>
+      </translation>
+      <translation id="1" >
+        <text>South</text>
+      </translation>
+    </entry>
+    <entry id="117" >
+      <translation id="0" >
+        <text>ίσιος</text>
+      </translation>
+      <translation id="1" >
+        <text>straight</text>
+      </translation>
+    </entry>
+    <entry id="118" >
+      <translation id="0" >
+        <text>Αύση</text>
+      </translation>
+      <translation id="1" >
+        <text>West</text>
+      </translation>
+    </entry>
+    <entry id="119" >
+      <translation id="0" >
+        <text>Αίγυπτος</text>
+      </translation>
+      <translation id="1" >
+        <text>Egypt</text>
+      </translation>
+    </entry>
+    <entry id="120" >
+      <translation id="0" >
+        <text>οριζόντια</text>
+      </translation>
+      <translation id="1" >
+        <text>horizontal</text>
+      </translation>
+    </entry>
+    <entry id="121" >
+      <translation id="0" >
+        <text>απέναντι</text>
+      </translation>
+      <translation id="1" >
+        <text>opposite</text>
+      </translation>
+    </entry>
+    <entry id="122" >
+      <translation id="0" >
+        <text>κάθετα</text>
+      </translation>
+      <translation id="1" >
+        <text>vertical</text>
+      </translation>
+    </entry>
+    <entry id="123" >
+      <translation id="0" >
+        <text>αερολιμένας</text>
+      </translation>
+      <translation id="1" >
+        <text>airport</text>
+      </translation>
+    </entry>
+    <entry id="124" >
+      <translation id="0" >
+        <text>βιβλιοπωλείο</text>
+      </translation>
+      <translation id="1" >
+        <text>bookshop</text>
+      </translation>
+    </entry>
+    <entry id="125" >
+      <translation id="0" >
+        <text>μαγαζιά</text>
+      </translation>
+      <translation id="1" >
+        <text>shops</text>
+      </translation>
+    </entry>
+    <entry id="126" >
+      <translation id="0" >
+        <text>της</text>
+      </translation>
+      <translation id="1" >
+        <text>hers</text>
+      </translation>
+    </entry>
+    <entry id="127" >
+      <translation id="0" >
+        <text>του</text>
+      </translation>
+      <translation id="1" >
+        <text>his/its</text>
+      </translation>
+    </entry>
+    <entry id="128" >
+      <translation id="0" >
+        <text>μου</text>
+      </translation>
+      <translation id="1" >
+        <text>my</text>
+      </translation>
+    </entry>
+    <entry id="129" >
+      <translation id="0" >
+        <text>μας</text>
+      </translation>
+      <translation id="1" >
+        <text>ours</text>
+      </translation>
+    </entry>
+    <entry id="130" >
+      <translation id="0" >
+        <text>τους</text>
+      </translation>
+      <translation id="1" >
+        <text>theirs</text>
+      </translation>
+    </entry>
+    <entry id="131" >
+      <translation id="0" >
+        <text>σου</text>
+      </translation>
+      <translation id="1" >
+        <text>your</text>
+      </translation>
+    </entry>
+    <entry id="132" >
+      <translation id="0" >
+        <text>σας</text>
+      </translation>
+      <translation id="1" >
+        <text>yours (pl.)</text>
+      </translation>
+    </entry>
+    <entry id="133" >
+      <translation id="0" >
+        <text>μονάχος</text>
+      </translation>
+      <translation id="1" >
+        <text>alone</text>
+      </translation>
+    </entry>
+    <entry id="134" >
+      <translation id="0" >
+        <text>περι που</text>
+      </translation>
+      <translation id="1" >
+        <text>around</text>
+      </translation>
+    </entry>
+    <entry id="135" >
+      <translation id="0" >
+        <text>αφιξη</text>
+      </translation>
+      <translation id="1" >
+        <text>arrival</text>
+      </translation>
+    </entry>
+    <entry id="136" >
+      <translation id="0" >
+        <text>μπαλκόνι</text>
+      </translation>
+      <translation id="1" >
+        <text>balcony</text>
+      </translation>
+    </entry>
+    <entry id="137" >
+      <translation id="0" >
+        <text>ποδήλατο</text>
+      </translation>
+      <translation id="1" >
+        <text>bicycle</text>
+      </translation>
+    </entry>
+    <entry id="138" >
+      <translation id="0" >
+        <text>καράβι</text>
+      </translation>
+      <translation id="1" >
+        <text>boat</text>
+      </translation>
+    </entry>
+    <entry id="139" >
+      <translation id="0" >
+        <text>λεωφορείο</text>
+      </translation>
+      <translation id="1" >
+        <text>bus</text>
+      </translation>
+    </entry>
+    <entry id="140" >
+      <translation id="0" >
+        <text>αντίο</text>
+      </translation>
+      <translation id="1" >
+        <text>bye</text>
+      </translation>
+    </entry>
+    <entry id="141" >
+      <translation id="0" >
+        <text>γάτα</text>
+      </translation>
+      <translation id="1" >
+        <text>cat</text>
+      </translation>
+    </entry>
+    <entry id="142" >
+      <translation id="0" >
+        <text>κανάλι</text>
+      </translation>
+      <translation id="1" >
+        <text>channel</text>
+      </translation>
+    </entry>
+    <entry id="143" >
+      <translation id="0" >
+        <text>χορό</text>
+      </translation>
+      <translation id="1" >
+        <text>dance</text>
+      </translation>
+    </entry>
+    <entry id="144" >
+      <translation id="0" >
+        <text>αναχώρηση</text>
+      </translation>
+      <translation id="1" >
+        <text>departure</text>
+      </translation>
+    </entry>
+    <entry id="145" >
+      <translation id="0" >
+        <text>πτηση</text>
+      </translation>
+      <translation id="1" >
+        <text>flight</text>
+      </translation>
+    </entry>
+    <entry id="146" >
+      <translation id="0" >
+        <text>για κολύμπι</text>
+      </translation>
+      <translation id="1" >
+        <text>for a swim</text>
+      </translation>
+    </entry>
+    <entry id="147" >
+      <translation id="0" >
+        <text>γεωμετρία</text>
+      </translation>
+      <translation id="1" >
+        <text>geometry</text>
+      </translation>
+    </entry>
+    <entry id="148" >
+      <translation id="0" >
+        <text>κυβέρνυση</text>
+      </translation>
+      <translation id="1" >
+        <text>government</text>
+      </translation>
+    </entry>
+    <entry id="149" >
+      <translation id="0" >
+        <text>παρέα</text>
+      </translation>
+      <translation id="1" >
+        <text>group of friends</text>
+      </translation>
+    </entry>
+    <entry id="150" >
+      <translation id="0" >
+        <text>μάλιστα</text>
+      </translation>
+      <translation id="1" >
+        <text>indeed</text>
+      </translation>
+    </entry>
+    <entry id="151" >
+      <translation id="0" >
+        <text>αστείο</text>
+      </translation>
+      <translation id="1" >
+        <text>joke</text>
+      </translation>
+    </entry>
+    <entry id="152" >
+      <translation id="0" >
+        <text>αριστερό</text>
+      </translation>
+      <translation id="1" >
+        <text>left</text>
+      </translation>
+    </entry>
+    <entry id="153" >
+      <translation id="0" >
+        <text>μαρκαδόρος</text>
+      </translation>
+      <translation id="1" >
+        <text>marker</text>
+      </translation>
+    </entry>
+    <entry id="154" >
+      <translation id="0" >
+        <text>φεγγάρι</text>
+      </translation>
+      <translation id="1" >
+        <text>moon</text>
+      </translation>
+    </entry>
+    <entry id="155" >
+      <translation id="0" >
+        <text>μουσική</text>
+      </translation>
+      <translation id="1" >
+        <text>music</text>
+      </translation>
+    </entry>
+    <entry id="156" >
+      <translation id="0" >
+        <text>ναρκωτικά</text>
+      </translation>
+      <translation id="1" >
+        <text>narcotics</text>
+      </translation>
+    </entry>
+    <entry id="157" >
+      <translation id="0" >
+        <text>φυσικά</text>
+      </translation>
+      <translation id="1" >
+        <text>naturally</text>
+      </translation>
+    </entry>
+    <entry id="158" >
+      <translation id="0" >
+        <text>ζευγάρι</text>
+      </translation>
+      <translation id="1" >
+        <text>pair</text>
+      </translation>
+    </entry>
+    <entry id="159" >
+      <translation id="0" >
+        <text>πολιτική</text>
+      </translation>
+      <translation id="1" >
+        <text>politics</text>
+      </translation>
+    </entry>
+    <entry id="160" >
+      <translation id="0" >
+        <text>ψυχολογία</text>
+      </translation>
+      <translation id="1" >
+        <text>psychology</text>
+      </translation>
+    </entry>
+    <entry id="161" >
+      <translation id="0" >
+        <text>δεξιά</text>
+      </translation>
+      <translation id="1" >
+        <text>right</text>
+      </translation>
+    </entry>
+    <entry id="162" >
+      <translation id="0" >
+        <text>ύπνος</text>
+      </translation>
+      <translation id="1" >
+        <text>sleep</text>
+      </translation>
+    </entry>
+    <entry id="163" >
+      <translation id="0" >
+        <text>κοινωνιολογία</text>
+      </translation>
+      <translation id="1" >
+        <text>sociology</text>
+      </translation>
+    </entry>
+    <entry id="164" >
+      <translation id="0" >
+        <text>ηλιοθεραπεία</text>
+      </translation>
+      <translation id="1" >
+        <text>sunbathing</text>
+      </translation>
+    </entry>
+    <entry id="165" >
+      <translation id="0" >
+        <text>μπάνιο</text>
+      </translation>
+      <translation id="1" >
+        <text>swim/bath</text>
+      </translation>
+    </entry>
+    <entry id="166" >
+      <translation id="0" >
+        <text>τα Νέα</text>
+      </translation>
+      <translation id="1" >
+        <text>the News</text>
+      </translation>
+    </entry>
+    <entry id="167" >
+      <translation id="0" >
+        <text>μαζί</text>
+      </translation>
+      <translation id="1" >
+        <text>together</text>
+      </translation>
+    </entry>
+    <entry id="168" >
+      <translation id="0" >
+        <text>τραίνο</text>
+      </translation>
+      <translation id="1" >
+        <text>train</text>
+      </translation>
+    </entry>
+    <entry id="169" >
+      <translation id="0" >
+        <text>βόλτα</text>
+      </translation>
+      <translation id="1" >
+        <text>trip</text>
+      </translation>
+    </entry>
+    <entry id="170" >
+      <translation id="0" >
+        <text>θεα</text>
+      </translation>
+      <translation id="1" >
+        <text>view</text>
+      </translation>
+    </entry>
+    <entry id="171" >
+      <translation id="0" >
+        <text>καιρός</text>
+      </translation>
+      <translation id="1" >
+        <text>weather</text>
+      </translation>
+    </entry>
+    <entry id="172" >
+      <translation id="0" >
+        <text>Δυτικής Αυστραλίας</text>
+      </translation>
+      <translation id="1" >
+        <text>Western Australia</text>
+      </translation>
+    </entry>
+    <entry id="173" >
+      <translation id="0" >
+        <text>σύντροφος</text>
+      </translation>
+      <translation id="1" >
+        <text>partner</text>
+      </translation>
+    </entry>
+    <entry id="174" >
+      <translation id="0" >
+        <text>φίλος</text>
+      </translation>
+      <translation id="1" >
+        <text>boyfriend</text>
+      </translation>
+    </entry>
+    <entry id="175" >
+      <translation id="0" >
+        <text>οικονομική θέση</text>
+      </translation>
+      <translation id="1" >
+        <text>economy class</text>
+      </translation>
+    </entry>
+    <entry id="176" >
+      <translation id="0" >
+        <text>διασκέδαση</text>
+      </translation>
+      <translation id="1" >
+        <text>entertainment</text>
+      </translation>
+    </entry>
+    <entry id="177" >
+      <translation id="0" >
+        <text>πρώτη θέση</text>
+      </translation>
+      <translation id="1" >
+        <text>first class</text>
+      </translation>
+    </entry>
+    <entry id="178" >
+      <translation id="0" >
+        <text>δυστυχώς</text>
+      </translation>
+      <translation id="1" >
+        <text>unfortunately</text>
+      </translation>
+    </entry>
+    <entry id="179" >
+      <translation id="0" >
+        <text>φιλάρες</text>
+      </translation>
+      <translation id="1" >
+        <text>big kisses</text>
+      </translation>
+    </entry>
+    <entry id="180" >
+      <translation id="0" >
+        <text>γενέθλια</text>
+      </translation>
+      <translation id="1" >
+        <text>birthday</text>
+      </translation>
+    </entry>
+    <entry id="181" >
+      <translation id="0" >
+        <text>κτλ</text>
+      </translation>
+      <translation id="1" >
+        <text>etc</text>
+      </translation>
+    </entry>
+    <entry id="182" >
+      <translation id="0" >
+        <text>δώρο</text>
+      </translation>
+      <translation id="1" >
+        <text>gift</text>
+      </translation>
+    </entry>
+    <entry id="183" >
+      <translation id="0" >
+        <text>φιλιά</text>
+      </translation>
+      <translation id="1" >
+        <text>kisses</text>
+      </translation>
+    </entry>
+    <entry id="184" >
+      <translation id="0" >
+        <text>κατάλογος</text>
+      </translation>
+      <translation id="1" >
+        <text>list</text>
+      </translation>
+    </entry>
+    <entry id="185" >
+      <translation id="0" >
+        <text>φιλάκια</text>
+      </translation>
+      <translation id="1" >
+        <text>little kisses</text>
+      </translation>
+    </entry>
+    <entry id="186" >
+      <translation id="0" >
+        <text>μενταγιόν</text>
+      </translation>
+      <translation id="1" >
+        <text>medallion</text>
+      </translation>
+    </entry>
+    <entry id="187" >
+      <translation id="0" >
+        <text>κάτι</text>
+      </translation>
+      <translation id="1" >
+        <text>something</text>
+      </translation>
+    </entry>
+    <entry id="188" >
+      <translation id="0" >
+        <text>μπορεί</text>
+      </translation>
+      <translation id="1" >
+        <text>maybe</text>
+      </translation>
+    </entry>
+    <entry id="189" >
+      <translation id="0" >
+        <text>πάλι</text>
+      </translation>
+      <translation id="1" >
+        <text>again</text>
+      </translation>
+    </entry>
+    <entry id="190" >
+      <translation id="0" >
+        <text>μέτριος</text>
+      </translation>
+      <translation id="1" >
+        <text>average (height)</text>
+      </translation>
+    </entry>
+    <entry id="191" >
+      <translation id="0" >
+        <text>όμορφος</text>
+      </translation>
+      <translation id="1" >
+        <text>beautiful</text>
+      </translation>
+    </entry>
+    <entry id="192" >
+      <translation id="0" >
+        <text>μεγάλος</text>
+      </translation>
+      <translation id="1" >
+        <text>big</text>
+      </translation>
+    </entry>
+    <entry id="193" >
+      <translation id="0" >
+        <text>μελαχρινός</text>
+      </translation>
+      <translation id="1" >
+        <text>black-haired</text>
+      </translation>
+    </entry>
+    <entry id="194" >
+      <translation id="0" >
+        <text>καστανός</text>
+      </translation>
+      <translation id="1" >
+        <text>brunette</text>
+      </translation>
+    </entry>
+    <entry id="195" >
+      <translation id="0" >
+        <text>φτηνός</text>
+      </translation>
+      <translation id="1" >
+        <text>cheap</text>
+      </translation>
+    </entry>
+    <entry id="196" >
+      <translation id="0" >
+        <text>έξυπνος</text>
+      </translation>
+      <translation id="1" >
+        <text>clever</text>
+      </translation>
+    </entry>
+    <entry id="197" >
+      <translation id="0" >
+        <text>κλειστός</text>
+      </translation>
+      <translation id="1" >
+        <text>closed</text>
+      </translation>
+    </entry>
+    <entry id="198" >
+      <translation id="0" >
+        <text>κρύος</text>
+      </translation>
+      <translation id="1" >
+        <text>cold</text>
+      </translation>
+    </entry>
+    <entry id="199" >
+      <translation id="0" >
+        <text>σύμπαθητικός</text>
+      </translation>
+      <translation id="1" >
+        <text>cute/lovable</text>
+      </translation>
+    </entry>
+    <entry id="200" >
+      <translation id="0" >
+        <text>μορφωμένος</text>
+      </translation>
+      <translation id="1" >
+        <text>educated</text>
+      </translation>
+    </entry>
+  </entries>
+  <lessons>
+    <container>
+      <name>Verbs</name>
+      <inpractice>true</inpractice>
+      <container>
+        <name>Verbs 1</name>
+        <inpractice>true</inpractice>
+        <entry id="0" />
+        <entry id="1" />
+        <entry id="2" />
+        <entry id="3" />
+        <entry id="4" />
+        <entry id="5" />
+        <entry id="6" />
+        <entry id="7" />
+        <entry id="8" />
+        <entry id="9" />
+        <entry id="10" />
+        <entry id="11" />
+        <entry id="12" />
+        <entry id="13" />
+        <entry id="14" />
+        <entry id="15" />
+        <entry id="16" />
+        <entry id="17" />
+        <entry id="18" />
+        <entry id="19" />
+        <entry id="20" />
+        <entry id="21" />
+        <entry id="22" />
+        <entry id="23" />
+        <entry id="24" />
+        <entry id="25" />
+        <entry id="26" />
+        <entry id="27" />
+        <entry id="28" />
+        <entry id="29" />
+      </container>
+      <container>
+        <name>Verbs 2</name>
+        <entry id="30" />
+        <entry id="31" />
+        <entry id="32" />
+        <entry id="33" />
+        <entry id="34" />
+        <entry id="35" />
+        <entry id="36" />
+        <entry id="37" />
+        <entry id="38" />
+        <entry id="39" />
+        <entry id="40" />
+        <entry id="41" />
+        <entry id="42" />
+        <entry id="43" />
+        <entry id="44" />
+        <entry id="45" />
+        <entry id="46" />
+        <entry id="47" />
+        <entry id="48" />
+        <entry id="49" />
+        <entry id="50" />
+        <entry id="51" />
+        <entry id="52" />
+        <entry id="53" />
+        <entry id="54" />
+        <entry id="55" />
+        <entry id="56" />
+        <entry id="57" />
+        <entry id="58" />
+        <entry id="59" />
+      </container>
+      <container>
+        <name>Verbs 3</name>
+        <entry id="60" />
+        <entry id="61" />
+        <entry id="62" />
+        <entry id="63" />
+        <entry id="64" />
+        <entry id="65" />
+        <entry id="66" />
+        <entry id="67" />
+        <entry id="68" />
+        <entry id="69" />
+        <entry id="70" />
+        <entry id="71" />
+        <entry id="72" />
+        <entry id="73" />
+        <entry id="74" />
+        <entry id="75" />
+        <entry id="76" />
+      </container>
+    </container>
+    <container>
+      <name>Place</name>
+      <entry id="77" />
+      <entry id="78" />
+      <entry id="79" />
+      <entry id="80" />
+      <entry id="81" />
+      <entry id="82" />
+      <entry id="83" />
+      <entry id="84" />
+      <entry id="85" />
+      <entry id="86" />
+      <entry id="87" />
+      <entry id="88" />
+      <entry id="89" />
+      <entry id="90" />
+      <entry id="91" />
+      <entry id="92" />
+      <entry id="93" />
+      <entry id="94" />
+      <entry id="95" />
+      <entry id="96" />
+      <entry id="97" />
+      <entry id="98" />
+      <entry id="99" />
+      <entry id="100" />
+      <entry id="101" />
+      <entry id="102" />
+      <entry id="103" />
+      <entry id="104" />
+      <entry id="105" />
+      <entry id="106" />
+      <entry id="107" />
+      <entry id="108" />
+      <entry id="109" />
+      <entry id="110" />
+      <entry id="111" />
+      <entry id="112" />
+      <entry id="113" />
+      <entry id="114" />
+      <entry id="115" />
+      <entry id="116" />
+      <entry id="117" />
+      <entry id="118" />
+      <entry id="119" />
+      <entry id="120" />
+      <entry id="121" />
+      <entry id="122" />
+      <entry id="123" />
+      <entry id="124" />
+      <entry id="125" />
+    </container>
+    <container>
+      <name>Ownership</name>
+      <entry id="126" />
+      <entry id="127" />
+      <entry id="128" />
+      <entry id="129" />
+      <entry id="130" />
+      <entry id="131" />
+      <entry id="132" />
+    </container>
+    <container>
+      <name>Misc</name>
+      <entry id="133" />
+      <entry id="134" />
+      <entry id="135" />
+      <entry id="136" />
+      <entry id="137" />
+      <entry id="138" />
+      <entry id="139" />
+      <entry id="140" />
+      <entry id="141" />
+      <entry id="142" />
+      <entry id="143" />
+      <entry id="144" />
+      <entry id="145" />
+      <entry id="146" />
+      <entry id="147" />
+      <entry id="148" />
+      <entry id="149" />
+      <entry id="150" />
+      <entry id="151" />
+      <entry id="152" />
+      <entry id="153" />
+      <entry id="154" />
+      <entry id="155" />
+      <entry id="156" />
+      <entry id="157" />
+      <entry id="158" />
+      <entry id="159" />
+      <entry id="160" />
+      <entry id="161" />
+      <entry id="162" />
+      <entry id="163" />
+      <entry id="164" />
+      <entry id="165" />
+      <entry id="166" />
+      <entry id="167" />
+      <entry id="168" />
+      <entry id="169" />
+      <entry id="170" />
+      <entry id="171" />
+      <entry id="172" />
+      <entry id="173" />
+      <entry id="174" />
+      <entry id="175" />
+      <entry id="176" />
+      <entry id="177" />
+      <entry id="178" />
+      <entry id="179" />
+      <entry id="180" />
+      <entry id="181" />
+      <entry id="182" />
+      <entry id="183" />
+      <entry id="184" />
+      <entry id="185" />
+      <entry id="186" />
+      <entry id="187" />
+      <entry id="188" />
+      <entry id="189" />
+    </container>
+    <container>
+      <name>Adjectives</name>
+      <container>
+        <name>Colours</name>
+        <entry id="259" />
+        <entry id="260" />
+        <entry id="261" />
+        <entry id="262" />
+        <entry id="263" />
+        <entry id="264" />
+        <entry id="265" />
+        <entry id="266" />
+        <entry id="267" />
+        <entry id="268" />
+        <entry id="269" />
+        <entry id="270" />
+        <entry id="271" />
+        <entry id="272" />
+      </container>
+      <entry id="190" />
+      <entry id="191" />
+      <entry id="192" />
+      <entry id="193" />
+      <entry id="194" />
+      <entry id="195" />
+      <entry id="196" />
+      <entry id="197" />
+      <entry id="198" />
+      <entry id="199" />
+      <entry id="200" />
+      <entry id="201" />
+      <entry id="202" />
+      <entry id="203" />
+      <entry id="204" />
+      <entry id="205" />
+      <entry id="206" />
+      <entry id="207" />
+      <entry id="208" />
+      <entry id="209" />
+      <entry id="210" />
+      <entry id="211" />
+      <entry id="212" />
+      <entry id="213" />
+      <entry id="214" />
+      <entry id="215" />
+      <entry id="216" />
+      <entry id="217" />
+      <entry id="218" />
+      <entry id="219" />
+      <entry id="220" />
+      <entry id="221" />
+      <entry id="222" />
+      <entry id="223" />
+      <entry id="224" />
+      <entry id="225" />
+      <entry id="226" />
+      <entry id="227" />
+      <entry id="228" />
+      <entry id="229" />
+      <entry id="230" />
+      <entry id="231" />
+      <entry id="232" />
+      <entry id="233" />
+      <entry id="234" />
+      <entry id="235" />
+      <entry id="236" />
+      <entry id="237" />
+      <entry id="238" />
+      <entry id="239" />
+      <entry id="240" />
+      <entry id="241" />
+      <entry id="242" />
+      <entry id="243" />
+      <entry id="244" />
+      <entry id="245" />
+      <entry id="246" />
+      <entry id="247" />
+      <entry id="248" />
+      <entry id="249" />
+      <entry id="250" />
+      <entry id="251" />
+      <entry id="252" />
+      <entry id="253" />
+      <entry id="254" />
+      <entry id="255" />
+      <entry id="256" />
+      <entry id="257" />
+      <entry id="258" />
+    </container>
+    <container>
+      <name>People</name>
+      <container>
+        <name>Nationalities</name>
+        <entry id="338" />
+        <entry id="339" />
+        <entry id="340" />
+        <entry id="341" />
+        <entry id="342" />
+        <entry id="343" />
+        <entry id="344" />
+        <entry id="345" />
+        <entry id="346" />
+        <entry id="347" />
+        <entry id="348" />
+        <entry id="349" />
+        <entry id="350" />
+        <entry id="351" />
+        <entry id="352" />
+        <entry id="353" />
+      </container>
+      <entry id="273" />
+      <entry id="274" />
+      <entry id="275" />
+      <entry id="276" />
+      <entry id="277" />
+      <entry id="278" />
+      <entry id="279" />
+      <entry id="280" />
+      <entry id="281" />
+      <entry id="282" />
+      <entry id="283" />
+      <entry id="284" />
+      <entry id="285" />
+      <entry id="286" />
+      <entry id="287" />
+      <entry id="288" />
+      <entry id="289" />
+      <entry id="290" />
+      <entry id="291" />
+      <entry id="292" />
+      <entry id="293" />
+      <entry id="294" />
+      <entry id="295" />
+      <entry id="296" />
+      <entry id="297" />
+      <entry id="298" />
+      <entry id="299" />
+      <entry id="300" />
+      <entry id="301" />
+      <entry id="302" />
+      <entry id="303" />
+      <entry id="304" />
+      <entry id="305" />
+      <entry id="306" />
+      <entry id="307" />
+      <entry id="308" />
+      <entry id="309" />
+      <entry id="310" />
+      <entry id="311" />
+      <entry id="312" />
+      <entry id="313" />
+      <entry id="314" />
+      <entry id="315" />
+      <entry id="316" />
+      <entry id="317" />
+      <entry id="318" />
+      <entry id="319" />
+      <entry id="320" />
+      <entry id="321" />
+      <entry id="322" />
+      <entry id="323" />
+      <entry id="324" />
+      <entry id="325" />
+      <entry id="326" />
+      <entry id="327" />
+      <entry id="328" />
+      <entry id="329" />
+      <entry id="330" />
+      <entry id="331" />
+      <entry id="332" />
+      <entry id="333" />
+      <entry id="334" />
+      <entry id="335" />
+      <entry id="336" />
+      <entry id="337" />
+    </container>
+    <container>
+      <name>Times</name>
+      <entry id="354" />
+      <entry id="355" />
+      <entry id="356" />
+      <entry id="357" />
+      <entry id="358" />
+      <entry id="359" />
+      <entry id="360" />
+      <entry id="361" />
+      <entry id="362" />
+      <entry id="363" />
+      <entry id="364" />
+      <entry id="365" />
+      <entry id="366" />
+      <entry id="367" />
+      <entry id="368" />
+      <entry id="369" />
+      <entry id="370" />
+      <entry id="371" />
+      <entry id="372" />
+      <entry id="373" />
+      <entry id="374" />
+      <entry id="375" />
+      <entry id="376" />
+      <entry id="377" />
+      <entry id="378" />
+      <entry id="379" />
+      <entry id="380" />
+      <entry id="381" />
+      <entry id="382" />
+      <entry id="383" />
+      <entry id="384" />
+      <entry id="385" />
+      <entry id="386" />
+      <entry id="387" />
+      <entry id="388" />
+      <entry id="389" />
+      <entry id="390" />
+      <entry id="391" />
+      <entry id="392" />
+      <entry id="393" />
+      <entry id="394" />
+    </container>
+    <container>
+      <name>Food and Drink</name>
+      <container>
+        <name>Fruit and vegetables</name>
+        <entry id="443" />
+        <entry id="444" />
+        <entry id="445" />
+        <entry id="446" />
+        <entry id="447" />
+        <entry id="448" />
+        <entry id="449" />
+        <entry id="450" />
+        <entry id="451" />
+        <entry id="452" />
+        <entry id="453" />
+        <entry id="454" />
+        <entry id="455" />
+        <entry id="456" />
+        <entry id="457" />
+        <entry id="458" />
+        <entry id="459" />
+        <entry id="460" />
+        <entry id="461" />
+        <entry id="462" />
+        <entry id="463" />
+        <entry id="464" />
+        <entry id="465" />
+        <entry id="466" />
+        <entry id="467" />
+        <entry id="468" />
+        <entry id="469" />
+        <entry id="470" />
+        <entry id="471" />
+        <entry id="472" />
+      </container>
+      <entry id="395" />
+      <entry id="396" />
+      <entry id="397" />
+      <entry id="398" />
+      <entry id="399" />
+      <entry id="400" />
+      <entry id="401" />
+      <entry id="402" />
+      <entry id="403" />
+      <entry id="404" />
+      <entry id="405" />
+      <entry id="406" />
+      <entry id="407" />
+      <entry id="408" />
+      <entry id="409" />
+      <entry id="410" />
+      <entry id="411" />
+      <entry id="412" />
+      <entry id="413" />
+      <entry id="414" />
+      <entry id="415" />
+      <entry id="416" />
+      <entry id="417" />
+      <entry id="418" />
+      <entry id="419" />
+      <entry id="420" />
+      <entry id="421" />
+      <entry id="422" />
+      <entry id="423" />
+      <entry id="424" />
+      <entry id="425" />
+      <entry id="426" />
+      <entry id="427" />
+      <entry id="428" />
+      <entry id="429" />
+      <entry id="430" />
+      <entry id="431" />
+      <entry id="432" />
+      <entry id="433" />
+      <entry id="434" />
+      <entry id="435" />
+      <entry id="436" />
+      <entry id="437" />
+      <entry id="438" />
+      <entry id="439" />
+      <entry id="440" />
+      <entry id="441" />
+      <entry id="442" />
+    </container>
+    <container>
+      <name>Joining words</name>
+      <entry id="473" />
+      <entry id="474" />
+      <entry id="475" />
+      <entry id="476" />
+      <entry id="477" />
+      <entry id="478" />
+      <entry id="479" />
+      <entry id="480" />
+      <entry id="481" />
+      <entry id="482" />
+      <entry id="483" />
+      <entry id="484" />
+      <entry id="485" />
+      <entry id="486" />
+      <entry id="487" />
+      <entry id="488" />
+      <entry id="489" />
+      <entry id="490" />
+      <entry id="491" />
+      <entry id="492" />
+      <entry id="493" />
+      <entry id="494" />
+      <entry id="495" />
+      <entry id="496" />
+      <entry id="497" />
+      <entry id="498" />
+      <entry id="499" />
+      <entry id="500" />
+      <entry id="501" />
+      <entry id="502" />
+      <entry id="503" />
+      <entry id="504" />
+      <entry id="505" />
+    </container>
+    <container>
+      <name>House</name>
+      <entry id="506" />
+      <entry id="507" />
+      <entry id="508" />
+      <entry id="509" />
+      <entry id="510" />
+      <entry id="511" />
+      <entry id="512" />
+      <entry id="513" />
+      <entry id="514" />
+      <entry id="515" />
+      <entry id="516" />
+      <entry id="517" />
+      <entry id="518" />
+      <entry id="519" />
+      <entry id="520" />
+      <entry id="521" />
+      <entry id="522" />
+      <entry id="523" />
+      <entry id="524" />
+      <entry id="525" />
+      <entry id="526" />
+      <entry id="527" />
+      <entry id="528" />
+      <entry id="529" />
+      <entry id="530" />
+      <entry id="531" />
+      <entry id="532" />
+      <entry id="533" />
+      <entry id="534" />
+      <entry id="535" />
+      <entry id="536" />
+      <entry id="537" />
+    </container>
+    <container>
+      <name>Clothes</name>
+      <entry id="538" />
+      <entry id="539" />
+      <entry id="540" />
+      <entry id="541" />
+      <entry id="542" />
+      <entry id="543" />
+      <entry id="544" />
+      <entry id="545" />
+      <entry id="546" />
+      <entry id="547" />
+      <entry id="548" />
+      <entry id="549" />
+      <entry id="550" />
+      <entry id="551" />
+      <entry id="552" />
+      <entry id="553" />
+      <entry id="554" />
+      <entry id="555" />
+      <entry id="556" />
+      <entry id="557" />
+      <entry id="558" />
+      <entry id="559" />
+      <entry id="560" />
+      <entry id="561" />
+      <entry id="562" />
+      <entry id="563" />
+      <entry id="564" />
+      <entry id="565" />
+      <entry id="566" />
+      <entry id="567" />
+      <entry id="568" />
+      <entry id="569" />
+      <entry id="570" />
+      <entry id="571" />
+      <entry id="572" />
+      <entry id="573" />
+      <entry id="574" />
+      <entry id="575" />
+      <entry id="576" />
+      <entry id="577" />
+    </container>
+    <container>
+      <name>This</name>
+      <entry id="578" />
+      <entry id="579" />
+      <entry id="580" />
+      <entry id="581" />
+      <entry id="582" />
+      <entry id="583" />
+    </container>
+    <container>
+      <name>Misc Nouns</name>
+      <container>
+        <name>Misc Nouns 1</name>
+        <entry id="584" />
+        <entry id="585" />
+        <entry id="586" />
+        <entry id="587" />
+        <entry id="588" />
+        <entry id="589" />
+        <entry id="590" />
+        <entry id="591" />
+        <entry id="592" />
+        <entry id="593" />
+        <entry id="594" />
+        <entry id="595" />
+        <entry id="596" />
+        <entry id="597" />
+        <entry id="598" />
+        <entry id="599" />
+        <entry id="600" />
+        <entry id="601" />
+        <entry id="602" />
+        <entry id="603" />
+        <entry id="604" />
+        <entry id="605" />
+        <entry id="606" />
+        <entry id="607" />
+        <entry id="608" />
+        <entry id="609" />
+        <entry id="610" />
+        <entry id="611" />
+        <entry id="612" />
+        <entry id="613" />
+      </container>
+      <container>
+        <name>Misc Nouns 2</name>
+        <entry id="614" />
+        <entry id="615" />
+        <entry id="616" />
+        <entry id="617" />
+        <entry id="618" />
+        <entry id="619" />
+        <entry id="620" />
+        <entry id="621" />
+        <entry id="622" />
+        <entry id="623" />
+        <entry id="624" />
+        <entry id="625" />
+        <entry id="626" />
+        <entry id="627" />
+        <entry id="628" />
+        <entry id="629" />
+        <entry id="630" />
+        <entry id="631" />
+        <entry id="632" />
+        <entry id="633" />
+        <entry id="634" />
+        <entry id="635" />
+        <entry id="636" />
+        <entry id="637" />
+        <entry id="638" />
+        <entry id="639" />
+        <entry id="640" />
+        <entry id="641" />
+        <entry id="642" />
+        <entry id="643" />
+      </container>
+      <container>
+        <name>Misc Nouns 3</name>
+        <entry id="644" />
+        <entry id="645" />
+        <entry id="646" />
+        <entry id="647" />
+        <entry id="648" />
+        <entry id="649" />
+        <entry id="650" />
+        <entry id="651" />
+        <entry id="652" />
+        <entry id="653" />
+        <entry id="654" />
+        <entry id="655" />
+        <entry id="656" />
+        <entry id="657" />
+        <entry id="658" />
+        <entry id="659" />
+        <entry id="660" />
+        <entry id="661" />
+        <entry id="662" />
+        <entry id="663" />
+        <entry id="664" />
+        <entry id="665" />
+        <entry id="666" />
+        <entry id="667" />
+        <entry id="668" />
+        <entry id="669" />
+        <entry id="670" />
+      </container>
+    </container>
+    <container>
+      <name>Numbers</name>
+      <entry id="671" />
+      <entry id="672" />
+      <entry id="673" />
+      <entry id="674" />
+      <entry id="675" />
+      <entry id="676" />
+      <entry id="677" />
+      <entry id="678" />
+      <entry id="679" />
+      <entry id="680" />
+      <entry id="681" />
+      <entry id="682" />
+      <entry id="683" />
+      <entry id="684" />
+      <entry id="685" />
+      <entry id="686" />
+      <entry id="687" />
+      <entry id="688" />
+      <entry id="689" />
+      <entry id="690" />
+      <entry id="691" />
+      <entry id="692" />
+      <entry id="693" />
+      <entry id="694" />
+      <entry id="695" />
+      <entry id="696" />
+    </container>
+    <container>
+      <name>Reading and Writing</name>
+      <container>
+        <name>Languages</name>
+        <entry id="715" />
+        <entry id="716" />
+        <entry id="717" />
+        <entry id="718" />
+        <entry id="719" />
+        <entry id="720" />
+        <entry id="721" />
+        <entry id="722" />
+        <entry id="723" />
+        <entry id="724" />
+      </container>
+      <entry id="697" />
+      <entry id="698" />
+      <entry id="699" />
+      <entry id="700" />
+      <entry id="701" />
+      <entry id="702" />
+      <entry id="703" />
+      <entry id="704" />
+      <entry id="705" />
+      <entry id="706" />
+      <entry id="707" />
+      <entry id="708" />
+      <entry id="709" />
+      <entry id="710" />
+      <entry id="711" />
+      <entry id="712" />
+      <entry id="713" />
+      <entry id="714" />
+    </container>
+  </lessons>
+  <wordtypes>
+    <container>
+      <name>Verb</name>
+      <specialwordtype>verb</specialwordtype>
+      <entry id="13" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="26" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="66" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="69" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="67" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="28" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="72" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="45" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="20" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="7" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="55" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="17" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="44" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="34" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="61" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="53" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="73" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="2" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="22" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="39" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="19" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="75" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="30" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="42" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="14" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="59" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="9" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="32" >
+        <translation id="0" />
+      </entry>
+      <entry id="8" >
+        <translation id="0" />
+      </entry>
+      <entry id="12" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="25" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="52" >
+        <translation id="0" />
+      </entry>
+      <entry id="6" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="27" >
+        <translation id="0" />
+      </entry>
+      <container>
+        <name>Regular</name>
+        <specialwordtype>verb</specialwordtype>
+        <entry id="68" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="1" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="46" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="4" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="23" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="10" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="3" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="47" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="57" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="74" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="50" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="18" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="64" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="5" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="62" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="31" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="0" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="24" >
+          <translation id="0" />
+        </entry>
+        <entry id="11" >
+          <translation id="0" />
+        </entry>
+        <entry id="38" >
+          <translation id="0" />
+        </entry>
+        <entry id="49" >
+          <translation id="0" />
+        </entry>
+        <entry id="40" >
+          <translation id="0" />
+        </entry>
+        <entry id="15" >
+          <translation id="0" />
+        </entry>
+        <entry id="43" >
+          <translation id="0" />
+        </entry>
+        <entry id="71" >
+          <translation id="0" />
+        </entry>
+        <entry id="63" >
+          <translation id="0" />
+        </entry>
+        <entry id="41" >
+          <translation id="0" />
+        </entry>
+        <entry id="36" >
+          <translation id="0" />
+        </entry>
+        <entry id="48" >
+          <translation id="0" />
+        </entry>
+        <entry id="56" >
+          <translation id="0" />
+        </entry>
+        <entry id="51" >
+          <translation id="0" />
+        </entry>
+        <entry id="37" >
+          <translation id="0" />
+        </entry>
+        <entry id="35" >
+          <translation id="0" />
+        </entry>
+        <entry id="58" >
+          <translation id="0" />
+        </entry>
+        <entry id="76" >
+          <translation id="0" />
+        </entry>
+        <entry id="16" >
+          <translation id="0" />
+        </entry>
+        <entry id="60" >
+          <translation id="0" />
+        </entry>
+        <entry id="21" >
+          <translation id="0" />
+        </entry>
+        <container>
+          <name>Verb</name>
+          <container>
+            <name>Regular</name>
+            <specialwordtype>verb</specialwordtype>
+            <entry id="24" >
+              <translation id="1" />
+            </entry>
+            <entry id="11" >
+              <translation id="1" />
+            </entry>
+            <entry id="38" >
+              <translation id="1" />
+            </entry>
+            <entry id="49" >
+              <translation id="1" />
+            </entry>
+            <entry id="40" >
+              <translation id="1" />
+            </entry>
+            <entry id="15" >
+              <translation id="1" />
+            </entry>
+            <entry id="43" >
+              <translation id="1" />
+            </entry>
+            <entry id="71" >
+              <translation id="1" />
+            </entry>
+            <entry id="63" >
+              <translation id="1" />
+            </entry>
+            <entry id="41" >
+              <translation id="1" />
+            </entry>
+            <entry id="36" >
+              <translation id="1" />
+            </entry>
+            <entry id="48" >
+              <translation id="1" />
+            </entry>
+            <entry id="56" >
+              <translation id="1" />
+            </entry>
+            <entry id="51" >
+              <translation id="1" />
+            </entry>
+            <entry id="37" >
+              <translation id="1" />
+            </entry>
+            <entry id="35" >
+              <translation id="1" />
+            </entry>
+            <entry id="58" >
+              <translation id="1" />
+            </entry>
+            <entry id="76" >
+              <translation id="1" />
+            </entry>
+            <entry id="16" >
+              <translation id="1" />
+            </entry>
+            <entry id="60" >
+              <translation id="1" />
+            </entry>
+            <entry id="21" >
+              <translation id="1" />
+            </entry>
+          </container>
+        </container>
+      </container>
+      <container>
+        <name>Irregular</name>
+        <specialwordtype>verb</specialwordtype>
+        <entry id="65" >
+          <translation id="0" />
+          <translation id="1" />
+        </entry>
+        <entry id="33" >
+          <translation id="0" />
+        </entry>
+        <entry id="70" >
+          <translation id="0" />
+        </entry>
+        <entry id="29" >
+          <translation id="0" />
+        </entry>
+        <container>
+          <name>Verb</name>
+          <container>
+            <name>Irregular</name>
+            <specialwordtype>verb</specialwordtype>
+            <entry id="33" >
+              <translation id="1" />
+            </entry>
+            <entry id="70" >
+              <translation id="1" />
+            </entry>
+            <entry id="29" >
+              <translation id="1" />
+            </entry>
+          </container>
+        </container>
+      </container>
+      <container>
+        <name>Verb</name>
+        <specialwordtype>verb</specialwordtype>
+        <entry id="52" >
+          <translation id="1" />
+        </entry>
+      </container>
+    </container>
+    <container>
+      <name>Noun</name>
+      <specialwordtype>noun</specialwordtype>
+      <entry id="275" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="400" >
+        <translation id="1" />
+      </entry>
+      <entry id="277" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="362" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="281" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="369" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="283" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="289" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="374" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="97" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="573" >
+        <translation id="1" />
+      </entry>
+      <entry id="574" >
+        <translation id="1" />
+      </entry>
+      <entry id="575" >
+        <translation id="1" />
+      </entry>
+      <entry id="576" >
+        <translation id="1" />
+      </entry>
+      <entry id="577" >
+        <translation id="1" />
+      </entry>
+      <entry id="599" >
+        <translation id="1" />
+      </entry>
+      <entry id="651" >
+        <translation id="1" />
+      </entry>
+      <entry id="590" >
+        <translation id="1" />
+      </entry>
+      <entry id="334" >
+        <translation id="1" />
+      </entry>
+      <entry id="335" >
+        <translation id="1" />
+      </entry>
+      <entry id="336" >
+        <translation id="1" />
+      </entry>
+      <entry id="337" >
+        <translation id="1" />
+      </entry>
+      <entry id="441" >
+        <translation id="1" />
+      </entry>
+      <entry id="670" >
+        <translation id="1" />
+      </entry>
+      <container>
+        <name>Male</name>
+        <specialwordtype>noun/male</specialwordtype>
+        <entry id="601" >
+          <translation id="0" />
+        </entry>
+        <entry id="441" >
+          <translation id="0" />
+        </entry>
+        <entry id="595" >
+          <translation id="0" />
+        </entry>
+        <entry id="591" >
+          <translation id="0" />
+        </entry>
+        <entry id="584" >
+          <translation id="0" />
+        </entry>
+      </container>
+      <container>
+        <name>Female</name>
+        <specialwordtype>noun/female</specialwordtype>
+        <entry id="596" >
+          <translation id="0" />
+        </entry>
+        <entry id="594" >
+          <translation id="0" />
+        </entry>
+        <entry id="590" >
+          <translation id="0" />
+        </entry>
+        <entry id="609" >
+          <translation id="0" />
+        </entry>
+        <entry id="606" >
+          <translation id="0" />
+        </entry>
+        <entry id="585" >
+          <translation id="0" />
+        </entry>
+        <entry id="610" >
+          <translation id="0" />
+        </entry>
+        <entry id="602" >
+          <translation id="0" />
+        </entry>
+      </container>
+      <container>
+        <name>Neutral</name>
+        <specialwordtype>noun/neutral</specialwordtype>
+        <entry id="607" >
+          <translation id="0" />
+        </entry>
+        <entry id="604" >
+          <translation id="0" />
+        </entry>
+        <entry id="588" >
+          <translation id="0" />
+        </entry>
+        <entry id="440" >
+          <translation id="0" />
+        </entry>
+        <entry id="424" >
+          <translation id="0" />
+        </entry>
+        <entry id="302" >
+          <translation id="0" />
+        </entry>
+        <entry id="308" >
+          <translation id="0" />
+        </entry>
+        <entry id="337" >
+          <translation id="0" />
+        </entry>
+        <entry id="400" >
+          <translation id="0" />
+        </entry>
+        <entry id="670" >
+          <translation id="0" />
+        </entry>
+        <entry id="597" >
+          <translation id="0" />
+        </entry>
+        <entry id="593" >
+          <translation id="0" />
+        </entry>
+        <entry id="603" >
+          <translation id="0" />
+        </entry>
+        <entry id="587" >
+          <translation id="0" />
+        </entry>
+        <entry id="608" >
+          <translation id="0" />
+        </entry>
+        <entry id="586" >
+          <translation id="0" />
+        </entry>
+        <entry id="612" >
+          <translation id="0" />
+        </entry>
+        <entry id="605" >
+          <translation id="0" />
+        </entry>
+        <entry id="598" >
+          <translation id="0" />
+        </entry>
+        <entry id="611" >
+          <translation id="0" />
+        </entry>
+        <entry id="589" >
+          <translation id="0" />
+        </entry>
+      </container>
+      <container>
+        <name>Noun</name>
+        <specialwordtype>noun</specialwordtype>
+        <entry id="302" >
+          <translation id="1" />
+        </entry>
+        <entry id="308" >
+          <translation id="1" />
+        </entry>
+        <entry id="312" >
+          <translation id="1" />
+        </entry>
+        <entry id="424" >
+          <translation id="1" />
+        </entry>
+        <entry id="440" >
+          <translation id="1" />
+        </entry>
+      </container>
+    </container>
+    <container>
+      <name>Name</name>
+    </container>
+    <container>
+      <name>Article</name>
+      <container>
+        <name>Definite</name>
+      </container>
+      <container>
+        <name>Indefinite</name>
+      </container>
+    </container>
+    <container>
+      <name>Adjective</name>
+      <specialwordtype>adjective</specialwordtype>
+      <entry id="190" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="191" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="192" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="259" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="193" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="260" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="261" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="263" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="194" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="195" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="196" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="197" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="198" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="399" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="199" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="200" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="202" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="204" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="205" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="206" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="207" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="208" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="209" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="264" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="265" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="210" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="211" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="212" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="213" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="214" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="215" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="216" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="266" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="267" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="217" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="218" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="219" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="268" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="269" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="220" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="270" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="221" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="222" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="223" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="224" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="225" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="226" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="227" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="228" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="229" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="230" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="271" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="272" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="231" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="233" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="234" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="235" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="236" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="237" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="238" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="239" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="240" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="241" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="242" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="243" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="246" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="247" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="248" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="254" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="255" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="256" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="257" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="258" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="201" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="203" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="232" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="244" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="245" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="249" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="250" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="251" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="252" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <entry id="253" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+      <container>
+        <name>Adjective</name>
+        <specialwordtype>adjective</specialwordtype>
+      </container>
+    </container>
+    <container>
+      <name>Adverb</name>
+      <specialwordtype>adverb</specialwordtype>
+    </container>
+    <container>
+      <name>Pronoun</name>
+      <container>
+        <name>Possessive</name>
+      </container>
+      <container>
+        <name>Personal</name>
+      </container>
+    </container>
+    <container>
+      <name>Phrase</name>
+    </container>
+    <container>
+      <name>Numeral</name>
+      <container>
+        <name>Ordinal</name>
+      </container>
+      <container>
+        <name>Cardinal</name>
+      </container>
+    </container>
+    <container>
+      <name>Conjunction</name>
+    </container>
+    <container>
+      <name>Preposition</name>
+      <entry id="477" >
+        <translation id="0" />
+        <translation id="1" />
+      </entry>
+    </container>
+    <container>
+      <name>Question</name>
+    </container>
+    <container>
+      <name>Noun - plural</name>
+      <entry id="592" >
+        <translation id="0" />
+      </entry>
+      <entry id="312" >
+        <translation id="0" />
+      </entry>
+      <entry id="600" >
+        <translation id="0" />
+      </entry>
+    </container>
+  </wordtypes>
+  <synonym>
+    <pair>
+      <entry id="244" >
+        <translation id="0" />
+      </entry>
+      <entry id="245" >
+        <translation id="0" />
+      </entry>
+    </pair>
+    <pair>
+      <entry id="310" >
+        <translation id="0" />
+      </entry>
+      <entry id="311" >
+        <translation id="0" />
+      </entry>
+    </pair>
+  </synonym>
+</kvtml>

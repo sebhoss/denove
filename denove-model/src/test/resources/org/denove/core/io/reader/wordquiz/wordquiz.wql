@@ -1,0 +1,442 @@
+WordQuiz
+5.1.0
+
+[Font Info]
+FontName1="Arial"
+FontSize1=10
+FontBold1=0
+FontItalic1=0
+FontColor1=0
+CharSet1=0
+Layout1=67699721
+FontName2="Arial"
+FontSize2=10
+FontBold2=0
+FontItalic2=0
+FontColor2=0
+CharSet2=0
+Layout2=67699721
+
+[Character Info]
+Characters1=ÈÉÊËÌÍÎÏÐ
+Characters2=ÜÝÞßàáâãä
+
+[Grid Info]
+ColWidth0=33
+ColWidth1=250
+ColWidth2=250
+RowCount=204
+SelLeft=1
+SelTop=1
+SelRight=1
+SelBottom=1
+
+[Vocabulary]
+German   [0000000300]
+English
+das Gebäude   [0000000300]
+the building
+das Haus   [0000000300]
+the house
+das Etagenhaus   [0000000300]
+the apartment building
+das Appartement   [0000000300]
+the apartment
+das Büro   [0000000300]
+the office
+der Fahrstuhl   [0000000300]
+the lift
+die Wand   [0000000300]
+the wall (surface)
+das Bad   [0000000300]
+the bath
+der Zaun   [0000000300]
+the fence
+die Pflanze   [0000000300]
+the plant
+die Toilette   [0000000300]
+the toilet
+die Elektrizität   [0000000300]
+the electricity
+der Schornstein   [0000000300]
+the chimney
+das Gras   [0000000300]
+the grass
+die Erde   [0000000300]
+the earth
+die Blume   [0000000300]
+the flower
+der Strauch   [0000000300]
+the bush
+die Dusche   [0000000300]
+the shower
+die Garage   [0000000300]
+the garage
+die Tür   [0000000300]
+the door
+die Mauer   [0000000300]
+the wall (structure)
+das Dach   [0000000300]
+the roof
+das Fenster   [0000000300]
+the window
+die Küche   [0000000300]
+the kitchen
+das Wohnzimmer   [0000000300]
+the living room
+das Eßzimmer   [0000000300]
+the dining room
+das Schlafzimmer   [0000000300]
+the bedroom
+das Gästezimmer   [0000000300]
+the guest room
+das Badezimmer   [0000000300]
+the bathroom
+der Dachboden   [0000000300]
+the attic
+der Balkon   [0000000300]
+the balcony
+der Garten   [0000000300]
+the garden
+der Keller   [0000000300]
+the cellar
+die Terrasse   [0000000300]
+the terrace
+der Baum   [0000000300]
+the tree
+der Lehnstuhl   [0000000300]
+the armchair
+die Couch   [0000000300]
+the couch
+die Lampe   [0000000300]
+the lamp
+die Birne (Lampe)   [0000000300]
+the light bulb
+der Stuhl   [0000000300]
+the chair
+der Tisch   [0000000300]
+the table
+das Bild   [0000000300]
+the painting
+der Bücherschrank   [0000000300]
+the bookcase
+die Schublade   [0000000300]
+the drawer
+die Vase   [0000000300]
+the vase
+der Vorhang   [0000000300]
+the curtain
+die Tapete   [0000000300]
+the wallpaper
+der Stacheldraht   [0000000300]
+barbed wire
+der Schrank   [0000000300]
+the chest
+die Matratze   [0000000300]
+the mattress
+der Spiegel   [0000000300]
+the mirror
+das Kissen   [0000000300]
+the pillow
+das Durcheinander   [0000000300]
+the mess
+das Bettuch   [0000000300]
+the sheet
+die Decke   [0000000300]
+the blanket
+der Aschenbecher   [0000000300]
+the ashtray
+das Foto   [0000000300]
+the photograph
+die CD   [0000000300]
+the CD
+das Videoband   [0000000300]
+the videotape
+der Wecker   [0000000300]
+the alarm clock
+das Waschbecken   [0000000300]
+the washbasin
+der Videorecorder   [0000000300]
+the video recorder
+der Lautsprecher   [0000000300]
+the loudspeaker
+die Stereoanlage   [0000000300]
+the stereo set
+das Bett   [0000000300]
+the bed
+das Telefon   [0000000300]
+the telephone
+der CD-Spieler   [0000000300]
+the CD player
+der Hahn (Wasser)   [0000000300]
+the faucet
+der Spülbecken   [0000000300]
+the sink
+das Schloß   [0000000300]
+the lock
+der Teppich   [0000000300]
+the carpet
+die Steckdose   [0000000300]
+the socket
+der Stecker   [0000000300]
+the electrical plug
+der Schlüssel   [0000000300]
+the key
+ein Bad nehmen   [0000000300]
+to take a bath
+ein Programm aufzeichnen   [0000000300]
+to tape a programme
+das Licht anmachen   [0000000300]
+to turn the light on
+bauen   [0000000300]
+to build
+die Heizung ausmachen   [0000000300]
+to turn the heating off
+die Heizung anmachen   [0000000300]
+to turn the heating on
+den Wecker stellen   [0000000300]
+to set the alarm
+das Licht ausmachen   [0000000300]
+to turn the light off
+der Wecker klingelt   [0000000300]
+the alarm goes off
+fernsehen   [0000000300]
+to watch TV
+die Heizung höher stellen   [0000000300]
+to turn the heat up
+Radio hören   [0000000300]
+to listen to the radio
+das Radio leiser stellen   [0000000300]
+to turn the radio down
+das Radio lauter stellen   [0000000300]
+to turn the radio up
+das Radio ausstellen   [0000000300]
+to turn the radio off
+das Radio anstellen   [0000000300]
+to turn the radio on
+das Telefon läutet   [0000000300]
+the phone is ringing
+den Hörer auflegen   [0000000300]
+to hang up the phone
+den Hörer abheben   [0000000300]
+to pick up the horn
+jemanden anrufen   [0000000300]
+to call someone
+sich am Telefon melden   [0000000300]
+to answer the telephone
+ein Bild aufhängen   [0000000300]
+to hang a painting
+verschließen   [0000000300]
+to lock
+die Heizung niedriger stellen   [0000000300]
+to turn the heat down
+das Essen   [0000000300]
+the food
+kochen   [0000000300]
+to cook
+der Kühlschrank   [0000000300]
+the refrigerator
+die Kochplatte   [0000000300]
+the cooking plate
+der Herd   [0000000300]
+the stove
+der Ofen   [0000000300]
+the oven
+die Kaffeemaschine   [0000000300]
+the coffee machine
+die Pfanne   [0000000300]
+the frying pan
+der Stieltopf   [0000000300]
+the casserole
+der Topf   [0000000300]
+the pot
+der Flaschenöffner   [0000000300]
+the bottle opener
+die Gabel   [0000000300]
+the fork
+der Löffel   [0000000300]
+the spoon
+das Messer   [0000000300]
+the knife
+der Teller   [0000000300]
+the plate
+der Korken   [0000000300]
+the cork
+die Tasse   [0000000300]
+the cup
+der Korkenzieher   [0000000300]
+the corkscrew
+die Kaffeekanne   [0000000300]
+the teapot
+das Digestivum   [0000000300]
+the after-dinner drink
+das Wasser   [0000000300]
+the water
+das Getränk   [0000000300]
+the drink
+der Orangensaft   [0000000300]
+the orange juice
+der Aperitif   [0000000300]
+the aperitif
+die Milch   [0000000300]
+the milk
+das Erfrischungsgetränk   [0000000300]
+the soft drink
+der Tee   [0000000300]
+the tea
+das Bier   [0000000300]
+the beer
+der Wein   [0000000300]
+the wine
+der Alkohol   [0000000300]
+the alcohol
+der Kaffee   [0000000300]
+the coffee
+das Abendessen   [0000000300]
+the dinner
+der Nachtisch   [0000000300]
+the dessert
+das Hauptgericht   [0000000300]
+the main course
+das Frühstück   [0000000300]
+the breakfast
+die Mahlzeit   [0000000300]
+the meal
+die Vorspeise   [0000000300]
+the hors-d'oeuvre
+der Lunch   [0000000300]
+the lunch
+das Essen zubereiten   [0000000300]
+to prepare the food
+Wasser kochen   [0000000300]
+to boil water
+hacken   [0000000300]
+to chop
+das Rezept (kochen)   [0000000300]
+the recipe
+schneiden   [0000000300]
+to cut
+das Schaffleisch   [0000000300]
+the mutton
+das Rindfleisch   [0000000300]
+the beef
+der Kuchen   [0000000300]
+the pastry
+das Schweinefleisch   [0000000300]
+the pork
+das Lammfleisch   [0000000300]
+the lam (meat)
+der Salat   [0000000300]
+the salad
+das Fleisch   [0000000300]
+the meat
+der Fisch   [0000000300]
+the fish
+die Suppe   [0000000300]
+the soup
+das Kalbfleisch   [0000000300]
+the veal
+das Eis (zum essen)   [0000000300]
+the ice cream
+die Eiswürfel   [0000000300]
+the ice cubes
+das Brot   [0000000300]
+the bread
+das Huhn   [0000000300]
+the chicken
+die Ente   [0000000300]
+the duck
+das Filet   [0000000300]
+the fillet
+das Ei   [0000000300]
+the egg
+der Kabeljau   [0000000300]
+the cod
+die Forelle   [0000000300]
+the trout
+der Lachs   [0000000300]
+the salmon
+der Schinken   [0000000300]
+the ham
+der Käse   [0000000300]
+the cheese
+das Kotelett   [0000000300]
+the cutlet
+das Beefsteak   [0000000300]
+the steak
+das Schnitzel   [0000000300]
+the escalope
+das Getreide   [0000000300]
+the cereal
+der Hafer   [0000000300]
+the oats
+der Teig   [0000000300]
+the dough
+der Weizen   [0000000300]
+the wheat
+der Roggen   [0000000300]
+the rye
+die Zucchini   [0000000300]
+the zucchini
+die Brokkoli   [0000000300]
+the broccoli
+die Karotte   [0000000300]
+the carrot
+der Lauch   [0000000300]
+the leek
+die Bohne   [0000000300]
+the bean
+die Gurke   [0000000300]
+the cucumber
+der Mais   [0000000300]
+the maize
+der Blumenkohl   [0000000300]
+the cauliflower
+die Erbse   [0000000300]
+the pea
+die Kartoffel   [0000000300]
+the potato
+die Aubergine   [0000000300]
+the aubergine
+die Gemüse   [0000000300]
+the vegetable
+der Wirsing   [0000000300]
+the cabbage
+der Kopfsalat   [0000000300]
+the lettuce
+die Tomate   [0000000300]
+the tomato
+die Zwiebel   [0000000300]
+the onion
+der Paprika   [0000000300]
+the pepper
+der Pfirsich   [0000000300]
+the peach
+die Zitrone   [0000000300]
+the lemon
+die Banane   [0000000300]
+the banana
+die Kiwi   [0000000300]
+the kiwi
+der Apfel   [0000000300]
+the apple
+die Aprikose   [0000000300]
+the apricot
+die Pflaume   [0000000300]
+the plum
+die Apfelsine   [0000000300]
+the orange
+die Traube   [0000000300]
+the grape
+die Birne   [0000000300]
+the pear
+das Obst   [0000000300]
+the fruit
+die Melone   [0000000300]
+the melon
+die Ananas   [0000000300]
+the pineapple
+die Kirsche   [0000000300]
+the cherry
+   [0000000300]
+
