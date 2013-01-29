@@ -2,6 +2,8 @@ package org.denove.core.localizedtext.implementation;
 
 import org.denove.core.localizedtext.LocalizedText;
 
+import com.google.common.base.Preconditions;
+
 /**
  * DOC: Write documentation for type 'LocalizedTextImplementation'!
  */
@@ -20,8 +22,8 @@ public final class LocalizedTextImplementation implements LocalizedText {
      *            The correct phonetic spelling (<b>may not be <code>null</code></b>).
      */
     public LocalizedTextImplementation(final String text, final String spelling) {
-        this.localizedText = checkNotNull(text);
-        this.phoneticSpelling = checkNotNull(spelling);
+        this.localizedText = Preconditions.checkNotNull(text);
+        this.phoneticSpelling = Preconditions.checkNotNull(spelling);
     }
 
     @Override

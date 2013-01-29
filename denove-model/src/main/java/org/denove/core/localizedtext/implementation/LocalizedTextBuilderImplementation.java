@@ -3,6 +3,8 @@ package org.denove.core.localizedtext.implementation;
 import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.localizedtext.LocalizedTextBuilder;
 
+import com.google.common.base.Preconditions;
+
 /**
  * DOC: Write documentation for type 'LocalizedTextBuilderImplementation'!
  */
@@ -14,22 +16,22 @@ public final class LocalizedTextBuilderImplementation implements LocalizedTextBu
 
     @Override
     public LocalizedText get() {
-        checkState(this.localizedText != null);
-        checkState(this.phoneticSpelling != null);
+        Preconditions.checkState(this.localizedText != null);
+        Preconditions.checkState(this.phoneticSpelling != null);
 
         return new LocalizedTextImplementation(this.localizedText, this.phoneticSpelling);
     }
 
     @Override
     public LocalizedTextBuilder text(final String text) {
-        this.localizedText = checkNotNull(text);
+        this.localizedText = Preconditions.checkNotNull(text);
 
         return this;
     }
 
     @Override
     public LocalizedTextBuilder phoneticSpelling(final String spelling) {
-        this.phoneticSpelling = checkNotNull(spelling);
+        this.phoneticSpelling = Preconditions.checkNotNull(spelling);
 
         return this;
     }

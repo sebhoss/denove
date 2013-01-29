@@ -1,5 +1,7 @@
 package org.denove.core.example;
 
+import com.google.common.base.Supplier;
+
 /**
  * DOC: Write documentation for type 'ExampleBuilder'!
  */

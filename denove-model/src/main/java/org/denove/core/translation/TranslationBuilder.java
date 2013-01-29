@@ -5,6 +5,8 @@ import java.util.Date;
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
 
+import com.google.common.base.Supplier;
+
 /**
  * A TranslationBuilder is used to construct {@link Translation} objects.
  * 

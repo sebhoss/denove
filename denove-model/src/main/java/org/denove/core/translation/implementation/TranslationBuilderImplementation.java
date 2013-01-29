@@ -7,6 +7,8 @@ import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.translation.Translation;
 import org.denove.core.translation.TranslationBuilder;
 
+import com.google.common.base.Preconditions;
+
 /**
  * Implementation of the {@link TranslationBuilder} interface.
  */
@@ -14,9 +16,9 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
 
     private LocalizedText localizedText;
 
-    private Date          creationDate;
+    private DateTime      creationDate;
 
-    private Date          lastQuestioned;
+    private DateTime      lastQuestioned;
 
     private Example       example;
 
@@ -28,13 +30,13 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
 
     @Override
     public Translation get() {
-        checkState(this.localizedText != null);
-        checkState(this.example != null);
-        checkState(this.creationDate != null);
-        checkState(this.lastQuestioned != null);
-        checkState(this.score >= 0D);
-        checkState(this.tryCount >= 0);
-        checkState(this.missCount >= 0);
+        Preconditions.checkState(this.localizedText != null);
+        Preconditions.checkState(this.example != null);
+        Preconditions.checkState(this.creationDate != null);
+        Preconditions.checkState(this.lastQuestioned != null);
+        Preconditions.checkState(this.score >= 0D);
+        Preconditions.checkState(this.tryCount >= 0);
+        Preconditions.checkState(this.missCount >= 0);
 
         return new TranslationImplementation(this.localizedText, this.example, this.score, this.tryCount,
                 this.missCount, this.creationDate, this.lastQuestioned);
@@ -42,21 +44,21 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
 
     @Override
     public TranslationBuilder text(final LocalizedText text) {
-        this.localizedText = checkNotNull(text);
+        this.localizedText = Preconditions.checkNotNull(text);
 
         return this;
     }
 
     @Override
     public TranslationBuilder example(final Example newExample) {
-        this.example = checkNotNull(newExample);
+        this.example = Preconditions.checkNotNull(newExample);
 
         return this;
     }
 
     @Override
     public TranslationBuilder missCount(final int misses) {
-        checkArgument(misses >= 0);
+        Preconditions.checkArgument(misses >= 0);
 
         this.missCount = misses;
 
@@ -65,7 +67,7 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
 
     @Override
     public TranslationBuilder score(final double currentScore) {
-        checkArgument(currentScore >= 0);
+        Preconditions.checkArgument(currentScore >= 0);
 
         this.score = currentScore;
 
@@ -74,7 +76,7 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
 
     @Override
     public TranslationBuilder tryCount(final int tries) {
-        checkArgument(tries >= 0);
+        Preconditions.checkArgument(tries >= 0);
 
         this.tryCount = tries;
 
@@ -83,14 +85,14 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
 
     @Override
     public TranslationBuilder creationDate(final Date created) {
-        this.creationDate = new Date(checkNotNull(created).getTime());
+        this.creationDate = new Date(Preconditions.checkNotNull(created).getTime());
 
         return this;
     }
 
     @Override
     public TranslationBuilder lastQuestionedDate(final Date questioned) {
-        this.lastQuestioned = new Date(checkNotNull(questioned).getTime());
+        this.lastQuestioned = new Date(Preconditions.checkNotNull(questioned).getTime());
 
         return this;
     }

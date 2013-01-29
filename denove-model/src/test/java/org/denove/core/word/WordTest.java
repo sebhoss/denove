@@ -1,71 +1,25 @@
-/* Project: core
- * Package: org.denove.core.word
- * File   : WordTest.java
- * Created: Sep 12, 2009 - 2:19:19 PM
- *
- *
- * Copyright 2009 Sebastian Hoß
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- */
 package org.denove.core.word;
-
-import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.IsEqual.equalTo;
-import static org.hamcrest.core.IsNull.notNullValue;
-import static org.junit.Assert.assertThat;
-import static org.mockito.Mockito.mock;
 
 import java.util.Locale;
 
 import org.denove.core.translation.Translation;
-import org.junit.Before;
-import org.junit.Test;
 
 /**
  * Test cases for the {@link Word} interface and its underlying implementation.
- *
- * @author 	Sebastian Hoß (mail@shoss.de)
- * @version	1.0.0
- * @since	1.0.0
  */
 public final class WordTest {
 
-    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-    // *                                            ATTRIBUTES                                           *
-    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-    /** The word object under test. */
     private Word word;
-
-    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-    // *                                              SETUP                                              *
-    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
     /**
      * DOC: Write documentation for method setUp!
-     *
+     * 
      */
     @Before
     public void setUp() {
-        this.word = Words.prepareWord().translation(Locale.getDefault(), mock(Translation.class)).grammarType(
-                GrammarType.ADJECTIVE).get();
+        this.word = Words.prepareWord().translation(Locale.getDefault(), mock(Translation.class))
+                .grammarType(GrammarType.ADJECTIVE).get();
     }
-
-    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-    // *                                              TESTS                                              *
-    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
     /**
      * Test method for {@link Word#getAvailableLanguages()}.
@@ -101,7 +55,7 @@ public final class WordTest {
 
     /**
      * DOC: Write documentation for method testGetTranslationDoesNotAcceptFalseLocale!
-     *
+     * 
      */
     @Test(expected = NullPointerException.class)
     public void testGetTranslationDoesNotAcceptFalseLocale() {
@@ -141,4 +95,4 @@ public final class WordTest {
         assertThat(Integer.valueOf(this.word.getTranslations().size()), is(equalTo(Integer.valueOf(1))));
     }
 
-} // End class WordTest
+}

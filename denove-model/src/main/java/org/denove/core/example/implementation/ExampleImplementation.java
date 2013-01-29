@@ -2,15 +2,15 @@ package org.denove.core.example.implementation;
 
 import org.denove.core.example.Example;
 
+import com.google.common.base.Preconditions;
+
 /**
  * Implementation of the {@link Example} interface.
  */
 public final class ExampleImplementation implements Example {
 
-    /** Holds the example sentence. */
     private final String sentence;
 
-    /** Holds the correct form of a word inside the example sentence. */
     private final String correctForm;
 
     /**
@@ -22,8 +22,8 @@ public final class ExampleImplementation implements Example {
      *            The correct form in this sentence (<b>may not be <code>null</code></b>).
      */
     public ExampleImplementation(final String sentence, final String correctForm) {
-        this.sentence = checkNotNull(sentence);
-        this.correctForm = checkNotNull(correctForm);
+        this.sentence = Preconditions.checkNotNull(sentence);
+        this.correctForm = Preconditions.checkNotNull(correctForm);
 
         assert this.sentence != null : "Sentence may not be 'null'"; //$NON-NLS-1$
         assert this.correctForm != null : "Correct form may not be 'null'"; //$NON-NLS-1$

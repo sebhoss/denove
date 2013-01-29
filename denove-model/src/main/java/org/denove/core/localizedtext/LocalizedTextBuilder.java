@@ -1,5 +1,7 @@
 package org.denove.core.localizedtext;
 
+import com.google.common.base.Supplier;
+
 /**
  * DOC: Write documentation for type 'LocalizedTextBuilder'!
  * 

@@ -7,6 +7,8 @@ import java.util.Set;
 import org.denove.core.lesson.Lesson;
 import org.denove.core.word.Word;
 
+import com.google.common.base.Preconditions;
+
 /**
  * Implementation of the {@link Lesson} interface.
  */
@@ -21,7 +23,7 @@ public final class LessonImplementation implements Lesson {
      *            The words for the new lesson (<b>may not be <code>null</code></b>).
      */
     public LessonImplementation(final Set<Word> words) {
-        this.words = checkNotNull(words);
+        this.words = Preconditions.checkNotNull(words);
 
         assert this.words != null : "Words may not be 'null'"; //$NON-NLS-1$
     }
@@ -43,7 +45,7 @@ public final class LessonImplementation implements Lesson {
 
     @Override
     public boolean removeWord(final Word word) {
-        return this.words.remove(checkNotNull(word));
+        return this.words.remove(Preconditions.checkNotNull(word));
     }
 
     @Override

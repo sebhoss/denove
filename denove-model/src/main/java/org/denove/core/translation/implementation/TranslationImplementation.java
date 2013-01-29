@@ -6,14 +6,16 @@ import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.translation.Translation;
 
+import com.google.common.base.Preconditions;
+
 /**
  * Implementation of the {@link Translation} interface.
  */
 public final class TranslationImplementation implements Translation {
 
-    private final Date          creationDate;
+    private final DateTime      creationDate;
 
-    private Date                lastQuestioned;
+    private DateTime            lastQuestioned;
 
     private final LocalizedText localizedText;
 
@@ -45,23 +47,23 @@ public final class TranslationImplementation implements Translation {
      */
     public TranslationImplementation(final LocalizedText text, final Example example, final double score,
             final int tryCount, final int missCount, final Date creationDate, final Date lastQuestionedDate) {
-        checkArgument(score >= 0);
-        checkArgument(tryCount >= 0);
-        checkArgument(missCount >= 0);
+        Preconditions.checkArgument(score >= 0);
+        Preconditions.checkArgument(tryCount >= 0);
+        Preconditions.checkArgument(missCount >= 0);
 
         this.score = score;
         this.tryCount = tryCount;
         this.missCount = missCount;
 
-        this.localizedText = checkNotNull(text);
-        this.example = checkNotNull(example);
-        this.creationDate = new Date(checkNotNull(creationDate).getTime());
-        this.lastQuestioned = new Date(checkNotNull(lastQuestionedDate).getTime());
+        this.localizedText = Preconditions.checkNotNull(text);
+        this.example = Preconditions.checkNotNull(example);
+        this.creationDate = new Date(Preconditions.checkNotNull(creationDate).getTime());
+        this.lastQuestioned = new Date(Preconditions.checkNotNull(lastQuestionedDate).getTime());
     }
 
     @Override
     public boolean hit(final double newScore) {
-        checkArgument(newScore >= 0);
+        Preconditions.checkArgument(newScore >= 0);
 
         this.score = newScore;
         this.lastQuestioned = new Date();
@@ -73,7 +75,7 @@ public final class TranslationImplementation implements Translation {
 
     @Override
     public boolean miss(final double newScore) {
-        checkArgument(newScore >= 0);
+        Preconditions.checkArgument(newScore >= 0);
 
         this.score = newScore;
         this.lastQuestioned = new Date();

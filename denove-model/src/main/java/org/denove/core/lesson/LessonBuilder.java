@@ -4,6 +4,8 @@ import java.util.Collection;
 
 import org.denove.core.word.Word;
 
+import com.google.common.base.Supplier;
+
 /**
  * A LessonBuilder is used to construct a new {@link Lesson}. For that it offers some sort of method-chaining and some
  * getters to the supplied objects.

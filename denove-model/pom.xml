@@ -8,4 +8,11 @@
   <artifactId>denove-model</artifactId>
   <name>denove-model</name>
   <description>The model behind all Denove projects</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.google.guava</groupId>
+  		<artifactId>guava</artifactId>
+  		<version>${guava.version}</version>
+  	</dependency>
+  </dependencies>
 </project>

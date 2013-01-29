@@ -5,6 +5,8 @@ import java.util.Map;
 
 import org.denove.core.translation.Translation;
 
+import com.google.common.base.Supplier;
+
 /**
  * A WordBuilder is used to construct {@link Word} objects.
  * 

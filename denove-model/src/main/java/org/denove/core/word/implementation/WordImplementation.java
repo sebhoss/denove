@@ -12,6 +12,9 @@ import org.denove.core.translation.Translation;
 import org.denove.core.word.GrammarType;
 import org.denove.core.word.Word;
 
+import com.google.common.base.Preconditions;
+import com.google.common.collect.ImmutableSet;
+
 /**
  * Implementation of the {@link Word} interface.
  */
@@ -30,8 +33,8 @@ public final class WordImplementation implements Word {
      *            The translations enclosed by this word (<b>may not be <code>null</code></b>).
      */
     public WordImplementation(final GrammarType type, final Map<Locale, Translation> translations) {
-        this.grammarType = checkNotNull(type);
-        this.translations = checkNotNull(translations);
+        this.grammarType = Preconditions.checkNotNull(type);
+        this.translations = Preconditions.checkNotNull(translations);
     }
 
     @Override

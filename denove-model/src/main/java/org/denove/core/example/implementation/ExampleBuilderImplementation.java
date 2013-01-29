@@ -3,29 +3,29 @@ package org.denove.core.example.implementation;
 import org.denove.core.example.Example;
 import org.denove.core.example.ExampleBuilder;
 
+import com.google.common.base.Preconditions;
+
 /**
  * Implementation of the {@link ExampleBuilder} interface.
  */
 public final class ExampleBuilderImplementation implements ExampleBuilder {
 
-    /** Holds the example sentence for the new example. */
     private String sentence;
 
-    /** Holds the correct form of a word inside the example sentence for the new example. */
     private String correctForm;
 
     @Override
     public Example get() {
-        checkState(this.sentence != null);
-        checkState(this.correctForm != null);
-        checkState(this.sentence.contains(this.correctForm));
+        Preconditions.checkState(this.sentence != null);
+        Preconditions.checkState(this.correctForm != null);
+        Preconditions.checkState(this.sentence.contains(this.correctForm));
 
         return new ExampleImplementation(this.sentence, this.correctForm);
     }
 
     @Override
     public ExampleBuilder correctForm(final String form) {
-        checkNotNull(form);
+        Preconditions.checkNotNull(form);
 
         // Check if sentence is already set and if it contains the form to set
         if (this.sentence != null && !this.sentence.contains(form)) {
@@ -39,7 +39,7 @@ public final class ExampleBuilderImplementation implements ExampleBuilder {
 
     @Override
     public ExampleBuilder sentence(final String exampleSentence) {
-        checkNotNull(exampleSentence);
+        Preconditions.checkNotNull(exampleSentence);
 
         if (this.correctForm != null && !exampleSentence.contains(this.correctForm)) {
             throw new IllegalArgumentException("Sentence does not match form"); //$NON-NLS-1$

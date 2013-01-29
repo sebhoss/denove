@@ -8,6 +8,8 @@ import org.denove.core.word.GrammarType;
 import org.denove.core.word.Word;
 import org.denove.core.word.WordBuilder;
 
+import com.google.common.base.Preconditions;
+
 /**
  * Implementation of the {@link WordBuilder} interface.
  */
@@ -24,23 +26,23 @@ public final class WordBuilderImplementation implements WordBuilder {
      *            The translations intended for the new word (<b>may not be <code>null</code></b>).
      */
     public WordBuilderImplementation(final Map<Locale, Translation> translations) {
-        this.translations = checkNotNull(translations);
+        this.translations = Preconditions.checkNotNull(translations);
 
         assert this.translations != null : "Translations may not be 'null'"; //$NON-NLS-1$
     }
 
     @Override
     public Word get() {
-        checkState(this.grammarType != null);
-        checkState(this.translations != null);
+        Preconditions.checkState(this.grammarType != null);
+        Preconditions.checkState(this.translations != null);
 
         return new WordImplementation(this.grammarType, this.translations);
     }
 
     @Override
     public WordBuilder translation(final Locale locale, final Translation translation) {
-        checkNotNull(locale);
-        checkNotNull(translation);
+        Preconditions.checkNotNull(locale);
+        Preconditions.checkNotNull(translation);
 
         if (!this.translations.values().contains(translation)) {
             this.translations.put(locale, translation);
@@ -62,7 +64,7 @@ public final class WordBuilderImplementation implements WordBuilder {
 
     @Override
     public WordBuilder grammarType(final GrammarType type) {
-        this.grammarType = checkNotNull(type);
+        this.grammarType = Preconditions.checkNotNull(type);
 
         return this;
     }
