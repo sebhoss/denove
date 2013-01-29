@@ -17,8 +17,8 @@
   <!--                                 PARENT                                  -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <parent>
-    <groupId>com.github.sebhoss.maven</groupId>
-    <artifactId>superpom</artifactId>
+    <groupId>com.github.sebhoss</groupId>
+    <artifactId>java-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
