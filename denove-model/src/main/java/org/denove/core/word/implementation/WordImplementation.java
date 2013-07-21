@@ -33,24 +33,24 @@ public final class WordImplementation implements Word {
      *            The translations enclosed by this word (<b>may not be <code>null</code></b>).
      */
     public WordImplementation(final GrammarType type, final Map<Locale, Translation> translations) {
-        this.grammarType = Preconditions.checkNotNull(type);
+        grammarType = Preconditions.checkNotNull(type);
         this.translations = Preconditions.checkNotNull(translations);
     }
 
     @Override
     public Set<Locale> getAvailableLanguages() {
-        return ImmutableSet.copyOf(this.translations.keySet());
+        return ImmutableSet.copyOf(translations.keySet());
     }
 
     @Override
     public int compareTo(final Word obj) {
         int result = 0;
 
-        result += this.grammarType.compareTo(obj.getGrammarType());
+        result += grammarType.compareTo(obj.getGrammarType());
 
-        for (final Locale locale : this.translations.keySet()) {
+        for (final Locale locale : translations.keySet()) {
             if (obj.getTranslations().containsKey(locale)) {
-                result += this.getTranslation(locale).compareTo(obj.getTranslation(locale));
+                result += getTranslation(locale).compareTo(obj.getTranslation(locale));
             }
         }
 
@@ -59,29 +59,29 @@ public final class WordImplementation implements Word {
 
     @Override
     public LocalizedText getText(final Locale locale) {
-        return this.translations.get(locale).getLocalizedText();
+        return translations.get(locale).getLocalizedText();
     }
 
     @Override
     public Example getExample(final Locale locale) {
-        return this.translations.get(locale).getExample();
+        return translations.get(locale).getExample();
     }
 
     @Override
     public Map<Locale, Translation> getTranslations() {
-        return Collections.unmodifiableMap(this.translations);
+        return Collections.unmodifiableMap(translations);
     }
 
     @Override
     public GrammarType getGrammarType() {
-        return this.grammarType;
+        return grammarType;
     }
 
     @Override
     public DateTime getCreated() {
-    	DateTime earliest = null;
+        DateTime earliest = null;
 
-        for (final Translation translation : this.translations.values()) {
+        for (final Translation translation : translations.values()) {
             if (earliest == null || translation.getCreationDate().isBefore(earliest)) {
                 earliest = translation.getCreationDate();
             }
@@ -92,9 +92,9 @@ public final class WordImplementation implements Word {
 
     @Override
     public DateTime getLastQuestioned() {
-    	DateTime latest = null;
+        DateTime latest = null;
 
-        for (final Translation translation : this.translations.values()) {
+        for (final Translation translation : translations.values()) {
             if (latest == null || translation.getLastQuestionedDate().isBefore(latest)) {
                 latest = translation.getLastQuestionedDate();
             }
@@ -105,7 +105,7 @@ public final class WordImplementation implements Word {
 
     @Override
     public Translation getTranslation(final Locale locale) {
-        return this.translations.get(locale);
+        return translations.get(locale);
     }
 
 }

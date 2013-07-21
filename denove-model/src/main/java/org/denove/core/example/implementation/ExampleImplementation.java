@@ -31,17 +31,17 @@ public final class ExampleImplementation implements Example {
 
     @Override
     public int compareTo(final Example obj) {
-        return this.sentence.compareTo(obj.getSentence()) + this.correctForm.compareTo(obj.getCorrectForm());
+        return sentence.compareTo(obj.getSentence()) + correctForm.compareTo(obj.getCorrectForm());
     }
 
     @Override
     public String getCorrectForm() {
-        return this.correctForm;
+        return correctForm;
     }
 
     @Override
     public String getSentence() {
-        return this.sentence;
+        return sentence;
     }
 
 }

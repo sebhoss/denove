@@ -30,7 +30,7 @@ public final class LessonImplementation implements Lesson {
 
     @Override
     public Set<Word> getWords() {
-        return Collections.unmodifiableSet(this.words);
+        return Collections.unmodifiableSet(words);
     }
 
 }

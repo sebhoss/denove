@@ -14,17 +14,17 @@ public final class TranslationImplementation implements Translation {
 
     private final DateTime      creationDate;
 
-    private DateTime            lastQuestioned;
+    private final DateTime      lastQuestioned;
 
     private final LocalizedText localizedText;
 
     private final Example       example;
 
-    private double              score;
+    private final double        score;
 
-    private int                 tryCount;
+    private final int           tryCount;
 
-    private int                 missCount;
+    private final int           missCount;
 
     /**
      * Creates a new translation.
@@ -54,36 +54,36 @@ public final class TranslationImplementation implements Translation {
         this.tryCount = tryCount;
         this.missCount = missCount;
 
-        this.localizedText = Preconditions.checkNotNull(text);
+        localizedText = Preconditions.checkNotNull(text);
         this.example = Preconditions.checkNotNull(example);
         this.creationDate = creationDate;
-        this.lastQuestioned = lastQuestionedDate;
+        lastQuestioned = lastQuestionedDate;
     }
 
     @Override
     public int compareTo(final Translation obj) {
         int result = 0;
 
-        result += this.creationDate.compareTo(obj.getCreationDate());
-        result += this.lastQuestioned.compareTo(obj.getLastQuestionedDate());
-        result += this.localizedText.compareTo(obj.getLocalizedText());
-        result += this.example.compareTo(obj.getExample());
+        result += creationDate.compareTo(obj.getCreationDate());
+        result += lastQuestioned.compareTo(obj.getLastQuestionedDate());
+        result += localizedText.compareTo(obj.getLocalizedText());
+        result += example.compareTo(obj.getExample());
 
-        if (this.score > obj.getScore()) {
+        if (score > obj.getScore()) {
             result += 1;
-        } else if (this.score < obj.getScore()) {
+        } else if (score < obj.getScore()) {
             result -= 1;
         }
 
-        if (this.tryCount > obj.getTryCount()) {
+        if (tryCount > obj.getTryCount()) {
             result += 1;
-        } else if (this.tryCount < obj.getTryCount()) {
+        } else if (tryCount < obj.getTryCount()) {
             result -= 1;
         }
 
-        if (this.missCount > obj.getMissCount()) {
+        if (missCount > obj.getMissCount()) {
             result += 1;
-        } else if (this.missCount < obj.getMissCount()) {
+        } else if (missCount < obj.getMissCount()) {
             result -= 1;
         }
 
@@ -92,37 +92,37 @@ public final class TranslationImplementation implements Translation {
 
     @Override
     public LocalizedText getLocalizedText() {
-        return this.localizedText;
+        return localizedText;
     }
 
     @Override
     public double getScore() {
-        return this.score;
+        return score;
     }
 
     @Override
     public int getTryCount() {
-        return this.tryCount;
+        return tryCount;
     }
 
     @Override
     public int getMissCount() {
-        return this.missCount;
+        return missCount;
     }
 
     @Override
     public DateTime getCreationDate() {
-        return this.creationDate;
+        return creationDate;
     }
 
     @Override
     public DateTime getLastQuestionedDate() {
-        return this.lastQuestioned;
+        return lastQuestioned;
     }
 
     @Override
     public Example getExample() {
-        return this.example;
+        return example;
     }
 
 }

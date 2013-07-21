@@ -15,15 +15,15 @@ import org.junit.Test;
 public final class LessonTest {
 
     private Lesson lesson;
-	private Word word;
+    private Word   word;
 
     /**
      * Prepares a single translation which should be used by all tests in this class.
      */
     @Before
     public final void setUp() {
-    	this.word = mock(Word.class);
-        this.lesson = Lessons.prepareLesson().word(word).get();
+        word = mock(Word.class);
+        lesson = Lessons.prepareLesson().word(word).get();
     }
 
     /**
@@ -31,7 +31,7 @@ public final class LessonTest {
      */
     @Test
     public void testGetWords() {
-        assertThat(this.lesson.getWords(), notNullValue());
+        assertThat(lesson.getWords(), notNullValue());
     }
 
 }

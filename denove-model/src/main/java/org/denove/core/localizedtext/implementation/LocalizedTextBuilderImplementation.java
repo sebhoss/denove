@@ -16,22 +16,22 @@ public final class LocalizedTextBuilderImplementation implements LocalizedTextBu
 
     @Override
     public LocalizedText get() {
-        Preconditions.checkState(this.localizedText != null);
-        Preconditions.checkState(this.phoneticSpelling != null);
+        Preconditions.checkState(localizedText != null);
+        Preconditions.checkState(phoneticSpelling != null);
 
-        return new LocalizedTextImplementation(this.localizedText, this.phoneticSpelling);
+        return new LocalizedTextImplementation(localizedText, phoneticSpelling);
     }
 
     @Override
     public LocalizedTextBuilder text(final String text) {
-        this.localizedText = Preconditions.checkNotNull(text);
+        localizedText = Preconditions.checkNotNull(text);
 
         return this;
     }
 
     @Override
     public LocalizedTextBuilder phoneticSpelling(final String spelling) {
-        this.phoneticSpelling = Preconditions.checkNotNull(spelling);
+        phoneticSpelling = Preconditions.checkNotNull(spelling);
 
         return this;
     }

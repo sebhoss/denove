@@ -29,28 +29,28 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
 
     @Override
     public Translation get() {
-        Preconditions.checkState(this.localizedText != null);
-        Preconditions.checkState(this.example != null);
-        Preconditions.checkState(this.creationDate != null);
-        Preconditions.checkState(this.lastQuestioned != null);
-        Preconditions.checkState(this.score >= 0D);
-        Preconditions.checkState(this.tryCount >= 0);
-        Preconditions.checkState(this.missCount >= 0);
+        Preconditions.checkState(localizedText != null);
+        Preconditions.checkState(example != null);
+        Preconditions.checkState(creationDate != null);
+        Preconditions.checkState(lastQuestioned != null);
+        Preconditions.checkState(score >= 0D);
+        Preconditions.checkState(tryCount >= 0);
+        Preconditions.checkState(missCount >= 0);
 
-        return new TranslationImplementation(this.localizedText, this.example, this.score, this.tryCount,
-                this.missCount, this.creationDate, this.lastQuestioned);
+        return new TranslationImplementation(localizedText, example, score, tryCount, missCount, creationDate,
+                lastQuestioned);
     }
 
     @Override
     public TranslationBuilder text(final LocalizedText text) {
-        this.localizedText = Preconditions.checkNotNull(text);
+        localizedText = Preconditions.checkNotNull(text);
 
         return this;
     }
 
     @Override
     public TranslationBuilder example(final Example newExample) {
-        this.example = Preconditions.checkNotNull(newExample);
+        example = Preconditions.checkNotNull(newExample);
 
         return this;
     }
@@ -59,7 +59,7 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
     public TranslationBuilder missCount(final int misses) {
         Preconditions.checkArgument(misses >= 0);
 
-        this.missCount = misses;
+        missCount = misses;
 
         return this;
     }
@@ -68,7 +68,7 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
     public TranslationBuilder score(final double currentScore) {
         Preconditions.checkArgument(currentScore >= 0);
 
-        this.score = currentScore;
+        score = currentScore;
 
         return this;
     }
@@ -77,21 +77,21 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
     public TranslationBuilder tryCount(final int tries) {
         Preconditions.checkArgument(tries >= 0);
 
-        this.tryCount = tries;
+        tryCount = tries;
 
         return this;
     }
 
     @Override
     public TranslationBuilder creationDate(final DateTime created) {
-        this.creationDate = created;
+        creationDate = created;
 
         return this;
     }
 
     @Override
     public TranslationBuilder lastQuestionedDate(final DateTime questioned) {
-        this.lastQuestioned = questioned;
+        lastQuestioned = questioned;
 
         return this;
     }

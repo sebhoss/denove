@@ -33,10 +33,10 @@ public final class WordBuilderImplementation implements WordBuilder {
 
     @Override
     public Word get() {
-        Preconditions.checkState(this.grammarType != null);
-        Preconditions.checkState(this.translations != null);
+        Preconditions.checkState(grammarType != null);
+        Preconditions.checkState(translations != null);
 
-        return new WordImplementation(this.grammarType, this.translations);
+        return new WordImplementation(grammarType, translations);
     }
 
     @Override
@@ -44,8 +44,8 @@ public final class WordBuilderImplementation implements WordBuilder {
         Preconditions.checkNotNull(locale);
         Preconditions.checkNotNull(translation);
 
-        if (!this.translations.values().contains(translation)) {
-            this.translations.put(locale, translation);
+        if (!translations.values().contains(translation)) {
+            translations.put(locale, translation);
 
             return this;
         }
@@ -55,7 +55,7 @@ public final class WordBuilderImplementation implements WordBuilder {
 
     @Override
     public WordBuilder translations(final Map<Locale, Translation> trans) {
-        this.translations.putAll(trans);
+        translations.putAll(trans);
 
         // FIXME: Check for duplicate entries
 
@@ -64,7 +64,7 @@ public final class WordBuilderImplementation implements WordBuilder {
 
     @Override
     public WordBuilder grammarType(final GrammarType type) {
-        this.grammarType = Preconditions.checkNotNull(type);
+        grammarType = Preconditions.checkNotNull(type);
 
         return this;
     }

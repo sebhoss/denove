@@ -16,11 +16,11 @@ public final class ExampleBuilderImplementation implements ExampleBuilder {
 
     @Override
     public Example get() {
-        Preconditions.checkState(this.sentence != null);
-        Preconditions.checkState(this.correctForm != null);
-        Preconditions.checkState(this.sentence.contains(this.correctForm));
+        Preconditions.checkState(sentence != null);
+        Preconditions.checkState(correctForm != null);
+        Preconditions.checkState(sentence.contains(correctForm));
 
-        return new ExampleImplementation(this.sentence, this.correctForm);
+        return new ExampleImplementation(sentence, correctForm);
     }
 
     @Override
@@ -28,11 +28,11 @@ public final class ExampleBuilderImplementation implements ExampleBuilder {
         Preconditions.checkNotNull(form);
 
         // Check if sentence is already set and if it contains the form to set
-        if (this.sentence != null && !this.sentence.contains(form)) {
+        if (sentence != null && !sentence.contains(form)) {
             throw new IllegalArgumentException("Form does not match to sentence"); //$NON-NLS-1$
         }
 
-        this.correctForm = form;
+        correctForm = form;
 
         return this;
     }
@@ -41,11 +41,11 @@ public final class ExampleBuilderImplementation implements ExampleBuilder {
     public ExampleBuilder sentence(final String exampleSentence) {
         Preconditions.checkNotNull(exampleSentence);
 
-        if (this.correctForm != null && !exampleSentence.contains(this.correctForm)) {
+        if (correctForm != null && !exampleSentence.contains(correctForm)) {
             throw new IllegalArgumentException("Sentence does not match form"); //$NON-NLS-1$
         }
 
-        this.sentence = exampleSentence;
+        sentence = exampleSentence;
 
         return this;
     }

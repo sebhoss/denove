@@ -21,29 +21,29 @@ public final class LessonBuilderImplementation implements LessonBuilder {
      * Constructor for a new {@link LessonBuilder}.
      */
     public LessonBuilderImplementation() {
-        this.wordsBuilder = ImmutableSet.<Word> builder();
+        wordsBuilder = ImmutableSet.<Word> builder();
     }
 
     @Override
     public Lesson get() {
-    	Preconditions.checkState(this.wordsBuilder != null);
-        ImmutableSet<Word> words = this.wordsBuilder.build();
+        Preconditions.checkState(wordsBuilder != null);
+        final ImmutableSet<Word> words = wordsBuilder.build();
         Preconditions.checkState(words.size() > 0);
-        
-		return new LessonImplementation(words);
+
+        return new LessonImplementation(words);
     }
 
     @Override
     public LessonBuilder word(final Word word) {
-    	this.wordsBuilder.add(word);
+        wordsBuilder.add(word);
 
         return this;
     }
 
     @Override
     public LessonBuilder words(final Collection<Word> wordsToAdd) {
-    	this.wordsBuilder.addAll(wordsToAdd);
-    	
+        wordsBuilder.addAll(wordsToAdd);
+
         return this;
     }
 

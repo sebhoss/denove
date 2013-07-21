@@ -22,23 +22,23 @@ public final class LocalizedTextImplementation implements LocalizedText {
      *            The correct phonetic spelling (<b>may not be <code>null</code></b>).
      */
     public LocalizedTextImplementation(final String text, final String spelling) {
-        this.localizedText = Preconditions.checkNotNull(text);
-        this.phoneticSpelling = Preconditions.checkNotNull(spelling);
+        localizedText = Preconditions.checkNotNull(text);
+        phoneticSpelling = Preconditions.checkNotNull(spelling);
     }
 
     @Override
     public int compareTo(final LocalizedText obj) {
-        return this.localizedText.compareTo(obj.getText()) + this.phoneticSpelling.compareTo(obj.getPhoneticSpelling());
+        return localizedText.compareTo(obj.getText()) + phoneticSpelling.compareTo(obj.getPhoneticSpelling());
     }
 
     @Override
     public String getText() {
-        return this.localizedText;
+        return localizedText;
     }
 
     @Override
     public String getPhoneticSpelling() {
-        return this.phoneticSpelling;
+        return phoneticSpelling;
     }
 
 }
