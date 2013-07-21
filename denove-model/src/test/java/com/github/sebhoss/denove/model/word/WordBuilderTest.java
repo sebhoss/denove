@@ -28,7 +28,8 @@ public final class WordBuilderTest {
         final WordBuilder builder = Words.prepareWord();
 
         // when
-        final Word word = builder.translation(Locale.getDefault(), translation).get();
+        final Word word = builder.translation(Locale.getDefault(), translation).translation(Locale.CANADA, translation)
+                .get();
 
         // then
         assertThat(word.getTranslations().values(), hasItem(translation));
@@ -69,6 +70,7 @@ public final class WordBuilderTest {
         final Translation translation = mock(Translation.class);
         final Map<Locale, Translation> translations = new HashMap<>();
         translations.put(Locale.getDefault(), translation);
+        translations.put(Locale.CANADA, translation);
 
         // when
         final Word word = Words.prepareWord().translations(translations).get();
@@ -99,6 +101,36 @@ public final class WordBuilderTest {
         // when
         final WordBuilder builder = Words.prepareWord().translation(Locale.getDefault(), translation)
                 .translations(translations);
+
+        // then
+        builder.get();
+    }
+
+    /**
+     * Test method for {@link WordBuilder#get()}.
+     */
+    @Test(expected = IllegalStateException.class)
+    public void shouldContainAtLestTwoTranslation() {
+        // given
+        WordBuilder builder;
+
+        // when
+        builder = Words.prepareWord();
+
+        // then
+        builder.get();
+    }
+
+    /**
+     * Test method for {@link WordBuilder#get()}.
+     */
+    @Test(expected = IllegalStateException.class)
+    public void shouldContainAtLestTwoTranslationWithOneTranslation() {
+        // given
+        final Translation translation = mock(Translation.class);
+
+        // when
+        final WordBuilder builder = Words.prepareWord().translation(Locale.getDefault(), translation);
 
         // then
         builder.get();

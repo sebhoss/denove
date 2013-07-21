@@ -15,27 +15,29 @@ import com.google.common.collect.ImmutableMap.Builder;
  */
 public final class WordBuilderImplementation implements WordBuilder {
 
-    private final Builder<Locale, Translation> translations;
+    private final Builder<Locale, Translation> translationBuilder;
 
     /**
      * Constructor for a new {@link WordBuilderImplementation}.
      */
     public WordBuilderImplementation() {
-        translations = ImmutableMap.<Locale, Translation> builder();
+        translationBuilder = ImmutableMap.<Locale, Translation> builder();
     }
 
     @Override
     public Word get() {
-        Preconditions.checkState(translations != null);
+        Preconditions.checkState(translationBuilder != null);
+        final ImmutableMap<Locale, Translation> translations = translationBuilder.build();
+        Preconditions.checkState(translations.size() > 1);
 
-        return new WordImplementation(translations.build());
+        return new WordImplementation(translations);
     }
 
     @Override
     public WordBuilder translation(final Locale locale, final Translation translation) {
         Preconditions.checkNotNull(locale);
         Preconditions.checkNotNull(translation);
-        translations.put(locale, translation);
+        translationBuilder.put(locale, translation);
 
         return this;
     }
@@ -43,7 +45,7 @@ public final class WordBuilderImplementation implements WordBuilder {
     @Override
     public WordBuilder translations(final Map<Locale, Translation> translationsToAdd) {
         Preconditions.checkNotNull(translationsToAdd);
-        translations.putAll(translationsToAdd);
+        translationBuilder.putAll(translationsToAdd);
 
         return this;
     }
