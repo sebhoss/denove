@@ -2,7 +2,9 @@ package org.denove.core.lesson;
 
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.mock;
 
+import org.denove.core.word.Word;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,13 +15,15 @@ import org.junit.Test;
 public final class LessonTest {
 
     private Lesson lesson;
+	private Word word;
 
     /**
      * Prepares a single translation which should be used by all tests in this class.
      */
     @Before
     public final void setUp() {
-        this.lesson = Lessons.prepareLesson().get();
+    	this.word = mock(Word.class);
+        this.lesson = Lessons.prepareLesson().word(word).get();
     }
 
     /**

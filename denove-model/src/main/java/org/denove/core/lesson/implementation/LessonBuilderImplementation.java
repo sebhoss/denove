@@ -15,32 +15,34 @@ import com.google.common.collect.ImmutableSet.Builder;
  */
 public final class LessonBuilderImplementation implements LessonBuilder {
 
-    private final Builder<Word> words;
+    private final Builder<Word> wordsBuilder;
 
     /**
      * Constructor for a new {@link LessonBuilder}.
      */
     public LessonBuilderImplementation() {
-        this.words = ImmutableSet.<Word> builder();
+        this.wordsBuilder = ImmutableSet.<Word> builder();
     }
 
     @Override
     public Lesson get() {
-        Preconditions.checkState(this.words != null);
-
-        return new LessonImplementation(this.words.build());
+    	Preconditions.checkState(this.wordsBuilder != null);
+        ImmutableSet<Word> words = this.wordsBuilder.build();
+        Preconditions.checkState(words.size() > 0);
+        
+		return new LessonImplementation(words);
     }
 
     @Override
     public LessonBuilder word(final Word word) {
-    	this.words.add(word);
+    	this.wordsBuilder.add(word);
 
         return this;
     }
 
     @Override
     public LessonBuilder words(final Collection<Word> wordsToAdd) {
-    	this.words.addAll(wordsToAdd);
+    	this.wordsBuilder.addAll(wordsToAdd);
     	
         return this;
     }
