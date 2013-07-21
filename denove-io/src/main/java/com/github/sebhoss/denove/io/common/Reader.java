@@ -3,7 +3,7 @@ package com.github.sebhoss.denove.io.common;
 import java.nio.file.Path;
 import java.util.Set;
 
-import org.denove.core.lesson.Lesson;
+import com.github.sebhoss.denove.model.lesson.Lesson;
 
 /**
  * Common interface for all IO readers
