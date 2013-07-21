@@ -5,16 +5,13 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockito.Mockito.mock;
 
+import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-import java.util.TreeMap;
 
 import org.junit.Test;
 
 import com.github.sebhoss.denove.model.translation.Translation;
-import com.github.sebhoss.denove.model.word.Word;
-import com.github.sebhoss.denove.model.word.WordBuilder;
-import com.github.sebhoss.denove.model.word.Words;
 
 /**
  * Test cases for the {@link WordBuilder} interface and its underlying implementation.
@@ -72,7 +69,7 @@ public final class WordBuilderTest {
     public void testTranslations() {
         // given
         final Translation trans = mock(Translation.class);
-        final Map<Locale, Translation> translations = new TreeMap<>();
+        final Map<Locale, Translation> translations = new HashMap<>();
         translations.put(Locale.getDefault(), trans);
 
         // when
