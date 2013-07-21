@@ -2,7 +2,7 @@ package org.denove.core.word;
 
 /**
  * <p>
- * A list of all available grammar types in the Denove Core package.
+ * A list of all available grammar types in the Denove package.
  * </p>
  * 
  * <p>
