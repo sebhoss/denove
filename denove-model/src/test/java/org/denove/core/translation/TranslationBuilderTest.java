@@ -13,6 +13,7 @@ import org.junit.Test;
 /**
  * Test cases for the {@link TranslationBuilder} interface and its underlying implementation.
  */
+@SuppressWarnings("static-method")
 public final class TranslationBuilderTest {
 
     private static final double SCORE      = 2D;

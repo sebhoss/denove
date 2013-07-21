@@ -12,8 +12,8 @@ import org.junit.Test;
 
 /**
  * Test cases for the {@link LessonBuilder} interface and its underlying implementation.
- * 
  */
+@SuppressWarnings("static-method")
 public final class LessonBuilderTest {
 
     /**
@@ -64,7 +64,7 @@ public final class LessonBuilderTest {
     public void shouldHaveGivenWords() {
         // given
         final Word word = mock(Word.class);
-        final Collection<Word> words = new ArrayList<Word>();
+        final Collection<Word> words = new ArrayList<>();
         words.add(word);
         final LessonBuilder builder = Lessons.prepareLesson();
 
@@ -82,7 +82,7 @@ public final class LessonBuilderTest {
     public void shouldDiscardDuplicates() {
         // given
         final Word word = mock(Word.class);
-        final Collection<Word> words = new ArrayList<Word>();
+        final Collection<Word> words = new ArrayList<>();
         words.add(word);
         final LessonBuilder builder = Lessons.prepareLesson();
 

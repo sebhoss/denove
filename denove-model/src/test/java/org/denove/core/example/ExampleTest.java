@@ -3,12 +3,12 @@ package org.denove.core.example;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 /**
  * DOC: Write documentation for type 'ExampleTest'!
  * 
  * @see Example
  */
+@SuppressWarnings("static-method")
 public final class ExampleTest {
 
     /**

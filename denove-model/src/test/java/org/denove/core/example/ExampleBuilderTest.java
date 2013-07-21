@@ -8,6 +8,7 @@ import org.junit.Test;
  * 
  * @see ExampleBuilder
  */
+@SuppressWarnings("static-method")
 public final class ExampleBuilderTest {
 
     /**

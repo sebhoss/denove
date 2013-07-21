@@ -16,6 +16,7 @@ import org.junit.Test;
 /**
  * Test cases for the {@link WordBuilder} interface and its underlying implementation.
  */
+@SuppressWarnings("static-method")
 public final class WordBuilderTest {
 
     /**
@@ -68,7 +69,7 @@ public final class WordBuilderTest {
     public void testTranslations() {
         // given
         final Translation trans = mock(Translation.class);
-        final Map<Locale, Translation> translations = new TreeMap<Locale, Translation>();
+        final Map<Locale, Translation> translations = new TreeMap<>();
         translations.put(Locale.getDefault(), trans);
 
         // when

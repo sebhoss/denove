@@ -15,6 +15,7 @@ import org.junit.Test;
 /**
  * Test cases for the {@link Word} interface and its underlying implementation.
  */
+@SuppressWarnings("static-method")
 public final class WordTest {
 
     private Word word;
