@@ -38,8 +38,7 @@
   <!--                                 MODULES                                 -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <modules>
-    <module>denove-io</module>
     <module>denove-model</module>
-    <module>denove-xsd</module>
+    <module>denove-io</module>
   </modules>
 </project>
