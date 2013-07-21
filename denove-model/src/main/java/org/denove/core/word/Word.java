@@ -58,13 +58,6 @@ public interface Word extends Comparable<Word> {
     Map<Locale, Translation> getTranslations();
 
     /**
-     * Gets the {@linkplain GrammarType grammar type} of this word.
-     * 
-     * @return The grammar type of this word.
-     */
-    GrammarType getGrammarType();
-
-    /**
      * Returns the date this word was created. More strictly speaking: It returns the earliest date one of its enclosed
      * {@linkplain Translation translations} was created.
      * 

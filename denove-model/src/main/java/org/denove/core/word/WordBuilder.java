@@ -46,13 +46,4 @@ public interface WordBuilder extends Supplier<Word> {
      */
     WordBuilder translations(Map<Locale, Translation> translations);
 
-    /**
-     * Sets the {@link GrammarType grammar type} of the new {@linkplain Word word}.
-     * 
-     * @param type
-     *            The grammar type of the new word (<b>may not be <code>null</code></b>).
-     * @return The current builder.
-     */
-    WordBuilder grammarType(GrammarType type);
-
 }

@@ -1,6 +1,5 @@
 package org.denove.core.word;
 
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -26,7 +25,7 @@ public final class WordBuilderTest {
     public void testTranslation() {
         // given
         final Translation trans = mock(Translation.class);
-        final WordBuilder builder = Words.prepareWord().grammarType(GrammarType.ADJECTIVE);
+        final WordBuilder builder = Words.prepareWord();
 
         // when
         final Word word = builder.translation(Locale.getDefault(), trans).get();
@@ -43,7 +42,7 @@ public final class WordBuilderTest {
     public void testTranslationDoesNotAcceptDuplicates() {
         // given
         final Translation trans = mock(Translation.class);
-        final WordBuilder builder = Words.prepareWord().grammarType(GrammarType.ADJECTIVE);
+        final WordBuilder builder = Words.prepareWord();
 
         // when
         final Word word = builder.translation(Locale.getDefault(), trans).translation(Locale.getDefault(), trans).get();
@@ -73,7 +72,7 @@ public final class WordBuilderTest {
         translations.put(Locale.getDefault(), trans);
 
         // when
-        final Word word = Words.prepareWord().translations(translations).grammarType(GrammarType.UNKNOWN).get();
+        final Word word = Words.prepareWord().translations(translations).get();
 
         // then
         assertThat(word.getTranslations().values(), hasItem(trans));
@@ -86,30 +85,6 @@ public final class WordBuilderTest {
     @Test(expected = NullPointerException.class)
     public void testTranslationsDoesNotAcceptNull() {
         Words.prepareWord().translations(null);
-    }
-
-    /**
-     * Test method for {@link WordBuilder#grammarType(GrammarType)}.
-     */
-    @Test
-    public void testGrammarType() {
-        // given
-        final WordBuilder builder = Words.prepareWord().translation(Locale.getDefault(), mock(Translation.class));
-
-        // when
-        final Word word = builder.grammarType(GrammarType.ADJECTIVE).get();
-
-        // then
-        assertThat(word.getGrammarType(), is(equalTo(GrammarType.ADJECTIVE)));
-    }
-
-    /**
-     * Ensures that the {@link WordBuilder#grammarType(GrammarType) grammarType(GrammarType)} method does not accept
-     * <code>null</code> as valid input.
-     */
-    @Test(expected = NullPointerException.class)
-    public void testGrammarTypeDoesNotAcceptNull() {
-        Words.prepareWord().grammarType(null);
     }
 
 }

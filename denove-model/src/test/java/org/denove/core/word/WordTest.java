@@ -26,8 +26,7 @@ public final class WordTest {
      */
     @Before
     public void setUp() {
-        this.word = Words.prepareWord().translation(Locale.getDefault(), mock(Translation.class))
-                .grammarType(GrammarType.ADJECTIVE).get();
+        word = Words.prepareWord().translation(Locale.getDefault(), mock(Translation.class)).get();
     }
 
     /**
@@ -35,8 +34,8 @@ public final class WordTest {
      */
     @Test
     public void testGetAvailableLanguages() {
-        assertThat(this.word.getAvailableLanguages(), is(notNullValue()));
-        assertThat(Integer.valueOf(this.word.getAvailableLanguages().size()), is(equalTo(Integer.valueOf(1))));
+        assertThat(word.getAvailableLanguages(), is(notNullValue()));
+        assertThat(Integer.valueOf(word.getAvailableLanguages().size()), is(equalTo(Integer.valueOf(1))));
     }
 
     /**
@@ -44,7 +43,7 @@ public final class WordTest {
      */
     @Test(expected = NullPointerException.class)
     public void testGetTranslationDoesNotAcceptNull() {
-        this.word.getTranslation(null);
+        word.getTranslation(null);
     }
 
     /**
@@ -56,8 +55,7 @@ public final class WordTest {
         final Translation trans = mock(Translation.class);
 
         // when
-        final Word newWord = Words.prepareWord().grammarType(GrammarType.ADJECTIVE).translation(Locale.CANADA, trans)
-                .get();
+        final Word newWord = Words.prepareWord().translation(Locale.CANADA, trans).get();
 
         assertThat(newWord.getTranslation(Locale.CANADA), is(trans));
     }
@@ -72,8 +70,7 @@ public final class WordTest {
         final Translation trans = mock(Translation.class);
 
         // when
-        final Word newWord = Words.prepareWord().grammarType(GrammarType.ADJECTIVE).translation(Locale.CANADA, trans)
-                .get();
+        final Word newWord = Words.prepareWord().translation(Locale.CANADA, trans).get();
 
         // then
         newWord.getText(Locale.CANADA_FRENCH);
@@ -84,7 +81,7 @@ public final class WordTest {
      */
     @Test(expected = NullPointerException.class)
     public void testGetTextDoesNotAcceptNull() {
-        this.word.getText(null);
+        word.getText(null);
     }
 
     /**
@@ -92,7 +89,7 @@ public final class WordTest {
      */
     @Test(expected = NullPointerException.class)
     public void testGetExample() {
-        this.word.getExample(null);
+        word.getExample(null);
     }
 
     /**
@@ -100,8 +97,8 @@ public final class WordTest {
      */
     @Test
     public void testGetTranslations() {
-        assertThat(this.word.getTranslations(), is(notNullValue()));
-        assertThat(Integer.valueOf(this.word.getTranslations().size()), is(equalTo(Integer.valueOf(1))));
+        assertThat(word.getTranslations(), is(notNullValue()));
+        assertThat(Integer.valueOf(word.getTranslations().size()), is(equalTo(Integer.valueOf(1))));
     }
 
 }

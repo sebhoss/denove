@@ -4,7 +4,6 @@ import java.util.Locale;
 import java.util.Map;
 
 import org.denove.core.translation.Translation;
-import org.denove.core.word.GrammarType;
 import org.denove.core.word.Word;
 import org.denove.core.word.WordBuilder;
 
@@ -14,8 +13,6 @@ import com.google.common.base.Preconditions;
  * Implementation of the {@link WordBuilder} interface.
  */
 public final class WordBuilderImplementation implements WordBuilder {
-
-    private GrammarType                    grammarType;
 
     private final Map<Locale, Translation> translations;
 
@@ -33,10 +30,9 @@ public final class WordBuilderImplementation implements WordBuilder {
 
     @Override
     public Word get() {
-        Preconditions.checkState(grammarType != null);
         Preconditions.checkState(translations != null);
 
-        return new WordImplementation(grammarType, translations);
+        return new WordImplementation(translations);
     }
 
     @Override
@@ -58,13 +54,6 @@ public final class WordBuilderImplementation implements WordBuilder {
         translations.putAll(trans);
 
         // FIXME: Check for duplicate entries
-
-        return this;
-    }
-
-    @Override
-    public WordBuilder grammarType(final GrammarType type) {
-        grammarType = Preconditions.checkNotNull(type);
 
         return this;
     }

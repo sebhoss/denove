@@ -8,7 +8,6 @@ import java.util.Set;
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.translation.Translation;
-import org.denove.core.word.GrammarType;
 import org.denove.core.word.Word;
 import org.joda.time.DateTime;
 
@@ -22,18 +21,13 @@ public final class WordImplementation implements Word {
 
     private final Map<Locale, Translation> translations;
 
-    private final GrammarType              grammarType;
-
     /**
      * Constructor for a new Word implementation.
      * 
-     * @param type
-     *            The grammar type of this word (<b>may not be <code>null</code></b>).
      * @param translations
      *            The translations enclosed by this word (<b>may not be <code>null</code></b>).
      */
-    public WordImplementation(final GrammarType type, final Map<Locale, Translation> translations) {
-        grammarType = Preconditions.checkNotNull(type);
+    public WordImplementation(final Map<Locale, Translation> translations) {
         this.translations = Preconditions.checkNotNull(translations);
     }
 
@@ -45,8 +39,6 @@ public final class WordImplementation implements Word {
     @Override
     public int compareTo(final Word obj) {
         int result = 0;
-
-        result += grammarType.compareTo(obj.getGrammarType());
 
         for (final Locale locale : translations.keySet()) {
             if (obj.getTranslations().containsKey(locale)) {
@@ -70,11 +62,6 @@ public final class WordImplementation implements Word {
     @Override
     public Map<Locale, Translation> getTranslations() {
         return Collections.unmodifiableMap(translations);
-    }
-
-    @Override
-    public GrammarType getGrammarType() {
-        return grammarType;
     }
 
     @Override
