@@ -12,8 +12,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.github.sebhoss.denove.model.translation.Translation;
-import com.github.sebhoss.denove.model.word.Word;
-import com.github.sebhoss.denove.model.word.Words;
 
 /**
  * Test cases for the {@link Word} interface and its underlying implementation.
@@ -36,7 +34,7 @@ public final class WordTest {
      * Test method for {@link Word#getAvailableLanguages()}.
      */
     @Test
-    public void testGetAvailableLanguages() {
+    public void shouldReturnAvailableLanguages() {
         assertThat(word.getAvailableLanguages(), is(notNullValue()));
         assertThat(Integer.valueOf(word.getAvailableLanguages().size()), is(equalTo(Integer.valueOf(1))));
     }
@@ -45,7 +43,7 @@ public final class WordTest {
      * Test method for {@link Word#getTranslation(Locale)}.
      */
     @Test(expected = NullPointerException.class)
-    public void testGetTranslationDoesNotAcceptNull() {
+    public void shouldThrowNullPointerExceptionForNullTranslation() {
         word.getTranslation(null);
     }
 
@@ -53,13 +51,14 @@ public final class WordTest {
      * Test method for {@link Word#getTranslation(Locale)}.
      */
     @Test
-    public void testGetTranslation() {
+    public void shouldReturnMatchingTranslation() {
         // given
         final Translation trans = mock(Translation.class);
 
         // when
         final Word newWord = Words.prepareWord().translation(Locale.CANADA, trans).get();
 
+        // then
         assertThat(newWord.getTranslation(Locale.CANADA), is(trans));
     }
 
@@ -68,7 +67,7 @@ public final class WordTest {
      * 
      */
     @Test(expected = NullPointerException.class)
-    public void testGetTranslationDoesNotAcceptFalseLocale() {
+    public void shouldThrowNullPointerExceptionOnUnknownLocale() {
         // given
         final Translation trans = mock(Translation.class);
 
@@ -83,7 +82,7 @@ public final class WordTest {
      * Test method for {@link Word#getText(Locale)}.
      */
     @Test(expected = NullPointerException.class)
-    public void testGetTextDoesNotAcceptNull() {
+    public void shouldThrowNullPointerExceptionForNullLocaleInText() {
         word.getText(null);
     }
 
@@ -91,7 +90,7 @@ public final class WordTest {
      * Test method for {@link Word#getExample(Locale)}.
      */
     @Test(expected = NullPointerException.class)
-    public void testGetExample() {
+    public void shouldThrowNullPointerExceptionForNullLocaleInExample() {
         word.getExample(null);
     }
 
@@ -99,7 +98,7 @@ public final class WordTest {
      * Test method for {@link Word#getTranslations()}.
      */
     @Test
-    public void testGetTranslations() {
+    public void shouldReturnAvailableTranslations() {
         assertThat(word.getTranslations(), is(notNullValue()));
         assertThat(Integer.valueOf(word.getTranslations().size()), is(equalTo(Integer.valueOf(1))));
     }

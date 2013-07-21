@@ -1,7 +1,6 @@
 package com.github.sebhoss.denove.model.word;
 
 import static org.hamcrest.CoreMatchers.hasItem;
-import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockito.Mockito.mock;
 
@@ -23,16 +22,16 @@ public final class WordBuilderTest {
      * Test method for {@link WordBuilder#translation(Locale, Translation)}.
      */
     @Test
-    public void testTranslation() {
+    public void shouldContainGivenTranslation() {
         // given
-        final Translation trans = mock(Translation.class);
+        final Translation translation = mock(Translation.class);
         final WordBuilder builder = Words.prepareWord();
 
         // when
-        final Word word = builder.translation(Locale.getDefault(), trans).get();
+        final Word word = builder.translation(Locale.getDefault(), translation).get();
 
         // then
-        assertThat(word.getTranslations().values(), hasItem(trans));
+        assertThat(word.getTranslations().values(), hasItem(translation));
     }
 
     /**
@@ -40,25 +39,24 @@ public final class WordBuilderTest {
      * does not accept duplicates.
      */
     @Test(expected = IllegalArgumentException.class)
-    public void testTranslationDoesNotAcceptDuplicates() {
+    public void shouldNotAcceptDuplicateTranslation() {
         // given
-        final Translation trans = mock(Translation.class);
-        final WordBuilder builder = Words.prepareWord();
+        final Translation translation = mock(Translation.class);
 
         // when
-        final Word word = builder.translation(Locale.getDefault(), trans).translation(Locale.getDefault(), trans).get();
+        final WordBuilder builder = Words.prepareWord().translation(Locale.getDefault(), translation)
+                .translation(Locale.getDefault(), translation);
 
         // then
-        assertThat(word.getTranslations().values(), hasItem(trans));
-        assertThat(Integer.valueOf(word.getTranslations().size()), is(Integer.valueOf(1)));
+        builder.get();
     }
 
     /**
      * Ensures that the {@link WordBuilder#translation(Locale, Translation) translation(Locale, Translation)} method
-     * does not accept <code>null</code> as valid input.
+     * does not accept a <code>null</code> {@link Translation} as valid input.
      */
     @Test(expected = NullPointerException.class)
-    public void testTranslationDoesNotAcceptNull() {
+    public void shouldNotAcceptNullTranslation() {
         Words.prepareWord().translation(Locale.getDefault(), null);
     }
 
@@ -66,26 +64,44 @@ public final class WordBuilderTest {
      * Test method for {@link WordBuilder#translations(Map)}.
      */
     @Test
-    public void testTranslations() {
+    public void shouldContainGivenTranslations() {
         // given
-        final Translation trans = mock(Translation.class);
+        final Translation translation = mock(Translation.class);
         final Map<Locale, Translation> translations = new HashMap<>();
-        translations.put(Locale.getDefault(), trans);
+        translations.put(Locale.getDefault(), translation);
 
         // when
         final Word word = Words.prepareWord().translations(translations).get();
 
         // then
-        assertThat(word.getTranslations().values(), hasItem(trans));
+        assertThat(word.getTranslations().values(), hasItem(translation));
     }
 
     /**
-     * Ensures that the {@link WordBuilder#translations(Map) translations(Collection)} method does not accept
-     * <code>null</code> as valid input.
+     * Ensures that the {@link WordBuilder#translations(Map) translations(Map)} method does not accept <code>null</code>
+     * as valid input.
      */
     @Test(expected = NullPointerException.class)
-    public void testTranslationsDoesNotAcceptNull() {
+    public void shouldNotAcceptNullTranslations() {
         Words.prepareWord().translations(null);
+    }
+
+    /**
+     * Test method for {@link WordBuilder#translations(Map)}.
+     */
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldNotAcceptDuplicateTranslations() {
+        // given
+        final Translation translation = mock(Translation.class);
+        final Map<Locale, Translation> translations = new HashMap<>();
+        translations.put(Locale.getDefault(), translation);
+
+        // when
+        final WordBuilder builder = Words.prepareWord().translation(Locale.getDefault(), translation)
+                .translations(translations);
+
+        // then
+        builder.get();
     }
 
 }

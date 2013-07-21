@@ -35,21 +35,15 @@ public final class WordBuilderImplementation implements WordBuilder {
     public WordBuilder translation(final Locale locale, final Translation translation) {
         Preconditions.checkNotNull(locale);
         Preconditions.checkNotNull(translation);
+        translations.put(locale, translation);
 
-        if (!translations.build().values().contains(translation)) {
-            translations.put(locale, translation);
-
-            return this;
-        }
-
-        throw new IllegalArgumentException("Can't add duplicate translations"); //$NON-NLS-1$
+        return this;
     }
 
     @Override
-    public WordBuilder translations(final Map<Locale, Translation> trans) {
-        translations.putAll(trans);
-
-        // FIXME: Check for duplicate entries
+    public WordBuilder translations(final Map<Locale, Translation> translationsToAdd) {
+        Preconditions.checkNotNull(translationsToAdd);
+        translations.putAll(translationsToAdd);
 
         return this;
     }
