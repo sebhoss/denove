@@ -1,9 +1,15 @@
 package org.denove.core.translation;
 
-import java.util.Date;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.mock;
 
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
+import org.joda.time.DateTime;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * Test cases for the {@link Translation} interface and its underlying implementation.
@@ -11,80 +17,17 @@ import org.denove.core.localizedtext.LocalizedText;
 public final class TranslationTest {
 
     private Translation translation;
-    private Date        creationDate;
+    private DateTime    creationDate;
 
     /**
      * Prepares a single translation which should be used by all tests in this class.
      */
     @Before
     public void prepare() {
-        this.creationDate = new Date();
+        this.creationDate = DateTime.now();
         this.translation = Translations.prepareTranslation().creationDate(this.creationDate)
                 .text(mock(LocalizedText.class)).lastQuestionedDate(this.creationDate).example(mock(Example.class))
                 .get();
-    }
-
-    /**
-     * Test method for:
-     * 
-     * <ul>
-     * <li>{@link Translation#getLocalizedText()}</li>
-     * <li>{@link Translation#setText(LocalizedText)}.</li>
-     * </ul>
-     * 
-     * Ensures that the text of a newly created translation is not <code>null</code> and that it can be overwritten with
-     * some real value.
-     */
-    @Test
-    public void testText() {
-        // given
-        final LocalizedText text = mock(LocalizedText.class);
-
-        // when
-        this.translation.setText(text);
-
-        // then
-        assertThat(this.translation.getLocalizedText(), is(text));
-    }
-
-    /**
-     * Ensures that the {@link Translation#setText(LocalizedText) setText(LocalizedText)} method does not accept
-     * <code>null</code> as valid input.
-     */
-    @Test(expected = NullPointerException.class)
-    public void testSetTextDoesNotAcceptNull() {
-        this.translation.setText(null);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Translation#setExample(Example)}.
-     * </p>
-     * 
-     * <p>
-     * Ensures that the setExample method can overwrite both the example sentence and the correct form (if both match)
-     * for a given translation.
-     * </p>
-     */
-    @Test
-    public void testExample() {
-        // given
-        final Example example = mock(Example.class);
-
-        // when
-        this.translation.setExample(example);
-
-        // then
-        assertThat(this.translation.getExample(), is(example));
-    }
-
-    /**
-     * Ensures that the {@link Translation#setExample(Example) setExample(String, String)} method does not accept
-     * <code>null</code> as valid input.
-     */
-    @Test(expected = NullPointerException.class)
-    public void testSetExampleDoesNotAcceptNullSentence() {
-        this.translation.setExample(null);
     }
 
     /**
@@ -120,7 +63,7 @@ public final class TranslationTest {
      */
     @Test
     public void testGetCreationDate() {
-        assertEquals(this.creationDate, this.translation.getCreationDate());
+    	assertThat(this.creationDate, equalTo(this.translation.getCreationDate()));
     }
 
     /**
@@ -129,77 +72,7 @@ public final class TranslationTest {
      */
     @Test
     public void testGetLastQuestionedDate() {
-        assertEquals(this.creationDate, this.translation.getLastQuestionedDate());
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Translation#hit(double)}.
-     * </p>
-     * 
-     * <p>
-     * Ensures that you can't 'hit' with a negative value.
-     * </p>
-     */
-    @Test(expected = IllegalArgumentException.class)
-    public void testHitDoesNotAcceptNegatives() {
-        this.translation.hit(-1);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Translation#hit(double)}.
-     * </p>
-     * 
-     * <p>
-     * Ensures that the given new score is actually set.
-     * </p>
-     */
-    @Test
-    public void testHit() {
-        // given
-        // this.translation
-
-        // when
-        this.translation.hit(2);
-
-        // then
-        assertThat(Double.valueOf(this.translation.getScore()), is(equalTo(Double.valueOf(2))));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Translation#miss(double)}.
-     * </p>
-     * 
-     * <p>
-     * Ensures that you can't 'miss' with a negative value.
-     * </p>
-     */
-    @Test(expected = IllegalArgumentException.class)
-    public void testMissDoesNotAcceptNegatives() {
-        this.translation.miss(-1);
-    }
-
-    /**
-     * <p>
-     * Test method for {@link Translation#miss(double)}.
-     * </p>
-     * 
-     * <p>
-     * Ensures that the given new score is actually set.
-     * </p>
-     */
-    @Test
-    public void testMiss() {
-        // given
-        // this.translation
-
-        // when
-        this.translation.miss(2);
-
-        // then
-        assertThat(Double.valueOf(this.translation.getScore()), is(equalTo(Double.valueOf(2))));
+    	assertThat(this.creationDate, equalTo(this.translation.getLastQuestionedDate()));
     }
 
 }

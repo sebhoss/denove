@@ -1,11 +1,10 @@
 package org.denove.core.translation.implementation;
 
-import java.util.Date;
-
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.translation.Translation;
 import org.denove.core.translation.TranslationBuilder;
+import org.joda.time.DateTime;
 
 import com.google.common.base.Preconditions;
 
@@ -84,15 +83,15 @@ public final class TranslationBuilderImplementation implements TranslationBuilde
     }
 
     @Override
-    public TranslationBuilder creationDate(final Date created) {
-        this.creationDate = new Date(Preconditions.checkNotNull(created).getTime());
+    public TranslationBuilder creationDate(final DateTime created) {
+        this.creationDate = created;
 
         return this;
     }
 
     @Override
-    public TranslationBuilder lastQuestionedDate(final Date questioned) {
-        this.lastQuestioned = new Date(Preconditions.checkNotNull(questioned).getTime());
+    public TranslationBuilder lastQuestionedDate(final DateTime questioned) {
+        this.lastQuestioned = questioned;
 
         return this;
     }

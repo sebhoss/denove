@@ -37,15 +37,15 @@ public final class LessonBuilderImplementation implements LessonBuilder {
 
     @Override
     public LessonBuilder word(final Word word) {
-        join(this.words).enforce(DefaultPredicate.<Word> get()).with(word);
+    	this.words.add(word);
 
         return this;
     }
 
     @Override
     public LessonBuilder words(final Collection<Word> wordsToAdd) {
-        join(this.words).enforce(DefaultPredicate.<Word> get()).with(wordsToAdd);
-
+    	this.words.addAll(wordsToAdd);
+    	
         return this;
     }
 

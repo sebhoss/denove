@@ -1,5 +1,8 @@
 package org.denove.core.example;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 
 /**
  * DOC: Write documentation for type 'ExampleTest'!
@@ -17,7 +20,7 @@ public final class ExampleTest {
         final String form = "goes"; //$NON-NLS-1$
         final Example example = Examples.prepareExample().sentence(sentence).correctForm(form).get();
 
-        assertEquals(example.getSentence(), sentence);
+        Assert.assertEquals(example.getSentence(), sentence);
     }
 
     /**
@@ -29,7 +32,7 @@ public final class ExampleTest {
         final String form = "goes"; //$NON-NLS-1$
         final Example example = Examples.prepareExample().correctForm(form).sentence(sentence).get();
 
-        assertEquals(example.getCorrectForm(), form);
+        Assert.assertEquals(example.getCorrectForm(), form);
     }
 
 }

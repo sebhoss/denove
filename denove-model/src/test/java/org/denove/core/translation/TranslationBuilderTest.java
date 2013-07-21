@@ -1,9 +1,14 @@
 package org.denove.core.translation;
 
-import java.util.Date;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.mock;
 
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
+import org.joda.time.DateTime;
+import org.junit.Test;
 
 /**
  * Test cases for the {@link TranslationBuilder} interface and its underlying implementation.
@@ -28,7 +33,7 @@ public final class TranslationBuilderTest {
         // given
         final LocalizedText text = mock(LocalizedText.class);
         final TranslationBuilder builder = Translations.prepareTranslation().example(mock(Example.class))
-                .creationDate(new Date()).lastQuestionedDate(new Date());
+                .creationDate(DateTime.now()).lastQuestionedDate(DateTime.now());
 
         // when
         final Translation translation = builder.text(text).get();
@@ -59,7 +64,7 @@ public final class TranslationBuilderTest {
         // given
         final Example example = mock(Example.class);
         final TranslationBuilder builder = Translations.prepareTranslation().text(mock(LocalizedText.class))
-                .creationDate(new Date()).lastQuestionedDate(new Date());
+                .creationDate(DateTime.now()).lastQuestionedDate(DateTime.now());
 
         // when
         final Translation translation = builder.example(example).get();
@@ -84,7 +89,7 @@ public final class TranslationBuilderTest {
     public void testScore() {
         // given
         final TranslationBuilder builder = Translations.prepareTranslation().text(mock(LocalizedText.class))
-                .creationDate(new Date()).lastQuestionedDate(new Date()).example(mock(Example.class));
+                .creationDate(DateTime.now()).lastQuestionedDate(DateTime.now()).example(mock(Example.class));
 
         // when
         final Translation translation = builder.score(TranslationBuilderTest.SCORE).get();
@@ -108,7 +113,7 @@ public final class TranslationBuilderTest {
     public void testTryCount() {
         // given
         final TranslationBuilder builder = Translations.prepareTranslation().text(mock(LocalizedText.class))
-                .creationDate(new Date()).lastQuestionedDate(new Date()).example(mock(Example.class));
+                .creationDate(DateTime.now()).lastQuestionedDate(DateTime.now()).example(mock(Example.class));
 
         // when
         final Translation translation = builder.tryCount(TranslationBuilderTest.TRY_COUNT).get();
@@ -133,7 +138,7 @@ public final class TranslationBuilderTest {
     public void testMissCount() {
         // given
         final TranslationBuilder builder = Translations.prepareTranslation().text(mock(LocalizedText.class))
-                .creationDate(new Date()).lastQuestionedDate(new Date()).example(mock(Example.class));
+                .creationDate(DateTime.now()).lastQuestionedDate(DateTime.now()).example(mock(Example.class));
 
         // when
         final Translation translation = builder.missCount(TranslationBuilderTest.MISS_COUNT).get();

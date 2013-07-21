@@ -1,10 +1,17 @@
 package org.denove.core.word;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.hasItem;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.mock;
+
 import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
 
 import org.denove.core.translation.Translation;
+import org.junit.Test;
 
 /**
  * Test cases for the {@link WordBuilder} interface and its underlying implementation.

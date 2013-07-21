@@ -1,6 +1,5 @@
 package org.denove.core.lesson.implementation;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Set;
 
@@ -26,26 +25,6 @@ public final class LessonImplementation implements Lesson {
         this.words = Preconditions.checkNotNull(words);
 
         assert this.words != null : "Words may not be 'null'"; //$NON-NLS-1$
-    }
-
-    @Override
-    public boolean addAllWords(final Collection<Word> wordsToAdd) {
-        return join(this.words).with(wordsToAdd);
-    }
-
-    @Override
-    public boolean addWord(final Word word) {
-        return join(this.words).enforce(DefaultPredicate.<Word> get()).with(word);
-    }
-
-    @Override
-    public void clearWords() {
-        this.words.clear();
-    }
-
-    @Override
-    public boolean removeWord(final Word word) {
-        return this.words.remove(Preconditions.checkNotNull(word));
     }
 
     @Override

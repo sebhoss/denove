@@ -1,9 +1,8 @@
 package org.denove.core.translation;
 
-import java.util.Date;
-
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
+import org.joda.time.DateTime;
 
 import com.google.common.base.Supplier;
 
@@ -66,7 +65,7 @@ public interface TranslationBuilder extends Supplier<Translation> {
      *            The date to set (<b>may not be <code>null</code></b>).
      * @return The current builder.
      */
-    TranslationBuilder creationDate(Date creationDate);
+    TranslationBuilder creationDate(DateTime creationDate);
 
     /**
      * Sets the date the new {@linkplain Translation translation} was questioned for the last time.
@@ -75,6 +74,6 @@ public interface TranslationBuilder extends Supplier<Translation> {
      *            The date to set (<b>may not be <code>null</code></b>).
      * @return The current builder.
      */
-    TranslationBuilder lastQuestionedDate(Date lastQuestioned);
+    TranslationBuilder lastQuestionedDate(DateTime lastQuestioned);
 
 }

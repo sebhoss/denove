@@ -1,7 +1,6 @@
 package org.denove.core.word.implementation;
 
 import java.util.Collections;
-import java.util.Date;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
@@ -11,6 +10,7 @@ import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.translation.Translation;
 import org.denove.core.word.GrammarType;
 import org.denove.core.word.Word;
+import org.joda.time.DateTime;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableSet;
@@ -79,28 +79,28 @@ public final class WordImplementation implements Word {
 
     @Override
     public DateTime getCreated() {
-        Date earliest = new Date();
+    	DateTime earliest = null;
 
         for (final Translation translation : this.translations.values()) {
-            if (translation.getCreationDate().before(earliest)) {
+            if (earliest == null || translation.getCreationDate().isBefore(earliest)) {
                 earliest = translation.getCreationDate();
             }
         }
 
-        return new Date(earliest.getTime());
+        return earliest;
     }
 
     @Override
     public DateTime getLastQuestioned() {
-        Date latest = new Date();
+    	DateTime latest = null;
 
         for (final Translation translation : this.translations.values()) {
-            if (translation.getLastQuestionedDate().before(latest)) {
+            if (latest == null || translation.getLastQuestionedDate().isBefore(latest)) {
                 latest = translation.getLastQuestionedDate();
             }
         }
 
-        return new Date(latest.getTime());
+        return latest;
     }
 
     @Override

@@ -1,9 +1,14 @@
 package org.denove.core.lesson;
 
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.MatcherAssert.*;
+import static org.mockito.Mockito.*;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
 import org.denove.core.word.Word;
+import org.junit.Test;
 
 /**
  * Test cases for the {@link LessonBuilder} interface and its underlying implementation.

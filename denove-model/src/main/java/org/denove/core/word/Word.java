@@ -7,6 +7,7 @@ import java.util.Set;
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.translation.Translation;
+import org.joda.time.DateTime;
 
 /**
  * Holds a single word with as much {@linkplain Translation translations} as one may want.

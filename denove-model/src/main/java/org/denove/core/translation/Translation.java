@@ -2,6 +2,7 @@ package org.denove.core.translation;
 
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
+import org.joda.time.DateTime;
 
 /**
  * <p>
@@ -23,24 +24,6 @@ import org.denove.core.localizedtext.LocalizedText;
  * </p>
  */
 public interface Translation extends Comparable<Translation> {
-
-    /**
-     * Registers a hit for this translation.
-     * 
-     * @param score
-     *            The new score for the translation (<b>may not be negative</b>).
-     * @return TODO: documentation
-     */
-    Translation hit(final double score);
-
-    /**
-     * Registers a miss for this translation.
-     * 
-     * @param score
-     *            The new score for the translation (<b>may not be negative</b>).
-     * @return TODO: documentation
-     */
-    Translation miss(final double score);
 
     /**
      * Gets the localized text of this {@linkplain Translation translation}.

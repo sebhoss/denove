@@ -1,10 +1,9 @@
 package org.denove.core.translation.implementation;
 
-import java.util.Date;
-
 import org.denove.core.example.Example;
 import org.denove.core.localizedtext.LocalizedText;
 import org.denove.core.translation.Translation;
+import org.joda.time.DateTime;
 
 import com.google.common.base.Preconditions;
 
@@ -46,7 +45,7 @@ public final class TranslationImplementation implements Translation {
      *            The date the translation was questioned for the last time (<b>may not be <code>null</code></b>).
      */
     public TranslationImplementation(final LocalizedText text, final Example example, final double score,
-            final int tryCount, final int missCount, final Date creationDate, final Date lastQuestionedDate) {
+            final int tryCount, final int missCount, final DateTime creationDate, final DateTime lastQuestionedDate) {
         Preconditions.checkArgument(score >= 0);
         Preconditions.checkArgument(tryCount >= 0);
         Preconditions.checkArgument(missCount >= 0);
@@ -57,33 +56,8 @@ public final class TranslationImplementation implements Translation {
 
         this.localizedText = Preconditions.checkNotNull(text);
         this.example = Preconditions.checkNotNull(example);
-        this.creationDate = new Date(Preconditions.checkNotNull(creationDate).getTime());
-        this.lastQuestioned = new Date(Preconditions.checkNotNull(lastQuestionedDate).getTime());
-    }
-
-    @Override
-    public boolean hit(final double newScore) {
-        Preconditions.checkArgument(newScore >= 0);
-
-        this.score = newScore;
-        this.lastQuestioned = new Date();
-
-        this.tryCount++;
-
-        return this.score == newScore;
-    }
-
-    @Override
-    public boolean miss(final double newScore) {
-        Preconditions.checkArgument(newScore >= 0);
-
-        this.score = newScore;
-        this.lastQuestioned = new Date();
-
-        this.tryCount++;
-        this.missCount++;
-
-        return this.score == newScore;
+        this.creationDate = creationDate;
+        this.lastQuestioned = lastQuestionedDate;
     }
 
     @Override
@@ -138,12 +112,12 @@ public final class TranslationImplementation implements Translation {
 
     @Override
     public DateTime getCreationDate() {
-        return new Date(this.creationDate.getTime());
+        return this.creationDate;
     }
 
     @Override
     public DateTime getLastQuestionedDate() {
-        return new Date(this.lastQuestioned.getTime());
+        return this.lastQuestioned;
     }
 
     @Override

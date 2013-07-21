@@ -1,5 +1,8 @@
 package org.denove.core.example;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 /**
  * DOC: Write documentation for type 'ExampleBuilderTest'!
  * 
@@ -20,7 +23,7 @@ public final class ExampleBuilderTest {
         final Example example = Examples.prepareExample().sentence(sentence).correctForm(form).get();
 
         // then
-        assertEquals(example.getSentence(), sentence);
+        Assert.assertEquals(example.getSentence(), sentence);
     }
 
     /**
@@ -50,7 +53,7 @@ public final class ExampleBuilderTest {
         final Example example = Examples.prepareExample().sentence(sentence).correctForm(form).get();
 
         // then
-        assertEquals(example.getCorrectForm(), form);
+        Assert.assertEquals(example.getCorrectForm(), form);
     }
 
     /**

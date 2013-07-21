@@ -1,8 +1,16 @@
 package org.denove.core.word;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.notNullValue;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.mock;
+
 import java.util.Locale;
 
 import org.denove.core.translation.Translation;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * Test cases for the {@link Word} interface and its underlying implementation.
