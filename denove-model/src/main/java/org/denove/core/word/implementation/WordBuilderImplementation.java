@@ -8,13 +8,15 @@ import org.denove.core.word.Word;
 import org.denove.core.word.WordBuilder;
 
 import com.google.common.base.Preconditions;
+import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableMap.Builder;
 
 /**
  * Implementation of the {@link WordBuilder} interface.
  */
 public final class WordBuilderImplementation implements WordBuilder {
 
-    private final Map<Locale, Translation> translations;
+    private final Builder<Locale, Translation> translations;
 
     /**
      * Constructor for a new {@link WordBuilderImplementation}.
@@ -23,7 +25,7 @@ public final class WordBuilderImplementation implements WordBuilder {
      *            The translations intended for the new word (<b>may not be <code>null</code></b>).
      */
     public WordBuilderImplementation(final Map<Locale, Translation> translations) {
-        this.translations = Preconditions.checkNotNull(translations);
+        this.translations = ImmutableMap.<Locale, Translation> builder();
 
         assert this.translations != null : "Translations may not be 'null'"; //$NON-NLS-1$
     }
@@ -32,7 +34,7 @@ public final class WordBuilderImplementation implements WordBuilder {
     public Word get() {
         Preconditions.checkState(translations != null);
 
-        return new WordImplementation(translations);
+        return new WordImplementation(translations.build());
     }
 
     @Override
@@ -40,7 +42,7 @@ public final class WordBuilderImplementation implements WordBuilder {
         Preconditions.checkNotNull(locale);
         Preconditions.checkNotNull(translation);
 
-        if (!translations.values().contains(translation)) {
+        if (!translations.build().values().contains(translation)) {
             translations.put(locale, translation);
 
             return this;

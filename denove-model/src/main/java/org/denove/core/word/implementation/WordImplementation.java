@@ -1,6 +1,5 @@
 package org.denove.core.word.implementation;
 
-import java.util.Collections;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
@@ -12,6 +11,7 @@ import org.denove.core.word.Word;
 import org.joda.time.DateTime;
 
 import com.google.common.base.Preconditions;
+import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
 
 /**
@@ -19,7 +19,7 @@ import com.google.common.collect.ImmutableSet;
  */
 public final class WordImplementation implements Word {
 
-    private final Map<Locale, Translation> translations;
+    private final ImmutableMap<Locale, Translation> translations;
 
     /**
      * Constructor for a new Word implementation.
@@ -27,7 +27,7 @@ public final class WordImplementation implements Word {
      * @param translations
      *            The translations enclosed by this word (<b>may not be <code>null</code></b>).
      */
-    public WordImplementation(final Map<Locale, Translation> translations) {
+    public WordImplementation(final ImmutableMap<Locale, Translation> translations) {
         this.translations = Preconditions.checkNotNull(translations);
     }
 
@@ -61,7 +61,7 @@ public final class WordImplementation implements Word {
 
     @Override
     public Map<Locale, Translation> getTranslations() {
-        return Collections.unmodifiableMap(translations);
+        return translations;
     }
 
     @Override
