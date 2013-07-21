@@ -19,14 +19,9 @@ public final class WordBuilderImplementation implements WordBuilder {
 
     /**
      * Constructor for a new {@link WordBuilderImplementation}.
-     * 
-     * @param translations
-     *            The translations intended for the new word (<b>may not be <code>null</code></b>).
      */
-    public WordBuilderImplementation(final Map<Locale, Translation> translations) {
-        this.translations = ImmutableMap.<Locale, Translation> builder();
-
-        assert this.translations != null : "Translations may not be 'null'"; //$NON-NLS-1$
+    public WordBuilderImplementation() {
+        translations = ImmutableMap.<Locale, Translation> builder();
     }
 
     @Override

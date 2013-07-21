@@ -1,9 +1,5 @@
 package com.github.sebhoss.denove.model.word;
 
-import java.util.Hashtable;
-import java.util.Locale;
-
-import com.github.sebhoss.denove.model.translation.Translation;
 import com.github.sebhoss.denove.model.word.implementation.WordBuilderImplementation;
 
 /**
@@ -20,7 +16,7 @@ public final class Words {
      * @return A new WordBuilder.
      */
     public static WordBuilder prepareWord() {
-        return new WordBuilderImplementation(new Hashtable<Locale, Translation>());
+        return new WordBuilderImplementation();
     }
 
     private Words() {
