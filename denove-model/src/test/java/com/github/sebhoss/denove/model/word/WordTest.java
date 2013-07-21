@@ -27,7 +27,8 @@ public final class WordTest {
      */
     @Before
     public void setUp() {
-        word = Words.prepareWord().translation(Locale.getDefault(), mock(Translation.class)).get();
+        word = Words.prepareWord().translation(Locale.getDefault(), mock(Translation.class))
+                .translation(Locale.CANADA, mock(Translation.class)).get();
     }
 
     /**
@@ -36,7 +37,7 @@ public final class WordTest {
     @Test
     public void shouldReturnAvailableLanguages() {
         assertThat(word.getAvailableLanguages(), is(notNullValue()));
-        assertThat(Integer.valueOf(word.getAvailableLanguages().size()), is(equalTo(Integer.valueOf(1))));
+        assertThat(Integer.valueOf(word.getAvailableLanguages().size()), is(equalTo(Integer.valueOf(2))));
     }
 
     /**
@@ -56,7 +57,8 @@ public final class WordTest {
         final Translation trans = mock(Translation.class);
 
         // when
-        final Word newWord = Words.prepareWord().translation(Locale.CANADA, trans).get();
+        final Word newWord = Words.prepareWord().translation(Locale.CANADA, trans)
+                .translation(Locale.CANADA_FRENCH, trans).get();
 
         // then
         assertThat(newWord.getTranslation(Locale.CANADA), is(trans));
@@ -72,10 +74,11 @@ public final class WordTest {
         final Translation trans = mock(Translation.class);
 
         // when
-        final Word newWord = Words.prepareWord().translation(Locale.CANADA, trans).get();
+        final Word newWord = Words.prepareWord().translation(Locale.CANADA, trans)
+                .translation(Locale.CANADA_FRENCH, trans).get();
 
         // then
-        newWord.getText(Locale.CANADA_FRENCH);
+        newWord.getText(Locale.CHINA);
     }
 
     /**
@@ -100,7 +103,7 @@ public final class WordTest {
     @Test
     public void shouldReturnAvailableTranslations() {
         assertThat(word.getTranslations(), is(notNullValue()));
-        assertThat(Integer.valueOf(word.getTranslations().size()), is(equalTo(Integer.valueOf(1))));
+        assertThat(Integer.valueOf(word.getTranslations().size()), is(equalTo(Integer.valueOf(2))));
     }
 
 }

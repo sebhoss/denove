@@ -92,6 +92,7 @@ public final class WordImplementation implements Word {
 
     @Override
     public Translation getTranslation(final Locale locale) {
+        Preconditions.checkNotNull(locale);
         return translations.get(locale);
     }
 
