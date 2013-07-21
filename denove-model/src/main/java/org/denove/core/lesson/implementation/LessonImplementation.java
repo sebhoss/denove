@@ -7,13 +7,14 @@ import org.denove.core.lesson.Lesson;
 import org.denove.core.word.Word;
 
 import com.google.common.base.Preconditions;
+import com.google.common.collect.ImmutableSet;
 
 /**
  * Implementation of the {@link Lesson} interface.
  */
 public final class LessonImplementation implements Lesson {
 
-    private final Set<Word> words;
+    private final ImmutableSet<Word> words;
 
     /**
      * Creates a new lesson.
@@ -21,7 +22,7 @@ public final class LessonImplementation implements Lesson {
      * @param words
      *            The words for the new lesson (<b>may not be <code>null</code></b>).
      */
-    public LessonImplementation(final Set<Word> words) {
+    public LessonImplementation(final ImmutableSet<Word> words) {
         this.words = Preconditions.checkNotNull(words);
 
         assert this.words != null : "Words may not be 'null'"; //$NON-NLS-1$

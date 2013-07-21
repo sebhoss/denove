@@ -1,9 +1,6 @@
 package org.denove.core.lesson;
 
-import java.util.TreeSet;
-
 import org.denove.core.lesson.implementation.LessonBuilderImplementation;
-import org.denove.core.word.Word;
 
 /**
  * Utility class which is used to create new {@link Lesson lessons} by using a {@link LessonBuilder}. Thus this class
@@ -19,7 +16,7 @@ public final class Lessons {
      * @return A new LessonBuilder to build a new lesson.
      */
     public static LessonBuilder prepareLesson() {
-        return new LessonBuilderImplementation(new TreeSet<Word>());
+        return new LessonBuilderImplementation();
     }
 
     private Lessons() {

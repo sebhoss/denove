@@ -20,7 +20,7 @@ public final class LessonBuilderTest {
      * Test method for {@link LessonBuilder#word(Word)}.
      */
     @Test
-    public void testWord() {
+    public void shouldHaveGivenWord() {
         // given
         final Word word = mock(Word.class);
         final LessonBuilder builder = Lessons.prepareLesson();
@@ -36,8 +36,8 @@ public final class LessonBuilderTest {
      * Ensures that the {@link LessonBuilder#word(Word) word(Word)} method does not accept <code>null</code> as valid
      * input.
      */
-    @Test(expected = IllegalArgumentException.class)
-    public void testWordDoesNotAcceptNull() {
+    @Test(expected = NullPointerException.class)
+    public void shouldThrowNullPointerOnNull() {
         Lessons.prepareLesson().word(null);
     }
 
@@ -45,7 +45,7 @@ public final class LessonBuilderTest {
      * Ensures that the {@link LessonBuilder#word(Word) word(Word)} method does not add duplicates.
      */
     @Test
-    public void testWordDoesNotAcceptDuplicates() {
+    public void shouldDiscardDuplicate() {
         // given
         final Word word = mock(Word.class);
         final LessonBuilder builder = Lessons.prepareLesson().word(word);
@@ -61,7 +61,7 @@ public final class LessonBuilderTest {
      * Test method for {@link LessonBuilder#words(Collection)}.
      */
     @Test
-    public void testWords() {
+    public void shouldHaveGivenWords() {
         // given
         final Word word = mock(Word.class);
         final Collection<Word> words = new ArrayList<Word>();
@@ -79,7 +79,7 @@ public final class LessonBuilderTest {
      * Ensures that the {@link LessonBuilder#words(Collection) words(Collection)} method does not add duplicates.
      */
     @Test
-    public void testWordsDoesNotAcceptDuplicates() {
+    public void shouldDiscardDuplicates() {
         // given
         final Word word = mock(Word.class);
         final Collection<Word> words = new ArrayList<Word>();
