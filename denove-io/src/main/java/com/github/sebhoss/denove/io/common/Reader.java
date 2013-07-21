@@ -5,9 +5,21 @@ import java.util.Set;
 
 import org.denove.core.lesson.Lesson;
 
+/**
+ * Common interface for all IO readers
+ */
 public interface Reader {
 	
+	/**
+	 * @param path The path to a single file.
+	 * @return The set of lessons found inside <code>path</code>.
+	 */
 	Set<Lesson> read(Path path);
+	
+	/**
+	 * @param content The content of a vocabulary file.
+	 * @return The set of lessons found inside <code>content</code>.
+	 */
 	Set<Lesson> read(String content);
 
 }
