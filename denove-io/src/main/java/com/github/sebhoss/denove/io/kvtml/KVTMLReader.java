@@ -42,6 +42,12 @@ import com.google.common.collect.ImmutableSet;
  * <h1>Examples</h1>
  * <p>
  * 
+ * <pre>
+ * final Path path = FileSystems.getDefault().getPath(&quot;path&quot;, &quot;file.kvtml&quot;);
+ * final Reader kvtmlReader = new KVTMLReader();
+ * final Set&lt;Lesson&gt; lessons = kvtmlReader.read(path);
+ * </pre>
+ * 
  * </p>
  */
 @SuppressWarnings("nls")
