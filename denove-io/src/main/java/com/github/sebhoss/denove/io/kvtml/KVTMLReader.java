@@ -44,14 +44,15 @@ import com.google.common.collect.ImmutableSet;
  * 
  * </p>
  */
+@SuppressWarnings("nls")
 public class KVTMLReader implements Reader {
 
-    private static final String  ENTRY                      = "e";           //$NON-NLS-1$
-    private static final String  ORIGINAL                   = "o";           //$NON-NLS-1$
-    private static final String  TRANSLATION                = "t";           //$NON-NLS-1$
+    private static final String  ENTRY                      = "e";
+    private static final String  ORIGINAL                   = "o";
+    private static final String  TRANSLATION                = "t";
     private static final Locale  DEFAULT_ORIGINAL_LOCALE    = Locale.CHINESE;
     private static final Locale  DEFAULT_TRANSLATION_LOCALE = Locale.FRENCH;
-    private static final Example EMPTY_EXAMPLE              = Examples.prepareExample().sentence("").correctForm("") //$NON-NLS-1$ //$NON-NLS-2$
+    private static final Example EMPTY_EXAMPLE              = Examples.prepareExample().sentence("").correctForm("")
                                                                     .get();
 
     @Override
@@ -95,7 +96,7 @@ public class KVTMLReader implements Reader {
     private static Translation parseTranslation(final Element element) {
         final LocalizedTextBuilder localizedTextBuilder = LocalizedTexts.prepareLocalizedText();
         localizedTextBuilder.text(element.getText());
-        localizedTextBuilder.phoneticSpelling(""); //$NON-NLS-1$
+        localizedTextBuilder.phoneticSpelling("");
 
         final TranslationBuilder translationBuilder = Translations.prepareTranslation();
         translationBuilder.creationDate(DateTime.now()); // KVTML 1 does not support creation dates
