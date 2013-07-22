@@ -53,9 +53,6 @@ import com.google.common.collect.ImmutableSet;
 @SuppressWarnings("nls")
 public class KVTMLReader implements Reader {
 
-    private static final String  ENTRY                      = "e";
-    private static final String  ORIGINAL                   = "o";
-    private static final String  TRANSLATION                = "t";
     private static final Locale  DEFAULT_ORIGINAL_LOCALE    = Locale.CHINESE;
     private static final Locale  DEFAULT_TRANSLATION_LOCALE = Locale.FRENCH;
     private static final Example EMPTY_EXAMPLE              = Examples.prepareExample().sentence("").correctForm("")
@@ -82,13 +79,13 @@ public class KVTMLReader implements Reader {
         final LessonBuilder lessonBuilder = Lessons.prepareLesson();
 
         final Element rootElement = document.getRootElement();
-        final List<Element> entries = rootElement.getChildren(ENTRY);
+        final List<Element> entries = rootElement.getChildren(KVTMLElements.ENTRY.getIdentifier());
 
         for (final Element entry : entries) {
             final WordBuilder wordBuilder = Words.prepareWord();
 
-            final Translation original = parseTranslation(entry.getChild(ORIGINAL));
-            final Translation translation = parseTranslation(entry.getChild(TRANSLATION));
+            final Translation original = parseTranslation(entry.getChild(KVTMLElements.ORIGINAL.getIdentifier()));
+            final Translation translation = parseTranslation(entry.getChild(KVTMLElements.TRANSLATION.getIdentifier()));
 
             wordBuilder.translation(DEFAULT_ORIGINAL_LOCALE, original);
             wordBuilder.translation(DEFAULT_TRANSLATION_LOCALE, translation);
