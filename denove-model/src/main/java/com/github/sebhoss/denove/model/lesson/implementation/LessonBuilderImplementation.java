@@ -7,14 +7,13 @@ import com.github.sebhoss.denove.model.lesson.LessonBuilder;
 import com.github.sebhoss.denove.model.word.Word;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.ImmutableSet.Builder;
 
 /**
  * Implementation of the {@link LessonBuilder} interface.
  */
 public final class LessonBuilderImplementation implements LessonBuilder {
 
-    private final Builder<Word> wordsBuilder;
+    private final ImmutableSet.Builder<Word> wordsBuilder;
 
     /**
      * Constructor for a new {@link LessonBuilder}.

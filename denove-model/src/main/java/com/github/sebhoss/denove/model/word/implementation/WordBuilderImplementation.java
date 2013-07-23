@@ -8,14 +8,13 @@ import com.github.sebhoss.denove.model.word.Word;
 import com.github.sebhoss.denove.model.word.WordBuilder;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.ImmutableMap.Builder;
 
 /**
  * Implementation of the {@link WordBuilder} interface.
  */
 public final class WordBuilderImplementation implements WordBuilder {
 
-    private final Builder<Locale, Translation> translationBuilder;
+    private final ImmutableMap.Builder<Locale, Translation> translationBuilder;
 
     /**
      * Constructor for a new {@link WordBuilderImplementation}.
@@ -28,7 +27,7 @@ public final class WordBuilderImplementation implements WordBuilder {
     public Word get() {
         Preconditions.checkState(translationBuilder != null);
         final ImmutableMap<Locale, Translation> translations = translationBuilder.build();
-        Preconditions.checkState(translations.size() > 1);
+        Preconditions.checkState(translations.size() >= 2);
 
         return new WordImplementation(translations);
     }
