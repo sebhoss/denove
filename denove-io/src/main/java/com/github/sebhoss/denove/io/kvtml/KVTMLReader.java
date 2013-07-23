@@ -13,7 +13,6 @@ import org.jdom2.input.SAXBuilder;
 import org.joda.time.DateTime;
 
 import com.github.sebhoss.denove.io.common.Reader;
-import com.github.sebhoss.denove.model.example.Example;
 import com.github.sebhoss.denove.model.example.Examples;
 import com.github.sebhoss.denove.model.lesson.Lesson;
 import com.github.sebhoss.denove.model.lesson.LessonBuilder;
@@ -50,13 +49,10 @@ import com.google.common.collect.ImmutableSet;
  * 
  * </p>
  */
-@SuppressWarnings("nls")
 public class KVTMLReader implements Reader {
 
     private static final Locale  DEFAULT_ORIGINAL_LOCALE    = Locale.CHINESE;
     private static final Locale  DEFAULT_TRANSLATION_LOCALE = Locale.FRENCH;
-    private static final Example EMPTY_EXAMPLE              = Examples.prepareExample().sentence("").correctForm("")
-                                                                    .get();
 
     @Override
     public Set<Lesson> read(final Path path) {
@@ -99,12 +95,12 @@ public class KVTMLReader implements Reader {
     private static Translation parseTranslation(final Element element) {
         final LocalizedTextBuilder localizedTextBuilder = LocalizedTexts.prepareLocalizedText();
         localizedTextBuilder.text(element.getText());
-        localizedTextBuilder.phoneticSpelling("");
+        localizedTextBuilder.phoneticSpelling(""); //$NON-NLS-1$
 
         final TranslationBuilder translationBuilder = Translations.prepareTranslation();
         translationBuilder.creationDate(DateTime.now()); // KVTML 1 does not support creation dates
         translationBuilder.lastQuestionedDate(DateTime.now()); // KVTML 1 does not support last questioned date
-        translationBuilder.example(EMPTY_EXAMPLE); // KVTML 1 does not support example sentences
+        translationBuilder.example(Examples.emptyExample()); // KVTML 1 does not support example sentences
         translationBuilder.text(localizedTextBuilder.get());
 
         return translationBuilder.get();

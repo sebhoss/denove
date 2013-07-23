@@ -16,6 +16,14 @@ public final class Examples {
         return new ExampleBuilderImplementation();
     }
 
+    /**
+     * @return An empty example.
+     */
+    @SuppressWarnings("nls")
+    public static Example emptyExample() {
+        return new ExampleBuilderImplementation().sentence("").correctForm("").get();
+    }
+
     private Examples() {
         // Do nothing..
     }
