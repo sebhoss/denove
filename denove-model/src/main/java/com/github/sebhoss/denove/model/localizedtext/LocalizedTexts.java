@@ -10,7 +10,8 @@ import com.github.sebhoss.denove.model.localizedtext.implementation.LocalizedTex
 public final class LocalizedTexts {
 
     /**
-     * DOC: Write documentation for method prepareLocalizedText!
+     * Prepares a new {@link LocalizedText localized test} by creating a {@link LocalizedTextBuilder localized text
+     * builder}.
      * 
      * @return A new LocalizedTextBuilder to build a new localized text.
      */

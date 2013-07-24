@@ -8,7 +8,7 @@ import com.github.sebhoss.denove.model.example.implementation.ExampleBuilderImpl
 public final class Examples {
 
     /**
-     * DOC: Write documentation for method prepareExample!
+     * Prepares a new {@link Example example} by creating a {@link ExampleBuilder example builder}.
      * 
      * @return A new ExampleBuilder to build a new example.
      */
