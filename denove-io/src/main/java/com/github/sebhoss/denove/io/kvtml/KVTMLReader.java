@@ -13,6 +13,7 @@ import org.jdom2.input.SAXBuilder;
 import org.joda.time.DateTime;
 
 import com.github.sebhoss.denove.io.common.Reader;
+import com.github.sebhoss.denove.io.util.Attributes;
 import com.github.sebhoss.denove.model.example.Examples;
 import com.github.sebhoss.denove.model.lesson.Lesson;
 import com.github.sebhoss.denove.model.lesson.LessonBuilder;
@@ -105,12 +106,8 @@ public class KVTMLReader implements Reader {
         final LocalizedTextBuilder localizedTextBuilder = LocalizedTexts.prepareLocalizedText();
         localizedTextBuilder.text(element.getText());
 
-        if (element.getAttribute(KVTMLElements.PRONUNCIATION.getIdentifier()) != null) {
-            localizedTextBuilder
-                    .phoneticSpelling(element.getAttributeValue(KVTMLElements.PRONUNCIATION.getIdentifier()));
-        } else {
-            localizedTextBuilder.phoneticSpelling(""); //$NON-NLS-1$
-        }
+        localizedTextBuilder
+                .phoneticSpelling(Attributes.getValue(element, KVTMLElements.PRONUNCIATION.getIdentifier()));
 
         return localizedTextBuilder.get();
     }
