@@ -17,6 +17,7 @@ import com.github.sebhoss.denove.model.example.Examples;
 import com.github.sebhoss.denove.model.lesson.Lesson;
 import com.github.sebhoss.denove.model.lesson.LessonBuilder;
 import com.github.sebhoss.denove.model.lesson.Lessons;
+import com.github.sebhoss.denove.model.localizedtext.LocalizedText;
 import com.github.sebhoss.denove.model.localizedtext.LocalizedTextBuilder;
 import com.github.sebhoss.denove.model.localizedtext.LocalizedTexts;
 import com.github.sebhoss.denove.model.translation.Translation;
@@ -31,28 +32,26 @@ import com.google.common.collect.ImmutableSet;
  * <p>
  * Reader for KVTML version 1 files.
  * </p>
- * 
  * <h1>Warnings</h1>
  * <ul>
- * <li>Can only hold a single lesson</li>
- * <li>Doesn't specify the language of its entries</li>
  * </ul>
- * 
  * <h1>Examples</h1>
  * <p>
  * 
  * <pre>
- * final Path path = FileSystems.getDefault().getPath(&quot;path&quot;, &quot;file.kvtml&quot;);
- * final Reader kvtmlReader = new KVTMLReader();
- * final Set&lt;Lesson&gt; lessons = kvtmlReader.read(path);
+ * public void readLessonFromPath() {
+ *     final Path path = FileSystems.getDefault().getPath(&quot;path&quot;, &quot;file.kvtml&quot;);
+ *     final Reader kvtmlReader = new KVTMLReader();
+ *     final Set&lt;Lesson&gt; lessons = kvtmlReader.read(path);
+ * }
  * </pre>
  * 
  * </p>
  */
 public class KVTMLReader implements Reader {
 
-    private static final Locale  DEFAULT_ORIGINAL_LOCALE    = Locale.CHINESE;
-    private static final Locale  DEFAULT_TRANSLATION_LOCALE = Locale.FRENCH;
+    private static final Locale DEFAULT_ORIGINAL_LOCALE    = Locale.CHINESE;
+    private static final Locale DEFAULT_TRANSLATION_LOCALE = Locale.FRENCH;
 
     @Override
     public Set<Lesson> read(final Path path) {
@@ -93,17 +92,27 @@ public class KVTMLReader implements Reader {
     }
 
     private static Translation parseTranslation(final Element element) {
-        final LocalizedTextBuilder localizedTextBuilder = LocalizedTexts.prepareLocalizedText();
-        localizedTextBuilder.text(element.getText());
-        localizedTextBuilder.phoneticSpelling(""); //$NON-NLS-1$
-
         final TranslationBuilder translationBuilder = Translations.prepareTranslation();
-        translationBuilder.creationDate(DateTime.now()); // KVTML 1 does not support creation dates
-        translationBuilder.lastQuestionedDate(DateTime.now()); // KVTML 1 does not support last questioned date
-        translationBuilder.example(Examples.emptyExample()); // KVTML 1 does not support example sentences
-        translationBuilder.text(localizedTextBuilder.get());
+        translationBuilder.creationDate(DateTime.now());
+        translationBuilder.lastQuestionedDate(DateTime.now());
+        translationBuilder.example(Examples.emptyExample());
+        translationBuilder.text(extractTextInformation(element));
 
         return translationBuilder.get();
+    }
+
+    private static LocalizedText extractTextInformation(final Element element) {
+        final LocalizedTextBuilder localizedTextBuilder = LocalizedTexts.prepareLocalizedText();
+        localizedTextBuilder.text(element.getText());
+
+        if (element.getAttribute(KVTMLElements.PRONUNCIATION.getIdentifier()) != null) {
+            localizedTextBuilder
+                    .phoneticSpelling(element.getAttributeValue(KVTMLElements.PRONUNCIATION.getIdentifier()));
+        } else {
+            localizedTextBuilder.phoneticSpelling(""); //$NON-NLS-1$
+        }
+
+        return localizedTextBuilder.get();
     }
 
 }

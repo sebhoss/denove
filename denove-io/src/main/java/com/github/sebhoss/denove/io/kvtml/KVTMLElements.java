@@ -17,7 +17,10 @@ public enum KVTMLElements implements Element {
     ORIGINAL("o"),
 
     /** The translation of an entry. */
-    TRANSLATION("t");
+    TRANSLATION("t"),
+
+    /** The pronunciation of an original word or a translation. */
+    PRONUNCIATION("p");
 
     private final String identifier;
 
