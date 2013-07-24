@@ -51,8 +51,28 @@ import com.google.common.collect.ImmutableSet;
  */
 public class KVTMLReader implements Reader {
 
-    private static final Locale DEFAULT_ORIGINAL_LOCALE    = Locale.CHINESE;
-    private static final Locale DEFAULT_TRANSLATION_LOCALE = Locale.FRENCH;
+    private final Locale defaultOriginal;
+    private final Locale defaultTranslation;
+
+    /**
+     * Default constructor for a new KVTML 1 reader.
+     * <p>
+     * Uses Chinese and French as the default {@link Locale} for original and translation.
+     */
+    public KVTMLReader() {
+        this(Locale.CHINESE, Locale.FRENCH);
+    }
+
+    /**
+     * @param defaultOriginal
+     *            The default {@link Locale} to use if there is no language code specified for original words.
+     * @param defaultTranslation
+     *            The default {@link Locale} to use if there is no language code specified for translations.
+     */
+    public KVTMLReader(final Locale defaultOriginal, final Locale defaultTranslation) {
+        this.defaultOriginal = defaultOriginal;
+        this.defaultTranslation = defaultTranslation;
+    }
 
     @Override
     public Set<Lesson> read(final Path path) {
@@ -71,7 +91,7 @@ public class KVTMLReader implements Reader {
         }
     }
 
-    private static Set<Lesson> parseLessons(final Document document) {
+    private Set<Lesson> parseLessons(final Document document) {
         final LessonBuilder lessonBuilder = Lessons.prepareLesson();
 
         final Element rootElement = document.getRootElement();
@@ -83,8 +103,8 @@ public class KVTMLReader implements Reader {
             final Translation original = parseTranslation(entry.getChild(KVTMLElements.ORIGINAL.getIdentifier()));
             final Translation translation = parseTranslation(entry.getChild(KVTMLElements.TRANSLATION.getIdentifier()));
 
-            wordBuilder.translation(DEFAULT_ORIGINAL_LOCALE, original);
-            wordBuilder.translation(DEFAULT_TRANSLATION_LOCALE, translation);
+            wordBuilder.translation(defaultOriginal, original);
+            wordBuilder.translation(defaultTranslation, translation);
 
             lessonBuilder.word(wordBuilder.get());
         }
