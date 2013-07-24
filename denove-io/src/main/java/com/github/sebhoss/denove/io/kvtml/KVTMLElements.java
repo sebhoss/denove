@@ -1,6 +1,6 @@
 package com.github.sebhoss.denove.io.kvtml;
 
-import com.github.sebhoss.denove.io.common.Element;
+import com.github.sebhoss.denove.io.common.XMLElement;
 
 /**
  * Enumeration of elements found inside a KVTML version 1 file.
@@ -8,7 +8,7 @@ import com.github.sebhoss.denove.io.common.Element;
  * @see KVTMLReader
  */
 @SuppressWarnings("nls")
-public enum KVTMLElements implements Element {
+public enum KVTMLElements implements XMLElement {
 
     /** An entry is usually inside a lesson and contains the original word and its translation. */
     ENTRY("e"),
