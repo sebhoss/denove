@@ -20,7 +20,10 @@ public enum KVTMLElements implements XMLElement {
     TRANSLATION("t"),
 
     /** The pronunciation of an original word or a translation. */
-    PRONUNCIATION("p");
+    PRONUNCIATION("p"),
+
+    /** The language code of an original word or a translation. */
+    LANGUAGE("l");
 
     private final String identifier;
 

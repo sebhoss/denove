@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE kvtml SYSTEM "kvoctrain.dtd">
+<!-- this is a french to english fruits names file -->
+<kvtml>
+ <e>
+  <o l="fr">pomme</o>
+  <t l="en">apple</t>
+ </e>
+ <e>
+  <o>raisin</o>
+  <t>grapes</t>
+ </e>
+ <e>
+  <o>banane</o>
+  <t>banana</t>
+ </e>
+</kvtml>

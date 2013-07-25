@@ -2,6 +2,7 @@ package com.github.sebhoss.denove.io.kvtml;
 
 import java.io.IOException;
 import java.nio.file.Path;
+import java.util.IllformedLocaleException;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
@@ -24,6 +25,7 @@ import com.github.sebhoss.denove.model.localizedtext.LocalizedTexts;
 import com.github.sebhoss.denove.model.translation.Translation;
 import com.github.sebhoss.denove.model.translation.TranslationBuilder;
 import com.github.sebhoss.denove.model.translation.Translations;
+import com.github.sebhoss.denove.model.word.Word;
 import com.github.sebhoss.denove.model.word.WordBuilder;
 import com.github.sebhoss.denove.model.word.Words;
 import com.google.common.collect.ImmutableSet;
@@ -51,8 +53,8 @@ import com.google.common.collect.ImmutableSet;
  */
 public class KVTMLReader implements Reader {
 
-    private final Locale defaultOriginal;
-    private final Locale defaultTranslation;
+    private Locale defaultOriginal;
+    private Locale defaultTranslation;
 
     /**
      * Default constructor for a new KVTML 1 reader.
@@ -98,18 +100,44 @@ public class KVTMLReader implements Reader {
         final List<Element> entries = rootElement.getChildren(KVTMLElements.ENTRY.getIdentifier());
 
         for (final Element entry : entries) {
-            final WordBuilder wordBuilder = Words.prepareWord();
-
-            final Translation original = parseTranslation(entry.getChild(KVTMLElements.ORIGINAL.getIdentifier()));
-            final Translation translation = parseTranslation(entry.getChild(KVTMLElements.TRANSLATION.getIdentifier()));
-
-            wordBuilder.translation(defaultOriginal, original);
-            wordBuilder.translation(defaultTranslation, translation);
-
-            lessonBuilder.word(wordBuilder.get());
+            lessonBuilder.word(parseWord(entry));
         }
 
         return ImmutableSet.of(lessonBuilder.get());
+    }
+
+    private Word parseWord(final Element entry) {
+        final WordBuilder wordBuilder = Words.prepareWord();
+
+        final Element originalElement = entry.getChild(KVTMLElements.ORIGINAL.getIdentifier());
+        final Element translationElement = entry.getChild(KVTMLElements.TRANSLATION.getIdentifier());
+
+        defaultOriginal = parseLocale(originalElement, defaultOriginal);
+        defaultTranslation = parseLocale(translationElement, defaultTranslation);
+
+        final Translation original = parseTranslation(originalElement);
+        final Translation translation = parseTranslation(translationElement);
+
+        wordBuilder.translation(defaultOriginal, original);
+        wordBuilder.translation(defaultTranslation, translation);
+
+        return wordBuilder.get();
+    }
+
+    private static Locale parseLocale(final Element element, final Locale fallback) {
+        final String language = Attributes.getValue(element, KVTMLElements.LANGUAGE.getIdentifier());
+
+        Locale retrievedLocale = fallback;
+
+        if (!language.isEmpty()) {
+            try {
+                retrievedLocale = new Locale.Builder().setLanguage(language).build();
+            } catch (final IllformedLocaleException exception) {
+                // Do nothing and use fallback value
+            }
+        }
+
+        return retrievedLocale;
     }
 
     private static Translation parseTranslation(final Element element) {
