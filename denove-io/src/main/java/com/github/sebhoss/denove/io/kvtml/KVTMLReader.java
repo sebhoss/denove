@@ -15,6 +15,7 @@ import org.joda.time.DateTime;
 
 import com.github.sebhoss.denove.io.common.Reader;
 import com.github.sebhoss.denove.io.util.Attributes;
+import com.github.sebhoss.denove.model.example.Example;
 import com.github.sebhoss.denove.model.example.Examples;
 import com.github.sebhoss.denove.model.lesson.Lesson;
 import com.github.sebhoss.denove.model.lesson.LessonBuilder;
@@ -142,12 +143,50 @@ public class KVTMLReader implements Reader {
 
     private static Translation parseTranslation(final Element element) {
         final TranslationBuilder translationBuilder = Translations.prepareTranslation();
-        translationBuilder.creationDate(DateTime.now());
-        translationBuilder.lastQuestionedDate(DateTime.now());
-        translationBuilder.example(Examples.emptyExample());
+
+        translationBuilder.creationDate(extractCreationDate(element));
+        translationBuilder.lastQuestionedDate(extractLastQuestionedDate(element));
+        translationBuilder.example(extractExample(element));
         translationBuilder.text(extractTextInformation(element));
 
         return translationBuilder.get();
+    }
+
+    private static DateTime extractCreationDate(final Element element) {
+        final String[] fromTo = extractDate(element);
+
+        return parseDate(fromTo[0]);
+    }
+
+    private static DateTime extractLastQuestionedDate(final Element element) {
+        final String[] fromTo = extractDate(element);
+
+        return parseDate(fromTo[1]);
+    }
+
+    private static String[] extractDate(final Element element) {
+        final String date = Attributes.getValue(element, KVTMLElements.DATE.getIdentifier());
+
+        if (date.isEmpty()) {
+            return new String[] { "", "" }; //$NON-NLS-1$//$NON-NLS-2$
+        }
+
+        return date.split(";"); //$NON-NLS-1$
+    }
+
+    private static DateTime parseDate(final String date) {
+        if (date.isEmpty()) {
+            return DateTime.now();
+        }
+
+        return DateTime.parse(date);
+    }
+
+    private static Example extractExample(final Element element) {
+        final String sentence = Attributes.getValue(element, KVTMLElements.EXAMPLE.getIdentifier());
+        final String correctForm = Attributes.getValue(element, KVTMLElements.USAGE_LABEL.getIdentifier());
+
+        return Examples.prepareExample().sentence(sentence).correctForm(correctForm).get();
     }
 
     private static LocalizedText extractTextInformation(final Element element) {

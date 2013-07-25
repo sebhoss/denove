@@ -23,7 +23,16 @@ public enum KVTMLElements implements XMLElement {
     PRONUNCIATION("p"),
 
     /** The language code of an original word or a translation. */
-    LANGUAGE("l");
+    LANGUAGE("l"),
+
+    /** The example of an original word or a translation. */
+    EXAMPLE("x"),
+
+    /** The usage label of an original word or a translation. Used together with an example. */
+    USAGE_LABEL("u"),
+
+    /** The last questioned date of a translation in the form 'from;to'. */
+    DATE("d");
 
     private final String identifier;
 
